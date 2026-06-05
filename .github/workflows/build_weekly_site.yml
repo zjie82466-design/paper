@@ -1,6 +1,9 @@
 name: Build Weekly Paper Site
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "30 0 * * 1"
   workflow_dispatch:
@@ -52,4 +55,3 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-

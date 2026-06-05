@@ -1,0 +1,752 @@
+{
+  "meta": {
+    "title": "电力系统论文周报",
+    "subtitle": "面向电力系统运行规划、优化调度、韧性评估与构网型变流器稳定性的自动论文精选。",
+    "site_base_url": "https://zjie82466-design.github.io/paper/",
+    "homepage_url": "https://zjie82466-design.github.io/paper/",
+    "feed_url": "https://zjie82466-design.github.io/paper/feed.xml",
+    "bibtex_url": "https://zjie82466-design.github.io/paper/references.bib",
+    "ris_url": "https://zjie82466-design.github.io/paper/references.ris",
+    "generated_at": "2026-06-05T14:28:20.884421+08:00",
+    "target_date": "2026-06-05",
+    "window_start": "2026-05-30",
+    "lookback_days": 7,
+    "timezone": "Asia/Shanghai",
+    "paper_count": 8,
+    "source_counts": {
+      "ieee": 6,
+      "arxiv": 2
+    },
+    "journal_counts": {
+      "IEEE Transactions on Smart Grid": 5,
+      "arXiv": 2,
+      "IEEE Transactions on Sustainable Energy": 1
+    },
+    "keyword_group_counts": {
+      "源网荷储协同": 5,
+      "电力系统运行与规划": 3,
+      "构网与暂态稳定": 2,
+      "AI+电力优化": 1,
+      "韧性与恢复": 1
+    },
+    "source_errors": []
+  },
+  "sections": {
+    "ieee": {
+      "title": "IEEE 三刊重点榜",
+      "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
+      "count": 6,
+      "papers": [
+        {
+          "id": "10.1109/tsg.2026.3698085",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts",
+          "authors": [
+            "Cong Bai",
+            "Salish Maharjan",
+            "Zhaoyu Wang"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3698085",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3698085",
+          "published_at": "2026-05-29T19:56:26+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "black start",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复",
+            "源网荷储协同"
+          ],
+          "rule_score": 8.61,
+          "llm_score": 8.61,
+          "final_score": 8.61,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：black start、microgrid、microgrids",
+          "ai_summary": "该论文题为《Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-05-30T03:56:26+08:00",
+          "published_date_local": "2026-05-30",
+          "published_time_local": "03:56"
+        },
+        {
+          "id": "10.1109/tsg.2026.3698557",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency",
+          "authors": [
+            "Luyu Wang",
+            "Kaifeng Zhang",
+            "Biplab Sikdar",
+            "Ying Wang",
+            "Wenjun Bi",
+            "Jia Ning"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3698557",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3698557",
+          "published_at": "2026-06-01T19:35:28+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-02T03:35:28+08:00",
+          "published_date_local": "2026-06-02",
+          "published_time_local": "03:35"
+        },
+        {
+          "id": "10.1109/tsg.2026.3699042",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints",
+          "authors": [
+            "Zeyu Sun",
+            "Jingang Lai",
+            "Xiaoping Wang",
+            "Zhigang Zeng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3699042",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3699042",
+          "published_at": "2026-06-01T19:35:28+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-02T03:35:28+08:00",
+          "published_date_local": "2026-06-02",
+          "published_time_local": "03:35"
+        },
+        {
+          "id": "10.1109/tsg.2026.3698675",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions",
+          "authors": [
+            "Jianzhe Liu",
+            "Minchang Zhang",
+            "Canbing Li",
+            "Sui Peng",
+            "Yanfeng Wang",
+            "Guo Chen",
+            "Xinxi Li"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3698675",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3698675",
+          "published_at": "2026-06-01T19:35:28+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-02T03:35:28+08:00",
+          "published_date_local": "2026-06-02",
+          "published_time_local": "03:35"
+        },
+        {
+          "id": "10.1109/tsg.2026.3698113",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks",
+          "authors": [
+            "Qi Liu",
+            "Chengcheng Zhao",
+            "Wenxuan Ma",
+            "Jiming Chen"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3698113",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3698113",
+          "published_at": "2026-05-29T19:56:26+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-05-30T03:56:26+08:00",
+          "published_date_local": "2026-05-30",
+          "published_time_local": "03:56"
+        },
+        {
+          "id": "10.1109/tste.2026.3698674",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory",
+          "authors": [
+            "Yumei Ma",
+            "Shiying Zhou",
+            "Donghai Zhu",
+            "Xudong Zou",
+            "Yong Kang"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3698674",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3698674",
+          "published_at": "2026-06-01T19:35:27+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
+            "transient stability"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定"
+          ],
+          "rule_score": 5.73,
+          "llm_score": 5.73,
+          "final_score": 5.73,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：transient stability",
+          "ai_summary": "该论文题为《Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-02T03:35:27+08:00",
+          "published_date_local": "2026-06-02",
+          "published_time_local": "03:35"
+        }
+      ]
+    },
+    "arxiv": {
+      "title": "arXiv 预印本榜",
+      "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
+      "count": 2,
+      "papers": [
+        {
+          "id": "https://arxiv.org/abs/2606.05534",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems",
+          "authors": [
+            "Fan Jiang",
+            "Xingpeng Li"
+          ],
+          "abstract": "",
+          "url": "https://arxiv.org/abs/2606.05534",
+          "pdf_url": "https://arxiv.org/pdf/2606.05534",
+          "doi": null,
+          "published_at": "2026-06-05T00:00:00+00:00",
+          "categories": [
+            "Systems and Control (eess.SY)"
+          ],
+          "metadata": {
+            "primary_category": "eess.SY",
+            "fallback_source": "arxiv_recent_page"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "scheduling",
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "电力系统运行与规划",
+            "源网荷储协同"
+          ],
+          "rule_score": 8.59,
+          "llm_score": 8.59,
+          "final_score": 8.59,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、scheduling、energy storage",
+          "ai_summary": "该论文题为《Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-05T08:00:00+08:00",
+          "published_date_local": "2026-06-05",
+          "published_time_local": "08:00"
+        },
+        {
+          "id": "https://arxiv.org/abs/2606.03475",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange",
+          "authors": [
+            "Robert Gaugl",
+            "Eloy Insunza",
+            "José Portela",
+            "Sonja Wogrin"
+          ],
+          "abstract": "",
+          "url": "https://arxiv.org/abs/2606.03475",
+          "pdf_url": "https://arxiv.org/pdf/2606.03475",
+          "doi": null,
+          "published_at": "2026-06-03T00:00:00+00:00",
+          "categories": [
+            "Systems and Control (eess.SY)"
+          ],
+          "metadata": {
+            "primary_category": "eess.SY",
+            "fallback_source": "arxiv_recent_page"
+          },
+          "matched_keywords": [
+            "power system",
+            "surrogate model",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 6.76,
+          "llm_score": 6.76,
+          "final_score": 6.76,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、surrogate model、machine learning",
+          "ai_summary": "该论文题为《Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-03T08:00:00+08:00",
+          "published_date_local": "2026-06-03",
+          "published_time_local": "08:00"
+        }
+      ]
+    },
+    "energy": {
+      "title": "能源期刊发现榜",
+      "description": "补充 Applied Energy、Joule、Nature Energy 等期刊中的电力能源系统论文。",
+      "count": 0,
+      "papers": []
+    }
+  },
+  "papers": [
+    {
+      "id": "10.1109/tsg.2026.3698085",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts",
+      "authors": [
+        "Cong Bai",
+        "Salish Maharjan",
+        "Zhaoyu Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3698085",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3698085",
+      "published_at": "2026-05-29T19:56:26+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "black start",
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复",
+        "源网荷储协同"
+      ],
+      "rule_score": 8.61,
+      "llm_score": 8.61,
+      "final_score": 8.61,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：black start、microgrid、microgrids",
+      "ai_summary": "该论文题为《Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-05-30T03:56:26+08:00",
+      "published_date_local": "2026-05-30",
+      "published_time_local": "03:56"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.05534",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems",
+      "authors": [
+        "Fan Jiang",
+        "Xingpeng Li"
+      ],
+      "abstract": "",
+      "url": "https://arxiv.org/abs/2606.05534",
+      "pdf_url": "https://arxiv.org/pdf/2606.05534",
+      "doi": null,
+      "published_at": "2026-06-05T00:00:00+00:00",
+      "categories": [
+        "Systems and Control (eess.SY)"
+      ],
+      "metadata": {
+        "primary_category": "eess.SY",
+        "fallback_source": "arxiv_recent_page"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "scheduling",
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "电力系统运行与规划",
+        "源网荷储协同"
+      ],
+      "rule_score": 8.59,
+      "llm_score": 8.59,
+      "final_score": 8.59,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、scheduling、energy storage",
+      "ai_summary": "该论文题为《Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-05T08:00:00+08:00",
+      "published_date_local": "2026-06-05",
+      "published_time_local": "08:00"
+    },
+    {
+      "id": "https://arxiv.org/abs/2606.03475",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange",
+      "authors": [
+        "Robert Gaugl",
+        "Eloy Insunza",
+        "José Portela",
+        "Sonja Wogrin"
+      ],
+      "abstract": "",
+      "url": "https://arxiv.org/abs/2606.03475",
+      "pdf_url": "https://arxiv.org/pdf/2606.03475",
+      "doi": null,
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "categories": [
+        "Systems and Control (eess.SY)"
+      ],
+      "metadata": {
+        "primary_category": "eess.SY",
+        "fallback_source": "arxiv_recent_page"
+      },
+      "matched_keywords": [
+        "power system",
+        "surrogate model",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 6.76,
+      "llm_score": 6.76,
+      "final_score": 6.76,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、surrogate model、machine learning",
+      "ai_summary": "该论文题为《Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-03T08:00:00+08:00",
+      "published_date_local": "2026-06-03",
+      "published_time_local": "08:00"
+    },
+    {
+      "id": "10.1109/tsg.2026.3698557",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency",
+      "authors": [
+        "Luyu Wang",
+        "Kaifeng Zhang",
+        "Biplab Sikdar",
+        "Ying Wang",
+        "Wenjun Bi",
+        "Jia Ning"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3698557",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3698557",
+      "published_at": "2026-06-01T19:35:28+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-02T03:35:28+08:00",
+      "published_date_local": "2026-06-02",
+      "published_time_local": "03:35"
+    },
+    {
+      "id": "10.1109/tsg.2026.3699042",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints",
+      "authors": [
+        "Zeyu Sun",
+        "Jingang Lai",
+        "Xiaoping Wang",
+        "Zhigang Zeng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3699042",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3699042",
+      "published_at": "2026-06-01T19:35:28+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-02T03:35:28+08:00",
+      "published_date_local": "2026-06-02",
+      "published_time_local": "03:35"
+    },
+    {
+      "id": "10.1109/tsg.2026.3698675",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions",
+      "authors": [
+        "Jianzhe Liu",
+        "Minchang Zhang",
+        "Canbing Li",
+        "Sui Peng",
+        "Yanfeng Wang",
+        "Guo Chen",
+        "Xinxi Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3698675",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3698675",
+      "published_at": "2026-06-01T19:35:28+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-02T03:35:28+08:00",
+      "published_date_local": "2026-06-02",
+      "published_time_local": "03:35"
+    },
+    {
+      "id": "10.1109/tsg.2026.3698113",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks",
+      "authors": [
+        "Qi Liu",
+        "Chengcheng Zhao",
+        "Wenxuan Ma",
+        "Jiming Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3698113",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3698113",
+      "published_at": "2026-05-29T19:56:26+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-05-30T03:56:26+08:00",
+      "published_date_local": "2026-05-30",
+      "published_time_local": "03:56"
+    },
+    {
+      "id": "10.1109/tste.2026.3698674",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory",
+      "authors": [
+        "Yumei Ma",
+        "Shiying Zhou",
+        "Donghai Zhu",
+        "Xudong Zou",
+        "Yong Kang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3698674",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3698674",
+      "published_at": "2026-06-01T19:35:27+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "transient stability"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定"
+      ],
+      "rule_score": 5.73,
+      "llm_score": 5.73,
+      "final_score": 5.73,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：transient stability",
+      "ai_summary": "该论文题为《Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-02T03:35:27+08:00",
+      "published_date_local": "2026-06-02",
+      "published_time_local": "03:35"
+    }
+  ]
+}

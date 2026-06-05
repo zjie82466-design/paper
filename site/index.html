@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>电力系统论文周报</title>
+    <meta
+      name="description"
+      content="面向电力系统运行规划、优化调度、韧性评估与构网型变流器稳定性的自动论文精选。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-main">
+        <p class="eyebrow">Power System Paper Digest</p>
+        <h1 id="site-title">电力系统论文周报</h1>
+        <p id="site-subtitle" class="subtitle">
+          面向电力系统运行规划、优化调度、韧性评估与构网型变流器稳定性的自动论文精选。
+        </p>
+        <div class="meta-row">
+          <span id="date-window" class="meta-pill">加载时间窗口...</span>
+          <span id="updated-at" class="meta-pill meta-pill-soft">等待构建信息...</span>
+          <span id="paper-count" class="meta-pill meta-pill-soft">0 篇</span>
+        </div>
+      </div>
+      <nav class="header-actions" aria-label="导出链接">
+        <a href="./feed.xml" target="_blank" rel="noreferrer">RSS</a>
+        <a href="./references.bib" target="_blank" rel="noreferrer">BibTeX</a>
+        <a href="./references.ris" target="_blank" rel="noreferrer">RIS</a>
+      </nav>
+    </header>
+
+    <main class="page-grid">
+      <aside class="sidebar">
+        <section class="stats" id="stats"></section>
+
+        <section class="controls" aria-label="论文筛选">
+          <label class="search-box">
+            <span>检索</span>
+            <input id="search-input" type="search" placeholder="标题、作者、关键词" />
+          </label>
+
+          <div class="control-group">
+            <span>来源</span>
+            <div id="source-filters" class="chip-row"></div>
+          </div>
+
+          <div class="control-group">
+            <span>关键词类别</span>
+            <div id="keyword-filters" class="chip-row"></div>
+          </div>
+
+          <label class="sort-box">
+            <span>排序</span>
+            <select id="sort-select">
+              <option value="score">综合评分</option>
+              <option value="latest">发布时间</option>
+              <option value="journal">期刊名称</option>
+            </select>
+          </label>
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="content-title">
+          <div>
+            <p class="eyebrow">Curated Reading Queue</p>
+            <h2>本周期入选论文</h2>
+          </div>
+          <p id="visible-count">加载中...</p>
+        </div>
+        <div id="error-banner" class="error-banner" hidden></div>
+        <div id="sections"></div>
+      </section>
+    </main>
+
+    <template id="section-template">
+      <section class="paper-section">
+        <div class="section-heading">
+          <div>
+            <h3></h3>
+            <p></p>
+          </div>
+          <span></span>
+        </div>
+        <div class="paper-grid"></div>
+      </section>
+    </template>
+
+    <template id="paper-template">
+      <article class="paper-card">
+        <div class="paper-topline">
+          <span class="source"></span>
+          <span class="journal"></span>
+          <span class="age"></span>
+        </div>
+        <h4 class="title"></h4>
+        <p class="authors"></p>
+        <div class="score-row">
+          <span class="score"></span>
+          <span class="label"></span>
+        </div>
+        <p class="reason"></p>
+        <div class="keywords"></div>
+        <p class="summary"></p>
+        <p class="value"></p>
+        <p class="limitations"></p>
+        <div class="card-links">
+          <a class="primary-link" target="_blank" rel="noreferrer">原文</a>
+          <a class="pdf-link" target="_blank" rel="noreferrer" hidden>PDF</a>
+          <a class="doi-link" target="_blank" rel="noreferrer" hidden>DOI</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
+

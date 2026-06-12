@@ -9,6 +9,8 @@
 - `feed.xml` RSS
 - `references.bib` 与 `references.ris`，用于 Zotero 导入
 
+网页支持按来源、期刊、关键词类别、相关性标签筛选，支持标题/作者/关键词全文检索，并可对单篇论文复制 DOI、BibTeX 或 RIS。筛选状态会保存在浏览器本地，刷新页面后仍会保留。
+
 ## 数据来源
 
 - arXiv: `eess.SY`, `math.OC`

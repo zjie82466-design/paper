@@ -7,27 +7,34 @@
     "feed_url": "https://zjie82466-design.github.io/paper/feed.xml",
     "bibtex_url": "https://zjie82466-design.github.io/paper/references.bib",
     "ris_url": "https://zjie82466-design.github.io/paper/references.ris",
-    "generated_at": "2026-06-05T14:28:20.884421+08:00",
-    "target_date": "2026-06-05",
-    "window_start": "2026-05-30",
+    "generated_at": "2026-06-12T12:24:03.644166+08:00",
+    "target_date": "2026-06-12",
+    "window_start": "2026-06-06",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 8,
+    "paper_count": 10,
     "source_counts": {
-      "ieee": 6,
-      "arxiv": 2
+      "arxiv": 6,
+      "ieee": 4
     },
     "journal_counts": {
-      "IEEE Transactions on Smart Grid": 5,
-      "arXiv": 2,
-      "IEEE Transactions on Sustainable Energy": 1
+      "arXiv": 6,
+      "IEEE Transactions on Power Systems": 3,
+      "IEEE Transactions on Smart Grid": 1
     },
     "keyword_group_counts": {
-      "源网荷储协同": 5,
-      "电力系统运行与规划": 3,
+      "电力系统运行与规划": 5,
+      "源网荷储协同": 3,
+      "鲁棒随机优化": 3,
+      "AI+电力优化": 2,
       "构网与暂态稳定": 2,
-      "AI+电力优化": 1,
       "韧性与恢复": 1
+    },
+    "source_notes": {
+      "arxiv": "arXiv 来源优先使用官方 API；接口限流或超时时，会退回 recent page 做近似抓取。它反映预印本动态，不代表期刊正式发表。",
+      "ieee": "IEEE 三刊当前通过 Crossref DOI 元数据检索，不依赖 IEEE Xplore API 或机构订阅；Early Access 覆盖取决于 Crossref 是否已登记元数据。",
+      "elsevier": "Applied Energy 和 Joule 当前通过 Crossref 元数据检索；若摘要缺失，网页会给出保守导读并提示打开原文核对。",
+      "nature": "Nature Energy 当前通过 Crossref 元数据检索；高影响期刊论文数量少，筛选更依赖题名、关键词和 DOI 元数据。"
     },
     "source_errors": []
   },
@@ -35,24 +42,25 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 6,
+      "count": 4,
       "papers": [
         {
-          "id": "10.1109/tsg.2026.3698085",
+          "id": "10.1109/tpwrs.2026.3702746",
           "source": "ieee",
           "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach",
           "authors": [
-            "Cong Bai",
-            "Salish Maharjan",
-            "Zhaoyu Wang"
+            "Haitao Xu",
+            "Haotian Zhao",
+            "Hongbin Sun",
+            "Qinglai Guo"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3698085",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3702746",
           "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3698085",
-          "published_at": "2026-05-29T19:56:26+00:00",
+          "doi": "10.1109/tpwrs.2026.3702746",
+          "published_at": "2026-06-11T20:01:13+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -60,45 +68,91 @@
             "crossref_type": "journal-article"
           },
           "matched_keywords": [
-            "black start",
+            "stochastic optimization",
+            "resilience",
+            "dispatch"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化",
+            "韧性与恢复",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 9.49,
+          "llm_score": 9.49,
+          "final_score": 9.49,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：stochastic optimization、resilience、dispatch",
+          "ai_summary": "该论文题为《Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-12T04:01:13+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "04:01",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
+          "citation_key": "xu2026dispatch702746",
+          "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -"
+        },
+        {
+          "id": "10.1109/tsg.2026.3702702",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework",
+          "authors": [
+            "Sajal K. Das",
+            "Yu-Chu Tian"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3702702",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3702702",
+          "published_at": "2026-06-11T20:01:04+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article"
+          },
+          "matched_keywords": [
             "microgrid",
             "microgrids"
           ],
           "matched_keyword_groups": [
-            "韧性与恢复",
             "源网荷储协同"
           ],
-          "rule_score": 8.61,
-          "llm_score": 8.61,
-          "final_score": 8.61,
-          "relevance_label": "Strong Match",
-          "score_reason": "命中关键词：black start、microgrid、microgrids",
-          "ai_summary": "该论文题为《Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "rule_score": 7.03,
+          "llm_score": 7.03,
+          "final_score": 7.03,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-05-30T03:56:26+08:00",
-          "published_date_local": "2026-05-30",
-          "published_time_local": "03:56"
+          "published_at_local": "2026-06-12T04:01:04+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "04:01",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
+          "citation_key": "das2026postquantum702702",
+          "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -"
         },
         {
-          "id": "10.1109/tsg.2026.3698557",
+          "id": "10.1109/tpwrs.2026.3701870",
           "source": "ieee",
           "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems",
           "authors": [
-            "Luyu Wang",
-            "Kaifeng Zhang",
-            "Biplab Sikdar",
-            "Ying Wang",
-            "Wenjun Bi",
-            "Jia Ning"
+            "Tomás Ochoa",
+            "Balarko Chaudhuri",
+            "Mark O'Malley"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3698557",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3701870",
           "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3698557",
-          "published_at": "2026-06-01T19:35:28+00:00",
+          "doi": "10.1109/tpwrs.2026.3701870",
+          "published_at": "2026-06-09T19:53:11+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -112,35 +166,41 @@
           "matched_keyword_groups": [
             "电力系统运行与规划"
           ],
-          "rule_score": 6.53,
-          "llm_score": 6.53,
-          "final_score": 6.53,
+          "rule_score": 6.88,
+          "llm_score": 6.88,
+          "final_score": 6.88,
           "relevance_label": "Promising",
           "score_reason": "命中关键词：power system、power systems",
-          "ai_summary": "该论文题为《Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "ai_summary": "该论文题为《Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
           "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-02T03:35:28+08:00",
-          "published_date_local": "2026-06-02",
-          "published_time_local": "03:35"
+          "published_at_local": "2026-06-10T03:53:11+08:00",
+          "published_date_local": "2026-06-10",
+          "published_time_local": "03:53",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701870",
+          "citation_key": "ochoa2026optimal701870",
+          "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
         },
         {
-          "id": "10.1109/tsg.2026.3699042",
+          "id": "10.1109/tpwrs.2026.3701994",
           "source": "ieee",
           "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems",
           "authors": [
-            "Zeyu Sun",
-            "Jingang Lai",
-            "Xiaoping Wang",
-            "Zhigang Zeng"
+            "Likai Zhang",
+            "Xiuli Wang",
+            "Hui Guo",
+            "Xifan Wang",
+            "Xiong Wu",
+            "Lei Wu"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3699042",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3701994",
           "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3699042",
-          "published_at": "2026-06-01T19:35:28+00:00",
+          "doi": "10.1109/tpwrs.2026.3701994",
+          "published_at": "2026-06-09T19:53:11+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -148,248 +208,317 @@
             "crossref_type": "journal-article"
           },
           "matched_keywords": [
-            "microgrid",
-            "microgrids"
+            "economic dispatch",
+            "dispatch"
           ],
           "matched_keyword_groups": [
-            "源网荷储协同"
+            "电力系统运行与规划"
           ],
-          "rule_score": 6.53,
-          "llm_score": 6.53,
-          "final_score": 6.53,
+          "rule_score": 6.88,
+          "llm_score": 6.88,
+          "final_score": 6.88,
           "relevance_label": "Promising",
-          "score_reason": "命中关键词：microgrid、microgrids",
-          "ai_summary": "该论文题为《Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "score_reason": "命中关键词：economic dispatch、dispatch",
+          "ai_summary": "该论文题为《Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-02T03:35:28+08:00",
-          "published_date_local": "2026-06-02",
-          "published_time_local": "03:35"
-        },
-        {
-          "id": "10.1109/tsg.2026.3698675",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions",
-          "authors": [
-            "Jianzhe Liu",
-            "Minchang Zhang",
-            "Canbing Li",
-            "Sui Peng",
-            "Yanfeng Wang",
-            "Guo Chen",
-            "Xinxi Li"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3698675",
-          "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3698675",
-          "published_at": "2026-06-01T19:35:28+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.35,
-            "crossref_type": "journal-article"
-          },
-          "matched_keywords": [
-            "microgrid",
-            "microgrids"
-          ],
-          "matched_keyword_groups": [
-            "源网荷储协同"
-          ],
-          "rule_score": 6.53,
-          "llm_score": 6.53,
-          "final_score": 6.53,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：microgrid、microgrids",
-          "ai_summary": "该论文题为《Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-02T03:35:28+08:00",
-          "published_date_local": "2026-06-02",
-          "published_time_local": "03:35"
-        },
-        {
-          "id": "10.1109/tsg.2026.3698113",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks",
-          "authors": [
-            "Qi Liu",
-            "Chengcheng Zhao",
-            "Wenxuan Ma",
-            "Jiming Chen"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3698113",
-          "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3698113",
-          "published_at": "2026-05-29T19:56:26+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.35,
-            "crossref_type": "journal-article"
-          },
-          "matched_keywords": [
-            "microgrid",
-            "microgrids"
-          ],
-          "matched_keyword_groups": [
-            "源网荷储协同"
-          ],
-          "rule_score": 6.53,
-          "llm_score": 6.53,
-          "final_score": 6.53,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：microgrid、microgrids",
-          "ai_summary": "该论文题为《Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-05-30T03:56:26+08:00",
-          "published_date_local": "2026-05-30",
-          "published_time_local": "03:56"
-        },
-        {
-          "id": "10.1109/tste.2026.3698674",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Sustainable Energy",
-          "title": "Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory",
-          "authors": [
-            "Yumei Ma",
-            "Shiying Zhou",
-            "Donghai Zhu",
-            "Xudong Zou",
-            "Yong Kang"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tste.2026.3698674",
-          "pdf_url": null,
-          "doi": "10.1109/tste.2026.3698674",
-          "published_at": "2026-06-01T19:35:27+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.25,
-            "crossref_type": "journal-article"
-          },
-          "matched_keywords": [
-            "transient stability"
-          ],
-          "matched_keyword_groups": [
-            "构网与暂态稳定"
-          ],
-          "rule_score": 5.73,
-          "llm_score": 5.73,
-          "final_score": 5.73,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：transient stability",
-          "ai_summary": "该论文题为《Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-02T03:35:27+08:00",
-          "published_date_local": "2026-06-02",
-          "published_time_local": "03:35"
+          "published_at_local": "2026-06-10T03:53:11+08:00",
+          "published_date_local": "2026-06-10",
+          "published_time_local": "03:53",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701994",
+          "citation_key": "zhang2026cutselection701994",
+          "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
         }
       ]
     },
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 2,
+      "count": 6,
       "papers": [
         {
-          "id": "https://arxiv.org/abs/2606.05534",
+          "id": "http://arxiv.org/abs/2606.13605v1",
           "source": "arxiv",
           "section": "arxiv",
           "journal": "arXiv",
-          "title": "Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems",
+          "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
           "authors": [
-            "Fan Jiang",
-            "Xingpeng Li"
+            "Yashdeep Chaudhary",
+            "Roberto Armellin",
+            "Harry Holt",
+            "Marco Sagliano"
           ],
-          "abstract": "",
-          "url": "https://arxiv.org/abs/2606.05534",
-          "pdf_url": "https://arxiv.org/pdf/2606.05534",
+          "abstract": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a structured affine closed-loop correction law comprising a feedforward control adjustment and time-varying feedback gains. Probabilistic feasibility is enforced empirically through rollout-based upper-tail quantiles, while terminal dispersion is regulated through covariance-feasibility penalties. The framework is assessed on two materially different trajectory design problems. The flagship case study is a three-dimensional multi-impulse Earth-Mars transfer, where the learned policy is benchmarked against a recent robust trajectory-optimization reference under Gaussian uncertainty and then evaluated under bounded uniform uncertainty and under process disturbances not seen during training. The second case study is a stochastic atmospheric pinpoint rocket landing problem, used to assess portability to a short-horizon continuous-thrust setting with drag, mass depletion, and glide-slope constraints. The results show that the proposed framework can remain competitive in upper-tail fuel cost while preserving probabilistic feasibility, and that the same robustification scaffold can be carried across heterogeneous spacecraft trajectory planning problems without redesign of its core stochastic-control structure.",
+          "url": "http://arxiv.org/abs/2606.13605v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13605v1",
           "doi": null,
-          "published_at": "2026-06-05T00:00:00+00:00",
+          "published_at": "2026-06-11T17:22:05+00:00",
           "categories": [
-            "Systems and Control (eess.SY)"
+            "math.OC",
+            "cs.LG",
+            "eess.SY"
           ],
           "metadata": {
-            "primary_category": "eess.SY",
-            "fallback_source": "arxiv_recent_page"
+            "query": "cat:eess.SY OR cat:math.OC"
           },
           "matched_keywords": [
-            "grid-forming",
-            "scheduling",
-            "energy storage"
+            "chance-constrained",
+            "reinforcement learning",
+            "uncertainty"
           ],
           "matched_keyword_groups": [
-            "构网与暂态稳定",
+            "鲁棒随机优化",
+            "AI+电力优化"
+          ],
+          "rule_score": 8.42,
+          "llm_score": 8.42,
+          "final_score": 8.42,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：chance-constrained、reinforcement learning、uncertainty",
+          "ai_summary": "该论文题为《Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a s...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-12T01:22:05+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "01:22",
+          "doi_url": null,
+          "citation_key": "chaudhary2026distributionagnostic3605v1",
+          "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.12345v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction",
+          "authors": [
+            "Edoardo Scaccia",
+            "Eric C. Kerrigan",
+            "Anna Sadowska"
+          ],
+          "abstract": "The problem of optimal sizing and power scheduling in microgrids subject to uncertainties is well known to the control community. Commonly, the optimal control problem is cast as a mixed-integer program to model the logical constraints arising in energy storage systems, and is then solved approximately using numerical methods such as the scenario approach. In this paper, we propose and compare two formulations of a robust microgrid sizing and power scheduling optimal control problem with logical constraints and uncertainties in the user's power demand, solar power generation, grid electricity prices and battery efficiencies. The first formulation uses binary variables and big-M constraints, leading to a mixed-integer linear program. The second formulation casts the problem as a continuous nonlinear program through an exact smooth reformulation of the logical constraints, consisting of additional modelling variables and non-convex constraints. We then propose a novel local reduction algorithm, extending an existing method, to solve both problems. The two formulations are compared by evaluating the solutions returned by local reduction using 100,000-sample Monte Carlo simulations and achieve promising results, with both averaging feasibility rates above 90%.",
+          "url": "http://arxiv.org/abs/2606.12345v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.12345v1",
+          "doi": null,
+          "published_at": "2026-06-10T17:17:10+00:00",
+          "categories": [
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "scheduling",
+            "energy storage",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
             "电力系统运行与规划",
             "源网荷储协同"
           ],
-          "rule_score": 8.59,
-          "llm_score": 8.59,
-          "final_score": 8.59,
+          "rule_score": 8.36,
+          "llm_score": 8.36,
+          "final_score": 8.36,
           "relevance_label": "Strong Match",
-          "score_reason": "命中关键词：grid-forming、scheduling、energy storage",
-          "ai_summary": "该论文题为《Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-05T08:00:00+08:00",
-          "published_date_local": "2026-06-05",
-          "published_time_local": "08:00"
+          "score_reason": "命中关键词：scheduling、energy storage、microgrid、microgrids",
+          "ai_summary": "该论文题为《An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction》，来自 arXiv。从摘要看，论文主要内容为：The problem of optimal sizing and power scheduling in microgrids subject to uncertainties is well known to the control community. Commonly, the optimal control problem is cast as a mixed-integer program to model the logical constraints arising in energy storage systems, and is then solved approximately using numerical methods such as the scenario approach. In this paper, we propose and compare two formulations of a r...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-11T01:17:10+08:00",
+          "published_date_local": "2026-06-11",
+          "published_time_local": "01:17",
+          "doi_url": null,
+          "citation_key": "scaccia2026efficient2345v1",
+          "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
         },
         {
-          "id": "https://arxiv.org/abs/2606.03475",
+          "id": "http://arxiv.org/abs/2606.12336v1",
           "source": "arxiv",
           "section": "arxiv",
           "journal": "arXiv",
-          "title": "Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange",
+          "title": "Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants",
           "authors": [
-            "Robert Gaugl",
-            "Eloy Insunza",
-            "José Portela",
-            "Sonja Wogrin"
+            "Vivek Khatana",
+            "Soham Chakraborty",
+            "Murti V. Salapaka"
           ],
-          "abstract": "",
-          "url": "https://arxiv.org/abs/2606.03475",
-          "pdf_url": "https://arxiv.org/pdf/2606.03475",
+          "abstract": "We develop a large-signal stability analysis for a sampled-data, optimization-based secondary controller for inverter-interfaced distributed energy resources in virtual power plants.",
+          "url": "http://arxiv.org/abs/2606.12336v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.12336v1",
           "doi": null,
-          "published_at": "2026-06-03T00:00:00+00:00",
+          "published_at": "2026-06-10T17:06:16+00:00",
           "categories": [
-            "Systems and Control (eess.SY)"
+            "eess.SY",
+            "math.OC"
           ],
           "metadata": {
-            "primary_category": "eess.SY",
-            "fallback_source": "arxiv_recent_page"
+            "query": "cat:eess.SY OR cat:math.OC"
           },
           "matched_keywords": [
-            "power system",
-            "surrogate model",
-            "machine learning"
+            "large-signal stability",
+            "virtual power plant",
+            "distributed energy resources"
           ],
           "matched_keyword_groups": [
-            "电力系统运行与规划",
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.09,
+          "llm_score": 7.09,
+          "final_score": 7.09,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：large-signal stability、virtual power plant、distributed energy resources",
+          "ai_summary": "该论文题为《Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants》，来自 arXiv。从摘要看，论文主要内容为：We develop a large-signal stability analysis for a sampled-data, optimization-based secondary controller for inverter-interfaced distributed energy resources in virtual power plants.",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-11T01:06:16+08:00",
+          "published_date_local": "2026-06-11",
+          "published_time_local": "01:06",
+          "doi_url": null,
+          "citation_key": "khatana2026analysis2336v1",
+          "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -"
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.13358v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid",
+          "authors": [
+            "Anup Joshi",
+            "Javier Renedo",
+            "Xavier Guillaud"
+          ],
+          "abstract": "Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter (VSC) have been shown to provide stabilizing impact in weak grid conditions. However, the impact of GFM controlled VSCs (GFM-VSC) on stability of LCC-HVDC in weak grid conditions has not been studied in depth in the literature. In this paper, a simplified model of LCC-HVDC is proposed and validated. Then a small-signal state-space model of a system consisting of aforementioned LCC-HVDC, a GFM-VSC and an infinite grid is developed to study the interactions between different components. The small-signal stability analysis shows the stabilizing effect of the GFM-VSC on the stability of the LCC-HVDC link in weak grid condition. Furthermore, the study on the sizing of the GFM power converter reveals that even a modest share of the capacity of the GFM power converter relative to the total nominal apparent power (sum of nominal power of LCC-HVDC and the nominal apparent power of GFM-VSC) is sufficient to ensure the stability of the system, in the test system analyzed in this study. This work just focuses in small-signal stability, but it is important to highlight that other stability phenomena should also be taken into account when selecting the final size of the GFM-VSC.",
+          "url": "http://arxiv.org/abs/2606.13358v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13358v1",
+          "doi": null,
+          "published_at": "2026-06-11T13:45:17+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定"
+          ],
+          "rule_score": 6.03,
+          "llm_score": 6.03,
+          "final_score": 6.03,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：grid-forming",
+          "ai_summary": "该论文题为《Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid》，来自 arXiv。从摘要看，论文主要内容为：Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-11T21:45:17+08:00",
+          "published_date_local": "2026-06-11",
+          "published_time_local": "21:45",
+          "doi_url": null,
+          "citation_key": "joshi2026sizing3358v1",
+          "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -"
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.13058v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers",
+          "authors": [
+            "Thomas Rahab Lacroix",
+            "Pierre Lemaire",
+            "Nadia Brauner"
+          ],
+          "abstract": "We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By interpreting nights as machines and stars as jobs to be processed, this problem is a classic scheduling setting of parallel machines. In the practical star-observation problem, the ability to observe depends on meteorological and atmospheric conditions, which are not known when the schedule is computed. A possible modeling is to consider that each night can be either perfect and everything is observable, either terrible and nothing is observable. The challenge is therefore to propose a ''high-quality'' schedule without knowing the actual number of nights (machines) that will ultimately be available. We focus here on evaluating the worst case within the robust optimization paradigm.",
+          "url": "http://arxiv.org/abs/2606.13058v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13058v1",
+          "doi": null,
+          "published_at": "2026-06-11T08:41:39+00:00",
+          "categories": [
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "robust optimization",
+            "scheduling"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.82,
+          "llm_score": 5.82,
+          "final_score": 5.82,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：robust optimization、scheduling",
+          "ai_summary": "该论文题为《Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers》，来自 arXiv。从摘要看，论文主要内容为：We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-11T16:41:39+08:00",
+          "published_date_local": "2026-06-11",
+          "published_time_local": "16:41",
+          "doi_url": null,
+          "citation_key": "lacroix2026scheduling3058v1",
+          "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -"
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.12640v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Qingyun Guo",
+            "Junyi Shi",
+            "Jianuo Huang",
+            "Tianyu Shi"
+          ],
+          "abstract": "Offline reinforcement learning allows control policies to be learned directly from data without online interaction, making it suitable for safety-critical tasks. Recent studies have applied diffusion models to offline reinforcement learning to leverage their strong capacity for modeling complex data distributions. However, existing approaches primarily focus on single-agent settings, leaving the safety challenges in multi-agent environments largely unexplored. In this work, we propose a safe offline multi-agent reinforcement learning algorithm that embeds neural individual control barrier functions into the diffusion model to enhance safety during trajectory generation, with control policies recovered through inverse dynamics. We evaluate our algorithm across diverse benchmarks, demonstrating substantial safety improvements while maintaining competitive rewards.",
+          "url": "http://arxiv.org/abs/2606.12640v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.12640v1",
+          "doi": null,
+          "published_at": "2026-06-10T20:03:58+00:00",
+          "categories": [
+            "cs.LG",
+            "cs.RO",
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning"
+          ],
+          "matched_keyword_groups": [
             "AI+电力优化"
           ],
-          "rule_score": 6.76,
-          "llm_score": 6.76,
-          "final_score": 6.76,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：power system、surrogate model、machine learning",
-          "ai_summary": "该论文题为《Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-03T08:00:00+08:00",
-          "published_date_local": "2026-06-03",
-          "published_time_local": "08:00"
+          "rule_score": 5.33,
+          "llm_score": 5.33,
+          "final_score": 5.33,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：reinforcement learning",
+          "ai_summary": "该论文题为《Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：Offline reinforcement learning allows control policies to be learned directly from data without online interaction, making it suitable for safety-critical tasks. Recent studies have applied diffusion models to offline reinforcement learning to leverage their strong capacity for modeling complex data distributions. However, existing approaches primarily focus on single-agent settings, leaving the safety challenges in ...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-11T04:03:58+08:00",
+          "published_date_local": "2026-06-11",
+          "published_time_local": "04:03",
+          "doi_url": null,
+          "citation_key": "guo2026individual2640v1",
+          "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -"
         }
       ]
     },
@@ -402,21 +531,22 @@
   },
   "papers": [
     {
-      "id": "10.1109/tsg.2026.3698085",
+      "id": "10.1109/tpwrs.2026.3702746",
       "source": "ieee",
       "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach",
       "authors": [
-        "Cong Bai",
-        "Salish Maharjan",
-        "Zhaoyu Wang"
+        "Haitao Xu",
+        "Haotian Zhao",
+        "Hongbin Sun",
+        "Qinglai Guo"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3698085",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3702746",
       "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3698085",
-      "published_at": "2026-05-29T19:56:26+00:00",
+      "doi": "10.1109/tpwrs.2026.3702746",
+      "published_at": "2026-06-11T20:01:13+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -424,134 +554,237 @@
         "crossref_type": "journal-article"
       },
       "matched_keywords": [
-        "black start",
+        "stochastic optimization",
+        "resilience",
+        "dispatch"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化",
+        "韧性与恢复",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 9.49,
+      "llm_score": 9.49,
+      "final_score": 9.49,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：stochastic optimization、resilience、dispatch",
+      "ai_summary": "该论文题为《Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-12T04:01:13+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "04:01",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
+      "citation_key": "xu2026dispatch702746",
+      "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.13605v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
+      "authors": [
+        "Yashdeep Chaudhary",
+        "Roberto Armellin",
+        "Harry Holt",
+        "Marco Sagliano"
+      ],
+      "abstract": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a structured affine closed-loop correction law comprising a feedforward control adjustment and time-varying feedback gains. Probabilistic feasibility is enforced empirically through rollout-based upper-tail quantiles, while terminal dispersion is regulated through covariance-feasibility penalties. The framework is assessed on two materially different trajectory design problems. The flagship case study is a three-dimensional multi-impulse Earth-Mars transfer, where the learned policy is benchmarked against a recent robust trajectory-optimization reference under Gaussian uncertainty and then evaluated under bounded uniform uncertainty and under process disturbances not seen during training. The second case study is a stochastic atmospheric pinpoint rocket landing problem, used to assess portability to a short-horizon continuous-thrust setting with drag, mass depletion, and glide-slope constraints. The results show that the proposed framework can remain competitive in upper-tail fuel cost while preserving probabilistic feasibility, and that the same robustification scaffold can be carried across heterogeneous spacecraft trajectory planning problems without redesign of its core stochastic-control structure.",
+      "url": "http://arxiv.org/abs/2606.13605v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13605v1",
+      "doi": null,
+      "published_at": "2026-06-11T17:22:05+00:00",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "chance-constrained",
+        "reinforcement learning",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化",
+        "AI+电力优化"
+      ],
+      "rule_score": 8.42,
+      "llm_score": 8.42,
+      "final_score": 8.42,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：chance-constrained、reinforcement learning、uncertainty",
+      "ai_summary": "该论文题为《Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a s...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-12T01:22:05+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "01:22",
+      "doi_url": null,
+      "citation_key": "chaudhary2026distributionagnostic3605v1",
+      "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.12345v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction",
+      "authors": [
+        "Edoardo Scaccia",
+        "Eric C. Kerrigan",
+        "Anna Sadowska"
+      ],
+      "abstract": "The problem of optimal sizing and power scheduling in microgrids subject to uncertainties is well known to the control community. Commonly, the optimal control problem is cast as a mixed-integer program to model the logical constraints arising in energy storage systems, and is then solved approximately using numerical methods such as the scenario approach. In this paper, we propose and compare two formulations of a robust microgrid sizing and power scheduling optimal control problem with logical constraints and uncertainties in the user's power demand, solar power generation, grid electricity prices and battery efficiencies. The first formulation uses binary variables and big-M constraints, leading to a mixed-integer linear program. The second formulation casts the problem as a continuous nonlinear program through an exact smooth reformulation of the logical constraints, consisting of additional modelling variables and non-convex constraints. We then propose a novel local reduction algorithm, extending an existing method, to solve both problems. The two formulations are compared by evaluating the solutions returned by local reduction using 100,000-sample Monte Carlo simulations and achieve promising results, with both averaging feasibility rates above 90%.",
+      "url": "http://arxiv.org/abs/2606.12345v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12345v1",
+      "doi": null,
+      "published_at": "2026-06-10T17:17:10+00:00",
+      "categories": [
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "scheduling",
+        "energy storage",
         "microgrid",
         "microgrids"
       ],
       "matched_keyword_groups": [
-        "韧性与恢复",
+        "电力系统运行与规划",
         "源网荷储协同"
       ],
-      "rule_score": 8.61,
-      "llm_score": 8.61,
-      "final_score": 8.61,
+      "rule_score": 8.36,
+      "llm_score": 8.36,
+      "final_score": 8.36,
       "relevance_label": "Strong Match",
-      "score_reason": "命中关键词：black start、microgrid、microgrids",
-      "ai_summary": "该论文题为《Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-05-30T03:56:26+08:00",
-      "published_date_local": "2026-05-30",
-      "published_time_local": "03:56"
+      "score_reason": "命中关键词：scheduling、energy storage、microgrid、microgrids",
+      "ai_summary": "该论文题为《An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction》，来自 arXiv。从摘要看，论文主要内容为：The problem of optimal sizing and power scheduling in microgrids subject to uncertainties is well known to the control community. Commonly, the optimal control problem is cast as a mixed-integer program to model the logical constraints arising in energy storage systems, and is then solved approximately using numerical methods such as the scenario approach. In this paper, we propose and compare two formulations of a r...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-11T01:17:10+08:00",
+      "published_date_local": "2026-06-11",
+      "published_time_local": "01:17",
+      "doi_url": null,
+      "citation_key": "scaccia2026efficient2345v1",
+      "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
     },
     {
-      "id": "https://arxiv.org/abs/2606.05534",
+      "id": "http://arxiv.org/abs/2606.12336v1",
       "source": "arxiv",
       "section": "arxiv",
       "journal": "arXiv",
-      "title": "Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems",
+      "title": "Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants",
       "authors": [
-        "Fan Jiang",
-        "Xingpeng Li"
+        "Vivek Khatana",
+        "Soham Chakraborty",
+        "Murti V. Salapaka"
       ],
-      "abstract": "",
-      "url": "https://arxiv.org/abs/2606.05534",
-      "pdf_url": "https://arxiv.org/pdf/2606.05534",
+      "abstract": "We develop a large-signal stability analysis for a sampled-data, optimization-based secondary controller for inverter-interfaced distributed energy resources in virtual power plants.",
+      "url": "http://arxiv.org/abs/2606.12336v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12336v1",
       "doi": null,
-      "published_at": "2026-06-05T00:00:00+00:00",
+      "published_at": "2026-06-10T17:06:16+00:00",
       "categories": [
-        "Systems and Control (eess.SY)"
+        "eess.SY",
+        "math.OC"
       ],
       "metadata": {
-        "primary_category": "eess.SY",
-        "fallback_source": "arxiv_recent_page"
+        "query": "cat:eess.SY OR cat:math.OC"
       },
       "matched_keywords": [
-        "grid-forming",
-        "scheduling",
-        "energy storage"
+        "large-signal stability",
+        "virtual power plant",
+        "distributed energy resources"
       ],
       "matched_keyword_groups": [
         "构网与暂态稳定",
-        "电力系统运行与规划",
         "源网荷储协同"
       ],
-      "rule_score": 8.59,
-      "llm_score": 8.59,
-      "final_score": 8.59,
-      "relevance_label": "Strong Match",
-      "score_reason": "命中关键词：grid-forming、scheduling、energy storage",
-      "ai_summary": "该论文题为《Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-05T08:00:00+08:00",
-      "published_date_local": "2026-06-05",
-      "published_time_local": "08:00"
-    },
-    {
-      "id": "https://arxiv.org/abs/2606.03475",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange",
-      "authors": [
-        "Robert Gaugl",
-        "Eloy Insunza",
-        "José Portela",
-        "Sonja Wogrin"
-      ],
-      "abstract": "",
-      "url": "https://arxiv.org/abs/2606.03475",
-      "pdf_url": "https://arxiv.org/pdf/2606.03475",
-      "doi": null,
-      "published_at": "2026-06-03T00:00:00+00:00",
-      "categories": [
-        "Systems and Control (eess.SY)"
-      ],
-      "metadata": {
-        "primary_category": "eess.SY",
-        "fallback_source": "arxiv_recent_page"
-      },
-      "matched_keywords": [
-        "power system",
-        "surrogate model",
-        "machine learning"
-      ],
-      "matched_keyword_groups": [
-        "电力系统运行与规划",
-        "AI+电力优化"
-      ],
-      "rule_score": 6.76,
-      "llm_score": 6.76,
-      "final_score": 6.76,
+      "rule_score": 7.09,
+      "llm_score": 7.09,
+      "final_score": 7.09,
       "relevance_label": "Promising",
-      "score_reason": "命中关键词：power system、surrogate model、machine learning",
-      "ai_summary": "该论文题为《Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-03T08:00:00+08:00",
-      "published_date_local": "2026-06-03",
-      "published_time_local": "08:00"
+      "score_reason": "命中关键词：large-signal stability、virtual power plant、distributed energy resources",
+      "ai_summary": "该论文题为《Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants》，来自 arXiv。从摘要看，论文主要内容为：We develop a large-signal stability analysis for a sampled-data, optimization-based secondary controller for inverter-interfaced distributed energy resources in virtual power plants.",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-11T01:06:16+08:00",
+      "published_date_local": "2026-06-11",
+      "published_time_local": "01:06",
+      "doi_url": null,
+      "citation_key": "khatana2026analysis2336v1",
+      "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -"
     },
     {
-      "id": "10.1109/tsg.2026.3698557",
+      "id": "10.1109/tsg.2026.3702702",
       "source": "ieee",
       "section": "ieee",
       "journal": "IEEE Transactions on Smart Grid",
-      "title": "Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency",
+      "title": "Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework",
       "authors": [
-        "Luyu Wang",
-        "Kaifeng Zhang",
-        "Biplab Sikdar",
-        "Ying Wang",
-        "Wenjun Bi",
-        "Jia Ning"
+        "Sajal K. Das",
+        "Yu-Chu Tian"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3698557",
+      "url": "https://doi.org/10.1109/tsg.2026.3702702",
       "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3698557",
-      "published_at": "2026-06-01T19:35:28+00:00",
+      "doi": "10.1109/tsg.2026.3702702",
+      "published_at": "2026-06-11T20:01:04+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 7.03,
+      "llm_score": 7.03,
+      "final_score": 7.03,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-12T04:01:04+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "04:01",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
+      "citation_key": "das2026postquantum702702",
+      "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -"
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3701870",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems",
+      "authors": [
+        "Tomás Ochoa",
+        "Balarko Chaudhuri",
+        "Mark O'Malley"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3701870",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3701870",
+      "published_at": "2026-06-09T19:53:11+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -565,35 +798,41 @@
       "matched_keyword_groups": [
         "电力系统运行与规划"
       ],
-      "rule_score": 6.53,
-      "llm_score": 6.53,
-      "final_score": 6.53,
+      "rule_score": 6.88,
+      "llm_score": 6.88,
+      "final_score": 6.88,
       "relevance_label": "Promising",
       "score_reason": "命中关键词：power system、power systems",
-      "ai_summary": "该论文题为《Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "ai_summary": "该论文题为《Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
       "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
       "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-02T03:35:28+08:00",
-      "published_date_local": "2026-06-02",
-      "published_time_local": "03:35"
+      "published_at_local": "2026-06-10T03:53:11+08:00",
+      "published_date_local": "2026-06-10",
+      "published_time_local": "03:53",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701870",
+      "citation_key": "ochoa2026optimal701870",
+      "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
     },
     {
-      "id": "10.1109/tsg.2026.3699042",
+      "id": "10.1109/tpwrs.2026.3701994",
       "source": "ieee",
       "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems",
       "authors": [
-        "Zeyu Sun",
-        "Jingang Lai",
-        "Xiaoping Wang",
-        "Zhigang Zeng"
+        "Likai Zhang",
+        "Xiuli Wang",
+        "Hui Guo",
+        "Xifan Wang",
+        "Xiong Wu",
+        "Lei Wu"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3699042",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3701994",
       "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3699042",
-      "published_at": "2026-06-01T19:35:28+00:00",
+      "doi": "10.1109/tpwrs.2026.3701994",
+      "published_at": "2026-06-09T19:53:11+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -601,152 +840,164 @@
         "crossref_type": "journal-article"
       },
       "matched_keywords": [
-        "microgrid",
-        "microgrids"
+        "economic dispatch",
+        "dispatch"
       ],
       "matched_keyword_groups": [
-        "源网荷储协同"
+        "电力系统运行与规划"
       ],
-      "rule_score": 6.53,
-      "llm_score": 6.53,
-      "final_score": 6.53,
+      "rule_score": 6.88,
+      "llm_score": 6.88,
+      "final_score": 6.88,
       "relevance_label": "Promising",
-      "score_reason": "命中关键词：microgrid、microgrids",
-      "ai_summary": "该论文题为《Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "score_reason": "命中关键词：economic dispatch、dispatch",
+      "ai_summary": "该论文题为《Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
       "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-02T03:35:28+08:00",
-      "published_date_local": "2026-06-02",
-      "published_time_local": "03:35"
+      "published_at_local": "2026-06-10T03:53:11+08:00",
+      "published_date_local": "2026-06-10",
+      "published_time_local": "03:53",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701994",
+      "citation_key": "zhang2026cutselection701994",
+      "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
     },
     {
-      "id": "10.1109/tsg.2026.3698675",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions",
+      "id": "http://arxiv.org/abs/2606.13358v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid",
       "authors": [
-        "Jianzhe Liu",
-        "Minchang Zhang",
-        "Canbing Li",
-        "Sui Peng",
-        "Yanfeng Wang",
-        "Guo Chen",
-        "Xinxi Li"
+        "Anup Joshi",
+        "Javier Renedo",
+        "Xavier Guillaud"
       ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3698675",
-      "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3698675",
-      "published_at": "2026-06-01T19:35:28+00:00",
-      "categories": [],
+      "abstract": "Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter (VSC) have been shown to provide stabilizing impact in weak grid conditions. However, the impact of GFM controlled VSCs (GFM-VSC) on stability of LCC-HVDC in weak grid conditions has not been studied in depth in the literature. In this paper, a simplified model of LCC-HVDC is proposed and validated. Then a small-signal state-space model of a system consisting of aforementioned LCC-HVDC, a GFM-VSC and an infinite grid is developed to study the interactions between different components. The small-signal stability analysis shows the stabilizing effect of the GFM-VSC on the stability of the LCC-HVDC link in weak grid condition. Furthermore, the study on the sizing of the GFM power converter reveals that even a modest share of the capacity of the GFM power converter relative to the total nominal apparent power (sum of nominal power of LCC-HVDC and the nominal apparent power of GFM-VSC) is sufficient to ensure the stability of the system, in the test system analyzed in this study. This work just focuses in small-signal stability, but it is important to highlight that other stability phenomena should also be taken into account when selecting the final size of the GFM-VSC.",
+      "url": "http://arxiv.org/abs/2606.13358v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13358v1",
+      "doi": null,
+      "published_at": "2026-06-11T13:45:17+00:00",
+      "categories": [
+        "eess.SY"
+      ],
       "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.35,
-        "crossref_type": "journal-article"
+        "query": "cat:eess.SY OR cat:math.OC"
       },
       "matched_keywords": [
-        "microgrid",
-        "microgrids"
-      ],
-      "matched_keyword_groups": [
-        "源网荷储协同"
-      ],
-      "rule_score": 6.53,
-      "llm_score": 6.53,
-      "final_score": 6.53,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：microgrid、microgrids",
-      "ai_summary": "该论文题为《Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-02T03:35:28+08:00",
-      "published_date_local": "2026-06-02",
-      "published_time_local": "03:35"
-    },
-    {
-      "id": "10.1109/tsg.2026.3698113",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks",
-      "authors": [
-        "Qi Liu",
-        "Chengcheng Zhao",
-        "Wenxuan Ma",
-        "Jiming Chen"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3698113",
-      "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3698113",
-      "published_at": "2026-05-29T19:56:26+00:00",
-      "categories": [],
-      "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.35,
-        "crossref_type": "journal-article"
-      },
-      "matched_keywords": [
-        "microgrid",
-        "microgrids"
-      ],
-      "matched_keyword_groups": [
-        "源网荷储协同"
-      ],
-      "rule_score": 6.53,
-      "llm_score": 6.53,
-      "final_score": 6.53,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：microgrid、microgrids",
-      "ai_summary": "该论文题为《Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-05-30T03:56:26+08:00",
-      "published_date_local": "2026-05-30",
-      "published_time_local": "03:56"
-    },
-    {
-      "id": "10.1109/tste.2026.3698674",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Sustainable Energy",
-      "title": "Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory",
-      "authors": [
-        "Yumei Ma",
-        "Shiying Zhou",
-        "Donghai Zhu",
-        "Xudong Zou",
-        "Yong Kang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tste.2026.3698674",
-      "pdf_url": null,
-      "doi": "10.1109/tste.2026.3698674",
-      "published_at": "2026-06-01T19:35:27+00:00",
-      "categories": [],
-      "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.25,
-        "crossref_type": "journal-article"
-      },
-      "matched_keywords": [
-        "transient stability"
+        "grid-forming"
       ],
       "matched_keyword_groups": [
         "构网与暂态稳定"
       ],
-      "rule_score": 5.73,
-      "llm_score": 5.73,
-      "final_score": 5.73,
+      "rule_score": 6.03,
+      "llm_score": 6.03,
+      "final_score": 6.03,
       "relevance_label": "Promising",
-      "score_reason": "命中关键词：transient stability",
-      "ai_summary": "该论文题为《Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "score_reason": "命中关键词：grid-forming",
+      "ai_summary": "该论文题为《Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid》，来自 arXiv。从摘要看，论文主要内容为：Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter...",
       "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-02T03:35:27+08:00",
-      "published_date_local": "2026-06-02",
-      "published_time_local": "03:35"
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-11T21:45:17+08:00",
+      "published_date_local": "2026-06-11",
+      "published_time_local": "21:45",
+      "doi_url": null,
+      "citation_key": "joshi2026sizing3358v1",
+      "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.13058v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers",
+      "authors": [
+        "Thomas Rahab Lacroix",
+        "Pierre Lemaire",
+        "Nadia Brauner"
+      ],
+      "abstract": "We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By interpreting nights as machines and stars as jobs to be processed, this problem is a classic scheduling setting of parallel machines. In the practical star-observation problem, the ability to observe depends on meteorological and atmospheric conditions, which are not known when the schedule is computed. A possible modeling is to consider that each night can be either perfect and everything is observable, either terrible and nothing is observable. The challenge is therefore to propose a ''high-quality'' schedule without knowing the actual number of nights (machines) that will ultimately be available. We focus here on evaluating the worst case within the robust optimization paradigm.",
+      "url": "http://arxiv.org/abs/2606.13058v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13058v1",
+      "doi": null,
+      "published_at": "2026-06-11T08:41:39+00:00",
+      "categories": [
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "robust optimization",
+        "scheduling"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.82,
+      "llm_score": 5.82,
+      "final_score": 5.82,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：robust optimization、scheduling",
+      "ai_summary": "该论文题为《Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers》，来自 arXiv。从摘要看，论文主要内容为：We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-11T16:41:39+08:00",
+      "published_date_local": "2026-06-11",
+      "published_time_local": "16:41",
+      "doi_url": null,
+      "citation_key": "lacroix2026scheduling3058v1",
+      "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -"
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.12640v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Qingyun Guo",
+        "Junyi Shi",
+        "Jianuo Huang",
+        "Tianyu Shi"
+      ],
+      "abstract": "Offline reinforcement learning allows control policies to be learned directly from data without online interaction, making it suitable for safety-critical tasks. Recent studies have applied diffusion models to offline reinforcement learning to leverage their strong capacity for modeling complex data distributions. However, existing approaches primarily focus on single-agent settings, leaving the safety challenges in multi-agent environments largely unexplored. In this work, we propose a safe offline multi-agent reinforcement learning algorithm that embeds neural individual control barrier functions into the diffusion model to enhance safety during trajectory generation, with control policies recovered through inverse dynamics. We evaluate our algorithm across diverse benchmarks, demonstrating substantial safety improvements while maintaining competitive rewards.",
+      "url": "http://arxiv.org/abs/2606.12640v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12640v1",
+      "doi": null,
+      "published_at": "2026-06-10T20:03:58+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化"
+      ],
+      "rule_score": 5.33,
+      "llm_score": 5.33,
+      "final_score": 5.33,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：reinforcement learning",
+      "ai_summary": "该论文题为《Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：Offline reinforcement learning allows control policies to be learned directly from data without online interaction, making it suitable for safety-critical tasks. Recent studies have applied diffusion models to offline reinforcement learning to leverage their strong capacity for modeling complex data distributions. However, existing approaches primarily focus on single-agent settings, leaving the safety challenges in ...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-11T04:03:58+08:00",
+      "published_date_local": "2026-06-11",
+      "published_time_local": "04:03",
+      "doi_url": null,
+      "citation_key": "guo2026individual2640v1",
+      "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -"
     }
   ]
 }

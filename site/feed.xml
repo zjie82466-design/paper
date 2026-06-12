@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 14:28:20 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 12:24:03 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-06-05</title>
+      <title>电力系统论文周报 · 2026-06-12</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-06-05</guid>
-      <pubDate>Fri, 05 Jun 2026 14:28:20 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-06-05
-1. Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts [IEEE Transactions on Smart Grid] - 8.6/10
-2. Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems [arXiv] - 8.6/10
-3. Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange [arXiv] - 6.8/10
-4. Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency [IEEE Transactions on Smart Grid] - 6.5/10
-5. Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints [IEEE Transactions on Smart Grid] - 6.5/10
-6. Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions [IEEE Transactions on Smart Grid] - 6.5/10
-7. Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks [IEEE Transactions on Smart Grid] - 6.5/10
-8. Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory [IEEE Transactions on Sustainable Energy] - 5.7/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 12:24:03 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-06-12
+1. Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach [IEEE Transactions on Power Systems] - 9.5/10
+2. Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning [arXiv] - 8.4/10
+3. An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction [arXiv] - 8.4/10
+4. Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants [arXiv] - 7.1/10
+5. Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework [IEEE Transactions on Smart Grid] - 7.0/10
+6. Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems [IEEE Transactions on Power Systems] - 6.9/10
+7. Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems [IEEE Transactions on Power Systems] - 6.9/10
+8. Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid [arXiv] - 6.0/10</description>
     </item>
   </channel>
 </rss>

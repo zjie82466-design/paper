@@ -1,104 +1,118 @@
 TY  - JOUR
-TI  - Model Predictive Black Start for Dynamic Formation of DER-Led Microgrids with Inrush Current Impacts
-JO  - IEEE Transactions on Smart Grid
-AU  - Cong Bai
-AU  - Salish Maharjan
-AU  - Zhaoyu Wang
+TI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach
+JO  - IEEE Transactions on Power Systems
+AU  - Haitao Xu
+AU  - Haotian Zhao
+AU  - Hongbin Sun
+AU  - Qinglai Guo
 PY  - 2026
-DO  - 10.1109/tsg.2026.3698085
-UR  - https://doi.org/10.1109/tsg.2026.3698085
-N1  - Auto-selected by Power Paper Digest; score=8.6
+DO  - 10.1109/tpwrs.2026.3702746
+UR  - https://doi.org/10.1109/tpwrs.2026.3702746
+N1  - Auto-selected by Power Paper Digest; score=9.5
 ER  -
 
 TY  - JOUR
-TI  - Learning-Assisted Day-Ahead Energy Scheduling for Frequency-Secure Inverter-Dominated Grids with Grid-Forming Battery Energy Storage Systems
+TI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning
 JO  - arXiv
-AU  - Fan Jiang
-AU  - Xingpeng Li
+AU  - Yashdeep Chaudhary
+AU  - Roberto Armellin
+AU  - Harry Holt
+AU  - Marco Sagliano
 PY  - 2026
-UR  - https://arxiv.org/abs/2606.05534
-N1  - Auto-selected by Power Paper Digest; score=8.6
+UR  - http://arxiv.org/abs/2606.13605v1
+N1  - Auto-selected by Power Paper Digest; score=8.4
 ER  -
 
 TY  - JOUR
-TI  - Surrogate Modeling of Interconnector Flows: A Machine Learning Alternative to Full-Scale Power System Simulations with Application to Cross-Border Electricity Exchange
+TI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction
 JO  - arXiv
-AU  - Robert Gaugl
-AU  - Eloy Insunza
-AU  - José Portela
-AU  - Sonja Wogrin
+AU  - Edoardo Scaccia
+AU  - Eric C. Kerrigan
+AU  - Anna Sadowska
 PY  - 2026
-UR  - https://arxiv.org/abs/2606.03475
-N1  - Auto-selected by Power Paper Digest; score=6.8
+UR  - http://arxiv.org/abs/2606.12345v1
+N1  - Auto-selected by Power Paper Digest; score=8.4
 ER  -
 
 TY  - JOUR
-TI  - Detection of Unknown Attack in Cyber-Physical Power Systems via Self-Supervised Cross-Layer and Cross-Temporal Consistency
+TI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants
+JO  - arXiv
+AU  - Vivek Khatana
+AU  - Soham Chakraborty
+AU  - Murti V. Salapaka
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.12336v1
+N1  - Auto-selected by Power Paper Digest; score=7.1
+ER  -
+
+TY  - JOUR
+TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
 JO  - IEEE Transactions on Smart Grid
-AU  - Luyu Wang
-AU  - Kaifeng Zhang
-AU  - Biplab Sikdar
-AU  - Ying Wang
-AU  - Wenjun Bi
-AU  - Jia Ning
+AU  - Sajal K. Das
+AU  - Yu-Chu Tian
 PY  - 2026
-DO  - 10.1109/tsg.2026.3698557
-UR  - https://doi.org/10.1109/tsg.2026.3698557
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3702702
+UR  - https://doi.org/10.1109/tsg.2026.3702702
+N1  - Auto-selected by Power Paper Digest; score=7.0
 ER  -
 
 TY  - JOUR
-TI  - Distributed Quantized Control for Multiple DC Microgrids via Asymmetric Sampling under Bandwidth Constraints
-JO  - IEEE Transactions on Smart Grid
-AU  - Zeyu Sun
-AU  - Jingang Lai
-AU  - Xiaoping Wang
-AU  - Zhigang Zeng
+TI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Tomás Ochoa
+AU  - Balarko Chaudhuri
+AU  - Mark O'Malley
 PY  - 2026
-DO  - 10.1109/tsg.2026.3699042
-UR  - https://doi.org/10.1109/tsg.2026.3699042
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tpwrs.2026.3701870
+UR  - https://doi.org/10.1109/tpwrs.2026.3701870
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -
 
 TY  - JOUR
-TI  - Robust Region of Attraction for DC Microgrids under Uncertain Loading Conditions
-JO  - IEEE Transactions on Smart Grid
-AU  - Jianzhe Liu
-AU  - Minchang Zhang
-AU  - Canbing Li
-AU  - Sui Peng
-AU  - Yanfeng Wang
-AU  - Guo Chen
-AU  - Xinxi Li
+TI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Likai Zhang
+AU  - Xiuli Wang
+AU  - Hui Guo
+AU  - Xifan Wang
+AU  - Xiong Wu
+AU  - Lei Wu
 PY  - 2026
-DO  - 10.1109/tsg.2026.3698675
-UR  - https://doi.org/10.1109/tsg.2026.3698675
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tpwrs.2026.3701994
+UR  - https://doi.org/10.1109/tpwrs.2026.3701994
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -
 
 TY  - JOUR
-TI  - Vulnerability Analysis of Multi-Timescale DC Microgrids under False Data Injection Attacks
-JO  - IEEE Transactions on Smart Grid
-AU  - Qi Liu
-AU  - Chengcheng Zhao
-AU  - Wenxuan Ma
-AU  - Jiming Chen
+TI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid
+JO  - arXiv
+AU  - Anup Joshi
+AU  - Javier Renedo
+AU  - Xavier Guillaud
 PY  - 2026
-DO  - 10.1109/tsg.2026.3698113
-UR  - https://doi.org/10.1109/tsg.2026.3698113
-N1  - Auto-selected by Power Paper Digest; score=6.5
+UR  - http://arxiv.org/abs/2606.13358v1
+N1  - Auto-selected by Power Paper Digest; score=6.0
 ER  -
 
 TY  - JOUR
-TI  - Global Transient Stability Control for Grid-Following Inverter Based on Elimination of Pendulum-like Periodic Trajectory
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Yumei Ma
-AU  - Shiying Zhou
-AU  - Donghai Zhu
-AU  - Xudong Zou
-AU  - Yong Kang
+TI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers
+JO  - arXiv
+AU  - Thomas Rahab Lacroix
+AU  - Pierre Lemaire
+AU  - Nadia Brauner
 PY  - 2026
-DO  - 10.1109/tste.2026.3698674
-UR  - https://doi.org/10.1109/tste.2026.3698674
-N1  - Auto-selected by Power Paper Digest; score=5.7
+UR  - http://arxiv.org/abs/2606.13058v1
+N1  - Auto-selected by Power Paper Digest; score=5.8
+ER  -
+
+TY  - JOUR
+TI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning
+JO  - arXiv
+AU  - Qingyun Guo
+AU  - Junyi Shi
+AU  - Jianuo Huang
+AU  - Tianyu Shi
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.12640v1
+N1  - Auto-selected by Power Paper Digest; score=5.3
 ER  -

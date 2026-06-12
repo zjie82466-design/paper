@@ -65,6 +65,10 @@ class Paper:
         payload["published_at_local"] = local_dt.isoformat()
         payload["published_date_local"] = local_dt.date().isoformat()
         payload["published_time_local"] = local_dt.strftime("%H:%M")
+        payload["doi_url"] = f"https://doi.org/{self.doi}" if self.doi else None
+        payload["citation_key"] = citation_key(self)
+        payload["bibtex_entry"] = build_bibtex_entry(self)
+        payload["ris_entry"] = build_ris_entry(self)
         return payload
 
 
@@ -125,6 +129,14 @@ JOURNAL_SOURCES = (
         weight=1.16,
     ),
 )
+
+
+SOURCE_NOTES = {
+    "arxiv": "arXiv 来源优先使用官方 API；接口限流或超时时，会退回 recent page 做近似抓取。它反映预印本动态，不代表期刊正式发表。",
+    "ieee": "IEEE 三刊当前通过 Crossref DOI 元数据检索，不依赖 IEEE Xplore API 或机构订阅；Early Access 覆盖取决于 Crossref 是否已登记元数据。",
+    "elsevier": "Applied Energy 和 Joule 当前通过 Crossref 元数据检索；若摘要缺失，网页会给出保守导读并提示打开原文核对。",
+    "nature": "Nature Energy 当前通过 Crossref 元数据检索；高影响期刊论文数量少，筛选更依赖题名、关键词和 DOI 元数据。",
+}
 
 
 KEYWORD_GROUPS: dict[str, dict[str, float]] = {
@@ -990,6 +1002,7 @@ def write_outputs(
             "source_counts": count_by(records, "source"),
             "journal_counts": count_by(records, "journal"),
             "keyword_group_counts": count_keyword_groups(records),
+            "source_notes": SOURCE_NOTES,
             "source_errors": source_errors,
         },
         "sections": sections,
@@ -1037,54 +1050,63 @@ def write_feed(site_dir: Path, records: list[Paper], target_date: date, generate
 
 
 def write_bibtex(site_dir: Path, records: list[Paper]) -> None:
-    entries = []
-    for index, paper in enumerate(records, start=1):
-        key = citation_key(paper, index)
-        fields = {
-            "title": paper.title,
-            "author": " and ".join(paper.authors),
-            "journal": paper.journal,
-            "year": str(paper.published_at.year),
-            "doi": paper.doi or "",
-            "url": paper.url,
-            "note": f"Auto-selected by Power Paper Digest; score={paper.final_score:.1f}",
-        }
-        body = ",\n".join(
-            f"  {name} = {{{escape_bibtex(value)}}}" for name, value in fields.items() if value
-        )
-        entries.append(f"@article{{{key},\n{body}\n}}")
+    entries = [build_bibtex_entry(paper) for paper in records]
     (site_dir / "references.bib").write_text("\n\n".join(entries) + "\n", encoding="utf-8")
 
 
 def write_ris(site_dir: Path, records: list[Paper]) -> None:
-    chunks = []
-    for paper in records:
-        lines = ["TY  - JOUR", f"TI  - {paper.title}", f"JO  - {paper.journal}"]
-        for author in paper.authors:
-            lines.append(f"AU  - {author}")
-        lines.append(f"PY  - {paper.published_at.year}")
-        if paper.doi:
-            lines.append(f"DO  - {paper.doi}")
-        lines.append(f"UR  - {paper.url}")
-        lines.append(f"N1  - Auto-selected by Power Paper Digest; score={paper.final_score:.1f}")
-        lines.append("ER  -")
-        chunks.append("\n".join(lines))
+    chunks = [build_ris_entry(paper) for paper in records]
     (site_dir / "references.ris").write_text("\n\n".join(chunks) + "\n", encoding="utf-8")
 
 
-def citation_key(paper: Paper, index: int) -> str:
+def build_bibtex_entry(paper: Paper) -> str:
+    fields = {
+        "title": paper.title,
+        "author": " and ".join(paper.authors),
+        "journal": paper.journal,
+        "year": str(paper.published_at.year),
+        "doi": paper.doi or "",
+        "url": paper.url,
+        "note": f"Auto-selected by Power Paper Digest; score={paper.final_score:.1f}",
+    }
+    body = ",\n".join(f"  {name} = {{{escape_bibtex(value)}}}" for name, value in fields.items() if value)
+    return f"@article{{{citation_key(paper)},\n{body}\n}}"
+
+
+def build_ris_entry(paper: Paper) -> str:
+    lines = ["TY  - JOUR", f"TI  - {clean_export_text(paper.title)}", f"JO  - {clean_export_text(paper.journal)}"]
+    for author in paper.authors:
+        lines.append(f"AU  - {clean_export_text(author)}")
+    lines.append(f"PY  - {paper.published_at.year}")
+    if paper.doi:
+        lines.append(f"DO  - {clean_export_text(paper.doi)}")
+    lines.append(f"UR  - {clean_export_text(paper.url)}")
+    lines.append(f"N1  - Auto-selected by Power Paper Digest; score={paper.final_score:.1f}")
+    lines.append("ER  -")
+    return "\n".join(lines)
+
+
+def citation_key(paper: Paper) -> str:
     first_author = "paper"
     if paper.authors:
         first_author = re.sub(r"[^A-Za-z0-9]", "", paper.authors[0].split()[-1]).lower() or "paper"
-    title_word = next(
-        (re.sub(r"[^A-Za-z0-9]", "", word).lower() for word in paper.title.split() if len(word) > 3),
-        "digest",
-    )
-    return f"{first_author}{paper.published_at.year}{title_word}{index}"
+    title_word = "digest"
+    for word in paper.title.split():
+        clean_word = re.sub(r"[^A-Za-z0-9]", "", word).lower()
+        if len(clean_word) > 3:
+            title_word = clean_word
+            break
+    identifier = paper.doi or paper.id or paper.url or paper.title
+    suffix = re.sub(r"[^A-Za-z0-9]", "", identifier)[-6:].lower() or "paper"
+    return f"{first_author}{paper.published_at.year}{title_word}{suffix}"
 
 
 def escape_bibtex(value: str) -> str:
-    return value.replace("\\", "\\\\").replace("{", "\\{").replace("}", "\\}")
+    return clean_export_text(value).replace("\\", "\\\\").replace("{", "\\{").replace("}", "\\}")
+
+
+def clean_export_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def count_by(records: list[Paper], attr: str) -> dict[str, int]:

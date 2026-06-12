@@ -47,8 +47,18 @@
           </div>
 
           <div class="control-group">
+            <span>期刊</span>
+            <div id="journal-filters" class="chip-row"></div>
+          </div>
+
+          <div class="control-group">
             <span>关键词类别</span>
             <div id="keyword-filters" class="chip-row"></div>
+          </div>
+
+          <div class="control-group">
+            <span>相关性</span>
+            <div id="label-filters" class="chip-row"></div>
           </div>
 
           <label class="sort-box">
@@ -59,6 +69,13 @@
               <option value="journal">期刊名称</option>
             </select>
           </label>
+
+          <button id="reset-filters" class="reset-button" type="button">清空筛选</button>
+        </section>
+
+        <section class="source-panel" aria-label="数据来源说明">
+          <h3>数据来源说明</h3>
+          <div id="source-notes" class="source-notes"></div>
         </section>
       </aside>
 
@@ -110,6 +127,11 @@
           <a class="primary-link" target="_blank" rel="noreferrer">原文</a>
           <a class="pdf-link" target="_blank" rel="noreferrer" hidden>PDF</a>
           <a class="doi-link" target="_blank" rel="noreferrer" hidden>DOI</a>
+          <button class="copy-doi" type="button" hidden>复制 DOI</button>
+          <button class="copy-bibtex" type="button" hidden>复制 BibTeX</button>
+          <button class="copy-ris" type="button" hidden>复制 RIS</button>
+          <span class="copy-status" aria-live="polite"></span>
+          <textarea class="citation-fallback" readonly hidden></textarea>
         </div>
       </article>
     </template>
@@ -117,4 +139,3 @@
     <script src="./app.js" defer></script>
   </body>
 </html>
-

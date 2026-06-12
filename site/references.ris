@@ -5,6 +5,13 @@ AU  - Haitao Xu
 AU  - Haotian Zhao
 AU  - Hongbin Sun
 AU  - Qinglai Guo
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - 韧性与恢复
+KW  - 电力系统运行与规划
+KW  - stochastic optimization
+KW  - resilience
+KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3702746
 UR  - https://doi.org/10.1109/tpwrs.2026.3702746
@@ -18,6 +25,12 @@ AU  - Yashdeep Chaudhary
 AU  - Roberto Armellin
 AU  - Harry Holt
 AU  - Marco Sagliano
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - chance-constrained
+KW  - reinforcement learning
+KW  - uncertainty
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13605v1
 N1  - Auto-selected by Power Paper Digest; score=8.4
@@ -29,6 +42,13 @@ JO  - arXiv
 AU  - Edoardo Scaccia
 AU  - Eric C. Kerrigan
 AU  - Anna Sadowska
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.12345v1
 N1  - Auto-selected by Power Paper Digest; score=8.4
@@ -40,6 +60,12 @@ JO  - arXiv
 AU  - Vivek Khatana
 AU  - Soham Chakraborty
 AU  - Murti V. Salapaka
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - large-signal stability
+KW  - virtual power plant
+KW  - distributed energy resources
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.12336v1
 N1  - Auto-selected by Power Paper Digest; score=7.1
@@ -50,6 +76,10 @@ TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Fra
 JO  - IEEE Transactions on Smart Grid
 AU  - Sajal K. Das
 AU  - Yu-Chu Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
 DO  - 10.1109/tsg.2026.3702702
 UR  - https://doi.org/10.1109/tsg.2026.3702702
@@ -62,6 +92,10 @@ JO  - IEEE Transactions on Power Systems
 AU  - Tomás Ochoa
 AU  - Balarko Chaudhuri
 AU  - Mark O'Malley
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3701870
 UR  - https://doi.org/10.1109/tpwrs.2026.3701870
@@ -77,6 +111,10 @@ AU  - Hui Guo
 AU  - Xifan Wang
 AU  - Xiong Wu
 AU  - Lei Wu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3701994
 UR  - https://doi.org/10.1109/tpwrs.2026.3701994
@@ -89,6 +127,9 @@ JO  - arXiv
 AU  - Anup Joshi
 AU  - Javier Renedo
 AU  - Xavier Guillaud
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13358v1
 N1  - Auto-selected by Power Paper Digest; score=6.0
@@ -100,6 +141,11 @@ JO  - arXiv
 AU  - Thomas Rahab Lacroix
 AU  - Pierre Lemaire
 AU  - Nadia Brauner
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - robust optimization
+KW  - scheduling
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13058v1
 N1  - Auto-selected by Power Paper Digest; score=5.8
@@ -112,6 +158,9 @@ AU  - Qingyun Guo
 AU  - Junyi Shi
 AU  - Jianuo Huang
 AU  - Tianyu Shi
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.12640v1
 N1  - Auto-selected by Power Paper Digest; score=5.3

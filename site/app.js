@@ -147,6 +147,7 @@ function renderFrame() {
   );
 
   renderSourceNotes(meta.source_notes || {});
+  renderRequirementPanel(meta);
 
   const errorBanner = document.getElementById("error-banner");
   if (meta.source_errors && meta.source_errors.length > 0) {
@@ -228,6 +229,11 @@ function renderPaper(paper) {
     const doi = fragment.querySelector(".doi-link");
     doi.href = paper.doi_url || `https://doi.org/${paper.doi}`;
     doi.hidden = false;
+  }
+  if (paper.xplore_url) {
+    const journalLink = fragment.querySelector(".journal-link");
+    journalLink.href = paper.xplore_url;
+    journalLink.hidden = false;
   }
 
   const status = fragment.querySelector(".copy-status");
@@ -327,6 +333,69 @@ function renderSourceNotes(notes) {
   reminder.className = "note-muted";
   reminder.textContent = "下载权限仍取决于原始数据库、期刊网站和学校账号；本站主要承担发现、筛选、引用导出和导读功能。";
   container.appendChild(reminder);
+}
+
+function renderRequirementPanel(meta) {
+  const targets = meta.ieee_targets || [];
+  document.getElementById("tracked-target-count").textContent = `${targets.length} 个入口`;
+
+  const targetGrid = document.getElementById("ieee-targets");
+  targetGrid.innerHTML = "";
+  targets.forEach((target) => {
+    const card = document.createElement("article");
+    card.className = "target-card";
+
+    const title = document.createElement("h3");
+    title.textContent = target.short_title || target.journal;
+
+    const journal = document.createElement("p");
+    journal.className = "target-journal";
+    journal.textContent = target.journal;
+
+    const count = document.createElement("span");
+    count.className = "target-count";
+    count.textContent = `${target.selected_count || 0} 篇入选`;
+
+    const collection = document.createElement("p");
+    collection.className = "target-collection";
+    collection.textContent = `Zotero 文件夹：${target.zotero_collection || target.journal}`;
+
+    const links = document.createElement("div");
+    links.className = "target-links";
+    links.append(
+      buildTargetLink(target.xplore_url, "IEEE Xplore"),
+      buildTargetLink(target.bibtex_path, "BibTeX"),
+      buildTargetLink(target.ris_path, "RIS"),
+    );
+
+    card.append(title, journal, count, collection, links);
+    targetGrid.appendChild(card);
+  });
+
+  const topics = document.getElementById("required-topics");
+  topics.innerHTML = "";
+  (meta.required_topics || []).forEach((topic) => {
+    const chip = document.createElement("span");
+    chip.textContent = topic;
+    topics.appendChild(chip);
+  });
+
+  const workflow = document.getElementById("workflow-notes");
+  workflow.innerHTML = "";
+  (meta.workflow_notes || []).forEach((note) => {
+    const item = document.createElement("li");
+    item.textContent = note;
+    workflow.appendChild(item);
+  });
+}
+
+function buildTargetLink(href, label) {
+  const link = document.createElement("a");
+  link.href = href;
+  link.textContent = label;
+  link.target = "_blank";
+  link.rel = "noreferrer";
+  return link;
 }
 
 function enableCopyButton(button, text, status, fallback, message) {

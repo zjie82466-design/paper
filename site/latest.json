@@ -7,7 +7,7 @@
     "feed_url": "https://zjie82466-design.github.io/paper/feed.xml",
     "bibtex_url": "https://zjie82466-design.github.io/paper/references.bib",
     "ris_url": "https://zjie82466-design.github.io/paper/references.ris",
-    "generated_at": "2026-06-12T12:24:03.644166+08:00",
+    "generated_at": "2026-06-12T13:00:25.947856+08:00",
     "target_date": "2026-06-12",
     "window_start": "2026-06-06",
     "lookback_days": 7,
@@ -30,9 +30,58 @@
       "构网与暂态稳定": 2,
       "韧性与恢复": 1
     },
+    "required_topics": [
+      "power system operation",
+      "power system planning",
+      "unit commitment",
+      "dispatch",
+      "scheduling",
+      "ai for power system optimization",
+      "resilience enhancement",
+      "resilience evaluation",
+      "robust optimization",
+      "stochastic optimization",
+      "transmission and distribution coordination",
+      "generation and transmission coordination"
+    ],
+    "workflow_notes": [
+      "每周一自动检查上一周新增记录，优先关注 IEEE 三刊 Early Access/Recent Issue 入口。",
+      "每篇入选论文保留 DOI、BibTeX、RIS；IEEE 三刊额外生成分期刊 Zotero 导入文件。",
+      "若不能直接下载全文，先导入引用到 Zotero，再用学校账号或 VPN 在原文页面尝试下载。",
+      "摘要用于初筛，正式阅读时仍需打开原文确认模型、数据、实验效果和局限性。"
+    ],
+    "ieee_targets": [
+      {
+        "journal": "IEEE Transactions on Power Systems",
+        "short_title": "IEEE TPWRS",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems",
+        "bibtex_path": "./zotero/ieee_tpwrs.bib",
+        "ris_path": "./zotero/ieee_tpwrs.ris",
+        "selected_count": 3
+      },
+      {
+        "journal": "IEEE Transactions on Smart Grid",
+        "short_title": "IEEE TSG",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid",
+        "bibtex_path": "./zotero/ieee_tsg.bib",
+        "ris_path": "./zotero/ieee_tsg.ris",
+        "selected_count": 1
+      },
+      {
+        "journal": "IEEE Transactions on Sustainable Energy",
+        "short_title": "IEEE TSTE",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy",
+        "bibtex_path": "./zotero/ieee_tste.bib",
+        "ris_path": "./zotero/ieee_tste.ris",
+        "selected_count": 0
+      }
+    ],
     "source_notes": {
       "arxiv": "arXiv 来源优先使用官方 API；接口限流或超时时，会退回 recent page 做近似抓取。它反映预印本动态，不代表期刊正式发表。",
-      "ieee": "IEEE 三刊当前通过 Crossref DOI 元数据检索，不依赖 IEEE Xplore API 或机构订阅；Early Access 覆盖取决于 Crossref 是否已登记元数据。",
+      "ieee": "IEEE 三刊配置了文档指定的 IEEE Xplore 入口；当前自动检索仍以 Crossref DOI 元数据为主，不依赖 IEEE Xplore API 或机构订阅，Early Access 覆盖取决于元数据登记情况。",
       "elsevier": "Applied Energy 和 Joule 当前通过 Crossref 元数据检索；若摘要缺失，网页会给出保守导读并提示打开原文核对。",
       "nature": "Nature Energy 当前通过 Crossref 元数据检索；高影响期刊论文数量少，筛选更依赖题名、关键词和 DOI 元数据。"
     },
@@ -65,7 +114,10 @@
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "journal_weight": 1.35,
-            "crossref_type": "journal-article"
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
           },
           "matched_keywords": [
             "stochastic optimization",
@@ -90,8 +142,10 @@
           "published_time_local": "04:01",
           "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
           "citation_key": "xu2026dispatch702746",
-          "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -"
+          "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems"
         },
         {
           "id": "10.1109/tsg.2026.3702702",
@@ -112,7 +166,10 @@
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "journal_weight": 1.35,
-            "crossref_type": "journal-article"
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
           },
           "matched_keywords": [
             "microgrid",
@@ -134,8 +191,10 @@
           "published_time_local": "04:01",
           "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
           "citation_key": "das2026postquantum702702",
-          "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -"
+          "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid"
         },
         {
           "id": "10.1109/tpwrs.2026.3701870",
@@ -157,7 +216,10 @@
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "journal_weight": 1.35,
-            "crossref_type": "journal-article"
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
           },
           "matched_keywords": [
             "power system",
@@ -179,8 +241,10 @@
           "published_time_local": "03:53",
           "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701870",
           "citation_key": "ochoa2026optimal701870",
-          "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
+          "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems"
         },
         {
           "id": "10.1109/tpwrs.2026.3701994",
@@ -205,7 +269,10 @@
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "journal_weight": 1.35,
-            "crossref_type": "journal-article"
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
           },
           "matched_keywords": [
             "economic dispatch",
@@ -227,8 +294,10 @@
           "published_time_local": "03:53",
           "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701994",
           "citation_key": "zhang2026cutselection701994",
-          "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
+          "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  keywords = {Promising, 电力系统运行与规划, economic dispatch, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - economic dispatch\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems"
         }
       ]
     },
@@ -284,8 +353,10 @@
           "published_time_local": "01:22",
           "doi_url": null,
           "citation_key": "chaudhary2026distributionagnostic3605v1",
-          "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+          "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         },
         {
           "id": "http://arxiv.org/abs/2606.12345v1",
@@ -332,8 +403,10 @@
           "published_time_local": "01:17",
           "doi_url": null,
           "citation_key": "scaccia2026efficient2345v1",
-          "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+          "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         },
         {
           "id": "http://arxiv.org/abs/2606.12336v1",
@@ -380,8 +453,10 @@
           "published_time_local": "01:06",
           "doi_url": null,
           "citation_key": "khatana2026analysis2336v1",
-          "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -"
+          "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  keywords = {Promising, 构网与暂态稳定, 源网荷储协同, large-signal stability, virtual power plant, distributed energy resources},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - large-signal stability\nKW  - virtual power plant\nKW  - distributed energy resources\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         },
         {
           "id": "http://arxiv.org/abs/2606.13358v1",
@@ -424,8 +499,10 @@
           "published_time_local": "21:45",
           "doi_url": null,
           "citation_key": "joshi2026sizing3358v1",
-          "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -"
+          "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         },
         {
           "id": "http://arxiv.org/abs/2606.13058v1",
@@ -470,8 +547,10 @@
           "published_time_local": "16:41",
           "doi_url": null,
           "citation_key": "lacroix2026scheduling3058v1",
-          "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -"
+          "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Promising, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         },
         {
           "id": "http://arxiv.org/abs/2606.12640v1",
@@ -517,8 +596,10 @@
           "published_time_local": "04:03",
           "doi_url": null,
           "citation_key": "guo2026individual2640v1",
-          "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -"
+          "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null
         }
       ]
     },
@@ -551,7 +632,10 @@
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
         "journal_weight": 1.35,
-        "crossref_type": "journal-article"
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
       },
       "matched_keywords": [
         "stochastic optimization",
@@ -576,8 +660,10 @@
       "published_time_local": "04:01",
       "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
       "citation_key": "xu2026dispatch702746",
-      "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -"
+      "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems"
     },
     {
       "id": "http://arxiv.org/abs/2606.13605v1",
@@ -626,8 +712,10 @@
       "published_time_local": "01:22",
       "doi_url": null,
       "citation_key": "chaudhary2026distributionagnostic3605v1",
-      "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+      "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     },
     {
       "id": "http://arxiv.org/abs/2606.12345v1",
@@ -674,8 +762,10 @@
       "published_time_local": "01:17",
       "doi_url": null,
       "citation_key": "scaccia2026efficient2345v1",
-      "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -"
+      "bibtex_entry": "@article{scaccia2026efficient2345v1,\n  title = {An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction},\n  author = {Edoardo Scaccia and Eric C. Kerrigan and Anna Sadowska},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12345v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=8.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction\nJO  - arXiv\nAU  - Edoardo Scaccia\nAU  - Eric C. Kerrigan\nAU  - Anna Sadowska\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12345v1\nN1  - Auto-selected by Power Paper Digest; score=8.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     },
     {
       "id": "http://arxiv.org/abs/2606.12336v1",
@@ -722,8 +812,10 @@
       "published_time_local": "01:06",
       "doi_url": null,
       "citation_key": "khatana2026analysis2336v1",
-      "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -"
+      "bibtex_entry": "@article{khatana2026analysis2336v1,\n  title = {Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants},\n  author = {Vivek Khatana and Soham Chakraborty and Murti V. Salapaka},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12336v1},\n  keywords = {Promising, 构网与暂态稳定, 源网荷储协同, large-signal stability, virtual power plant, distributed energy resources},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants\nJO  - arXiv\nAU  - Vivek Khatana\nAU  - Soham Chakraborty\nAU  - Murti V. Salapaka\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - large-signal stability\nKW  - virtual power plant\nKW  - distributed energy resources\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12336v1\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     },
     {
       "id": "10.1109/tsg.2026.3702702",
@@ -744,7 +836,10 @@
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
         "journal_weight": 1.35,
-        "crossref_type": "journal-article"
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
       },
       "matched_keywords": [
         "microgrid",
@@ -766,8 +861,10 @@
       "published_time_local": "04:01",
       "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
       "citation_key": "das2026postquantum702702",
-      "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -"
+      "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid"
     },
     {
       "id": "10.1109/tpwrs.2026.3701870",
@@ -789,7 +886,10 @@
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
         "journal_weight": 1.35,
-        "crossref_type": "journal-article"
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
       },
       "matched_keywords": [
         "power system",
@@ -811,8 +911,10 @@
       "published_time_local": "03:53",
       "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701870",
       "citation_key": "ochoa2026optimal701870",
-      "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
+      "bibtex_entry": "@article{ochoa2026optimal701870,\n  title = {Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems},\n  author = {Tomás Ochoa and Balarko Chaudhuri and Mark O'Malley},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701870},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701870},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Tomás Ochoa\nAU  - Balarko Chaudhuri\nAU  - Mark O'Malley\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701870\nUR  - https://doi.org/10.1109/tpwrs.2026.3701870\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems"
     },
     {
       "id": "10.1109/tpwrs.2026.3701994",
@@ -837,7 +939,10 @@
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
         "journal_weight": 1.35,
-        "crossref_type": "journal-article"
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
       },
       "matched_keywords": [
         "economic dispatch",
@@ -859,8 +964,10 @@
       "published_time_local": "03:53",
       "doi_url": "https://doi.org/10.1109/tpwrs.2026.3701994",
       "citation_key": "zhang2026cutselection701994",
-      "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -"
+      "bibtex_entry": "@article{zhang2026cutselection701994,\n  title = {Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems},\n  author = {Likai Zhang and Xiuli Wang and Hui Guo and Xifan Wang and Xiong Wu and Lei Wu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3701994},\n  url = {https://doi.org/10.1109/tpwrs.2026.3701994},\n  keywords = {Promising, 电力系统运行与规划, economic dispatch, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Likai Zhang\nAU  - Xiuli Wang\nAU  - Hui Guo\nAU  - Xifan Wang\nAU  - Xiong Wu\nAU  - Lei Wu\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - economic dispatch\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3701994\nUR  - https://doi.org/10.1109/tpwrs.2026.3701994\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems"
     },
     {
       "id": "http://arxiv.org/abs/2606.13358v1",
@@ -903,8 +1010,10 @@
       "published_time_local": "21:45",
       "doi_url": null,
       "citation_key": "joshi2026sizing3358v1",
-      "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -"
+      "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     },
     {
       "id": "http://arxiv.org/abs/2606.13058v1",
@@ -949,8 +1058,10 @@
       "published_time_local": "16:41",
       "doi_url": null,
       "citation_key": "lacroix2026scheduling3058v1",
-      "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -"
+      "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Promising, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     },
     {
       "id": "http://arxiv.org/abs/2606.12640v1",
@@ -996,8 +1107,10 @@
       "published_time_local": "04:03",
       "doi_url": null,
       "citation_key": "guo2026individual2640v1",
-      "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -"
+      "bibtex_entry": "@article{guo2026individual2640v1,\n  title = {Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning},\n  author = {Qingyun Guo and Junyi Shi and Jianuo Huang and Tianyu Shi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.12640v1},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning\nJO  - arXiv\nAU  - Qingyun Guo\nAU  - Junyi Shi\nAU  - Jianuo Huang\nAU  - Tianyu Shi\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.12640v1\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
     }
   ]
 }

@@ -87,6 +87,24 @@
           </div>
           <p id="visible-count">加载中...</p>
         </div>
+        <section class="requirement-panel" aria-label="IEEE Early Access 与 Zotero 导入">
+          <div class="requirement-heading">
+            <div>
+              <p class="eyebrow">IEEE Early Access Workflow</p>
+              <h2>三刊追踪与 Zotero 分期刊导入</h2>
+            </div>
+            <span id="tracked-target-count" class="meta-pill meta-pill-soft">0 个入口</span>
+          </div>
+          <div id="ieee-targets" class="target-grid"></div>
+          <div class="requirement-block">
+            <h3>检索关键词</h3>
+            <div id="required-topics" class="keyword-strip"></div>
+          </div>
+          <div class="requirement-block">
+            <h3>工作流程</h3>
+            <ol id="workflow-notes" class="workflow-list"></ol>
+          </div>
+        </section>
         <div id="error-banner" class="error-banner" hidden></div>
         <div id="sections"></div>
       </section>
@@ -127,6 +145,7 @@
           <a class="primary-link" target="_blank" rel="noreferrer">原文</a>
           <a class="pdf-link" target="_blank" rel="noreferrer" hidden>PDF</a>
           <a class="doi-link" target="_blank" rel="noreferrer" hidden>DOI</a>
+          <a class="journal-link" target="_blank" rel="noreferrer" hidden>期刊入口</a>
           <button class="copy-doi" type="button" hidden>复制 DOI</button>
           <button class="copy-bibtex" type="button" hidden>复制 BibTeX</button>
           <button class="copy-ris" type="button" hidden>复制 RIS</button>

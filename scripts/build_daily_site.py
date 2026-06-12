@@ -30,6 +30,9 @@ class JournalSource:
     title: str
     issns: tuple[str, ...]
     weight: float
+    xplore_url: str = ""
+    export_slug: str = ""
+    zotero_collection: str = ""
 
 
 @dataclass
@@ -69,6 +72,8 @@ class Paper:
         payload["citation_key"] = citation_key(self)
         payload["bibtex_entry"] = build_bibtex_entry(self)
         payload["ris_entry"] = build_ris_entry(self)
+        payload["xplore_url"] = self.metadata.get("xplore_url")
+        payload["zotero_collection"] = self.metadata.get("zotero_collection")
         return payload
 
 
@@ -92,6 +97,9 @@ JOURNAL_SOURCES = (
         title="IEEE Transactions on Power Systems",
         issns=("0885-8950", "1558-0679"),
         weight=1.35,
+        xplore_url="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        export_slug="ieee_tpwrs",
+        zotero_collection="IEEE Transactions on Power Systems",
     ),
     JournalSource(
         key="ieee",
@@ -99,6 +107,9 @@ JOURNAL_SOURCES = (
         title="IEEE Transactions on Smart Grid",
         issns=("1949-3053", "1949-3061"),
         weight=1.35,
+        xplore_url="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        export_slug="ieee_tsg",
+        zotero_collection="IEEE Transactions on Smart Grid",
     ),
     JournalSource(
         key="ieee",
@@ -106,6 +117,9 @@ JOURNAL_SOURCES = (
         title="IEEE Transactions on Sustainable Energy",
         issns=("1949-3029", "1949-3037"),
         weight=1.25,
+        xplore_url="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        export_slug="ieee_tste",
+        zotero_collection="IEEE Transactions on Sustainable Energy",
     ),
     JournalSource(
         key="elsevier",
@@ -131,9 +145,33 @@ JOURNAL_SOURCES = (
 )
 
 
+REQUIRED_TOPICS = (
+    "power system operation",
+    "power system planning",
+    "unit commitment",
+    "dispatch",
+    "scheduling",
+    "ai for power system optimization",
+    "resilience enhancement",
+    "resilience evaluation",
+    "robust optimization",
+    "stochastic optimization",
+    "transmission and distribution coordination",
+    "generation and transmission coordination",
+)
+
+
+WORKFLOW_NOTES = (
+    "每周一自动检查上一周新增记录，优先关注 IEEE 三刊 Early Access/Recent Issue 入口。",
+    "每篇入选论文保留 DOI、BibTeX、RIS；IEEE 三刊额外生成分期刊 Zotero 导入文件。",
+    "若不能直接下载全文，先导入引用到 Zotero，再用学校账号或 VPN 在原文页面尝试下载。",
+    "摘要用于初筛，正式阅读时仍需打开原文确认模型、数据、实验效果和局限性。",
+)
+
+
 SOURCE_NOTES = {
     "arxiv": "arXiv 来源优先使用官方 API；接口限流或超时时，会退回 recent page 做近似抓取。它反映预印本动态，不代表期刊正式发表。",
-    "ieee": "IEEE 三刊当前通过 Crossref DOI 元数据检索，不依赖 IEEE Xplore API 或机构订阅；Early Access 覆盖取决于 Crossref 是否已登记元数据。",
+    "ieee": "IEEE 三刊配置了文档指定的 IEEE Xplore 入口；当前自动检索仍以 Crossref DOI 元数据为主，不依赖 IEEE Xplore API 或机构订阅，Early Access 覆盖取决于元数据登记情况。",
     "elsevier": "Applied Energy 和 Joule 当前通过 Crossref 元数据检索；若摘要缺失，网页会给出保守导读并提示打开原文核对。",
     "nature": "Nature Energy 当前通过 Crossref 元数据检索；高影响期刊论文数量少，筛选更依赖题名、关键词和 DOI 元数据。",
 }
@@ -641,6 +679,9 @@ def crossref_item_to_paper(item: dict[str, Any], source: JournalSource) -> Paper
             "publisher": item.get("publisher"),
             "journal_weight": source.weight,
             "crossref_type": item.get("type"),
+            "configured_journal": source.title,
+            "xplore_url": source.xplore_url,
+            "zotero_collection": source.zotero_collection or source.title,
         },
     )
 
@@ -1002,6 +1043,9 @@ def write_outputs(
             "source_counts": count_by(records, "source"),
             "journal_counts": count_by(records, "journal"),
             "keyword_group_counts": count_keyword_groups(records),
+            "required_topics": list(REQUIRED_TOPICS),
+            "workflow_notes": list(WORKFLOW_NOTES),
+            "ieee_targets": build_ieee_target_manifest(records),
             "source_notes": SOURCE_NOTES,
             "source_errors": source_errors,
         },
@@ -1015,6 +1059,7 @@ def write_outputs(
     write_feed(site_dir, records, target_date, generated_at)
     write_bibtex(site_dir, records)
     write_ris(site_dir, records)
+    write_zotero_exports(site_dir, records)
 
 
 def write_feed(site_dir: Path, records: list[Paper], target_date: date, generated_at: datetime) -> None:
@@ -1059,6 +1104,65 @@ def write_ris(site_dir: Path, records: list[Paper]) -> None:
     (site_dir / "references.ris").write_text("\n\n".join(chunks) + "\n", encoding="utf-8")
 
 
+def write_zotero_exports(site_dir: Path, records: list[Paper]) -> None:
+    zotero_dir = site_dir / "zotero"
+    zotero_dir.mkdir(parents=True, exist_ok=True)
+    for source in ieee_sources():
+        journal_records = records_for_source_journal(records, source)
+        bibtex_entries = [build_bibtex_entry(paper) for paper in journal_records]
+        ris_entries = [build_ris_entry(paper) for paper in journal_records]
+        (zotero_dir / f"{source.export_slug}.bib").write_text(
+            "\n\n".join(bibtex_entries) + ("\n" if bibtex_entries else ""),
+            encoding="utf-8",
+        )
+        (zotero_dir / f"{source.export_slug}.ris").write_text(
+            "\n\n".join(ris_entries) + ("\n" if ris_entries else ""),
+            encoding="utf-8",
+        )
+
+
+def build_ieee_target_manifest(records: list[Paper]) -> list[dict[str, Any]]:
+    targets = []
+    for source in ieee_sources():
+        journal_records = records_for_source_journal(records, source)
+        targets.append(
+            {
+                "journal": source.title,
+                "short_title": short_journal_title(source.title),
+                "xplore_url": source.xplore_url,
+                "zotero_collection": source.zotero_collection or source.title,
+                "bibtex_path": f"./zotero/{source.export_slug}.bib",
+                "ris_path": f"./zotero/{source.export_slug}.ris",
+                "selected_count": len(journal_records),
+            }
+        )
+    return targets
+
+
+def ieee_sources() -> list[JournalSource]:
+    return [source for source in JOURNAL_SOURCES if source.section == "ieee"]
+
+
+def records_for_source_journal(records: list[Paper], source: JournalSource) -> list[Paper]:
+    return [
+        paper
+        for paper in records
+        if paper.source == source.key
+        and (
+            paper.journal == source.title
+            or paper.metadata.get("configured_journal") == source.title
+        )
+    ]
+
+
+def short_journal_title(title: str) -> str:
+    return {
+        "IEEE Transactions on Power Systems": "IEEE TPWRS",
+        "IEEE Transactions on Smart Grid": "IEEE TSG",
+        "IEEE Transactions on Sustainable Energy": "IEEE TSTE",
+    }.get(title, title)
+
+
 def build_bibtex_entry(paper: Paper) -> str:
     fields = {
         "title": paper.title,
@@ -1067,6 +1171,7 @@ def build_bibtex_entry(paper: Paper) -> str:
         "year": str(paper.published_at.year),
         "doi": paper.doi or "",
         "url": paper.url,
+        "keywords": ", ".join(export_keywords(paper)),
         "note": f"Auto-selected by Power Paper Digest; score={paper.final_score:.1f}",
     }
     body = ",\n".join(f"  {name} = {{{escape_bibtex(value)}}}" for name, value in fields.items() if value)
@@ -1077,6 +1182,8 @@ def build_ris_entry(paper: Paper) -> str:
     lines = ["TY  - JOUR", f"TI  - {clean_export_text(paper.title)}", f"JO  - {clean_export_text(paper.journal)}"]
     for author in paper.authors:
         lines.append(f"AU  - {clean_export_text(author)}")
+    for keyword in export_keywords(paper):
+        lines.append(f"KW  - {clean_export_text(keyword)}")
     lines.append(f"PY  - {paper.published_at.year}")
     if paper.doi:
         lines.append(f"DO  - {clean_export_text(paper.doi)}")
@@ -1084,6 +1191,14 @@ def build_ris_entry(paper: Paper) -> str:
     lines.append(f"N1  - Auto-selected by Power Paper Digest; score={paper.final_score:.1f}")
     lines.append("ER  -")
     return "\n".join(lines)
+
+
+def export_keywords(paper: Paper) -> list[str]:
+    keywords: list[str] = []
+    for value in [paper.relevance_label, *paper.matched_keyword_groups, *paper.matched_keywords]:
+        if value and value not in keywords:
+            keywords.append(value)
+    return keywords
 
 
 def citation_key(paper: Paper) -> str:

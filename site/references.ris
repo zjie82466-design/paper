@@ -15,25 +15,7 @@ KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3702746
 UR  - https://doi.org/10.1109/tpwrs.2026.3702746
-N1  - Auto-selected by Power Paper Digest; score=9.5
-ER  -
-
-TY  - JOUR
-TI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning
-JO  - arXiv
-AU  - Yashdeep Chaudhary
-AU  - Roberto Armellin
-AU  - Harry Holt
-AU  - Marco Sagliano
-KW  - Strong Match
-KW  - 鲁棒随机优化
-KW  - AI+电力优化
-KW  - chance-constrained
-KW  - reinforcement learning
-KW  - uncertainty
-PY  - 2026
-UR  - http://arxiv.org/abs/2606.13605v1
-N1  - Auto-selected by Power Paper Digest; score=8.4
+N1  - Auto-selected by Power Paper Digest; score=9.1
 ER  -
 
 TY  - JOUR
@@ -52,6 +34,24 @@ KW  - microgrids
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.12345v1
 N1  - Auto-selected by Power Paper Digest; score=8.4
+ER  -
+
+TY  - JOUR
+TI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning
+JO  - arXiv
+AU  - Yashdeep Chaudhary
+AU  - Roberto Armellin
+AU  - Harry Holt
+AU  - Marco Sagliano
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - chance-constrained
+KW  - reinforcement learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13605v1
+N1  - Auto-selected by Power Paper Digest; score=8.1
 ER  -
 
 TY  - JOUR
@@ -83,7 +83,7 @@ KW  - microgrids
 PY  - 2026
 DO  - 10.1109/tsg.2026.3702702
 UR  - https://doi.org/10.1109/tsg.2026.3702702
-N1  - Auto-selected by Power Paper Digest; score=7.0
+N1  - Auto-selected by Power Paper Digest; score=6.7
 ER  -
 
 TY  - JOUR
@@ -99,7 +99,7 @@ KW  - power systems
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3701870
 UR  - https://doi.org/10.1109/tpwrs.2026.3701870
-N1  - Auto-selected by Power Paper Digest; score=6.9
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
@@ -118,7 +118,24 @@ KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3701994
 UR  - https://doi.org/10.1109/tpwrs.2026.3701994
-N1  - Auto-selected by Power Paper Digest; score=6.9
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ziqing Zhu
+AU  - Ruoheng Wang
+AU  - Siqi Bu
+AU  - Qin Wang
+KW  - Promising
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3702949
+UR  - https://doi.org/10.1109/tsg.2026.3702949
+N1  - Auto-selected by Power Paper Digest; score=6.1
 ER  -
 
 TY  - JOUR
@@ -164,4 +181,23 @@ KW  - reinforcement learning
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.12640v1
 N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Incentive Compatible Online Pricing of Customer Directrix Load-Based Demand Response for Load Aggregators
+JO  - IEEE Transactions on Smart Grid
+AU  - Yi Zhang
+AU  - Shuai Fan
+AU  - Yan Meng
+AU  - Renke Huang
+AU  - Zuyi Li
+AU  - Jianzhong Wu
+AU  - Guangyu He
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - demand response
+PY  - 2026
+DO  - 10.1109/tsg.2026.3703143
+UR  - https://doi.org/10.1109/tsg.2026.3703143
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

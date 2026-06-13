@@ -1,0 +1,203 @@
+TY  - JOUR
+TI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ziqing Zhu
+AU  - Ruoheng Wang
+AU  - Siqi Bu
+AU  - Qin Wang
+KW  - Promising
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3702949
+UR  - https://doi.org/10.1109/tsg.2026.3702949
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Incentive Compatible Online Pricing of Customer Directrix Load-Based Demand Response for Load Aggregators
+JO  - IEEE Transactions on Smart Grid
+AU  - Yi Zhang
+AU  - Shuai Fan
+AU  - Yan Meng
+AU  - Renke Huang
+AU  - Zuyi Li
+AU  - Jianzhong Wu
+AU  - Guangyu He
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - demand response
+PY  - 2026
+DO  - 10.1109/tsg.2026.3703143
+UR  - https://doi.org/10.1109/tsg.2026.3703143
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach
+JO  - IEEE Transactions on Power Systems
+AU  - Haitao Xu
+AU  - Haotian Zhao
+AU  - Hongbin Sun
+AU  - Qinglai Guo
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - 韧性与恢复
+KW  - 电力系统运行与规划
+KW  - stochastic optimization
+KW  - resilience
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3702746
+UR  - https://doi.org/10.1109/tpwrs.2026.3702746
+N1  - Auto-selected by Power Paper Digest; score=9.1
+ER  -
+
+TY  - JOUR
+TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
+JO  - IEEE Transactions on Smart Grid
+AU  - Sajal K. Das
+AU  - Yu-Chu Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3702702
+UR  - https://doi.org/10.1109/tsg.2026.3702702
+N1  - Auto-selected by Power Paper Digest; score=6.7
+ER  -
+
+TY  - JOUR
+TI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning
+JO  - arXiv
+AU  - Yashdeep Chaudhary
+AU  - Roberto Armellin
+AU  - Harry Holt
+AU  - Marco Sagliano
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - chance-constrained
+KW  - reinforcement learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13605v1
+N1  - Auto-selected by Power Paper Digest; score=8.1
+ER  -
+
+TY  - JOUR
+TI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid
+JO  - arXiv
+AU  - Anup Joshi
+AU  - Javier Renedo
+AU  - Xavier Guillaud
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13358v1
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers
+JO  - arXiv
+AU  - Thomas Rahab Lacroix
+AU  - Pierre Lemaire
+AU  - Nadia Brauner
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - robust optimization
+KW  - scheduling
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13058v1
+N1  - Auto-selected by Power Paper Digest; score=5.8
+ER  -
+
+TY  - JOUR
+TI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning
+JO  - arXiv
+AU  - Qingyun Guo
+AU  - Junyi Shi
+AU  - Jianuo Huang
+AU  - Tianyu Shi
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.12640v1
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction
+JO  - arXiv
+AU  - Edoardo Scaccia
+AU  - Eric C. Kerrigan
+AU  - Anna Sadowska
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.12345v1
+N1  - Auto-selected by Power Paper Digest; score=8.4
+ER  -
+
+TY  - JOUR
+TI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants
+JO  - arXiv
+AU  - Vivek Khatana
+AU  - Soham Chakraborty
+AU  - Murti V. Salapaka
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - large-signal stability
+KW  - virtual power plant
+KW  - distributed energy resources
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.12336v1
+N1  - Auto-selected by Power Paper Digest; score=7.1
+ER  -
+
+TY  - JOUR
+TI  - Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Tomás Ochoa
+AU  - Balarko Chaudhuri
+AU  - Mark O'Malley
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3701870
+UR  - https://doi.org/10.1109/tpwrs.2026.3701870
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Likai Zhang
+AU  - Xiuli Wang
+AU  - Hui Guo
+AU  - Xifan Wang
+AU  - Xiong Wu
+AU  - Lei Wu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3701994
+UR  - https://doi.org/10.1109/tpwrs.2026.3701994
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -

@@ -9,6 +9,8 @@ const SOURCE_LABELS = {
 
 const state = {
   payload: null,
+  archivePayload: null,
+  viewMode: "latest",
   source: "all",
   journal: "all",
   keywordGroup: "all",
@@ -68,11 +70,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!state.activeDialogPaper) return;
     updatePersonalNote(state.activeDialogPaper, event.target.value);
   });
+  document.querySelectorAll("[data-view-mode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.viewMode = button.dataset.viewMode || "latest";
+      normalizeSavedState();
+      saveFilterState();
+      renderFrame();
+      renderSections();
+    });
+  });
 
   try {
     const response = await fetch("./latest.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`latest.json ${response.status}`);
     state.payload = await response.json();
+    state.archivePayload = await fetchArchivePayload(state.payload);
     normalizeSavedState();
     renderFrame();
     renderSections();
@@ -81,21 +93,36 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+async function fetchArchivePayload(fallbackPayload) {
+  try {
+    const response = await fetch("./archive.json", { cache: "no-store" });
+    if (!response.ok) return fallbackPayload;
+    return await response.json();
+  } catch (error) {
+    return fallbackPayload;
+  }
+}
+
 function renderFrame() {
-  const { meta, papers } = state.payload;
-  document.getElementById("site-title").textContent = meta.title;
-  document.getElementById("site-subtitle").textContent = meta.subtitle;
-  document.getElementById("date-window").textContent = `${meta.window_start} 至 ${meta.target_date}`;
-  document.getElementById("updated-at").textContent = `生成于 ${formatDateTime(meta.generated_at, meta.timezone)}`;
-  document.getElementById("paper-count").textContent = `${meta.paper_count} 篇`;
+  const active = activePayload();
+  const { meta, papers } = active;
+  const latestMeta = state.payload.meta;
+  const archiveMeta = (state.archivePayload || state.payload).meta;
+  document.getElementById("site-title").textContent = latestMeta.title;
+  document.getElementById("site-subtitle").textContent = latestMeta.subtitle;
+  document.getElementById("date-window").textContent = `${latestMeta.window_start} 至 ${latestMeta.target_date}`;
+  document.getElementById("updated-at").textContent = `生成于 ${formatDateTime(latestMeta.generated_at, latestMeta.timezone)}`;
+  document.getElementById("paper-count").textContent =
+    `${latestMeta.paper_count} 篇本周 / ${archiveMeta.paper_count || archiveMeta.archive_count || latestMeta.paper_count} 篇留存`;
+  renderViewToggle();
 
   const stats = document.getElementById("stats");
   stats.innerHTML = "";
   [
-    ["入选论文", meta.paper_count],
+    ["本周入选", latestMeta.paper_count],
+    ["历史留存", archiveMeta.paper_count || archiveMeta.archive_count || latestMeta.paper_count],
     ["来源类型", Object.keys(meta.source_counts || {}).length],
     ["覆盖期刊", Object.keys(meta.journal_counts || {}).length],
-    ["关键词类", Object.keys(meta.keyword_group_counts || {}).length],
   ].forEach(([label, value]) => {
     const card = document.createElement("article");
     card.className = "stat-card";
@@ -167,7 +194,7 @@ function renderFrame() {
   renderPersonalFilters();
 
   renderSourceNotes(meta.source_notes || {});
-  renderRequirementPanel(meta);
+  renderRequirementPanel(state.payload.meta);
   renderPersonalSummary();
 
   const errorBanner = document.getElementById("error-banner");
@@ -180,15 +207,29 @@ function renderFrame() {
   }
 }
 
+function activePayload() {
+  if (state.viewMode === "archive" && state.archivePayload) return state.archivePayload;
+  return state.payload;
+}
+
+function renderViewToggle() {
+  document.querySelectorAll("[data-view-mode]").forEach((button) => {
+    const active = button.dataset.viewMode === state.viewMode;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+}
+
 function renderSections() {
   if (!state.payload) return;
+  const dataset = activePayload();
 
   const container = document.getElementById("sections");
   container.innerHTML = "";
   const sectionTemplate = document.getElementById("section-template");
   let visibleTotal = 0;
 
-  Object.entries(state.payload.sections).forEach(([, section]) => {
+  Object.entries(dataset.sections).forEach(([, section]) => {
     const papers = sortPapers(filterPapers(section.papers));
     visibleTotal += papers.length;
 
@@ -466,7 +507,7 @@ function buildPersonalCounts(papers) {
 
 function renderPersonalSummary() {
   if (!state.payload) return;
-  const counts = buildPersonalCounts(state.payload.papers || []);
+  const counts = buildPersonalCounts(activePayload().papers || []);
   const container = document.getElementById("personal-summary");
   container.innerHTML = "";
   [
@@ -483,7 +524,7 @@ function renderPersonalSummary() {
 
 function renderPersonalFilters() {
   if (!state.payload) return;
-  const personalCounts = buildPersonalCounts(state.payload.papers || []);
+  const personalCounts = buildPersonalCounts(activePayload().papers || []);
   buildChips(
     document.getElementById("personal-filters"),
     [
@@ -539,7 +580,7 @@ function renderRequirementPanel(meta) {
 
     const count = document.createElement("span");
     count.className = "target-count";
-    count.textContent = `${target.selected_count || 0} 篇入选`;
+    count.textContent = `本周 ${target.selected_count || 0} / 留存 ${target.archive_count || target.selected_count || 0}`;
 
     const collection = document.createElement("p");
     collection.className = "target-collection";
@@ -549,8 +590,10 @@ function renderRequirementPanel(meta) {
     links.className = "target-links";
     links.append(
       buildTargetLink(target.xplore_url, "IEEE Xplore"),
-      buildTargetLink(target.bibtex_path, "BibTeX"),
-      buildTargetLink(target.ris_path, "RIS"),
+      buildTargetLink(target.bibtex_path, "本周 BibTeX"),
+      buildTargetLink(target.ris_path, "本周 RIS"),
+      buildTargetLink(target.archive_bibtex_path, "历史 BibTeX"),
+      buildTargetLink(target.archive_ris_path, "历史 RIS"),
     );
 
     card.append(title, journal, count, collection, links);
@@ -576,10 +619,11 @@ function renderRequirementPanel(meta) {
 
 function buildTargetLink(href, label) {
   const link = document.createElement("a");
-  link.href = href;
+  link.href = href || "#";
   link.textContent = label;
   link.target = "_blank";
   link.rel = "noreferrer";
+  if (!href) link.setAttribute("aria-disabled", "true");
   return link;
 }
 
@@ -648,16 +692,17 @@ function renderDialogLinks(paper) {
 
 function buildReadingListMarkdown() {
   const papers = sortPapers(
-    (state.payload?.papers || []).filter((paper) => {
+    (activePayload()?.papers || []).filter((paper) => {
       const personal = getPersonalState(paper);
       return personal.priority || personal.saved || personal.read || personal.note.trim();
     }),
   );
-  const sourcePapers = papers.length ? papers : sortPapers(filterPapers(state.payload?.papers || []));
+  const sourcePapers = papers.length ? papers : sortPapers(filterPapers(activePayload()?.papers || []));
   const lines = [
     "# 电力系统论文阅读清单",
     "",
     `生成时间：${new Date().toLocaleString("zh-CN")}`,
+    `数据视图：${state.viewMode === "archive" ? "全部历史" : "本周"}`,
     `论文数量：${sourcePapers.length}`,
     "",
   ];
@@ -770,7 +815,7 @@ function shortJournalName(journal) {
 function loadSavedState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    ["source", "journal", "keywordGroup", "label", "personalFilter", "sort", "query"].forEach((key) => {
+    ["viewMode", "source", "journal", "keywordGroup", "label", "personalFilter", "sort", "query"].forEach((key) => {
       if (typeof saved[key] === "string") state[key] = saved[key];
     });
   } catch (error) {
@@ -787,14 +832,17 @@ function loadSavedState() {
 }
 
 function normalizeSavedState() {
-  const { meta, papers } = state.payload;
+  if (!state.payload) return;
+  const { meta, papers } = activePayload();
   const sources = Object.keys(meta.source_counts || {});
   const journals = Object.keys(meta.journal_counts || {});
   const groups = Object.keys(buildKeywordGroupCounts(papers));
   const labels = Object.keys(buildCounts(papers, (paper) => paper.relevance_label || "Background Read"));
   const personalFilters = ["all", "priority", "saved", "unread", "read", "notes"];
   const sorts = ["score", "latest", "journal", "personal"];
+  const viewModes = ["latest", "archive"];
 
+  if (!viewModes.includes(state.viewMode)) state.viewMode = "latest";
   if (state.source !== "all" && !sources.includes(state.source)) state.source = "all";
   if (state.journal !== "all" && !journals.includes(state.journal)) state.journal = "all";
   if (state.keywordGroup !== "all" && !groups.includes(state.keywordGroup)) state.keywordGroup = "all";
@@ -807,8 +855,11 @@ function normalizeSavedState() {
 }
 
 function saveFilterState() {
-  const { source, journal, keywordGroup, label, personalFilter, sort, query } = state;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ source, journal, keywordGroup, label, personalFilter, sort, query }));
+  const { viewMode, source, journal, keywordGroup, label, personalFilter, sort, query } = state;
+  localStorage.setItem(
+    STORAGE_KEY,
+    JSON.stringify({ viewMode, source, journal, keywordGroup, label, personalFilter, sort, query }),
+  );
 }
 
 function savePersonalState() {

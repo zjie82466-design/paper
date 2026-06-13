@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -44,6 +44,19 @@ jobs:
           DEEPSEEK_BASE_URL: https://api.deepseek.com
           DEEPSEEK_MODEL: deepseek-chat
         run: python -m scripts.build_daily_site
+
+      - name: Commit generated archive
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/latest.json site/archive.json site/archive.bib site/archive.ris site/feed.xml site/references.bib site/references.ris site/zotero
+          if git diff --cached --quiet; then
+            echo "No generated archive changes to commit."
+          else
+            git commit -m "Update weekly paper archive [skip ci]"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

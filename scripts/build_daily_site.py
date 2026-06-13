@@ -1015,15 +1015,17 @@ def write_outputs(
     site_dir = root / "site"
     site_dir.mkdir(parents=True, exist_ok=True)
 
-    sections: dict[str, dict[str, Any]] = {}
-    for section_key, meta in SECTION_META.items():
-        section_records = [paper for paper in records if paper.section == section_key]
-        sections[section_key] = {
-            "title": meta["title"],
-            "description": meta["description"],
-            "count": len(section_records),
-            "papers": [paper.to_dict(settings.timezone_name) for paper in section_records],
-        }
+    current_papers = [paper.to_dict(settings.timezone_name) for paper in records]
+    archive_papers = merge_archive_papers(site_dir, current_papers, generated_at, target_date, earliest_date)
+    sections = build_sections_from_papers(current_papers)
+    archive_payload = build_archive_payload(
+        archive_papers,
+        settings,
+        target_date,
+        earliest_date,
+        generated_at,
+        source_errors,
+    )
 
     payload = {
         "meta": {
@@ -1034,32 +1036,41 @@ def write_outputs(
             "feed_url": f"{SITE_BASE_URL}feed.xml",
             "bibtex_url": f"{SITE_BASE_URL}references.bib",
             "ris_url": f"{SITE_BASE_URL}references.ris",
+            "archive_url": f"{SITE_BASE_URL}archive.json",
+            "archive_bibtex_url": f"{SITE_BASE_URL}archive.bib",
+            "archive_ris_url": f"{SITE_BASE_URL}archive.ris",
             "generated_at": generated_at.isoformat(),
             "target_date": target_date.isoformat(),
             "window_start": earliest_date.isoformat(),
             "lookback_days": settings.lookback_days,
             "timezone": settings.timezone_name,
             "paper_count": len(records),
+            "archive_count": len(archive_papers),
             "source_counts": count_by(records, "source"),
             "journal_counts": count_by(records, "journal"),
             "keyword_group_counts": count_keyword_groups(records),
             "required_topics": list(REQUIRED_TOPICS),
             "workflow_notes": list(WORKFLOW_NOTES),
-            "ieee_targets": build_ieee_target_manifest(records),
+            "ieee_targets": build_ieee_target_manifest(records, archive_papers),
             "source_notes": SOURCE_NOTES,
             "source_errors": source_errors,
         },
         "sections": sections,
-        "papers": [paper.to_dict(settings.timezone_name) for paper in records],
+        "papers": current_papers,
     }
     (site_dir / "latest.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    (site_dir / "archive.json").write_text(
+        json.dumps(archive_payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     write_feed(site_dir, records, target_date, generated_at)
     write_bibtex(site_dir, records)
     write_ris(site_dir, records)
-    write_zotero_exports(site_dir, records)
+    write_archive_exports(site_dir, archive_papers)
+    write_zotero_exports(site_dir, records, archive_papers)
 
 
 def write_feed(site_dir: Path, records: list[Paper], target_date: date, generated_at: datetime) -> None:
@@ -1104,7 +1115,18 @@ def write_ris(site_dir: Path, records: list[Paper]) -> None:
     (site_dir / "references.ris").write_text("\n\n".join(chunks) + "\n", encoding="utf-8")
 
 
-def write_zotero_exports(site_dir: Path, records: list[Paper]) -> None:
+def write_archive_exports(site_dir: Path, archive_papers: list[dict[str, Any]]) -> None:
+    bibtex_entries = [payload_bibtex_entry(paper) for paper in archive_papers]
+    ris_entries = [payload_ris_entry(paper) for paper in archive_papers]
+    (site_dir / "archive.bib").write_text("\n\n".join(bibtex_entries) + ("\n" if bibtex_entries else ""), encoding="utf-8")
+    (site_dir / "archive.ris").write_text("\n\n".join(ris_entries) + ("\n" if ris_entries else ""), encoding="utf-8")
+
+
+def write_zotero_exports(
+    site_dir: Path,
+    records: list[Paper],
+    archive_papers: list[dict[str, Any]] | None = None,
+) -> None:
     zotero_dir = site_dir / "zotero"
     zotero_dir.mkdir(parents=True, exist_ok=True)
     for source in ieee_sources():
@@ -1119,12 +1141,28 @@ def write_zotero_exports(site_dir: Path, records: list[Paper]) -> None:
             "\n\n".join(ris_entries) + ("\n" if ris_entries else ""),
             encoding="utf-8",
         )
+        if archive_papers is not None:
+            journal_archive = archive_papers_for_source_journal(archive_papers, source)
+            archive_bibtex = [payload_bibtex_entry(paper) for paper in journal_archive]
+            archive_ris = [payload_ris_entry(paper) for paper in journal_archive]
+            (zotero_dir / f"{source.export_slug}_archive.bib").write_text(
+                "\n\n".join(archive_bibtex) + ("\n" if archive_bibtex else ""),
+                encoding="utf-8",
+            )
+            (zotero_dir / f"{source.export_slug}_archive.ris").write_text(
+                "\n\n".join(archive_ris) + ("\n" if archive_ris else ""),
+                encoding="utf-8",
+            )
 
 
-def build_ieee_target_manifest(records: list[Paper]) -> list[dict[str, Any]]:
+def build_ieee_target_manifest(
+    records: list[Paper],
+    archive_papers: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     targets = []
     for source in ieee_sources():
         journal_records = records_for_source_journal(records, source)
+        journal_archive = archive_papers_for_source_journal(archive_papers or [], source)
         targets.append(
             {
                 "journal": source.title,
@@ -1133,7 +1171,10 @@ def build_ieee_target_manifest(records: list[Paper]) -> list[dict[str, Any]]:
                 "zotero_collection": source.zotero_collection or source.title,
                 "bibtex_path": f"./zotero/{source.export_slug}.bib",
                 "ris_path": f"./zotero/{source.export_slug}.ris",
+                "archive_bibtex_path": f"./zotero/{source.export_slug}_archive.bib",
+                "archive_ris_path": f"./zotero/{source.export_slug}_archive.ris",
                 "selected_count": len(journal_records),
+                "archive_count": len(journal_archive),
             }
         )
     return targets
@@ -1153,6 +1194,166 @@ def records_for_source_journal(records: list[Paper], source: JournalSource) -> l
             or paper.metadata.get("configured_journal") == source.title
         )
     ]
+
+
+def archive_papers_for_source_journal(
+    papers: list[dict[str, Any]],
+    source: JournalSource,
+) -> list[dict[str, Any]]:
+    return [
+        paper
+        for paper in papers
+        if paper.get("source") == source.key
+        and (
+            paper.get("journal") == source.title
+            or (paper.get("metadata") or {}).get("configured_journal") == source.title
+        )
+    ]
+
+
+def merge_archive_papers(
+    site_dir: Path,
+    current_papers: list[dict[str, Any]],
+    generated_at: datetime,
+    target_date: date,
+    earliest_date: date,
+) -> list[dict[str, Any]]:
+    archive_path = site_dir / "archive.json"
+    existing_papers: list[dict[str, Any]] = []
+    if archive_path.exists():
+        try:
+            existing_payload = json.loads(archive_path.read_text(encoding="utf-8"))
+            existing_papers = [
+                paper for paper in existing_payload.get("papers", []) if isinstance(paper, dict)
+            ]
+        except (OSError, json.JSONDecodeError):
+            existing_papers = []
+    else:
+        latest_path = site_dir / "latest.json"
+        if latest_path.exists():
+            try:
+                latest_payload = json.loads(latest_path.read_text(encoding="utf-8"))
+                existing_papers = [
+                    paper for paper in latest_payload.get("papers", []) if isinstance(paper, dict)
+                ]
+            except (OSError, json.JSONDecodeError):
+                existing_papers = []
+
+    merged: dict[str, dict[str, Any]] = {}
+    for paper in existing_papers:
+        key = archive_key(paper)
+        if key:
+            merged[key] = normalize_archive_paper(paper)
+
+    window_entry = {
+        "window_start": earliest_date.isoformat(),
+        "target_date": target_date.isoformat(),
+        "generated_at": generated_at.isoformat(),
+    }
+    for paper in current_papers:
+        key = archive_key(paper)
+        if not key:
+            continue
+        old = merged.get(key, {})
+        combined = {**old, **paper}
+        combined["first_seen"] = old.get("first_seen") or generated_at.isoformat()
+        combined["last_seen"] = generated_at.isoformat()
+        combined["seen_windows"] = append_seen_window(old.get("seen_windows", []), window_entry)
+        merged[key] = normalize_archive_paper(combined)
+
+    return sorted(
+        merged.values(),
+        key=lambda paper: (
+            paper.get("published_at_local") or paper.get("published_at") or "",
+            float(paper.get("final_score") or 0.0),
+        ),
+        reverse=True,
+    )
+
+
+def normalize_archive_paper(paper: dict[str, Any]) -> dict[str, Any]:
+    paper = dict(paper)
+    paper.setdefault("first_seen", paper.get("generated_at") or paper.get("published_at"))
+    paper.setdefault("last_seen", paper.get("first_seen"))
+    paper.setdefault("seen_windows", [])
+    return paper
+
+
+def append_seen_window(existing: Any, window_entry: dict[str, str]) -> list[dict[str, str]]:
+    windows = [item for item in existing if isinstance(item, dict)] if isinstance(existing, list) else []
+    identity = (window_entry["window_start"], window_entry["target_date"])
+    filtered = [
+        item
+        for item in windows
+        if (item.get("window_start"), item.get("target_date")) != identity
+    ]
+    filtered.append(window_entry)
+    return filtered
+
+
+def archive_key(paper: dict[str, Any]) -> str:
+    doi = str(paper.get("doi") or "").strip().lower()
+    if doi:
+        return f"doi:{doi}"
+    identifier = str(paper.get("id") or "").strip().lower()
+    if identifier:
+        return f"id:{identifier}"
+    url = str(paper.get("url") or "").strip().lower()
+    if url:
+        return f"url:{url}"
+    title = str(paper.get("title") or "").strip()
+    return f"title:{normalize_title(title)}" if title else ""
+
+
+def build_archive_payload(
+    archive_papers: list[dict[str, Any]],
+    settings: Settings,
+    target_date: date,
+    earliest_date: date,
+    generated_at: datetime,
+    source_errors: list[str],
+) -> dict[str, Any]:
+    return {
+        "meta": {
+            "title": "电力系统论文历史库",
+            "subtitle": "长期留存每周自动入选的电力系统论文，按 DOI/标题去重。",
+            "site_base_url": SITE_BASE_URL,
+            "homepage_url": SITE_BASE_URL,
+            "archive_url": f"{SITE_BASE_URL}archive.json",
+            "archive_bibtex_url": f"{SITE_BASE_URL}archive.bib",
+            "archive_ris_url": f"{SITE_BASE_URL}archive.ris",
+            "generated_at": generated_at.isoformat(),
+            "target_date": target_date.isoformat(),
+            "window_start": earliest_date.isoformat(),
+            "lookback_days": settings.lookback_days,
+            "timezone": settings.timezone_name,
+            "paper_count": len(archive_papers),
+            "archive_count": len(archive_papers),
+            "source_counts": count_by_payload(archive_papers, "source"),
+            "journal_counts": count_by_payload(archive_papers, "journal"),
+            "keyword_group_counts": count_keyword_groups_payload(archive_papers),
+            "required_topics": list(REQUIRED_TOPICS),
+            "workflow_notes": list(WORKFLOW_NOTES),
+            "ieee_targets": build_ieee_target_manifest([], archive_papers),
+            "source_notes": SOURCE_NOTES,
+            "source_errors": source_errors,
+        },
+        "sections": build_sections_from_papers(archive_papers),
+        "papers": archive_papers,
+    }
+
+
+def build_sections_from_papers(papers: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    sections: dict[str, dict[str, Any]] = {}
+    for section_key, meta in SECTION_META.items():
+        section_papers = [paper for paper in papers if paper.get("section") == section_key]
+        sections[section_key] = {
+            "title": meta["title"],
+            "description": meta["description"],
+            "count": len(section_papers),
+            "papers": section_papers,
+        }
+    return sections
 
 
 def short_journal_title(title: str) -> str:
@@ -1191,6 +1392,80 @@ def build_ris_entry(paper: Paper) -> str:
     lines.append(f"N1  - Auto-selected by Power Paper Digest; score={paper.final_score:.1f}")
     lines.append("ER  -")
     return "\n".join(lines)
+
+
+def payload_bibtex_entry(paper: dict[str, Any]) -> str:
+    if paper.get("bibtex_entry"):
+        return str(paper["bibtex_entry"]).strip()
+    authors = paper.get("authors") or []
+    fields = {
+        "title": str(paper.get("title") or ""),
+        "author": " and ".join(str(author) for author in authors),
+        "journal": str(paper.get("journal") or ""),
+        "year": str(paper.get("published_date_local") or paper.get("published_at") or "")[:4],
+        "doi": str(paper.get("doi") or ""),
+        "url": str(paper.get("url") or ""),
+        "keywords": ", ".join(payload_export_keywords(paper)),
+        "note": f"Archived by Power Paper Digest; score={float(paper.get('final_score') or 0.0):.1f}",
+    }
+    body = ",\n".join(f"  {name} = {{{escape_bibtex(value)}}}" for name, value in fields.items() if value)
+    return f"@article{{{payload_citation_key(paper)},\n{body}\n}}"
+
+
+def payload_ris_entry(paper: dict[str, Any]) -> str:
+    if paper.get("ris_entry"):
+        return str(paper["ris_entry"]).strip()
+    lines = [
+        "TY  - JOUR",
+        f"TI  - {clean_export_text(str(paper.get('title') or ''))}",
+        f"JO  - {clean_export_text(str(paper.get('journal') or ''))}",
+    ]
+    for author in paper.get("authors") or []:
+        lines.append(f"AU  - {clean_export_text(str(author))}")
+    for keyword in payload_export_keywords(paper):
+        lines.append(f"KW  - {clean_export_text(keyword)}")
+    year = str(paper.get("published_date_local") or paper.get("published_at") or "")[:4]
+    if year:
+        lines.append(f"PY  - {year}")
+    if paper.get("doi"):
+        lines.append(f"DO  - {clean_export_text(str(paper['doi']))}")
+    if paper.get("url"):
+        lines.append(f"UR  - {clean_export_text(str(paper['url']))}")
+    lines.append(f"N1  - Archived by Power Paper Digest; score={float(paper.get('final_score') or 0.0):.1f}")
+    lines.append("ER  -")
+    return "\n".join(lines)
+
+
+def payload_export_keywords(paper: dict[str, Any]) -> list[str]:
+    keywords: list[str] = []
+    values = [
+        paper.get("relevance_label"),
+        *(paper.get("matched_keyword_groups") or []),
+        *(paper.get("matched_keywords") or []),
+    ]
+    for value in values:
+        text = str(value).strip()
+        if text and text not in keywords:
+            keywords.append(text)
+    return keywords
+
+
+def payload_citation_key(paper: dict[str, Any]) -> str:
+    if paper.get("citation_key"):
+        return re.sub(r"[^A-Za-z0-9:_-]", "", str(paper["citation_key"])) or "paperdigest"
+    first_author = "paper"
+    authors = paper.get("authors") or []
+    if authors:
+        first_author = re.sub(r"[^A-Za-z0-9]", "", str(authors[0]).split()[-1]).lower() or "paper"
+    title = str(paper.get("title") or "")
+    title_word = next(
+        (re.sub(r"[^A-Za-z0-9]", "", word).lower() for word in title.split() if len(word) > 3),
+        "digest",
+    )
+    year = str(paper.get("published_date_local") or paper.get("published_at") or "")[:4] or "year"
+    identifier = str(paper.get("doi") or paper.get("id") or paper.get("url") or title)
+    suffix = re.sub(r"[^A-Za-z0-9]", "", identifier)[-6:].lower() or "paper"
+    return f"{first_author}{year}{title_word}{suffix}"
 
 
 def export_keywords(paper: Paper) -> list[str]:
@@ -1232,11 +1507,29 @@ def count_by(records: list[Paper], attr: str) -> dict[str, int]:
     return dict(sorted(counts.items(), key=lambda item: (-item[1], item[0])))
 
 
+def count_by_payload(records: list[dict[str, Any]], attr: str) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for paper in records:
+        value = str(paper.get(attr) or "")
+        if not value:
+            continue
+        counts[value] = counts.get(value, 0) + 1
+    return dict(sorted(counts.items(), key=lambda item: (-item[1], item[0])))
+
+
 def count_keyword_groups(records: list[Paper]) -> dict[str, int]:
     counts: dict[str, int] = {}
     for paper in records:
         for group in paper.matched_keyword_groups:
             counts[group] = counts.get(group, 0) + 1
+    return dict(sorted(counts.items(), key=lambda item: (-item[1], item[0])))
+
+
+def count_keyword_groups_payload(records: list[dict[str, Any]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for paper in records:
+        for group in paper.get("matched_keyword_groups") or []:
+            counts[str(group)] = counts.get(str(group), 0) + 1
     return dict(sorted(counts.items(), key=lambda item: (-item[1], item[0])))
 
 

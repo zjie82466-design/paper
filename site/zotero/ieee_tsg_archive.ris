@@ -1,19 +1,4 @@
 TY  - JOUR
-TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
-JO  - IEEE Transactions on Smart Grid
-AU  - Sajal K. Das
-AU  - Yu-Chu Tian
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3702702
-UR  - https://doi.org/10.1109/tsg.2026.3702702
-N1  - Auto-selected by Power Paper Digest; score=6.7
-ER  -
-
-TY  - JOUR
 TI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach
 JO  - IEEE Transactions on Smart Grid
 AU  - Zixuan Zhu
@@ -47,4 +32,19 @@ PY  - 2026
 DO  - 10.1109/tsg.2026.3703143
 UR  - https://doi.org/10.1109/tsg.2026.3703143
 N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
+JO  - IEEE Transactions on Smart Grid
+AU  - Sajal K. Das
+AU  - Yu-Chu Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3702702
+UR  - https://doi.org/10.1109/tsg.2026.3702702
+N1  - Auto-selected by Power Paper Digest; score=6.7
 ER  -

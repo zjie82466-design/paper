@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 13:00:25 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 15:20:05 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-06-12</title>
+      <title>电力系统论文周报 · 2026-06-13</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-06-12</guid>
-      <pubDate>Fri, 12 Jun 2026 13:00:25 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-06-12
-1. Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach [IEEE Transactions on Power Systems] - 9.5/10
-2. Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning [arXiv] - 8.4/10
-3. An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction [arXiv] - 8.4/10
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-06-13</guid>
+      <pubDate>Sat, 13 Jun 2026 15:20:05 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-06-13
+1. Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach [IEEE Transactions on Power Systems] - 9.1/10
+2. An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction [arXiv] - 8.4/10
+3. Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning [arXiv] - 8.1/10
 4. Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants [arXiv] - 7.1/10
-5. Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework [IEEE Transactions on Smart Grid] - 7.0/10
-6. Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems [IEEE Transactions on Power Systems] - 6.9/10
-7. Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems [IEEE Transactions on Power Systems] - 6.9/10
-8. Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid [arXiv] - 6.0/10</description>
+5. Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework [IEEE Transactions on Smart Grid] - 6.7/10
+6. Optimal Control for Robust Dynamic Performance in Inverter-Dominated Power Systems [IEEE Transactions on Power Systems] - 6.5/10
+7. Cut-Selection Enhanced Risk-Averse Stochastic Dual Dynamic Programming for Economic Dispatch with Carbon Capture Systems [IEEE Transactions on Power Systems] - 6.5/10
+8. V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach [IEEE Transactions on Smart Grid] - 6.1/10</description>
     </item>
   </channel>
 </rss>

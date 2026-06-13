@@ -6,12 +6,16 @@
 
 - GitHub Pages 静态网页
 - `latest.json` 数据文件
+- `archive.json` 长期历史库，不会被新一周覆盖
 - `feed.xml` RSS
-- `references.bib` 与 `references.ris`，用于 Zotero 导入
+- `references.bib` 与 `references.ris`，用于本周 Zotero 导入
+- `archive.bib` 与 `archive.ris`，用于导入全部历史留存论文
 
 网页支持按来源、期刊、关键词类别、相关性标签、阅读状态筛选，支持标题/作者/关键词全文检索，并可对单篇论文复制 DOI、BibTeX 或 RIS。筛选状态会保存在浏览器本地，刷新页面后仍会保留。
 
 日常阅读时，可以在浏览器本地标记重点、收藏、已读，给单篇论文写备注，打开详情弹窗查看摘要/价值/局限/原始摘要，并导出 Markdown 阅读清单。
+
+网页右上方可切换“本周”和“全部历史”。每周更新会将新论文追加进历史库，并按 DOI/ID/标题去重保留旧论文。
 
 针对 IEEE Transactions on Power Systems、IEEE Transactions on Smart Grid、IEEE Transactions on Sustainable Energy，系统额外生成 `site/zotero/` 下的分期刊 BibTeX/RIS 文件，便于导入 Zotero 后放入不同期刊文件夹。
 

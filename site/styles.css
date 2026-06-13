@@ -84,6 +84,7 @@ h1 {
 .paper-actions,
 .reading-actions,
 .dialog-links,
+.view-toggle,
 .keywords {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +121,8 @@ h1 {
 .target-links a,
 .paper-actions button,
 .reading-actions button,
-.dialog-links a {
+.dialog-links a,
+.view-toggle button {
   display: inline-flex;
   min-height: 36px;
   align-items: center;
@@ -137,7 +139,8 @@ h1 {
 
 .card-links button,
 .paper-actions button,
-.reading-actions button {
+.reading-actions button,
+.view-toggle button {
   cursor: pointer;
   font-family: inherit;
 }
@@ -364,6 +367,35 @@ textarea {
 .content-title h2 {
   margin-bottom: 0;
   font-size: 26px;
+}
+
+.content-tools {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+}
+
+.view-toggle {
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.view-toggle button {
+  min-height: 32px;
+  border-color: transparent;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.view-toggle button.is-active {
+  border-color: rgba(15, 118, 110, 0.28);
+  background: #fff;
+  color: var(--accent);
+  box-shadow: 0 4px 14px rgba(29, 45, 57, 0.08);
 }
 
 #visible-count {
@@ -802,5 +834,9 @@ textarea {
   .section-heading {
     align-items: start;
     flex-direction: column;
+  }
+
+  .content-tools {
+    justify-items: start;
   }
 }

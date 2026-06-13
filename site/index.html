@@ -28,6 +28,9 @@
         <a href="./feed.xml" target="_blank" rel="noreferrer">RSS</a>
         <a href="./references.bib" target="_blank" rel="noreferrer">BibTeX</a>
         <a href="./references.ris" target="_blank" rel="noreferrer">RIS</a>
+        <a href="./archive.json" target="_blank" rel="noreferrer">历史库</a>
+        <a href="./archive.bib" target="_blank" rel="noreferrer">历史 BibTeX</a>
+        <a href="./archive.ris" target="_blank" rel="noreferrer">历史 RIS</a>
       </nav>
     </header>
 
@@ -100,7 +103,13 @@
             <p class="eyebrow">Curated Reading Queue</p>
             <h2>本周期入选论文</h2>
           </div>
-          <p id="visible-count">加载中...</p>
+          <div class="content-tools">
+            <div id="view-toggle" class="view-toggle" aria-label="数据视图">
+              <button type="button" data-view-mode="latest">本周</button>
+              <button type="button" data-view-mode="archive">全部历史</button>
+            </div>
+            <p id="visible-count">加载中...</p>
+          </div>
         </div>
         <section class="requirement-panel" aria-label="IEEE Early Access 与 Zotero 导入">
           <div class="requirement-heading">

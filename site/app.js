@@ -1,4 +1,5 @@
 const STORAGE_KEY = "power-paper-digest-filters-v2";
+const PERSONAL_STORAGE_KEY = "power-paper-digest-personal-v1";
 const SOURCE_LABELS = {
   arxiv: "arXiv",
   ieee: "IEEE",
@@ -12,8 +13,11 @@ const state = {
   journal: "all",
   keywordGroup: "all",
   label: "all",
+  personalFilter: "all",
   sort: "score",
   query: "",
+  paperState: {},
+  activeDialogPaper: null,
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -42,6 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     state.journal = "all";
     state.keywordGroup = "all";
     state.label = "all";
+    state.personalFilter = "all";
     state.sort = "score";
     state.query = "";
     sortSelect.value = state.sort;
@@ -49,6 +54,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     saveFilterState();
     renderFrame();
     renderSections();
+  });
+
+  document.getElementById("export-reading-list").addEventListener("click", () => {
+    downloadText("power-paper-reading-list.md", buildReadingListMarkdown());
+  });
+
+  document.getElementById("dialog-close").addEventListener("click", closePaperDialog);
+  document.getElementById("paper-dialog").addEventListener("click", (event) => {
+    if (event.target.id === "paper-dialog") closePaperDialog();
+  });
+  document.getElementById("dialog-note").addEventListener("input", (event) => {
+    if (!state.activeDialogPaper) return;
+    updatePersonalNote(state.activeDialogPaper, event.target.value);
   });
 
   try {
@@ -146,8 +164,11 @@ function renderFrame() {
     },
   );
 
+  renderPersonalFilters();
+
   renderSourceNotes(meta.source_notes || {});
   renderRequirementPanel(meta);
+  renderPersonalSummary();
 
   const errorBanner = document.getElementById("error-banner");
   if (meta.source_errors && meta.source_errors.length > 0) {
@@ -193,6 +214,11 @@ function renderSections() {
 
 function renderPaper(paper) {
   const fragment = document.getElementById("paper-template").content.cloneNode(true);
+  const personal = getPersonalState(paper);
+  const card = fragment.querySelector(".paper-card");
+  card.classList.toggle("is-priority", personal.priority);
+  card.classList.toggle("is-saved", personal.saved);
+  card.classList.toggle("is-read", personal.read);
   fragment.querySelector(".source").textContent = sourceLabel(paper.source);
   fragment.querySelector(".journal").textContent = paper.journal;
   fragment.querySelector(".age").textContent = paper.published_date_local;
@@ -201,6 +227,7 @@ function renderPaper(paper) {
     `${(paper.authors || []).slice(0, 6).join(", ") || "Unknown authors"} · ${paper.published_time_local}`;
   fragment.querySelector(".score").textContent = `推荐分 ${Number(paper.final_score).toFixed(1)} / 10`;
   fragment.querySelector(".label").textContent = paper.relevance_label;
+  setupPersonalActions(fragment, paper);
   fragment.querySelector(".reason").textContent = paper.score_reason || "";
   fragment.querySelector(".summary").textContent = paper.ai_summary || "";
   fragment.querySelector(".value").textContent = paper.application_value || "";
@@ -242,6 +269,14 @@ function renderPaper(paper) {
   enableCopyButton(fragment.querySelector(".copy-bibtex"), paper.bibtex_entry, status, fallback, "BibTeX 已复制");
   enableCopyButton(fragment.querySelector(".copy-ris"), paper.ris_entry, status, fallback, "RIS 已复制");
 
+  const noteBox = fragment.querySelector(".note-box");
+  const noteInput = fragment.querySelector(".note-input");
+  noteInput.value = personal.note || "";
+  noteBox.open = Boolean(personal.note);
+  noteInput.addEventListener("input", (event) => {
+    updatePersonalNote(paper, event.target.value);
+  });
+
   return fragment;
 }
 
@@ -252,6 +287,7 @@ function filterPapers(papers) {
     const groupMatch =
       state.keywordGroup === "all" || (paper.matched_keyword_groups || []).includes(state.keywordGroup);
     const labelMatch = state.label === "all" || paper.relevance_label === state.label;
+    const personalMatch = matchesPersonalFilter(paper);
     const haystack = [
       paper.title,
       paper.journal,
@@ -263,11 +299,12 @@ function filterPapers(papers) {
       paper.ai_summary || "",
       paper.application_value || "",
       paper.limitations || "",
+      getPersonalState(paper).note || "",
     ]
       .join(" ")
       .toLowerCase();
     const queryMatch = !state.query || haystack.includes(state.query);
-    return sourceMatch && journalMatch && groupMatch && labelMatch && queryMatch;
+    return sourceMatch && journalMatch && groupMatch && labelMatch && personalMatch && queryMatch;
   });
 }
 
@@ -278,6 +315,9 @@ function sortPapers(papers) {
     }
     if (state.sort === "journal") {
       return left.journal.localeCompare(right.journal);
+    }
+    if (state.sort === "personal") {
+      return personalRank(right) - personalRank(left) || right.final_score - left.final_score;
     }
     return right.final_score - left.final_score;
   });
@@ -316,6 +356,151 @@ function buildChips(container, options, active, onClick) {
     });
     container.appendChild(button);
   });
+}
+
+function setupPersonalActions(fragment, paper) {
+  const detailButton = fragment.querySelector(".detail-button");
+  const priorityButton = fragment.querySelector(".priority-button");
+  const savedButton = fragment.querySelector(".saved-button");
+  const readButton = fragment.querySelector(".read-button");
+
+  detailButton.addEventListener("click", () => openPaperDialog(paper));
+  priorityButton.addEventListener("click", () => togglePersonalFlag(paper, "priority"));
+  savedButton.addEventListener("click", () => togglePersonalFlag(paper, "saved"));
+  readButton.addEventListener("click", () => togglePersonalFlag(paper, "read"));
+
+  syncPersonalButtons(fragment, paper);
+}
+
+function syncPersonalButtons(fragment, paper) {
+  const personal = getPersonalState(paper);
+  const buttonMap = [
+    [".priority-button", personal.priority, "重点", "重点中"],
+    [".saved-button", personal.saved, "收藏", "已收藏"],
+    [".read-button", personal.read, "已读", "已读"],
+  ];
+  buttonMap.forEach(([selector, active, label, activeLabel]) => {
+    const button = fragment.querySelector(selector);
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+    button.textContent = active ? activeLabel : label;
+  });
+}
+
+function togglePersonalFlag(paper, flag) {
+  const key = paperKey(paper);
+  const personal = getPersonalState(paper);
+  state.paperState[key] = { ...personal, [flag]: !personal[flag] };
+  cleanupPersonalState(key);
+  savePersonalState();
+  renderFrame();
+  renderSections();
+}
+
+function updatePersonalNote(paper, note) {
+  const key = paperKey(paper);
+  const personal = getPersonalState(paper);
+  state.paperState[key] = { ...personal, note };
+  cleanupPersonalState(key);
+  savePersonalState();
+  renderPersonalSummary();
+  renderPersonalFilters();
+}
+
+function cleanupPersonalState(key) {
+  const personal = state.paperState[key];
+  if (!personal) return;
+  if (!personal.priority && !personal.saved && !personal.read && !(personal.note || "").trim()) {
+    delete state.paperState[key];
+  }
+}
+
+function getPersonalState(paper) {
+  const saved = state.paperState[paperKey(paper)] || {};
+  return {
+    priority: Boolean(saved.priority),
+    saved: Boolean(saved.saved),
+    read: Boolean(saved.read),
+    note: typeof saved.note === "string" ? saved.note : "",
+  };
+}
+
+function paperKey(paper) {
+  if (paper.doi) return `doi:${paper.doi.toLowerCase()}`;
+  if (paper.id) return `id:${paper.id}`;
+  return `title:${paper.title}`;
+}
+
+function matchesPersonalFilter(paper) {
+  const personal = getPersonalState(paper);
+  if (state.personalFilter === "priority") return personal.priority;
+  if (state.personalFilter === "saved") return personal.saved;
+  if (state.personalFilter === "read") return personal.read;
+  if (state.personalFilter === "unread") return !personal.read;
+  if (state.personalFilter === "notes") return Boolean(personal.note.trim());
+  return true;
+}
+
+function personalRank(paper) {
+  const personal = getPersonalState(paper);
+  return (
+    (personal.priority ? 100 : 0) +
+    (personal.saved ? 40 : 0) +
+    (!personal.read ? 10 : 0) +
+    (personal.note.trim() ? 5 : 0)
+  );
+}
+
+function buildPersonalCounts(papers) {
+  const counts = { priority: 0, saved: 0, read: 0, unread: 0, notes: 0 };
+  papers.forEach((paper) => {
+    const personal = getPersonalState(paper);
+    if (personal.priority) counts.priority += 1;
+    if (personal.saved) counts.saved += 1;
+    if (personal.read) counts.read += 1;
+    if (!personal.read) counts.unread += 1;
+    if (personal.note.trim()) counts.notes += 1;
+  });
+  return counts;
+}
+
+function renderPersonalSummary() {
+  if (!state.payload) return;
+  const counts = buildPersonalCounts(state.payload.papers || []);
+  const container = document.getElementById("personal-summary");
+  container.innerHTML = "";
+  [
+    ["重点", counts.priority],
+    ["收藏", counts.saved],
+    ["已读", counts.read],
+    ["备注", counts.notes],
+  ].forEach(([label, value]) => {
+    const item = document.createElement("span");
+    item.innerHTML = `<strong>${value}</strong>${label}`;
+    container.appendChild(item);
+  });
+}
+
+function renderPersonalFilters() {
+  if (!state.payload) return;
+  const personalCounts = buildPersonalCounts(state.payload.papers || []);
+  buildChips(
+    document.getElementById("personal-filters"),
+    [
+      { value: "all", label: "全部" },
+      { value: "priority", label: `重点 (${personalCounts.priority})` },
+      { value: "saved", label: `收藏 (${personalCounts.saved})` },
+      { value: "unread", label: `未读 (${personalCounts.unread})` },
+      { value: "read", label: `已读 (${personalCounts.read})` },
+      { value: "notes", label: `有备注 (${personalCounts.notes})` },
+    ],
+    state.personalFilter,
+    (value) => {
+      state.personalFilter = value;
+      saveFilterState();
+      renderSections();
+    },
+  );
 }
 
 function renderSourceNotes(notes) {
@@ -398,6 +583,121 @@ function buildTargetLink(href, label) {
   return link;
 }
 
+function openPaperDialog(paper) {
+  state.activeDialogPaper = paper;
+  const dialog = document.getElementById("paper-dialog");
+  document.getElementById("dialog-source").textContent =
+    `${sourceLabel(paper.source)} · ${paper.journal} · ${paper.published_date_local}`;
+  document.getElementById("dialog-title").textContent = paper.title;
+  document.getElementById("dialog-authors").textContent =
+    `${(paper.authors || []).join(", ") || "Unknown authors"} · 推荐分 ${Number(paper.final_score).toFixed(1)} / 10`;
+  renderDialogMeta(paper);
+  document.getElementById("dialog-summary").textContent = paper.ai_summary || "暂无自动导读。";
+  document.getElementById("dialog-value").textContent = paper.application_value || "暂无应用价值说明。";
+  document.getElementById("dialog-limitations").textContent = paper.limitations || "暂无局限说明。";
+  document.getElementById("dialog-abstract").textContent = paper.abstract || "公开元数据暂未提供摘要。";
+  document.getElementById("dialog-note").value = getPersonalState(paper).note || "";
+  renderDialogLinks(paper);
+
+  if (typeof dialog.showModal === "function") {
+    dialog.showModal();
+  } else {
+    dialog.setAttribute("open", "");
+  }
+}
+
+function closePaperDialog() {
+  const dialog = document.getElementById("paper-dialog");
+  if (dialog.open && typeof dialog.close === "function") {
+    dialog.close();
+  } else {
+    dialog.removeAttribute("open");
+  }
+  state.activeDialogPaper = null;
+  renderSections();
+}
+
+function renderDialogMeta(paper) {
+  const container = document.getElementById("dialog-meta");
+  container.innerHTML = "";
+  [
+    ["相关性", paper.relevance_label],
+    ["命中类别", (paper.matched_keyword_groups || []).join("、")],
+    ["命中关键词", (paper.matched_keywords || []).slice(0, 8).join("、")],
+    ["DOI", paper.doi || "暂无"],
+  ].forEach(([label, value]) => {
+    const item = document.createElement("span");
+    item.innerHTML = `<strong>${label}</strong>${value || "暂无"}`;
+    container.appendChild(item);
+  });
+}
+
+function renderDialogLinks(paper) {
+  const container = document.getElementById("dialog-links");
+  container.innerHTML = "";
+  [
+    [paper.url, "原文"],
+    [paper.pdf_url, "PDF"],
+    [paper.doi_url || (paper.doi ? `https://doi.org/${paper.doi}` : ""), "DOI"],
+    [paper.xplore_url, "期刊入口"],
+  ].forEach(([href, label]) => {
+    if (!href) return;
+    container.appendChild(buildTargetLink(href, label));
+  });
+}
+
+function buildReadingListMarkdown() {
+  const papers = sortPapers(
+    (state.payload?.papers || []).filter((paper) => {
+      const personal = getPersonalState(paper);
+      return personal.priority || personal.saved || personal.read || personal.note.trim();
+    }),
+  );
+  const sourcePapers = papers.length ? papers : sortPapers(filterPapers(state.payload?.papers || []));
+  const lines = [
+    "# 电力系统论文阅读清单",
+    "",
+    `生成时间：${new Date().toLocaleString("zh-CN")}`,
+    `论文数量：${sourcePapers.length}`,
+    "",
+  ];
+
+  sourcePapers.forEach((paper, index) => {
+    const personal = getPersonalState(paper);
+    const tags = [
+      personal.priority ? "重点" : "",
+      personal.saved ? "收藏" : "",
+      personal.read ? "已读" : "未读",
+    ].filter(Boolean);
+    lines.push(`## ${index + 1}. ${paper.title}`);
+    lines.push("");
+    lines.push(`- 期刊/来源：${paper.journal} (${sourceLabel(paper.source)})`);
+    lines.push(`- 发布时间：${paper.published_date_local}`);
+    lines.push(`- 推荐分：${Number(paper.final_score).toFixed(1)} / 10；状态：${tags.join("、")}`);
+    lines.push(`- 作者：${(paper.authors || []).join(", ") || "Unknown authors"}`);
+    if (paper.doi) lines.push(`- DOI：${paper.doi}`);
+    lines.push(`- 链接：${paper.url}`);
+    if (paper.matched_keywords?.length) lines.push(`- 命中关键词：${paper.matched_keywords.slice(0, 8).join("、")}`);
+    lines.push(`- 导读：${(paper.ai_summary || "").replace(/\s+/g, " ").trim() || "暂无"}`);
+    if (personal.note.trim()) lines.push(`- 我的备注：${personal.note.trim().replace(/\s+/g, " ")}`);
+    lines.push("");
+  });
+
+  return lines.join("\n");
+}
+
+function downloadText(filename, content) {
+  const blob = new Blob([content], { type: "text/markdown;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 function enableCopyButton(button, text, status, fallback, message) {
   if (!text) return;
   button.hidden = false;
@@ -470,11 +770,19 @@ function shortJournalName(journal) {
 function loadSavedState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    ["source", "journal", "keywordGroup", "label", "sort", "query"].forEach((key) => {
+    ["source", "journal", "keywordGroup", "label", "personalFilter", "sort", "query"].forEach((key) => {
       if (typeof saved[key] === "string") state[key] = saved[key];
     });
   } catch (error) {
     localStorage.removeItem(STORAGE_KEY);
+  }
+
+  try {
+    const savedPersonalState = JSON.parse(localStorage.getItem(PERSONAL_STORAGE_KEY) || "{}");
+    state.paperState = savedPersonalState && typeof savedPersonalState === "object" ? savedPersonalState : {};
+  } catch (error) {
+    localStorage.removeItem(PERSONAL_STORAGE_KEY);
+    state.paperState = {};
   }
 }
 
@@ -484,12 +792,14 @@ function normalizeSavedState() {
   const journals = Object.keys(meta.journal_counts || {});
   const groups = Object.keys(buildKeywordGroupCounts(papers));
   const labels = Object.keys(buildCounts(papers, (paper) => paper.relevance_label || "Background Read"));
-  const sorts = ["score", "latest", "journal"];
+  const personalFilters = ["all", "priority", "saved", "unread", "read", "notes"];
+  const sorts = ["score", "latest", "journal", "personal"];
 
   if (state.source !== "all" && !sources.includes(state.source)) state.source = "all";
   if (state.journal !== "all" && !journals.includes(state.journal)) state.journal = "all";
   if (state.keywordGroup !== "all" && !groups.includes(state.keywordGroup)) state.keywordGroup = "all";
   if (state.label !== "all" && !labels.includes(state.label)) state.label = "all";
+  if (!personalFilters.includes(state.personalFilter)) state.personalFilter = "all";
   if (!sorts.includes(state.sort)) state.sort = "score";
   document.getElementById("sort-select").value = state.sort;
   document.getElementById("search-input").value = state.query;
@@ -497,8 +807,12 @@ function normalizeSavedState() {
 }
 
 function saveFilterState() {
-  const { source, journal, keywordGroup, label, sort, query } = state;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ source, journal, keywordGroup, label, sort, query }));
+  const { source, journal, keywordGroup, label, personalFilter, sort, query } = state;
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ source, journal, keywordGroup, label, personalFilter, sort, query }));
+}
+
+function savePersonalState() {
+  localStorage.setItem(PERSONAL_STORAGE_KEY, JSON.stringify(state.paperState));
 }
 
 function renderError(error) {

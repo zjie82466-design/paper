@@ -61,12 +61,18 @@
             <div id="label-filters" class="chip-row"></div>
           </div>
 
+          <div class="control-group">
+            <span>阅读状态</span>
+            <div id="personal-filters" class="chip-row"></div>
+          </div>
+
           <label class="sort-box">
             <span>排序</span>
             <select id="sort-select">
               <option value="score">综合评分</option>
               <option value="latest">发布时间</option>
               <option value="journal">期刊名称</option>
+              <option value="personal">个人优先</option>
             </select>
           </label>
 
@@ -76,6 +82,15 @@
         <section class="source-panel" aria-label="数据来源说明">
           <h3>数据来源说明</h3>
           <div id="source-notes" class="source-notes"></div>
+        </section>
+
+        <section class="reading-panel" aria-label="我的阅读">
+          <h3>我的阅读</h3>
+          <div id="personal-summary" class="personal-summary"></div>
+          <div class="reading-actions">
+            <button id="export-reading-list" type="button">导出阅读清单</button>
+          </div>
+          <p class="panel-note">重点、收藏、已读和备注只保存在当前浏览器。</p>
         </section>
       </aside>
 
@@ -136,6 +151,12 @@
           <span class="score"></span>
           <span class="label"></span>
         </div>
+        <div class="paper-actions">
+          <button class="detail-button" type="button">详情</button>
+          <button class="priority-button" type="button">重点</button>
+          <button class="saved-button" type="button">收藏</button>
+          <button class="read-button" type="button">已读</button>
+        </div>
         <p class="reason"></p>
         <div class="keywords"></div>
         <p class="summary"></p>
@@ -152,8 +173,40 @@
           <span class="copy-status" aria-live="polite"></span>
           <textarea class="citation-fallback" readonly hidden></textarea>
         </div>
+        <details class="note-box">
+          <summary>个人备注</summary>
+          <textarea class="note-input" placeholder="记录为什么要读、与课题的关系、后续复现想法"></textarea>
+        </details>
       </article>
     </template>
+
+    <dialog id="paper-dialog" class="paper-dialog">
+      <article>
+        <button id="dialog-close" class="dialog-close" type="button" aria-label="关闭">×</button>
+        <p class="eyebrow" id="dialog-source"></p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-authors" class="dialog-muted"></p>
+        <div id="dialog-meta" class="dialog-meta"></div>
+        <section>
+          <h3>摘要与导读</h3>
+          <p id="dialog-summary"></p>
+        </section>
+        <section>
+          <h3>价值与局限</h3>
+          <p id="dialog-value"></p>
+          <p id="dialog-limitations"></p>
+        </section>
+        <section>
+          <h3>原始摘要</h3>
+          <p id="dialog-abstract"></p>
+        </section>
+        <section>
+          <h3>个人备注</h3>
+          <textarea id="dialog-note" placeholder="这里的备注会同步到论文卡片"></textarea>
+        </section>
+        <div id="dialog-links" class="dialog-links"></div>
+      </article>
+    </dialog>
 
     <script src="./app.js" defer></script>
   </body>

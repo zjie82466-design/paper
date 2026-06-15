@@ -7,28 +7,28 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-06-13T15:20:05.636688+08:00",
-    "target_date": "2026-06-13",
-    "window_start": "2026-06-07",
+    "generated_at": "2026-06-15T13:34:31.124834+08:00",
+    "target_date": "2026-06-15",
+    "window_start": "2026-06-09",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 12,
-    "archive_count": 12,
+    "paper_count": 17,
+    "archive_count": 17,
     "source_counts": {
-      "arxiv": 6,
+      "arxiv": 11,
       "ieee": 6
     },
     "journal_counts": {
-      "arXiv": 6,
+      "arXiv": 11,
       "IEEE Transactions on Power Systems": 3,
       "IEEE Transactions on Smart Grid": 3
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 5,
+      "电力系统运行与规划": 9,
+      "AI+电力优化": 6,
       "源网荷储协同": 4,
-      "AI+电力优化": 3,
-      "鲁棒随机优化": 3,
-      "构网与暂态稳定": 2,
+      "鲁棒随机优化": 4,
+      "构网与暂态稳定": 3,
       "韧性与恢复": 1
     },
     "required_topics": [
@@ -136,9 +136,9 @@
           "matched_keyword_groups": [
             "AI+电力优化"
           ],
-          "rule_score": 6.13,
-          "llm_score": 6.13,
-          "final_score": 6.13,
+          "rule_score": 5.78,
+          "llm_score": 5.78,
+          "final_score": 5.78,
           "relevance_label": "Promising",
           "score_reason": "命中关键词：reinforcement learning",
           "ai_summary": "该论文题为《V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -149,17 +149,22 @@
           "published_time_local": "03:43",
           "doi_url": "https://doi.org/10.1109/tsg.2026.3702949",
           "citation_key": "zhu2026coordination702949",
-          "bibtex_entry": "@article{zhu2026coordination702949,\n  title = {V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach},\n  author = {Zixuan Zhu and Ziqing Zhu and Ruoheng Wang and Siqi Bu and Qin Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702949},\n  url = {https://doi.org/10.1109/tsg.2026.3702949},\n  keywords = {Promising, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Zixuan Zhu\nAU  - Ziqing Zhu\nAU  - Ruoheng Wang\nAU  - Siqi Bu\nAU  - Qin Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702949\nUR  - https://doi.org/10.1109/tsg.2026.3702949\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "bibtex_entry": "@article{zhu2026coordination702949,\n  title = {V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach},\n  author = {Zixuan Zhu and Ziqing Zhu and Ruoheng Wang and Siqi Bu and Qin Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702949},\n  url = {https://doi.org/10.1109/tsg.2026.3702949},\n  keywords = {Promising, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Zixuan Zhu\nAU  - Ziqing Zhu\nAU  - Ruoheng Wang\nAU  - Siqi Bu\nAU  - Qin Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702949\nUR  - https://doi.org/10.1109/tsg.2026.3702949\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
           "zotero_collection": "IEEE Transactions on Smart Grid",
           "first_seen": "2026-06-13T15:20:05.636688+08:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -261,9 +266,9 @@
             "韧性与恢复",
             "电力系统运行与规划"
           ],
-          "rule_score": 9.14,
-          "llm_score": 9.14,
-          "final_score": 9.14,
+          "rule_score": 8.79,
+          "llm_score": 8.79,
+          "final_score": 8.79,
           "relevance_label": "Strong Match",
           "score_reason": "命中关键词：stochastic optimization、resilience、dispatch",
           "ai_summary": "该论文题为《Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -274,17 +279,22 @@
           "published_time_local": "04:01",
           "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
           "citation_key": "xu2026dispatch702746",
-          "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=9.1}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.1\nER  -",
+          "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=8.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=8.8\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
           "zotero_collection": "IEEE Transactions on Power Systems",
           "first_seen": "2026-06-11T20:01:13+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -319,9 +329,9 @@
           "matched_keyword_groups": [
             "源网荷储协同"
           ],
-          "rule_score": 6.68,
-          "llm_score": 6.68,
-          "final_score": 6.68,
+          "rule_score": 6.33,
+          "llm_score": 6.33,
+          "final_score": 6.33,
           "relevance_label": "Promising",
           "score_reason": "命中关键词：microgrid、microgrids",
           "ai_summary": "该论文题为《Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -332,17 +342,22 @@
           "published_time_local": "04:01",
           "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
           "citation_key": "das2026postquantum702702",
-          "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
+          "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
           "zotero_collection": "IEEE Transactions on Smart Grid",
           "first_seen": "2026-06-11T20:01:04+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -396,12 +411,17 @@
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
           "zotero_collection": "IEEE Transactions on Power Systems",
           "first_seen": "2026-06-09T19:53:11+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -458,12 +478,17 @@
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
           "zotero_collection": "IEEE Transactions on Power Systems",
           "first_seen": "2026-06-09T19:53:11+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         }
@@ -472,8 +497,307 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 6,
+      "count": 11,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2606.14648v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Which Directions Matter? Sparse Design for Affine Robust Optimization",
+          "authors": [
+            "Pedro Chumpitaz-Flores",
+            "My Duong",
+            "Juan S. Borrero",
+            "Kaixun Hua"
+          ],
+          "abstract": "Robust machine learning and optimization rely on the uncertainty model choice. We investigate which uncertainty directions a model must cover when defined by a finite dictionary and a budget constraint. Selecting a subset forms an atomic uncertainty set with a closed form support function, yielding tractable robust programs for affine objectives. We propose a data driven selection rule based on a coverage objective over evaluation directions, including gradients, adversarial perturbations, or shifts observed on held out data. We prove this objective is monotone and submodular, supporting a greedy method with a $(1-1/e)$ approximation guarantee and a matching hardness barrier. We also provide a certificate bounding the loss from the selected subset and a radius calibration rule with out of sample control.",
+          "url": "http://arxiv.org/abs/2606.14648v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14648v1",
+          "doi": null,
+          "published_at": "2026-06-12T17:10:58+00:00",
+          "categories": [
+            "cs.LG",
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "robust optimization",
+            "machine learning",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化",
+            "AI+电力优化"
+          ],
+          "rule_score": 6.63,
+          "llm_score": 6.63,
+          "final_score": 6.63,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：robust optimization、machine learning、uncertainty",
+          "ai_summary": "该论文题为《Which Directions Matter? Sparse Design for Affine Robust Optimization》，来自 arXiv。从摘要看，论文主要内容为：Robust machine learning and optimization rely on the uncertainty model choice. We investigate which uncertainty directions a model must cover when defined by a finite dictionary and a budget constraint. Selecting a subset forms an atomic uncertainty set with a closed form support function, yielding tractable robust programs for affine objectives. We propose a data driven selection rule based on a coverage objective o...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-13T01:10:58+08:00",
+          "published_date_local": "2026-06-13",
+          "published_time_local": "01:10",
+          "doi_url": null,
+          "citation_key": "chumpitazflores2026which4648v1",
+          "bibtex_entry": "@article{chumpitazflores2026which4648v1,\n  title = {Which Directions Matter? Sparse Design for Affine Robust Optimization},\n  author = {Pedro Chumpitaz-Flores and My Duong and Juan S. Borrero and Kaixun Hua},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14648v1},\n  keywords = {Promising, 鲁棒随机优化, AI+电力优化, robust optimization, machine learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Which Directions Matter? Sparse Design for Affine Robust Optimization\nJO  - arXiv\nAU  - Pedro Chumpitaz-Flores\nAU  - My Duong\nAU  - Juan S. Borrero\nAU  - Kaixun Hua\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - robust optimization\nKW  - machine learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14648v1\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-06-15T13:34:31.124834+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.14601v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems",
+          "authors": [
+            "Shadi Heenatigala",
+            "Hasanika Samarasinghe"
+          ],
+          "abstract": "This study presents a statistical and machine learning framework for characterizing a hydrogen-based multi-energy system (H-MES) using one year of high-resolution operational data. Statistical analysis revealed a binary operation driven by renewable surplus, with solar irradiance explaining 45.7% of rank-based variance in hydrogen production, a large effect by conventional standards. Only high-irradiance periods triggered meaningful electrolyzer engagement, while electricity demand exerted a weaker inverse suppression effect ($ε^2 = 0.126$). Multiple regression confirmed electrolyzer power as the dominant linear predictor, with a synergistic solar-wind interaction. Notably, Random Forest analysis ranked wind output first in predictive importance despite its weak bivariate correlation (r = 0.167), revealing non-linear dynamics invisible to parametric methods. A sequence model exploited strong 24-hour autocorrelation (r = 0.845) for operational forecasting, while a reinforcement learning agent optimized hydrogen revenue dispatch. The core contribution is demonstrating that statistical and machine learning approaches are complementary for H-MES modeling and control.",
+          "url": "http://arxiv.org/abs/2606.14601v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14601v1",
+          "doi": null,
+          "published_at": "2026-06-12T16:23:33+00:00",
+          "categories": [
+            "cs.LG",
+            "eess.SY",
+            "math.OC",
+            "stat.CO"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "dispatch",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 7.25,
+          "llm_score": 7.25,
+          "final_score": 7.25,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、dispatch、machine learning",
+          "ai_summary": "该论文题为《A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems》，来自 arXiv。从摘要看，论文主要内容为：This study presents a statistical and machine learning framework for characterizing a hydrogen-based multi-energy system (H-MES) using one year of high-resolution operational data. Statistical analysis revealed a binary operation driven by renewable surplus, with solar irradiance explaining 45.7% of rank-based variance in hydrogen production, a large effect by conventional standards. Only high-irradiance periods trig...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-13T00:23:33+08:00",
+          "published_date_local": "2026-06-13",
+          "published_time_local": "00:23",
+          "doi_url": null,
+          "citation_key": "heenatigala2026statistical4601v1",
+          "bibtex_entry": "@article{heenatigala2026statistical4601v1,\n  title = {A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems},\n  author = {Shadi Heenatigala and Hasanika Samarasinghe},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14601v1},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, dispatch, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=7.2}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems\nJO  - arXiv\nAU  - Shadi Heenatigala\nAU  - Hasanika Samarasinghe\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - dispatch\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14601v1\nN1  - Auto-selected by Power Paper Digest; score=7.2\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-06-15T13:34:31.124834+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.14291v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios",
+          "authors": [
+            "Yuan Yang",
+            "Lipeng Zhu",
+            "Chao Deng",
+            "Jiayong Li",
+            "Quan Zhou",
+            "Cong Zhang"
+          ],
+          "abstract": "While deep learning-based transient stability assessment (TSA) approaches have exhibited great potential in power system stability monitoring, they are prone to undergo performance degradation in practical contexts with frequent variations of operating conditions. To address this issue, this work develops an adaptive TSA framework via domain adaptation-enabled deep transfer learning. First, for the sake of capturing the primary transient stability characteristics, a robust metric, i.e., heterogeneous hybrid distribution metric (HHDM), is designed through mathematical means to effectively handle multi-scale Gaussian and long-tail distributions of transient responsive data and to precisely quantify the intrinsic distributional discrepancies between the source and target domains corresponding to different operating scenarios. With the help of the HHDM, a Bayesian theory-based dual-distribution domain adaptation method is constructed, aligning not only marginal probability distributions between domains but also the distributions of sub-domain categories. Such alignments enable fine-grained transient stability feature transfer, helping significantly improve the adaptability of a well-trained TSA model to target domains. Furthermore, a multilayer sparse regularization algorithm is introduced to mitigate feature volatility caused by variations in operating scenarios, thereby enhancing the model's generalization in the presence of unforeseen scenarios. Numerical tests on three test systems illustrate that, compared with conventional methods, the proposed framework improves online TSA accuracy by 0.5% to 5% in a cost-effective manner, with the learning cost for TSA model update largely reduced.",
+          "url": "http://arxiv.org/abs/2606.14291v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14291v1",
+          "doi": null,
+          "published_at": "2026-06-12T09:17:24+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "transient stability",
+            "power system",
+            "deep learning"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 7.94,
+          "llm_score": 7.94,
+          "final_score": 7.94,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：transient stability、power system、deep learning",
+          "ai_summary": "该论文题为《Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios》，来自 arXiv。从摘要看，论文主要内容为：While deep learning-based transient stability assessment (TSA) approaches have exhibited great potential in power system stability monitoring, they are prone to undergo performance degradation in practical contexts with frequent variations of operating conditions. To address this issue, this work develops an adaptive TSA framework via domain adaptation-enabled deep transfer learning. First, for the sake of capturing ...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-12T17:17:24+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "17:17",
+          "doi_url": null,
+          "citation_key": "yang2026intelligent4291v1",
+          "bibtex_entry": "@article{yang2026intelligent4291v1,\n  title = {Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios},\n  author = {Yuan Yang and Lipeng Zhu and Chao Deng and Jiayong Li and Quan Zhou and Cong Zhang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14291v1},\n  keywords = {Strong Match, 构网与暂态稳定, 电力系统运行与规划, AI+电力优化, transient stability, power system, deep learning},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios\nJO  - arXiv\nAU  - Yuan Yang\nAU  - Lipeng Zhu\nAU  - Chao Deng\nAU  - Jiayong Li\nAU  - Quan Zhou\nAU  - Cong Zhang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - transient stability\nKW  - power system\nKW  - deep learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14291v1\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-06-15T13:34:31.124834+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.13853v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Spatial Load Correlation in AI Data-Center-Dominated Power Systems",
+          "authors": [
+            "Chandan Chaudhary",
+            "Alaaeldein Abdelkader",
+            "Yansong Pei",
+            "Mohammed Benidris",
+            "Joydeep Mitra"
+          ],
+          "abstract": "The proliferation of large-scale data centers introduces spatially correlated demand profiles that challenge the long-standing assumption of statistical independence of loads in power system analysis. This paper examines the emergence of such load correlations and evaluates their impact on data-center-dominated grids. Analytical derivations reveal that correlated load fluctuations amplify aggregate stochastic disturbances, reduce voltage stability margins through weakened reactive power stiffness, and degrade frequency stability margin by erosion of natural load diversity effects. Real-time digital simulation studies confirm that moderate spatial correlation in distributed data centers produces simultaneous frequency deviations and voltage fluctuations across multiple buses. The findings offer transmission system operators a physics-based perspective to interpret emerging oscillatory phenomena and establish stability planning criteria grounded in measurable load-correlation structures rather than traditional diversity assumptions.",
+          "url": "http://arxiv.org/abs/2606.13853v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13853v1",
+          "doi": null,
+          "published_at": "2026-06-11T19:32:10+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.08,
+          "llm_score": 6.08,
+          "final_score": 6.08,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Spatial Load Correlation in AI Data-Center-Dominated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：The proliferation of large-scale data centers introduces spatially correlated demand profiles that challenge the long-standing assumption of statistical independence of loads in power system analysis. This paper examines the emergence of such load correlations and evaluates their impact on data-center-dominated grids. Analytical derivations reveal that correlated load fluctuations amplify aggregate stochastic disturb...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-12T03:32:10+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "03:32",
+          "doi_url": null,
+          "citation_key": "chaudhary2026spatial3853v1",
+          "bibtex_entry": "@article{chaudhary2026spatial3853v1,\n  title = {Spatial Load Correlation in AI Data-Center-Dominated Power Systems},\n  author = {Chandan Chaudhary and Alaaeldein Abdelkader and Yansong Pei and Mohammed Benidris and Joydeep Mitra},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13853v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Spatial Load Correlation in AI Data-Center-Dominated Power Systems\nJO  - arXiv\nAU  - Chandan Chaudhary\nAU  - Alaaeldein Abdelkader\nAU  - Yansong Pei\nAU  - Mohammed Benidris\nAU  - Joydeep Mitra\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13853v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-06-15T13:34:31.124834+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2606.13847v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems",
+          "authors": [
+            "Chandan Chaudhary",
+            "Michael Murillo",
+            "Mohammed Ben-Idris",
+            "Joydeep Mitra",
+            "Dilip Pandit",
+            "Atri Bera"
+          ],
+          "abstract": "Hyperscale AI data centers induce spatially and temporally correlated load fluctuations that violate classical independence assumptions and are not captured by time-averaged spectral methods. These correlations are episodic and non-stationary, requiring analysis that resolves transient structure. This paper applies Dynamic Mode Decomposition (DMD) to the temporal evolution of pairwise inter-bus correlation coefficients to form a low-dimensional state representation that enables modal analysis without a stationarity assumption. DMD eigenvalues encode the correlation regime: their location in the complex plane distinguishes sustained coherence, decaying transients, and intensifying events, while oscillation frequency maps to underlying physical coupling mechanisms. Using an IEEE 39-bus Real-Time Digital Simulator (RTDS) testbed with three converter-interfaced AI data center loads driven by synthetic workload profiles, global DMD provides a time-averaged modal baseline in a slow thermal band ($f \\approx 0.005$\\,Hz, $|μ| = 0.91$) captures 93.6\\% of total correlation energy. A sliding-window DMD formulation identifies transient intensification events: 51 of 775 windows (6.6\\%) satisfy the $|μ_k^{(n)}| > 1$ criterion, which aligns with stochastic workload coincidences. Cross-validation with RTDS voltage coherence confirms elevated coupling during these intervals. The proposed modal growth indicator provides an early-warning signal of correlation intensification prior to peak pairwise coherence.",
+          "url": "http://arxiv.org/abs/2606.13847v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13847v1",
+          "doi": null,
+          "published_at": "2026-06-11T19:24:58+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.08,
+          "llm_score": 6.08,
+          "final_score": 6.08,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：Hyperscale AI data centers induce spatially and temporally correlated load fluctuations that violate classical independence assumptions and are not captured by time-averaged spectral methods. These correlations are episodic and non-stationary, requiring analysis that resolves transient structure. This paper applies Dynamic Mode Decomposition (DMD) to the temporal evolution of pairwise inter-bus correlation coefficien...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-06-12T03:24:58+08:00",
+          "published_date_local": "2026-06-12",
+          "published_time_local": "03:24",
+          "doi_url": null,
+          "citation_key": "chaudhary2026modal3847v1",
+          "bibtex_entry": "@article{chaudhary2026modal3847v1,\n  title = {Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems},\n  author = {Chandan Chaudhary and Michael Murillo and Mohammed Ben-Idris and Joydeep Mitra and Dilip Pandit and Atri Bera},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13847v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems\nJO  - arXiv\nAU  - Chandan Chaudhary\nAU  - Michael Murillo\nAU  - Mohammed Ben-Idris\nAU  - Joydeep Mitra\nAU  - Dilip Pandit\nAU  - Atri Bera\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13847v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-06-15T13:34:31.124834+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2606.13605v1",
           "source": "arxiv",
@@ -508,9 +832,9 @@
             "鲁棒随机优化",
             "AI+电力优化"
           ],
-          "rule_score": 8.07,
-          "llm_score": 8.07,
-          "final_score": 8.07,
+          "rule_score": 7.72,
+          "llm_score": 7.72,
+          "final_score": 7.72,
           "relevance_label": "Strong Match",
           "score_reason": "命中关键词：chance-constrained、reinforcement learning、uncertainty",
           "ai_summary": "该论文题为《Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a s...",
@@ -521,17 +845,22 @@
           "published_time_local": "01:22",
           "doi_url": null,
           "citation_key": "chaudhary2026distributionagnostic3605v1",
-          "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+          "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=7.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=7.7\nER  -",
           "xplore_url": null,
           "zotero_collection": null,
           "first_seen": "2026-06-11T17:22:05+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -563,9 +892,9 @@
           "matched_keyword_groups": [
             "构网与暂态稳定"
           ],
-          "rule_score": 6.03,
-          "llm_score": 6.03,
-          "final_score": 6.03,
+          "rule_score": 5.68,
+          "llm_score": 5.68,
+          "final_score": 5.68,
           "relevance_label": "Promising",
           "score_reason": "命中关键词：grid-forming",
           "ai_summary": "该论文题为《Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid》，来自 arXiv。从摘要看，论文主要内容为：Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter...",
@@ -576,17 +905,22 @@
           "published_time_local": "21:45",
           "doi_url": null,
           "citation_key": "joshi2026sizing3358v1",
-          "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+          "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
           "xplore_url": null,
           "zotero_collection": null,
           "first_seen": "2026-06-11T13:45:17+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -620,10 +954,10 @@
             "鲁棒随机优化",
             "电力系统运行与规划"
           ],
-          "rule_score": 5.82,
-          "llm_score": 5.82,
-          "final_score": 5.82,
-          "relevance_label": "Promising",
+          "rule_score": 5.47,
+          "llm_score": 5.47,
+          "final_score": 5.47,
+          "relevance_label": "Background Read",
           "score_reason": "命中关键词：robust optimization、scheduling",
           "ai_summary": "该论文题为《Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers》，来自 arXiv。从摘要看，论文主要内容为：We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By...",
           "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
@@ -633,17 +967,22 @@
           "published_time_local": "16:41",
           "doi_url": null,
           "citation_key": "lacroix2026scheduling3058v1",
-          "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Promising, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+          "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Background Read, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Background Read\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
           "xplore_url": null,
           "zotero_collection": null,
           "first_seen": "2026-06-11T08:41:39+00:00",
-          "last_seen": "2026-06-13T15:20:05.636688+08:00",
+          "last_seen": "2026-06-15T13:34:31.124834+08:00",
           "seen_windows": [
             {
               "window_start": "2026-06-07",
               "target_date": "2026-06-13",
               "generated_at": "2026-06-13T15:20:05.636688+08:00"
+            },
+            {
+              "window_start": "2026-06-09",
+              "target_date": "2026-06-15",
+              "generated_at": "2026-06-15T13:34:31.124834+08:00"
             }
           ]
         },
@@ -866,9 +1205,9 @@
       "matched_keyword_groups": [
         "AI+电力优化"
       ],
-      "rule_score": 6.13,
-      "llm_score": 6.13,
-      "final_score": 6.13,
+      "rule_score": 5.78,
+      "llm_score": 5.78,
+      "final_score": 5.78,
       "relevance_label": "Promising",
       "score_reason": "命中关键词：reinforcement learning",
       "ai_summary": "该论文题为《V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -879,17 +1218,22 @@
       "published_time_local": "03:43",
       "doi_url": "https://doi.org/10.1109/tsg.2026.3702949",
       "citation_key": "zhu2026coordination702949",
-      "bibtex_entry": "@article{zhu2026coordination702949,\n  title = {V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach},\n  author = {Zixuan Zhu and Ziqing Zhu and Ruoheng Wang and Siqi Bu and Qin Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702949},\n  url = {https://doi.org/10.1109/tsg.2026.3702949},\n  keywords = {Promising, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Zixuan Zhu\nAU  - Ziqing Zhu\nAU  - Ruoheng Wang\nAU  - Siqi Bu\nAU  - Qin Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702949\nUR  - https://doi.org/10.1109/tsg.2026.3702949\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "bibtex_entry": "@article{zhu2026coordination702949,\n  title = {V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach},\n  author = {Zixuan Zhu and Ziqing Zhu and Ruoheng Wang and Siqi Bu and Qin Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702949},\n  url = {https://doi.org/10.1109/tsg.2026.3702949},\n  keywords = {Promising, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Zixuan Zhu\nAU  - Ziqing Zhu\nAU  - Ruoheng Wang\nAU  - Siqi Bu\nAU  - Qin Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702949\nUR  - https://doi.org/10.1109/tsg.2026.3702949\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
       "zotero_collection": "IEEE Transactions on Smart Grid",
       "first_seen": "2026-06-13T15:20:05.636688+08:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -956,6 +1300,188 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2606.14648v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Which Directions Matter? Sparse Design for Affine Robust Optimization",
+      "authors": [
+        "Pedro Chumpitaz-Flores",
+        "My Duong",
+        "Juan S. Borrero",
+        "Kaixun Hua"
+      ],
+      "abstract": "Robust machine learning and optimization rely on the uncertainty model choice. We investigate which uncertainty directions a model must cover when defined by a finite dictionary and a budget constraint. Selecting a subset forms an atomic uncertainty set with a closed form support function, yielding tractable robust programs for affine objectives. We propose a data driven selection rule based on a coverage objective over evaluation directions, including gradients, adversarial perturbations, or shifts observed on held out data. We prove this objective is monotone and submodular, supporting a greedy method with a $(1-1/e)$ approximation guarantee and a matching hardness barrier. We also provide a certificate bounding the loss from the selected subset and a radius calibration rule with out of sample control.",
+      "url": "http://arxiv.org/abs/2606.14648v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14648v1",
+      "doi": null,
+      "published_at": "2026-06-12T17:10:58+00:00",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "robust optimization",
+        "machine learning",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化",
+        "AI+电力优化"
+      ],
+      "rule_score": 6.63,
+      "llm_score": 6.63,
+      "final_score": 6.63,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：robust optimization、machine learning、uncertainty",
+      "ai_summary": "该论文题为《Which Directions Matter? Sparse Design for Affine Robust Optimization》，来自 arXiv。从摘要看，论文主要内容为：Robust machine learning and optimization rely on the uncertainty model choice. We investigate which uncertainty directions a model must cover when defined by a finite dictionary and a budget constraint. Selecting a subset forms an atomic uncertainty set with a closed form support function, yielding tractable robust programs for affine objectives. We propose a data driven selection rule based on a coverage objective o...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-13T01:10:58+08:00",
+      "published_date_local": "2026-06-13",
+      "published_time_local": "01:10",
+      "doi_url": null,
+      "citation_key": "chumpitazflores2026which4648v1",
+      "bibtex_entry": "@article{chumpitazflores2026which4648v1,\n  title = {Which Directions Matter? Sparse Design for Affine Robust Optimization},\n  author = {Pedro Chumpitaz-Flores and My Duong and Juan S. Borrero and Kaixun Hua},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14648v1},\n  keywords = {Promising, 鲁棒随机优化, AI+电力优化, robust optimization, machine learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Which Directions Matter? Sparse Design for Affine Robust Optimization\nJO  - arXiv\nAU  - Pedro Chumpitaz-Flores\nAU  - My Duong\nAU  - Juan S. Borrero\nAU  - Kaixun Hua\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - robust optimization\nKW  - machine learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14648v1\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-06-15T13:34:31.124834+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.14601v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems",
+      "authors": [
+        "Shadi Heenatigala",
+        "Hasanika Samarasinghe"
+      ],
+      "abstract": "This study presents a statistical and machine learning framework for characterizing a hydrogen-based multi-energy system (H-MES) using one year of high-resolution operational data. Statistical analysis revealed a binary operation driven by renewable surplus, with solar irradiance explaining 45.7% of rank-based variance in hydrogen production, a large effect by conventional standards. Only high-irradiance periods triggered meaningful electrolyzer engagement, while electricity demand exerted a weaker inverse suppression effect ($ε^2 = 0.126$). Multiple regression confirmed electrolyzer power as the dominant linear predictor, with a synergistic solar-wind interaction. Notably, Random Forest analysis ranked wind output first in predictive importance despite its weak bivariate correlation (r = 0.167), revealing non-linear dynamics invisible to parametric methods. A sequence model exploited strong 24-hour autocorrelation (r = 0.845) for operational forecasting, while a reinforcement learning agent optimized hydrogen revenue dispatch. The core contribution is demonstrating that statistical and machine learning approaches are complementary for H-MES modeling and control.",
+      "url": "http://arxiv.org/abs/2606.14601v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14601v1",
+      "doi": null,
+      "published_at": "2026-06-12T16:23:33+00:00",
+      "categories": [
+        "cs.LG",
+        "eess.SY",
+        "math.OC",
+        "stat.CO"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "dispatch",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 7.25,
+      "llm_score": 7.25,
+      "final_score": 7.25,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、dispatch、machine learning",
+      "ai_summary": "该论文题为《A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems》，来自 arXiv。从摘要看，论文主要内容为：This study presents a statistical and machine learning framework for characterizing a hydrogen-based multi-energy system (H-MES) using one year of high-resolution operational data. Statistical analysis revealed a binary operation driven by renewable surplus, with solar irradiance explaining 45.7% of rank-based variance in hydrogen production, a large effect by conventional standards. Only high-irradiance periods trig...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-13T00:23:33+08:00",
+      "published_date_local": "2026-06-13",
+      "published_time_local": "00:23",
+      "doi_url": null,
+      "citation_key": "heenatigala2026statistical4601v1",
+      "bibtex_entry": "@article{heenatigala2026statistical4601v1,\n  title = {A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems},\n  author = {Shadi Heenatigala and Hasanika Samarasinghe},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14601v1},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, dispatch, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=7.2}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems\nJO  - arXiv\nAU  - Shadi Heenatigala\nAU  - Hasanika Samarasinghe\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - dispatch\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14601v1\nN1  - Auto-selected by Power Paper Digest; score=7.2\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-06-15T13:34:31.124834+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.14291v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios",
+      "authors": [
+        "Yuan Yang",
+        "Lipeng Zhu",
+        "Chao Deng",
+        "Jiayong Li",
+        "Quan Zhou",
+        "Cong Zhang"
+      ],
+      "abstract": "While deep learning-based transient stability assessment (TSA) approaches have exhibited great potential in power system stability monitoring, they are prone to undergo performance degradation in practical contexts with frequent variations of operating conditions. To address this issue, this work develops an adaptive TSA framework via domain adaptation-enabled deep transfer learning. First, for the sake of capturing the primary transient stability characteristics, a robust metric, i.e., heterogeneous hybrid distribution metric (HHDM), is designed through mathematical means to effectively handle multi-scale Gaussian and long-tail distributions of transient responsive data and to precisely quantify the intrinsic distributional discrepancies between the source and target domains corresponding to different operating scenarios. With the help of the HHDM, a Bayesian theory-based dual-distribution domain adaptation method is constructed, aligning not only marginal probability distributions between domains but also the distributions of sub-domain categories. Such alignments enable fine-grained transient stability feature transfer, helping significantly improve the adaptability of a well-trained TSA model to target domains. Furthermore, a multilayer sparse regularization algorithm is introduced to mitigate feature volatility caused by variations in operating scenarios, thereby enhancing the model's generalization in the presence of unforeseen scenarios. Numerical tests on three test systems illustrate that, compared with conventional methods, the proposed framework improves online TSA accuracy by 0.5% to 5% in a cost-effective manner, with the learning cost for TSA model update largely reduced.",
+      "url": "http://arxiv.org/abs/2606.14291v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14291v1",
+      "doi": null,
+      "published_at": "2026-06-12T09:17:24+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "transient stability",
+        "power system",
+        "deep learning"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 7.94,
+      "llm_score": 7.94,
+      "final_score": 7.94,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：transient stability、power system、deep learning",
+      "ai_summary": "该论文题为《Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios》，来自 arXiv。从摘要看，论文主要内容为：While deep learning-based transient stability assessment (TSA) approaches have exhibited great potential in power system stability monitoring, they are prone to undergo performance degradation in practical contexts with frequent variations of operating conditions. To address this issue, this work develops an adaptive TSA framework via domain adaptation-enabled deep transfer learning. First, for the sake of capturing ...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-12T17:17:24+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "17:17",
+      "doi_url": null,
+      "citation_key": "yang2026intelligent4291v1",
+      "bibtex_entry": "@article{yang2026intelligent4291v1,\n  title = {Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios},\n  author = {Yuan Yang and Lipeng Zhu and Chao Deng and Jiayong Li and Quan Zhou and Cong Zhang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.14291v1},\n  keywords = {Strong Match, 构网与暂态稳定, 电力系统运行与规划, AI+电力优化, transient stability, power system, deep learning},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios\nJO  - arXiv\nAU  - Yuan Yang\nAU  - Lipeng Zhu\nAU  - Chao Deng\nAU  - Jiayong Li\nAU  - Quan Zhou\nAU  - Cong Zhang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - transient stability\nKW  - power system\nKW  - deep learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.14291v1\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-06-15T13:34:31.124834+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
+        }
+      ]
+    },
+    {
       "id": "10.1109/tpwrs.2026.3702746",
       "source": "ieee",
       "section": "ieee",
@@ -991,9 +1517,9 @@
         "韧性与恢复",
         "电力系统运行与规划"
       ],
-      "rule_score": 9.14,
-      "llm_score": 9.14,
-      "final_score": 9.14,
+      "rule_score": 8.79,
+      "llm_score": 8.79,
+      "final_score": 8.79,
       "relevance_label": "Strong Match",
       "score_reason": "命中关键词：stochastic optimization、resilience、dispatch",
       "ai_summary": "该论文题为《Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -1004,17 +1530,22 @@
       "published_time_local": "04:01",
       "doi_url": "https://doi.org/10.1109/tpwrs.2026.3702746",
       "citation_key": "xu2026dispatch702746",
-      "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=9.1}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=9.1\nER  -",
+      "bibtex_entry": "@article{xu2026dispatch702746,\n  title = {Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach},\n  author = {Haitao Xu and Haotian Zhao and Hongbin Sun and Qinglai Guo},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3702746},\n  url = {https://doi.org/10.1109/tpwrs.2026.3702746},\n  keywords = {Strong Match, 鲁棒随机优化, 韧性与恢复, 电力系统运行与规划, stochastic optimization, resilience, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=8.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach\nJO  - IEEE Transactions on Power Systems\nAU  - Haitao Xu\nAU  - Haotian Zhao\nAU  - Hongbin Sun\nAU  - Qinglai Guo\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - resilience\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3702746\nUR  - https://doi.org/10.1109/tpwrs.2026.3702746\nN1  - Auto-selected by Power Paper Digest; score=8.8\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
       "zotero_collection": "IEEE Transactions on Power Systems",
       "first_seen": "2026-06-11T20:01:13+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1049,9 +1580,9 @@
       "matched_keyword_groups": [
         "源网荷储协同"
       ],
-      "rule_score": 6.68,
-      "llm_score": 6.68,
-      "final_score": 6.68,
+      "rule_score": 6.33,
+      "llm_score": 6.33,
+      "final_score": 6.33,
       "relevance_label": "Promising",
       "score_reason": "命中关键词：microgrid、microgrids",
       "ai_summary": "该论文题为《Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
@@ -1062,17 +1593,139 @@
       "published_time_local": "04:01",
       "doi_url": "https://doi.org/10.1109/tsg.2026.3702702",
       "citation_key": "das2026postquantum702702",
-      "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
+      "bibtex_entry": "@article{das2026postquantum702702,\n  title = {Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework},\n  author = {Sajal K. Das and Yu-Chu Tian},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3702702},\n  url = {https://doi.org/10.1109/tsg.2026.3702702},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework\nJO  - IEEE Transactions on Smart Grid\nAU  - Sajal K. Das\nAU  - Yu-Chu Tian\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3702702\nUR  - https://doi.org/10.1109/tsg.2026.3702702\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
       "zotero_collection": "IEEE Transactions on Smart Grid",
       "first_seen": "2026-06-11T20:01:04+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.13853v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Spatial Load Correlation in AI Data-Center-Dominated Power Systems",
+      "authors": [
+        "Chandan Chaudhary",
+        "Alaaeldein Abdelkader",
+        "Yansong Pei",
+        "Mohammed Benidris",
+        "Joydeep Mitra"
+      ],
+      "abstract": "The proliferation of large-scale data centers introduces spatially correlated demand profiles that challenge the long-standing assumption of statistical independence of loads in power system analysis. This paper examines the emergence of such load correlations and evaluates their impact on data-center-dominated grids. Analytical derivations reveal that correlated load fluctuations amplify aggregate stochastic disturbances, reduce voltage stability margins through weakened reactive power stiffness, and degrade frequency stability margin by erosion of natural load diversity effects. Real-time digital simulation studies confirm that moderate spatial correlation in distributed data centers produces simultaneous frequency deviations and voltage fluctuations across multiple buses. The findings offer transmission system operators a physics-based perspective to interpret emerging oscillatory phenomena and establish stability planning criteria grounded in measurable load-correlation structures rather than traditional diversity assumptions.",
+      "url": "http://arxiv.org/abs/2606.13853v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13853v1",
+      "doi": null,
+      "published_at": "2026-06-11T19:32:10+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.08,
+      "llm_score": 6.08,
+      "final_score": 6.08,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Spatial Load Correlation in AI Data-Center-Dominated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：The proliferation of large-scale data centers introduces spatially correlated demand profiles that challenge the long-standing assumption of statistical independence of loads in power system analysis. This paper examines the emergence of such load correlations and evaluates their impact on data-center-dominated grids. Analytical derivations reveal that correlated load fluctuations amplify aggregate stochastic disturb...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-12T03:32:10+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "03:32",
+      "doi_url": null,
+      "citation_key": "chaudhary2026spatial3853v1",
+      "bibtex_entry": "@article{chaudhary2026spatial3853v1,\n  title = {Spatial Load Correlation in AI Data-Center-Dominated Power Systems},\n  author = {Chandan Chaudhary and Alaaeldein Abdelkader and Yansong Pei and Mohammed Benidris and Joydeep Mitra},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13853v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Spatial Load Correlation in AI Data-Center-Dominated Power Systems\nJO  - arXiv\nAU  - Chandan Chaudhary\nAU  - Alaaeldein Abdelkader\nAU  - Yansong Pei\nAU  - Mohammed Benidris\nAU  - Joydeep Mitra\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13853v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-06-15T13:34:31.124834+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.13847v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems",
+      "authors": [
+        "Chandan Chaudhary",
+        "Michael Murillo",
+        "Mohammed Ben-Idris",
+        "Joydeep Mitra",
+        "Dilip Pandit",
+        "Atri Bera"
+      ],
+      "abstract": "Hyperscale AI data centers induce spatially and temporally correlated load fluctuations that violate classical independence assumptions and are not captured by time-averaged spectral methods. These correlations are episodic and non-stationary, requiring analysis that resolves transient structure. This paper applies Dynamic Mode Decomposition (DMD) to the temporal evolution of pairwise inter-bus correlation coefficients to form a low-dimensional state representation that enables modal analysis without a stationarity assumption. DMD eigenvalues encode the correlation regime: their location in the complex plane distinguishes sustained coherence, decaying transients, and intensifying events, while oscillation frequency maps to underlying physical coupling mechanisms. Using an IEEE 39-bus Real-Time Digital Simulator (RTDS) testbed with three converter-interfaced AI data center loads driven by synthetic workload profiles, global DMD provides a time-averaged modal baseline in a slow thermal band ($f \\approx 0.005$\\,Hz, $|μ| = 0.91$) captures 93.6\\% of total correlation energy. A sliding-window DMD formulation identifies transient intensification events: 51 of 775 windows (6.6\\%) satisfy the $|μ_k^{(n)}| > 1$ criterion, which aligns with stochastic workload coincidences. Cross-validation with RTDS voltage coherence confirms elevated coupling during these intervals. The proposed modal growth indicator provides an early-warning signal of correlation intensification prior to peak pairwise coherence.",
+      "url": "http://arxiv.org/abs/2606.13847v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13847v1",
+      "doi": null,
+      "published_at": "2026-06-11T19:24:58+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.08,
+      "llm_score": 6.08,
+      "final_score": 6.08,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：Hyperscale AI data centers induce spatially and temporally correlated load fluctuations that violate classical independence assumptions and are not captured by time-averaged spectral methods. These correlations are episodic and non-stationary, requiring analysis that resolves transient structure. This paper applies Dynamic Mode Decomposition (DMD) to the temporal evolution of pairwise inter-bus correlation coefficien...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-06-12T03:24:58+08:00",
+      "published_date_local": "2026-06-12",
+      "published_time_local": "03:24",
+      "doi_url": null,
+      "citation_key": "chaudhary2026modal3847v1",
+      "bibtex_entry": "@article{chaudhary2026modal3847v1,\n  title = {Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems},\n  author = {Chandan Chaudhary and Michael Murillo and Mohammed Ben-Idris and Joydeep Mitra and Dilip Pandit and Atri Bera},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13847v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems\nJO  - arXiv\nAU  - Chandan Chaudhary\nAU  - Michael Murillo\nAU  - Mohammed Ben-Idris\nAU  - Joydeep Mitra\nAU  - Dilip Pandit\nAU  - Atri Bera\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13847v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-06-15T13:34:31.124834+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1110,9 +1763,9 @@
         "鲁棒随机优化",
         "AI+电力优化"
       ],
-      "rule_score": 8.07,
-      "llm_score": 8.07,
-      "final_score": 8.07,
+      "rule_score": 7.72,
+      "llm_score": 7.72,
+      "final_score": 7.72,
       "relevance_label": "Strong Match",
       "score_reason": "命中关键词：chance-constrained、reinforcement learning、uncertainty",
       "ai_summary": "该论文题为《Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. The uncertainty is represented here through initial conditions and process noise, with the only requirement being that it can be sampled. A deterministic nominal trajectory is first computed offline, and reinforcement learning is then used only to robustify that baseline through a s...",
@@ -1123,17 +1776,22 @@
       "published_time_local": "01:22",
       "doi_url": null,
       "citation_key": "chaudhary2026distributionagnostic3605v1",
-      "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+      "bibtex_entry": "@article{chaudhary2026distributionagnostic3605v1,\n  title = {Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning},\n  author = {Yashdeep Chaudhary and Roberto Armellin and Harry Holt and Marco Sagliano},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13605v1},\n  keywords = {Strong Match, 鲁棒随机优化, AI+电力优化, chance-constrained, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=7.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning\nJO  - arXiv\nAU  - Yashdeep Chaudhary\nAU  - Roberto Armellin\nAU  - Harry Holt\nAU  - Marco Sagliano\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - AI+电力优化\nKW  - chance-constrained\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13605v1\nN1  - Auto-selected by Power Paper Digest; score=7.7\nER  -",
       "xplore_url": null,
       "zotero_collection": null,
       "first_seen": "2026-06-11T17:22:05+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1165,9 +1823,9 @@
       "matched_keyword_groups": [
         "构网与暂态稳定"
       ],
-      "rule_score": 6.03,
-      "llm_score": 6.03,
-      "final_score": 6.03,
+      "rule_score": 5.68,
+      "llm_score": 5.68,
+      "final_score": 5.68,
       "relevance_label": "Promising",
       "score_reason": "命中关键词：grid-forming",
       "ai_summary": "该论文题为《Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid》，来自 arXiv。从摘要看，论文主要内容为：Line-commutated converter high-voltage direct current (LCC-HVDC) has proven to be a reliable technology for bulk power transmission over long distances. However, the growing penetration of converter interfaced generation (CIG) is resulting in weaker AC grids, rendering the operation of LCC-HVDC systems vulnerable and posing a serious challenge to their stability. Grid-forming (GFM) controlled voltage source converter...",
@@ -1178,17 +1836,22 @@
       "published_time_local": "21:45",
       "doi_url": null,
       "citation_key": "joshi2026sizing3358v1",
-      "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+      "bibtex_entry": "@article{joshi2026sizing3358v1,\n  title = {Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid},\n  author = {Anup Joshi and Javier Renedo and Xavier Guillaud},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13358v1},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Sizing of a grid-forming power converter to improve the small-signal stability of an LCC-HVDC system connected to a weak grid\nJO  - arXiv\nAU  - Anup Joshi\nAU  - Javier Renedo\nAU  - Xavier Guillaud\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13358v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
       "xplore_url": null,
       "zotero_collection": null,
       "first_seen": "2026-06-11T13:45:17+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1222,10 +1885,10 @@
         "鲁棒随机优化",
         "电力系统运行与规划"
       ],
-      "rule_score": 5.82,
-      "llm_score": 5.82,
-      "final_score": 5.82,
-      "relevance_label": "Promising",
+      "rule_score": 5.47,
+      "llm_score": 5.47,
+      "final_score": 5.47,
+      "relevance_label": "Background Read",
       "score_reason": "命中关键词：robust optimization、scheduling",
       "ai_summary": "该论文题为《Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers》，来自 arXiv。从摘要看，论文主要内容为：We consider a scheduling problem for star observations using a telescope. Identical nights are available to observe stars that have been identified as of interest by astronomers. Each star yields a profit if it is observed; in that case, the observation must respect a visibility window and a minimum observation duration. The objective is to maximize the total profit of the observations that are actually performed. By...",
       "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
@@ -1235,17 +1898,22 @@
       "published_time_local": "16:41",
       "doi_url": null,
       "citation_key": "lacroix2026scheduling3058v1",
-      "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Promising, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+      "bibtex_entry": "@article{lacroix2026scheduling3058v1,\n  title = {Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers},\n  author = {Thomas Rahab Lacroix and Pierre Lemaire and Nadia Brauner},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.13058v1},\n  keywords = {Background Read, 鲁棒随机优化, 电力系统运行与规划, robust optimization, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Scheduling of Star Observations under Uncertain Conditions: A Comparison of Models and Solvers\nJO  - arXiv\nAU  - Thomas Rahab Lacroix\nAU  - Pierre Lemaire\nAU  - Nadia Brauner\nKW  - Background Read\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - robust optimization\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.13058v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
       "xplore_url": null,
       "zotero_collection": null,
       "first_seen": "2026-06-11T08:41:39+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1475,12 +2143,17 @@
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
       "zotero_collection": "IEEE Transactions on Power Systems",
       "first_seen": "2026-06-09T19:53:11+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     },
@@ -1537,12 +2210,17 @@
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
       "zotero_collection": "IEEE Transactions on Power Systems",
       "first_seen": "2026-06-09T19:53:11+00:00",
-      "last_seen": "2026-06-13T15:20:05.636688+08:00",
+      "last_seen": "2026-06-15T13:34:31.124834+08:00",
       "seen_windows": [
         {
           "window_start": "2026-06-07",
           "target_date": "2026-06-13",
           "generated_at": "2026-06-13T15:20:05.636688+08:00"
+        },
+        {
+          "window_start": "2026-06-09",
+          "target_date": "2026-06-15",
+          "generated_at": "2026-06-15T13:34:31.124834+08:00"
         }
       ]
     }

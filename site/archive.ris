@@ -12,7 +12,7 @@ KW  - reinforcement learning
 PY  - 2026
 DO  - 10.1109/tsg.2026.3702949
 UR  - https://doi.org/10.1109/tsg.2026.3702949
-N1  - Auto-selected by Power Paper Digest; score=6.1
+N1  - Auto-selected by Power Paper Digest; score=5.8
 ER  -
 
 TY  - JOUR
@@ -35,6 +35,61 @@ N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -
 
 TY  - JOUR
+TI  - Which Directions Matter? Sparse Design for Affine Robust Optimization
+JO  - arXiv
+AU  - Pedro Chumpitaz-Flores
+AU  - My Duong
+AU  - Juan S. Borrero
+AU  - Kaixun Hua
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - robust optimization
+KW  - machine learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.14648v1
+N1  - Auto-selected by Power Paper Digest; score=6.6
+ER  -
+
+TY  - JOUR
+TI  - A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems
+JO  - arXiv
+AU  - Shadi Heenatigala
+AU  - Hasanika Samarasinghe
+KW  - Promising
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - reinforcement learning
+KW  - dispatch
+KW  - machine learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.14601v1
+N1  - Auto-selected by Power Paper Digest; score=7.2
+ER  -
+
+TY  - JOUR
+TI  - Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios
+JO  - arXiv
+AU  - Yuan Yang
+AU  - Lipeng Zhu
+AU  - Chao Deng
+AU  - Jiayong Li
+AU  - Quan Zhou
+AU  - Cong Zhang
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - transient stability
+KW  - power system
+KW  - deep learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.14291v1
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
 TI  - Dispatch Strategy Against Typhoon-Induced Wind Farm Cut-Outs Considering Resilience: An Adaptive Robust Stochastic Optimization Approach
 JO  - IEEE Transactions on Power Systems
 AU  - Haitao Xu
@@ -51,7 +106,7 @@ KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3702746
 UR  - https://doi.org/10.1109/tpwrs.2026.3702746
-N1  - Auto-selected by Power Paper Digest; score=9.1
+N1  - Auto-selected by Power Paper Digest; score=8.8
 ER  -
 
 TY  - JOUR
@@ -66,7 +121,42 @@ KW  - microgrids
 PY  - 2026
 DO  - 10.1109/tsg.2026.3702702
 UR  - https://doi.org/10.1109/tsg.2026.3702702
-N1  - Auto-selected by Power Paper Digest; score=6.7
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Spatial Load Correlation in AI Data-Center-Dominated Power Systems
+JO  - arXiv
+AU  - Chandan Chaudhary
+AU  - Alaaeldein Abdelkader
+AU  - Yansong Pei
+AU  - Mohammed Benidris
+AU  - Joydeep Mitra
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13853v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems
+JO  - arXiv
+AU  - Chandan Chaudhary
+AU  - Michael Murillo
+AU  - Mohammed Ben-Idris
+AU  - Joydeep Mitra
+AU  - Dilip Pandit
+AU  - Atri Bera
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13847v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
 ER  -
 
 TY  - JOUR
@@ -84,7 +174,7 @@ KW  - reinforcement learning
 KW  - uncertainty
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13605v1
-N1  - Auto-selected by Power Paper Digest; score=8.1
+N1  - Auto-selected by Power Paper Digest; score=7.7
 ER  -
 
 TY  - JOUR
@@ -98,7 +188,7 @@ KW  - 构网与暂态稳定
 KW  - grid-forming
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13358v1
-N1  - Auto-selected by Power Paper Digest; score=6.0
+N1  - Auto-selected by Power Paper Digest; score=5.7
 ER  -
 
 TY  - JOUR
@@ -107,14 +197,14 @@ JO  - arXiv
 AU  - Thomas Rahab Lacroix
 AU  - Pierre Lemaire
 AU  - Nadia Brauner
-KW  - Promising
+KW  - Background Read
 KW  - 鲁棒随机优化
 KW  - 电力系统运行与规划
 KW  - robust optimization
 KW  - scheduling
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13058v1
-N1  - Auto-selected by Power Paper Digest; score=5.8
+N1  - Auto-selected by Power Paper Digest; score=5.5
 ER  -
 
 TY  - JOUR

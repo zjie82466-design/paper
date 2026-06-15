@@ -15,25 +15,28 @@ KW  - dispatch
 PY  - 2026
 DO  - 10.1109/tpwrs.2026.3702746
 UR  - https://doi.org/10.1109/tpwrs.2026.3702746
-N1  - Auto-selected by Power Paper Digest; score=9.1
+N1  - Auto-selected by Power Paper Digest; score=8.8
 ER  -
 
 TY  - JOUR
-TI  - An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction
+TI  - Intelligent Domain Adaptation for Power System Transient Stability Assessment Under Varying Operating Scenarios
 JO  - arXiv
-AU  - Edoardo Scaccia
-AU  - Eric C. Kerrigan
-AU  - Anna Sadowska
+AU  - Yuan Yang
+AU  - Lipeng Zhu
+AU  - Chao Deng
+AU  - Jiayong Li
+AU  - Quan Zhou
+AU  - Cong Zhang
 KW  - Strong Match
+KW  - 构网与暂态稳定
 KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
-KW  - energy storage
-KW  - microgrid
-KW  - microgrids
+KW  - AI+电力优化
+KW  - transient stability
+KW  - power system
+KW  - deep learning
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.12345v1
-N1  - Auto-selected by Power Paper Digest; score=8.4
+UR  - http://arxiv.org/abs/2606.14291v1
+N1  - Auto-selected by Power Paper Digest; score=7.9
 ER  -
 
 TY  - JOUR
@@ -51,39 +54,41 @@ KW  - reinforcement learning
 KW  - uncertainty
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13605v1
-N1  - Auto-selected by Power Paper Digest; score=8.1
+N1  - Auto-selected by Power Paper Digest; score=7.7
 ER  -
 
 TY  - JOUR
-TI  - Analysis of a Distributed Optimization-Based Control Architecture for Inverter-Interfaced Virtual Power Plants
+TI  - A Statistical and Machine Learning Framework for Operational Threshold Detection and Deployable Dispatch Controller Development in Hydrogen Multi-Energy Systems
 JO  - arXiv
-AU  - Vivek Khatana
-AU  - Soham Chakraborty
-AU  - Murti V. Salapaka
+AU  - Shadi Heenatigala
+AU  - Hasanika Samarasinghe
 KW  - Promising
-KW  - 构网与暂态稳定
-KW  - 源网荷储协同
-KW  - large-signal stability
-KW  - virtual power plant
-KW  - distributed energy resources
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - reinforcement learning
+KW  - dispatch
+KW  - machine learning
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.12336v1
-N1  - Auto-selected by Power Paper Digest; score=7.1
+UR  - http://arxiv.org/abs/2606.14601v1
+N1  - Auto-selected by Power Paper Digest; score=7.2
 ER  -
 
 TY  - JOUR
-TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
-JO  - IEEE Transactions on Smart Grid
-AU  - Sajal K. Das
-AU  - Yu-Chu Tian
+TI  - Which Directions Matter? Sparse Design for Affine Robust Optimization
+JO  - arXiv
+AU  - Pedro Chumpitaz-Flores
+AU  - My Duong
+AU  - Juan S. Borrero
+AU  - Kaixun Hua
 KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - robust optimization
+KW  - machine learning
+KW  - uncertainty
 PY  - 2026
-DO  - 10.1109/tsg.2026.3702702
-UR  - https://doi.org/10.1109/tsg.2026.3702702
-N1  - Auto-selected by Power Paper Digest; score=6.7
+UR  - http://arxiv.org/abs/2606.14648v1
+N1  - Auto-selected by Power Paper Digest; score=6.6
 ER  -
 
 TY  - JOUR
@@ -122,6 +127,56 @@ N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
+TI  - Post-Quantum Cyber Risk Assessment for Networked Microgrids: A Unified Framework
+JO  - IEEE Transactions on Smart Grid
+AU  - Sajal K. Das
+AU  - Yu-Chu Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3702702
+UR  - https://doi.org/10.1109/tsg.2026.3702702
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Spatial Load Correlation in AI Data-Center-Dominated Power Systems
+JO  - arXiv
+AU  - Chandan Chaudhary
+AU  - Alaaeldein Abdelkader
+AU  - Yansong Pei
+AU  - Mohammed Benidris
+AU  - Joydeep Mitra
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13853v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Modal Analysis of Spatial Load Correlation in AI Data Center-Dominated Power Systems
+JO  - arXiv
+AU  - Chandan Chaudhary
+AU  - Michael Murillo
+AU  - Mohammed Ben-Idris
+AU  - Joydeep Mitra
+AU  - Dilip Pandit
+AU  - Atri Bera
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.13847v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
 TI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach
 JO  - IEEE Transactions on Smart Grid
 AU  - Zixuan Zhu
@@ -135,7 +190,7 @@ KW  - reinforcement learning
 PY  - 2026
 DO  - 10.1109/tsg.2026.3702949
 UR  - https://doi.org/10.1109/tsg.2026.3702949
-N1  - Auto-selected by Power Paper Digest; score=6.1
+N1  - Auto-selected by Power Paper Digest; score=5.8
 ER  -
 
 TY  - JOUR
@@ -149,7 +204,7 @@ KW  - 构网与暂态稳定
 KW  - grid-forming
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13358v1
-N1  - Auto-selected by Power Paper Digest; score=6.0
+N1  - Auto-selected by Power Paper Digest; score=5.7
 ER  -
 
 TY  - JOUR
@@ -158,46 +213,12 @@ JO  - arXiv
 AU  - Thomas Rahab Lacroix
 AU  - Pierre Lemaire
 AU  - Nadia Brauner
-KW  - Promising
+KW  - Background Read
 KW  - 鲁棒随机优化
 KW  - 电力系统运行与规划
 KW  - robust optimization
 KW  - scheduling
 PY  - 2026
 UR  - http://arxiv.org/abs/2606.13058v1
-N1  - Auto-selected by Power Paper Digest; score=5.8
-ER  -
-
-TY  - JOUR
-TI  - Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning
-JO  - arXiv
-AU  - Qingyun Guo
-AU  - Junyi Shi
-AU  - Jianuo Huang
-AU  - Tianyu Shi
-KW  - Background Read
-KW  - AI+电力优化
-KW  - reinforcement learning
-PY  - 2026
-UR  - http://arxiv.org/abs/2606.12640v1
-N1  - Auto-selected by Power Paper Digest; score=5.3
-ER  -
-
-TY  - JOUR
-TI  - Incentive Compatible Online Pricing of Customer Directrix Load-Based Demand Response for Load Aggregators
-JO  - IEEE Transactions on Smart Grid
-AU  - Yi Zhang
-AU  - Shuai Fan
-AU  - Yan Meng
-AU  - Renke Huang
-AU  - Zuyi Li
-AU  - Jianzhong Wu
-AU  - Guangyu He
-KW  - Background Read
-KW  - 源网荷储协同
-KW  - demand response
-PY  - 2026
-DO  - 10.1109/tsg.2026.3703143
-UR  - https://doi.org/10.1109/tsg.2026.3703143
-N1  - Auto-selected by Power Paper Digest; score=5.2
+N1  - Auto-selected by Power Paper Digest; score=5.5
 ER  -

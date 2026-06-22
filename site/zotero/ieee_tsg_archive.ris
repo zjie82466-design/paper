@@ -1,4 +1,75 @@
 TY  - JOUR
+TI  - Secure State Estimation Design for Power Converter Dominated AC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Sen Tan
+AU  - Peilin Xie
+AU  - Jian Sun
+AU  - Juan C. Vasquez
+AU  - Josep M. Guerrero
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3704649
+UR  - https://doi.org/10.1109/tsg.2026.3704649
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Distributed dynamic event-triggered secondary control in dually heterogeneous islanded PV–BESS microgrids for voltage–frequency regulation and SoC balancing
+JO  - IEEE Transactions on Smart Grid
+AU  - Wenhu Tang
+AU  - Xinhao Nie
+AU  - Tianbo Han
+AU  - Tong Qian
+AU  - Ying Xue
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3704909
+UR  - https://doi.org/10.1109/tsg.2026.3704909
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - An Economic Scheduling Strategy for Multi-Microgrid Distribution System Based on Bi-level Flexibility Trading Mechanism
+JO  - IEEE Transactions on Smart Grid
+AU  - Qisheng Guo
+AU  - Xi Wu
+AU  - Jindong Si
+AU  - Kangwen Chen
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3704625
+UR  - https://doi.org/10.1109/tsg.2026.3704625
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Robust Unknown Input Observer based Estimation and Mitigation against Sensor Spoofing Attacks in Cyber-Physical Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Yuqi Wang
+AU  - Mengxiang Liu
+AU  - Milijana Odavic
+AU  - Xin Zhang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3703593
+UR  - https://doi.org/10.1109/tsg.2026.3703593
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - V2G Coordination for Secure and Low-Carbon Operation of EV-Rich Distribution Systems: A Safe Reinforcement Learning Approach
 JO  - IEEE Transactions on Smart Grid
 AU  - Zixuan Zhu

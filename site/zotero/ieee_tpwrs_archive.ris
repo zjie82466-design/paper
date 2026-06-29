@@ -1,4 +1,54 @@
 TY  - JOUR
+TI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources
+JO  - IEEE Transactions on Power Systems
+AU  - Feixiang Zhang
+AU  - Hongyi Li
+AU  - Zhaoyu Wang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - distributed energy resources
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3706325
+UR  - https://doi.org/10.1109/tpwrs.2026.3706325
+N1  - Auto-selected by Power Paper Digest; score=6.7
+ER  -
+
+TY  - JOUR
+TI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment
+JO  - IEEE Transactions on Power Systems
+AU  - Wei Hong
+AU  - Wangkun Xu
+AU  - Fei Teng
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3706404
+UR  - https://doi.org/10.1109/tpwrs.2026.3706404
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation
+JO  - IEEE Transactions on Power Systems
+AU  - Jaemin Moon
+AU  - Hyeokjun Yoon
+AU  - Seonghee Suk
+AU  - Ning Zhang
+AU  - Kyeon Hur
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3705983
+UR  - https://doi.org/10.1109/tpwrs.2026.3705983
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - On the Solvability of the Power Flow Equation of DC Microgrids Under Distributed Control Through an Infinite Union Method
 JO  - IEEE Transactions on Power Systems
 AU  - Xinxi Li

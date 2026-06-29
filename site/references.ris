@@ -1,332 +1,207 @@
 TY  - JOUR
-TI  - Scheduling for Hybrid Microgrids with Renewable Energy Sources and Hydrogen Storage: Data-Correlated Uncertainty Modeling and Semi-Convex Relaxation
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Zipeng Liang
-AU  - C.Y. Chung
-AU  - Xin Yin
-AU  - Qin Wang
-AU  - Haoyong Chen
-AU  - Jizhong Zhu
+TI  - Uncertainty-aware Power System Planning via Gradient Descent
+JO  - arXiv
+AU  - Mehrnoush Ghazanfariharandi
+AU  - Robert Mieth
 KW  - Strong Match
 KW  - 电力系统运行与规划
 KW  - 源网荷储协同
 KW  - 鲁棒随机优化
-KW  - scheduling
-KW  - microgrid
-KW  - microgrids
-KW  - uncertainty
-PY  - 2026
-DO  - 10.1109/tste.2026.3704151
-UR  - https://doi.org/10.1109/tste.2026.3704151
-N1  - Auto-selected by Power Paper Digest; score=9.7
-ER  -
-
-TY  - JOUR
-TI  - Revisiting angle stability in power systems with grid-forming power converters
-JO  - IEEE Transactions on Power Systems
-AU  - Régulo E. Ávila-Martínez
-AU  - Javier Renedo
-AU  - Luis Rouco
-AU  - Aurelio Garcia-Cerrada
-AU  - Lukas Sigrist
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - 电力系统运行与规划
-KW  - grid-forming
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703616
-UR  - https://doi.org/10.1109/tpwrs.2026.3703616
-N1  - Auto-selected by Power Paper Digest; score=9.2
-ER  -
-
-TY  - JOUR
-TI  - Byzantine-Resilient Federated Multi-Agent Optimization Framework for Cyber-Secure Interconnected Microgrids
-JO  - arXiv
-AU  - Ali Peivand
-AU  - Seyyed Mostafa Nosratabadi
-KW  - Strong Match
-KW  - 源网荷储协同
-KW  - 电力系统运行与规划
+KW  - power system operation
+KW  - power system planning
 KW  - energy storage
-KW  - dispatch
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-UR  - http://arxiv.org/abs/2606.19080v1
-N1  - Auto-selected by Power Paper Digest; score=7.8
-ER  -
-
-TY  - JOUR
-TI  - Ramping Procurement and Bid-Cost Recovery in Real-Time Market
-JO  - arXiv
-AU  - Cong Chen
-AU  - Valentina Norambuena
-AU  - Lang Tong
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - 鲁棒随机优化
-KW  - economic dispatch
-KW  - stochastic optimization
-KW  - dispatch
+KW  - power system
 KW  - uncertainty
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.19599v1
-N1  - Auto-selected by Power Paper Digest; score=7.4
+UR  - http://arxiv.org/abs/2606.27602v1
+N1  - Auto-selected by Power Paper Digest; score=10.0
 ER  -
 
 TY  - JOUR
-TI  - Chance-Constrained DC Optimal Power Flow Using Constraint-Informed Statistical Estimation
-JO  - IEEE Transactions on Power Systems
-AU  - Tianyang Yi
-AU  - D. Adrian Maldonado
-AU  - Anirudh Subramanyam
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 鲁棒随机优化
-KW  - optimal power flow
-KW  - chance-constrained
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3704056
-UR  - https://doi.org/10.1109/tpwrs.2026.3704056
-N1  - Auto-selected by Power Paper Digest; score=7.2
-ER  -
-
-TY  - JOUR
-TI  - An Economic Scheduling Strategy for Multi-Microgrid Distribution System Based on Bi-level Flexibility Trading Mechanism
-JO  - IEEE Transactions on Smart Grid
-AU  - Qisheng Guo
-AU  - Xi Wu
-AU  - Jindong Si
-AU  - Kangwen Chen
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
-KW  - microgrid
-PY  - 2026
-DO  - 10.1109/tsg.2026.3704625
-UR  - https://doi.org/10.1109/tsg.2026.3704625
-N1  - Auto-selected by Power Paper Digest; score=6.9
-ER  -
-
-TY  - JOUR
-TI  - On the Solvability of the Power Flow Equation of DC Microgrids Under Distributed Control Through an Infinite Union Method
-JO  - IEEE Transactions on Power Systems
-AU  - Xinxi Li
-AU  - Zhangjie Liu
-AU  - Mei Su
-AU  - Xubin Liu
-AU  - Xin Zhang
-AU  - Herbert Ho-Ching Iu
-AU  - Peng Wang
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3705605
-UR  - https://doi.org/10.1109/tpwrs.2026.3705605
-N1  - Auto-selected by Power Paper Digest; score=6.9
-ER  -
-
-TY  - JOUR
-TI  - From Tokens to Energy Flexibility: Quantization-Enabled Demand Response for Data Centers with LLM Inference Workloads
+TI  - A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources
 JO  - arXiv
-AU  - Bojun Du
-AU  - Xiaoyi Fan
-AU  - Ershun Du
-AU  - Long Chen
-AU  - Jianpei Han
-AU  - Qingchun Hou
-AU  - Ning Zhang
-AU  - Chongqing Kang
-KW  - Promising
-KW  - 源网荷储协同
+AU  - Wei Wang
+AU  - Minwu Chen
+AU  - Yinyu Chen
+AU  - Jingyan He
+KW  - Strong Match
+KW  - 韧性与恢复
 KW  - 电力系统运行与规划
-KW  - demand response
+KW  - resilience
 KW  - scheduling
 KW  - dispatch
+KW  - power system
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.18851v1
-N1  - Auto-selected by Power Paper Digest; score=6.8
+UR  - http://arxiv.org/abs/2606.27712v1
+N1  - Auto-selected by Power Paper Digest; score=7.5
 ER  -
 
 TY  - JOUR
-TI  - Secure State Estimation Design for Power Converter Dominated AC Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Sen Tan
-AU  - Peilin Xie
-AU  - Jian Sun
-AU  - Juan C. Vasquez
-AU  - Josep M. Guerrero
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3704649
-UR  - https://doi.org/10.1109/tsg.2026.3704649
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - Distributed dynamic event-triggered secondary control in dually heterogeneous islanded PV–BESS microgrids for voltage–frequency regulation and SoC balancing
-JO  - IEEE Transactions on Smart Grid
-AU  - Wenhu Tang
-AU  - Xinhao Nie
-AU  - Tianbo Han
-AU  - Tong Qian
-AU  - Ying Xue
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3704909
-UR  - https://doi.org/10.1109/tsg.2026.3704909
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - Operational Bottleneck Component Identification and Elimination for Renewable Energy Consumption in Power Systems
+TI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources
 JO  - IEEE Transactions on Power Systems
-AU  - Hui Liu
-AU  - Xinwei Chen
-AU  - Haimin Xie
-AU  - Zihao Yang
-AU  - Can Wan
-AU  - Ni Wang
+AU  - Feixiang Zhang
+AU  - Hongyi Li
+AU  - Zhaoyu Wang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - distributed energy resources
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3706325
+UR  - https://doi.org/10.1109/tpwrs.2026.3706325
+N1  - Auto-selected by Power Paper Digest; score=6.7
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Imane Biyya
+AU  - Zakarya Oubrahim
+AU  - Ahmed Abbou
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3706571
+UR  - https://doi.org/10.1109/tsg.2026.3706571
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation
+JO  - IEEE Transactions on Power Systems
+AU  - Jaemin Moon
+AU  - Hyeokjun Yoon
+AU  - Seonghee Suk
+AU  - Ning Zhang
+AU  - Kyeon Hur
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703908
-UR  - https://doi.org/10.1109/tpwrs.2026.3703908
+DO  - 10.1109/tpwrs.2026.3705983
+UR  - https://doi.org/10.1109/tpwrs.2026.3705983
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Robust Unknown Input Observer based Estimation and Mitigation against Sensor Spoofing Attacks in Cyber-Physical Microgrids
+TI  - Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs
 JO  - IEEE Transactions on Smart Grid
-AU  - Yuqi Wang
-AU  - Mengxiang Liu
-AU  - Milijana Odavic
-AU  - Xin Zhang
+AU  - Haoyuan Deng
+AU  - Lingyu Chen
+AU  - Wenbo Zeng
+AU  - Xueyuan Cui
+AU  - Yi Wang
 KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3703593
-UR  - https://doi.org/10.1109/tsg.2026.3703593
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - Distributed Adaptive Coordination of Flexibility Resources for Real-Time Power Balancing in Islanded DC Microgrids
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Mohammad Rajabi Nasab
-AU  - Roberto Cometa
-AU  - Sergio Bruno
-AU  - Marco Liserre
-AU  - Cosimo Iurlaro
-AU  - Massimo La Scala
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tste.2026.3705329
-UR  - https://doi.org/10.1109/tste.2026.3705329
-N1  - Auto-selected by Power Paper Digest; score=6.4
-ER  -
-
-TY  - JOUR
-TI  - A Data-Driven Approach for Coherency Identification in Large-Scale Power Systems
-JO  - IEEE Transactions on Power Systems
-AU  - Hêmin Golpîra
-AU  - Bruno Francois
-KW  - Promising
+KW  - AI+电力优化
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - reinforcement learning
+KW  - dispatch
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703658
-UR  - https://doi.org/10.1109/tpwrs.2026.3703658
+DO  - 10.1109/tsg.2026.3707150
+UR  - https://doi.org/10.1109/tsg.2026.3707150
 N1  - Auto-selected by Power Paper Digest; score=6.3
 ER  -
 
 TY  - JOUR
-TI  - Frequency and Voltage Independent Stability Conditions for Grid-Forming Devices
-JO  - IEEE Transactions on Power Systems
-AU  - Hongyang Qing
-AU  - Xiuqiang He
-AU  - Hua Geng
+TI  - Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems
+JO  - arXiv
+AU  - Anna Sacilotto
+AU  - Ambrogio Maria Bernardelli
+AU  - Stefano Gualandi
 KW  - Promising
-KW  - 构网与暂态稳定
-KW  - grid-forming
+KW  - 鲁棒随机优化
+KW  - 源网荷储协同
+KW  - stochastic optimization
+KW  - energy storage
+KW  - uncertainty
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703614
-UR  - https://doi.org/10.1109/tpwrs.2026.3703614
-N1  - Auto-selected by Power Paper Digest; score=6.1
+UR  - http://arxiv.org/abs/2606.26648v1
+N1  - Auto-selected by Power Paper Digest; score=6.2
 ER  -
 
 TY  - JOUR
-TI  - PowerAgentBench-Dyn: A Benchmark for Agentic AI in Power System Dynamic Studies
-JO  - arXiv
-AU  - Qian Zhang
-AU  - Andrea Pomarico
-AU  - Costas Mylonas
-AU  - Magda Foti
-AU  - Alberto Berizzi
-AU  - Le Xie
+TI  - Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhigang Li
+AU  - Hongyuan Liang
+AU  - Ning Qi
+AU  - Yue Chen
+AU  - Haipeng Lai
+AU  - Ziheng Wei
+AU  - Qi Wang
 KW  - Promising
 KW  - 电力系统运行与规划
-KW  - power system operation
-KW  - power system
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.20401v1
+DO  - 10.1109/tsg.2026.3705774
+UR  - https://doi.org/10.1109/tsg.2026.3705774
+N1  - Auto-selected by Power Paper Digest; score=6.2
+ER  -
+
+TY  - JOUR
+TI  - Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity
+JO  - arXiv
+AU  - Yadh Hafsi
+AU  - Samy Mekkaoui
+AU  - Huyên Pham
+AU  - Kaixin Yan
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - distributionally robust
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.27610v1
 N1  - Auto-selected by Power Paper Digest; score=6.0
 ER  -
 
 TY  - JOUR
-TI  - Bridging Data-Driven and Model-Based Methods: A Learn-to-Optimize Architecture for Distributed Optimal Power Flow
+TI  - When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations
 JO  - arXiv
-AU  - Yibo Ding
-AU  - Zhao Xu
-AU  - Yuhong Zhao
-AU  - Jian Zhao
-AU  - Jiaqi Ruan
-AU  - Zhaoyang Dong
+AU  - Yifan Wang
+KW  - Promising
+KW  - 韧性与恢复
+KW  - AI+电力优化
+KW  - 鲁棒随机优化
+KW  - resilience
+KW  - machine learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2606.26920v1
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks
+JO  - arXiv
+AU  - Biswajit Kumar Dash
+AU  - Garrett Thomas
+AU  - Adedoyin Inaolaji
+AU  - Filippo Malandra
 KW  - Background Read
 KW  - 电力系统运行与规划
 KW  - optimal power flow
-KW  - opf
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.18822v1
+UR  - http://arxiv.org/abs/2606.27542v1
 N1  - Auto-selected by Power Paper Digest; score=5.5
 ER  -
 
 TY  - JOUR
-TI  - Model-Free Reinforcement Learning Control for Resilient Cyber-Physical Systems
-JO  - arXiv
-AU  - Hugo O. Garcés
-AU  - Alejandro J. Rojas
-AU  - Bernardo A. Hernández
-AU  - Andrés Escalona
-AU  - Jonathan M. Palma
-AU  - Md. Rezwan Parvez
-AU  - Bhushan Gopaluni
-AU  - Sirish L. Shah
+TI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment
+JO  - IEEE Transactions on Power Systems
+AU  - Wei Hong
+AU  - Wangkun Xu
+AU  - Fei Teng
 KW  - Background Read
-KW  - AI+电力优化
-KW  - 韧性与恢复
-KW  - reinforcement learning
-KW  - resilience
+KW  - 电力系统运行与规划
+KW  - unit commitment
 PY  - 2026
-UR  - http://arxiv.org/abs/2606.19069v1
-N1  - Auto-selected by Power Paper Digest; score=5.4
+DO  - 10.1109/tpwrs.2026.3706404
+UR  - https://doi.org/10.1109/tpwrs.2026.3706404
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

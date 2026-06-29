@@ -1,105 +1,49 @@
 TY  - JOUR
-TI  - Revisiting angle stability in power systems with grid-forming power converters
+TI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources
 JO  - IEEE Transactions on Power Systems
-AU  - Régulo E. Ávila-Martínez
-AU  - Javier Renedo
-AU  - Luis Rouco
-AU  - Aurelio Garcia-Cerrada
-AU  - Lukas Sigrist
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - 电力系统运行与规划
-KW  - grid-forming
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703616
-UR  - https://doi.org/10.1109/tpwrs.2026.3703616
-N1  - Auto-selected by Power Paper Digest; score=9.2
-ER  -
-
-TY  - JOUR
-TI  - Chance-Constrained DC Optimal Power Flow Using Constraint-Informed Statistical Estimation
-JO  - IEEE Transactions on Power Systems
-AU  - Tianyang Yi
-AU  - D. Adrian Maldonado
-AU  - Anirudh Subramanyam
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 鲁棒随机优化
-KW  - optimal power flow
-KW  - chance-constrained
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3704056
-UR  - https://doi.org/10.1109/tpwrs.2026.3704056
-N1  - Auto-selected by Power Paper Digest; score=7.2
-ER  -
-
-TY  - JOUR
-TI  - On the Solvability of the Power Flow Equation of DC Microgrids Under Distributed Control Through an Infinite Union Method
-JO  - IEEE Transactions on Power Systems
-AU  - Xinxi Li
-AU  - Zhangjie Liu
-AU  - Mei Su
-AU  - Xubin Liu
-AU  - Xin Zhang
-AU  - Herbert Ho-Ching Iu
-AU  - Peng Wang
+AU  - Feixiang Zhang
+AU  - Hongyi Li
+AU  - Zhaoyu Wang
 KW  - Promising
 KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - 鲁棒随机优化
+KW  - distributed energy resources
+KW  - uncertainty
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3705605
-UR  - https://doi.org/10.1109/tpwrs.2026.3705605
-N1  - Auto-selected by Power Paper Digest; score=6.9
+DO  - 10.1109/tpwrs.2026.3706325
+UR  - https://doi.org/10.1109/tpwrs.2026.3706325
+N1  - Auto-selected by Power Paper Digest; score=6.7
 ER  -
 
 TY  - JOUR
-TI  - Operational Bottleneck Component Identification and Elimination for Renewable Energy Consumption in Power Systems
+TI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation
 JO  - IEEE Transactions on Power Systems
-AU  - Hui Liu
-AU  - Xinwei Chen
-AU  - Haimin Xie
-AU  - Zihao Yang
-AU  - Can Wan
-AU  - Ni Wang
+AU  - Jaemin Moon
+AU  - Hyeokjun Yoon
+AU  - Seonghee Suk
+AU  - Ning Zhang
+AU  - Kyeon Hur
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703908
-UR  - https://doi.org/10.1109/tpwrs.2026.3703908
+DO  - 10.1109/tpwrs.2026.3705983
+UR  - https://doi.org/10.1109/tpwrs.2026.3705983
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - A Data-Driven Approach for Coherency Identification in Large-Scale Power Systems
+TI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment
 JO  - IEEE Transactions on Power Systems
-AU  - Hêmin Golpîra
-AU  - Bruno Francois
-KW  - Promising
+AU  - Wei Hong
+AU  - Wangkun Xu
+AU  - Fei Teng
+KW  - Background Read
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - unit commitment
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703658
-UR  - https://doi.org/10.1109/tpwrs.2026.3703658
-N1  - Auto-selected by Power Paper Digest; score=6.3
-ER  -
-
-TY  - JOUR
-TI  - Frequency and Voltage Independent Stability Conditions for Grid-Forming Devices
-JO  - IEEE Transactions on Power Systems
-AU  - Hongyang Qing
-AU  - Xiuqiang He
-AU  - Hua Geng
-KW  - Promising
-KW  - 构网与暂态稳定
-KW  - grid-forming
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3703614
-UR  - https://doi.org/10.1109/tpwrs.2026.3703614
-N1  - Auto-selected by Power Paper Digest; score=6.1
+DO  - 10.1109/tpwrs.2026.3706404
+UR  - https://doi.org/10.1109/tpwrs.2026.3706404
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

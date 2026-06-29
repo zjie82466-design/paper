@@ -1,4 +1,60 @@
 TY  - JOUR
+TI  - Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs
+JO  - IEEE Transactions on Smart Grid
+AU  - Haoyuan Deng
+AU  - Lingyu Chen
+AU  - Wenbo Zeng
+AU  - Xueyuan Cui
+AU  - Yi Wang
+KW  - Promising
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - reinforcement learning
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3707150
+UR  - https://doi.org/10.1109/tsg.2026.3707150
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Imane Biyya
+AU  - Zakarya Oubrahim
+AU  - Ahmed Abbou
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3706571
+UR  - https://doi.org/10.1109/tsg.2026.3706571
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhigang Li
+AU  - Hongyuan Liang
+AU  - Ning Qi
+AU  - Yue Chen
+AU  - Haipeng Lai
+AU  - Ziheng Wei
+AU  - Qi Wang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tsg.2026.3705774
+UR  - https://doi.org/10.1109/tsg.2026.3705774
+N1  - Auto-selected by Power Paper Digest; score=6.2
+ER  -
+
+TY  - JOUR
 TI  - Secure State Estimation Design for Power Converter Dominated AC Microgrids
 JO  - IEEE Transactions on Smart Grid
 AU  - Sen Tan

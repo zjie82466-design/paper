@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 13:08:14 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 12:48:09 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-06-29</title>
+      <title>电力系统论文周报 · 2026-07-06</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 13:08:14 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-06-29
-1. Uncertainty-aware Power System Planning via Gradient Descent [arXiv] - 10.0/10
-2. A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources [arXiv] - 7.5/10
-3. Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources [IEEE Transactions on Power Systems] - 6.7/10
-4. Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids [IEEE Transactions on Smart Grid] - 6.5/10
-5. Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation [IEEE Transactions on Power Systems] - 6.5/10
-6. Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs [IEEE Transactions on Smart Grid] - 6.3/10
-7. Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems [arXiv] - 6.2/10
-8. Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions [IEEE Transactions on Smart Grid] - 6.2/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 12:48:09 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-07-06
+1. Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach [IEEE Transactions on Smart Grid] - 8.3/10
+2. Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems [IEEE Transactions on Smart Grid] - 8.2/10
+3. Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling [IEEE Transactions on Power Systems] - 6.5/10
+4. Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems [IEEE Transactions on Power Systems] - 6.5/10
+5. A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids [IEEE Transactions on Smart Grid] - 6.5/10
+6. A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control [arXiv] - 6.5/10
+7. Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning [IEEE Transactions on Smart Grid] - 6.5/10
+8. Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems [IEEE Transactions on Power Systems] - 6.5/10</description>
     </item>
   </channel>
 </rss>

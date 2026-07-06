@@ -10,28 +10,27 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-06-29T13:08:14.426096+08:00",
-    "target_date": "2026-06-29",
-    "window_start": "2026-06-23",
+    "generated_at": "2026-07-06T12:48:09.689332+08:00",
+    "target_date": "2026-07-06",
+    "window_start": "2026-06-30",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 12,
-    "archive_count": 47,
+    "paper_count": 8,
+    "archive_count": 55,
     "source_counts": {
-      "arxiv": 6,
-      "ieee": 6
+      "ieee": 7,
+      "arxiv": 1
     },
     "journal_counts": {
-      "arXiv": 6,
+      "IEEE Transactions on Smart Grid": 4,
       "IEEE Transactions on Power Systems": 3,
-      "IEEE Transactions on Smart Grid": 3
+      "arXiv": 1
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 7,
-      "源网荷储协同": 5,
-      "鲁棒随机优化": 5,
-      "AI+电力优化": 2,
-      "韧性与恢复": 2
+      "电力系统运行与规划": 6,
+      "源网荷储协同": 3,
+      "AI+电力优化": 1,
+      "构网与暂态稳定": 1
     },
     "required_topics": [
       "power system operation",
@@ -64,7 +63,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 3,
-        "archive_count": 12
+        "archive_count": 15
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -75,8 +74,8 @@
         "ris_path": "./zotero/ieee_tsg.ris",
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
-        "selected_count": 3,
-        "archive_count": 10
+        "selected_count": 4,
+        "archive_count": 14
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -103,75 +102,26 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 6,
+      "count": 7,
       "papers": [
         {
-          "id": "10.1109/tpwrs.2026.3706325",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Power Systems",
-          "title": "Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources",
-          "authors": [
-            "Feixiang Zhang",
-            "Hongyi Li",
-            "Zhaoyu Wang"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tpwrs.2026.3706325",
-          "pdf_url": null,
-          "doi": "10.1109/tpwrs.2026.3706325",
-          "published_at": "2026-06-24T19:50:37+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.35,
-            "crossref_type": "journal-article",
-            "configured_journal": "IEEE Transactions on Power Systems",
-            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
-            "zotero_collection": "IEEE Transactions on Power Systems"
-          },
-          "matched_keywords": [
-            "distributed energy resources",
-            "uncertainty"
-          ],
-          "matched_keyword_groups": [
-            "源网荷储协同",
-            "鲁棒随机优化"
-          ],
-          "rule_score": 6.71,
-          "llm_score": 6.71,
-          "final_score": 6.71,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：distributed energy resources、uncertainty",
-          "ai_summary": "该论文题为《Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-25T03:50:37+08:00",
-          "published_date_local": "2026-06-25",
-          "published_time_local": "03:50",
-          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3706325",
-          "citation_key": "zhang2026uncertaintyaware706325",
-          "bibtex_entry": "@article{zhang2026uncertaintyaware706325,\n  title = {Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources},\n  author = {Feixiang Zhang and Hongyi Li and Zhaoyu Wang},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3706325},\n  url = {https://doi.org/10.1109/tpwrs.2026.3706325},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, distributed energy resources, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources\nJO  - IEEE Transactions on Power Systems\nAU  - Feixiang Zhang\nAU  - Hongyi Li\nAU  - Zhaoyu Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - distributed energy resources\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3706325\nUR  - https://doi.org/10.1109/tpwrs.2026.3706325\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
-          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
-          "zotero_collection": "IEEE Transactions on Power Systems"
-        },
-        {
-          "id": "10.1109/tsg.2026.3706571",
+          "id": "10.1109/tsg.2026.3709107",
           "source": "ieee",
           "section": "ieee",
           "journal": "IEEE Transactions on Smart Grid",
-          "title": "Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids",
+          "title": "Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach",
           "authors": [
-            "Imane Biyya",
-            "Zakarya Oubrahim",
-            "Ahmed Abbou"
+            "Hongpeng Li",
+            "Bo Yang",
+            "Teng Lv",
+            "Xinchun Jia",
+            "Xinping Guan"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3706571",
+          "url": "https://doi.org/10.1109/tsg.2026.3709107",
           "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3706571",
-          "published_at": "2026-06-23T19:45:42+00:00",
+          "doi": "10.1109/tsg.2026.3709107",
+          "published_at": "2026-07-01T19:37:02+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -182,48 +132,103 @@
             "zotero_collection": "IEEE Transactions on Smart Grid"
           },
           "matched_keywords": [
-            "microgrid",
-            "microgrids"
+            "energy storage",
+            "power system",
+            "power systems"
           ],
           "matched_keyword_groups": [
-            "源网荷储协同"
+            "源网荷储协同",
+            "电力系统运行与规划"
           ],
-          "rule_score": 6.53,
-          "llm_score": 6.53,
-          "final_score": 6.53,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：microgrid、microgrids",
-          "ai_summary": "该论文题为《Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "rule_score": 8.31,
+          "llm_score": 8.31,
+          "final_score": 8.31,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：energy storage、power system、power systems",
+          "ai_summary": "该论文题为《Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-24T03:45:42+08:00",
-          "published_date_local": "2026-06-24",
-          "published_time_local": "03:45",
-          "doi_url": "https://doi.org/10.1109/tsg.2026.3706571",
-          "citation_key": "biyya2026realtime706571",
-          "bibtex_entry": "@article{biyya2026realtime706571,\n  title = {Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids},\n  author = {Imane Biyya and Zakarya Oubrahim and Ahmed Abbou},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3706571},\n  url = {https://doi.org/10.1109/tsg.2026.3706571},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Imane Biyya\nAU  - Zakarya Oubrahim\nAU  - Ahmed Abbou\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3706571\nUR  - https://doi.org/10.1109/tsg.2026.3706571\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "published_at_local": "2026-07-02T03:37:02+08:00",
+          "published_date_local": "2026-07-02",
+          "published_time_local": "03:37",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3709107",
+          "citation_key": "li2026robust709107",
+          "bibtex_entry": "@article{li2026robust709107,\n  title = {Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach},\n  author = {Hongpeng Li and Bo Yang and Teng Lv and Xinchun Jia and Xinping Guan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3709107},\n  url = {https://doi.org/10.1109/tsg.2026.3709107},\n  keywords = {Strong Match, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=8.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Hongpeng Li\nAU  - Bo Yang\nAU  - Teng Lv\nAU  - Xinchun Jia\nAU  - Xinping Guan\nKW  - Strong Match\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tsg.2026.3709107\nUR  - https://doi.org/10.1109/tsg.2026.3709107\nN1  - Auto-selected by Power Paper Digest; score=8.3\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
           "zotero_collection": "IEEE Transactions on Smart Grid"
         },
         {
-          "id": "10.1109/tpwrs.2026.3705983",
+          "id": "10.1109/tsg.2026.3708992",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems",
+          "authors": [
+            "Suhan Zhang",
+            "Xin Zhang",
+            "Dongmeng Qiu",
+            "Vladimir Terzija"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3708992",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3708992",
+          "published_at": "2026-07-01T19:37:02+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems",
+            "surrogate model"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 8.21,
+          "llm_score": 8.21,
+          "final_score": 8.21,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：power system、power systems、surrogate model",
+          "ai_summary": "该论文题为《Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-02T03:37:02+08:00",
+          "published_date_local": "2026-07-02",
+          "published_time_local": "03:37",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3708992",
+          "citation_key": "zhang2026rank708992",
+          "bibtex_entry": "@article{zhang2026rank708992,\n  title = {Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems},\n  author = {Suhan Zhang and Xin Zhang and Dongmeng Qiu and Vladimir Terzija},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3708992},\n  url = {https://doi.org/10.1109/tsg.2026.3708992},\n  keywords = {Strong Match, 电力系统运行与规划, AI+电力优化, power system, power systems, surrogate model},\n  note = {Auto-selected by Power Paper Digest; score=8.2}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Suhan Zhang\nAU  - Xin Zhang\nAU  - Dongmeng Qiu\nAU  - Vladimir Terzija\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system\nKW  - power systems\nKW  - surrogate model\nPY  - 2026\nDO  - 10.1109/tsg.2026.3708992\nUR  - https://doi.org/10.1109/tsg.2026.3708992\nN1  - Auto-selected by Power Paper Digest; score=8.2\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid"
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3709542",
           "source": "ieee",
           "section": "ieee",
           "journal": "IEEE Transactions on Power Systems",
-          "title": "Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation",
+          "title": "Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling",
           "authors": [
-            "Jaemin Moon",
-            "Hyeokjun Yoon",
-            "Seonghee Suk",
-            "Ning Zhang",
-            "Kyeon Hur"
+            "Kseniia Zhgun",
+            "Sanjana Kunkolienkar",
+            "Rawand Badawi",
+            "Farnaz Safdarian",
+            "Thomas J. Overbye"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tpwrs.2026.3705983",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3709542",
           "pdf_url": null,
-          "doi": "10.1109/tpwrs.2026.3705983",
-          "published_at": "2026-06-22T19:56:53+00:00",
+          "doi": "10.1109/tpwrs.2026.3709542",
+          "published_at": "2026-07-02T19:45:00+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -245,143 +250,37 @@
           "final_score": 6.53,
           "relevance_label": "Promising",
           "score_reason": "命中关键词：power system、power systems",
-          "ai_summary": "该论文题为《Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "ai_summary": "该论文题为《Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
           "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-23T03:56:53+08:00",
-          "published_date_local": "2026-06-23",
-          "published_time_local": "03:56",
-          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3705983",
-          "citation_key": "moon2026voltagesensitive705983",
-          "bibtex_entry": "@article{moon2026voltagesensitive705983,\n  title = {Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation},\n  author = {Jaemin Moon and Hyeokjun Yoon and Seonghee Suk and Ning Zhang and Kyeon Hur},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3705983},\n  url = {https://doi.org/10.1109/tpwrs.2026.3705983},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation\nJO  - IEEE Transactions on Power Systems\nAU  - Jaemin Moon\nAU  - Hyeokjun Yoon\nAU  - Seonghee Suk\nAU  - Ning Zhang\nAU  - Kyeon Hur\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3705983\nUR  - https://doi.org/10.1109/tpwrs.2026.3705983\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "published_at_local": "2026-07-03T03:45:00+08:00",
+          "published_date_local": "2026-07-03",
+          "published_time_local": "03:45",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3709542",
+          "citation_key": "zhgun2026phase709542",
+          "bibtex_entry": "@article{zhgun2026phase709542,\n  title = {Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling},\n  author = {Kseniia Zhgun and Sanjana Kunkolienkar and Rawand Badawi and Farnaz Safdarian and Thomas J. Overbye},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3709542},\n  url = {https://doi.org/10.1109/tpwrs.2026.3709542},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling\nJO  - IEEE Transactions on Power Systems\nAU  - Kseniia Zhgun\nAU  - Sanjana Kunkolienkar\nAU  - Rawand Badawi\nAU  - Farnaz Safdarian\nAU  - Thomas J. Overbye\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3709542\nUR  - https://doi.org/10.1109/tpwrs.2026.3709542\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
           "zotero_collection": "IEEE Transactions on Power Systems"
         },
         {
-          "id": "10.1109/tsg.2026.3707150",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs",
-          "authors": [
-            "Haoyuan Deng",
-            "Lingyu Chen",
-            "Wenbo Zeng",
-            "Xueyuan Cui",
-            "Yi Wang"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3707150",
-          "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3707150",
-          "published_at": "2026-06-25T19:45:20+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.35,
-            "crossref_type": "journal-article",
-            "configured_journal": "IEEE Transactions on Smart Grid",
-            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-            "zotero_collection": "IEEE Transactions on Smart Grid"
-          },
-          "matched_keywords": [
-            "reinforcement learning",
-            "dispatch"
-          ],
-          "matched_keyword_groups": [
-            "AI+电力优化",
-            "电力系统运行与规划"
-          ],
-          "rule_score": 6.31,
-          "llm_score": 6.31,
-          "final_score": 6.31,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：reinforcement learning、dispatch",
-          "ai_summary": "该论文题为《Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-26T03:45:20+08:00",
-          "published_date_local": "2026-06-26",
-          "published_time_local": "03:45",
-          "doi_url": "https://doi.org/10.1109/tsg.2026.3707150",
-          "citation_key": "deng2026federated707150",
-          "bibtex_entry": "@article{deng2026federated707150,\n  title = {Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs},\n  author = {Haoyuan Deng and Lingyu Chen and Wenbo Zeng and Xueyuan Cui and Yi Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3707150},\n  url = {https://doi.org/10.1109/tsg.2026.3707150},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs\nJO  - IEEE Transactions on Smart Grid\nAU  - Haoyuan Deng\nAU  - Lingyu Chen\nAU  - Wenbo Zeng\nAU  - Xueyuan Cui\nAU  - Yi Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tsg.2026.3707150\nUR  - https://doi.org/10.1109/tsg.2026.3707150\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
-          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-          "zotero_collection": "IEEE Transactions on Smart Grid"
-        },
-        {
-          "id": "10.1109/tsg.2026.3705774",
-          "source": "ieee",
-          "section": "ieee",
-          "journal": "IEEE Transactions on Smart Grid",
-          "title": "Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions",
-          "authors": [
-            "Zhigang Li",
-            "Hongyuan Liang",
-            "Ning Qi",
-            "Yue Chen",
-            "Haipeng Lai",
-            "Ziheng Wei",
-            "Qi Wang"
-          ],
-          "abstract": "",
-          "url": "https://doi.org/10.1109/tsg.2026.3705774",
-          "pdf_url": null,
-          "doi": "10.1109/tsg.2026.3705774",
-          "published_at": "2026-06-22T19:56:34+00:00",
-          "categories": [],
-          "metadata": {
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "journal_weight": 1.35,
-            "crossref_type": "journal-article",
-            "configured_journal": "IEEE Transactions on Smart Grid",
-            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-            "zotero_collection": "IEEE Transactions on Smart Grid"
-          },
-          "matched_keywords": [
-            "scheduling",
-            "energy storage"
-          ],
-          "matched_keyword_groups": [
-            "电力系统运行与规划",
-            "源网荷储协同"
-          ],
-          "rule_score": 6.21,
-          "llm_score": 6.21,
-          "final_score": 6.21,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：scheduling、energy storage",
-          "ai_summary": "该论文题为《Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-23T03:56:34+08:00",
-          "published_date_local": "2026-06-23",
-          "published_time_local": "03:56",
-          "doi_url": "https://doi.org/10.1109/tsg.2026.3705774",
-          "citation_key": "li2026exact705774",
-          "bibtex_entry": "@article{li2026exact705774,\n  title = {Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions},\n  author = {Zhigang Li and Hongyuan Liang and Ning Qi and Yue Chen and Haipeng Lai and Ziheng Wei and Qi Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3705774},\n  url = {https://doi.org/10.1109/tsg.2026.3705774},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=6.2}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhigang Li\nAU  - Hongyuan Liang\nAU  - Ning Qi\nAU  - Yue Chen\nAU  - Haipeng Lai\nAU  - Ziheng Wei\nAU  - Qi Wang\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3705774\nUR  - https://doi.org/10.1109/tsg.2026.3705774\nN1  - Auto-selected by Power Paper Digest; score=6.2\nER  -",
-          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-          "zotero_collection": "IEEE Transactions on Smart Grid"
-        },
-        {
-          "id": "10.1109/tpwrs.2026.3706404",
+          "id": "10.1109/tpwrs.2026.3709567",
           "source": "ieee",
           "section": "ieee",
           "journal": "IEEE Transactions on Power Systems",
-          "title": "Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment",
+          "title": "Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems",
           "authors": [
-            "Wei Hong",
             "Wangkun Xu",
+            "Hongyang Jia",
+            "Yi Wang",
+            "Ning Zhang",
             "Fei Teng"
           ],
           "abstract": "",
-          "url": "https://doi.org/10.1109/tpwrs.2026.3706404",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3709567",
           "pdf_url": null,
-          "doi": "10.1109/tpwrs.2026.3706404",
-          "published_at": "2026-06-23T19:45:52+00:00",
+          "doi": "10.1109/tpwrs.2026.3709567",
+          "published_at": "2026-07-02T19:45:00+00:00",
           "categories": [],
           "metadata": {
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -392,26 +291,182 @@
             "zotero_collection": "IEEE Transactions on Power Systems"
           },
           "matched_keywords": [
-            "unit commitment"
+            "power system",
+            "power systems"
           ],
           "matched_keyword_groups": [
             "电力系统运行与规划"
           ],
-          "rule_score": 5.23,
-          "llm_score": 5.23,
-          "final_score": 5.23,
-          "relevance_label": "Background Read",
-          "score_reason": "命中关键词：unit commitment",
-          "ai_summary": "该论文题为《Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
           "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
           "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-          "published_at_local": "2026-06-24T03:45:52+08:00",
-          "published_date_local": "2026-06-24",
+          "published_at_local": "2026-07-03T03:45:00+08:00",
+          "published_date_local": "2026-07-03",
           "published_time_local": "03:45",
-          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3706404",
-          "citation_key": "hong2026qubitefficient706404",
-          "bibtex_entry": "@article{hong2026qubitefficient706404,\n  title = {Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment},\n  author = {Wei Hong and Wangkun Xu and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3706404},\n  url = {https://doi.org/10.1109/tpwrs.2026.3706404},\n  keywords = {Background Read, 电力系统运行与规划, unit commitment},\n  note = {Auto-selected by Power Paper Digest; score=5.2}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment\nJO  - IEEE Transactions on Power Systems\nAU  - Wei Hong\nAU  - Wangkun Xu\nAU  - Fei Teng\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - unit commitment\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3706404\nUR  - https://doi.org/10.1109/tpwrs.2026.3706404\nN1  - Auto-selected by Power Paper Digest; score=5.2\nER  -",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3709567",
+          "citation_key": "xu2026input709567",
+          "bibtex_entry": "@article{xu2026input709567,\n  title = {Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems},\n  author = {Wangkun Xu and Hongyang Jia and Yi Wang and Ning Zhang and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3709567},\n  url = {https://doi.org/10.1109/tpwrs.2026.3709567},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Wangkun Xu\nAU  - Hongyang Jia\nAU  - Yi Wang\nAU  - Ning Zhang\nAU  - Fei Teng\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3709567\nUR  - https://doi.org/10.1109/tpwrs.2026.3709567\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems"
+        },
+        {
+          "id": "10.1109/tsg.2026.3709623",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids",
+          "authors": [
+            "Congyue Zhang",
+            "Xiaobo Dou",
+            "Jianfeng Zhao",
+            "Qinran Hu",
+            "Guangsheng Pan"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3709623",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3709623",
+          "published_at": "2026-07-02T19:45:00+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-03T03:45:00+08:00",
+          "published_date_local": "2026-07-03",
+          "published_time_local": "03:45",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3709623",
+          "citation_key": "zhang2026general709623",
+          "bibtex_entry": "@article{zhang2026general709623,\n  title = {A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids},\n  author = {Congyue Zhang and Xiaobo Dou and Jianfeng Zhao and Qinran Hu and Guangsheng Pan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3709623},\n  url = {https://doi.org/10.1109/tsg.2026.3709623},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Congyue Zhang\nAU  - Xiaobo Dou\nAU  - Jianfeng Zhao\nAU  - Qinran Hu\nAU  - Guangsheng Pan\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3709623\nUR  - https://doi.org/10.1109/tsg.2026.3709623\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid"
+        },
+        {
+          "id": "10.1109/tsg.2026.3708486",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning",
+          "authors": [
+            "Zipeng Liang",
+            "C.Y. Chung",
+            "Xin Yin",
+            "Xueqian Fu",
+            "Qin Wang",
+            "Jizhong Zhu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3708486",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3708486",
+          "published_at": "2026-06-30T20:26:18+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-01T04:26:18+08:00",
+          "published_date_local": "2026-07-01",
+          "published_time_local": "04:26",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3708486",
+          "citation_key": "liang2026robust708486",
+          "bibtex_entry": "@article{liang2026robust708486,\n  title = {Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning},\n  author = {Zipeng Liang and C.Y. Chung and Xin Yin and Xueqian Fu and Qin Wang and Jizhong Zhu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3708486},\n  url = {https://doi.org/10.1109/tsg.2026.3708486},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning\nJO  - IEEE Transactions on Smart Grid\nAU  - Zipeng Liang\nAU  - C.Y. Chung\nAU  - Xin Yin\nAU  - Xueqian Fu\nAU  - Qin Wang\nAU  - Jizhong Zhu\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3708486\nUR  - https://doi.org/10.1109/tsg.2026.3708486\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid"
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3708060",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems",
+          "authors": [
+            "Dongyeong Lee",
+            "Francisco J. Cifuentes Garcia",
+            "Jef Beerten"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3708060",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3708060",
+          "published_at": "2026-06-29T19:40:36+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-06-30T03:40:36+08:00",
+          "published_date_local": "2026-06-30",
+          "published_time_local": "03:40",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3708060",
+          "citation_key": "lee2026generalized708060",
+          "bibtex_entry": "@article{lee2026generalized708060,\n  title = {Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems},\n  author = {Dongyeong Lee and Francisco J. Cifuentes Garcia and Jef Beerten},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3708060},\n  url = {https://doi.org/10.1109/tpwrs.2026.3708060},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Dongyeong Lee\nAU  - Francisco J. Cifuentes Garcia\nAU  - Jef Beerten\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3708060\nUR  - https://doi.org/10.1109/tpwrs.2026.3708060\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
           "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
           "zotero_collection": "IEEE Transactions on Power Systems"
         }
@@ -420,76 +475,23 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 6,
+      "count": 1,
       "papers": [
         {
-          "id": "http://arxiv.org/abs/2606.27602v1",
+          "id": "http://arxiv.org/abs/2607.01616v1",
           "source": "arxiv",
           "section": "arxiv",
           "journal": "arXiv",
-          "title": "Uncertainty-aware Power System Planning via Gradient Descent",
+          "title": "A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control",
           "authors": [
-            "Mehrnoush Ghazanfariharandi",
-            "Robert Mieth"
+            "Xiaoyang Wang",
+            "Xin Chen"
           ],
-          "abstract": "Power system planning models provide important guidance on long-term investment strategies with significant socio-economic impact. To remain computationally manageable, however, such planning models compromise on the level of complexity with which power system operations and physics are captured. A common approach in most planning models is to collapse multi-stage power system operational processes into a single stage and, as a result, give up on the ability to account for uncertainty in each operational stage. In light of newly emerging load patterns and the continuing adoption of weather-dependent stochastic renewable generation, this uncertainty, however, becomes increasingly impactful on operations, and ignoring it has been shown to cause underinvestment in transmission capacity and flexible resources. In this work, we present a computational approach for power system expansion planning that explicitly considers two-stage day-ahead (DA) and real-time (RT) operational decisions under uncertainty while retaining time-coupling constraints to allow modeling generator ramping and energy storage. To solve the resulting optimization problem efficiently, we employ a projected stochastic gradient descent algorithm combined with a primal-dual optimization framework and an exponential moving average smoothing strategy to improve convergence stability. We evaluate the resulting investment decisions within a two-stage DA and RT simulation framework and compare them with a classic expansion planning model that assumes perfect knowledge of renewable generation. Our experiments show that the proposed framework achieves lower total system costs while ensuring that the implemented technology portfolio achieves set renewable integration targets.",
-          "url": "http://arxiv.org/abs/2606.27602v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.27602v1",
+          "abstract": "This paper proposes a novel unified control framework for achieving hybrid grid-forming (GFM) and grid-following (GFL) inverter operation by integrating dispatchable virtual oscillator control with reference-following synchronization. The proposed inverter control method supports multiple operating modes within a unified structure, including voltage- and frequency-following (PQ mode), voltage-forming and frequency-following (PV mode), voltage-following and frequency-forming (Qf mode), voltage- and frequency-forming (Vf mode), and a hybrid mode with mixed GFM and GFL behaviors. In particular, the proposed method achieves smooth pre-synchronization and enables seamless transitions across a spectrum of inverter operating modes by tuning a small set of continuous control parameters, rather than relying on discrete controller switching. This framework provides a flexible and physically interpretable approach for adapting inverter dynamics to varying grid conditions and operational requirements. The small-signal stability and input-output frequency-domain characteristics are further analyzed under different control parameter settings. The effectiveness and robustness of the proposed unified control method are demonstrated through extensive electromagnetic transient (EMT) simulations and hardware-in-the-loop (HIL) experiments.",
+          "url": "http://arxiv.org/abs/2607.01616v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.01616v1",
           "doi": null,
-          "published_at": "2026-06-25T23:25:56+00:00",
-          "categories": [
-            "math.OC"
-          ],
-          "metadata": {
-            "query": "cat:eess.SY OR cat:math.OC"
-          },
-          "matched_keywords": [
-            "power system operation",
-            "power system planning",
-            "energy storage",
-            "power system",
-            "uncertainty"
-          ],
-          "matched_keyword_groups": [
-            "电力系统运行与规划",
-            "源网荷储协同",
-            "鲁棒随机优化"
-          ],
-          "rule_score": 10.0,
-          "llm_score": 10.0,
-          "final_score": 10.0,
-          "relevance_label": "Strong Match",
-          "score_reason": "命中关键词：power system operation、power system planning、energy storage、power system",
-          "ai_summary": "该论文题为《Uncertainty-aware Power System Planning via Gradient Descent》，来自 arXiv。从摘要看，论文主要内容为：Power system planning models provide important guidance on long-term investment strategies with significant socio-economic impact. To remain computationally manageable, however, such planning models compromise on the level of complexity with which power system operations and physics are captured. A common approach in most planning models is to collapse multi-stage power system operational processes into a single stag...",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-26T07:25:56+08:00",
-          "published_date_local": "2026-06-26",
-          "published_time_local": "07:25",
-          "doi_url": null,
-          "citation_key": "ghazanfariharandi2026uncertaintyaware7602v1",
-          "bibtex_entry": "@article{ghazanfariharandi2026uncertaintyaware7602v1,\n  title = {Uncertainty-aware Power System Planning via Gradient Descent},\n  author = {Mehrnoush Ghazanfariharandi and Robert Mieth},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27602v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, power system operation, power system planning, energy storage, power system, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Uncertainty-aware Power System Planning via Gradient Descent\nJO  - arXiv\nAU  - Mehrnoush Ghazanfariharandi\nAU  - Robert Mieth\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - power system operation\nKW  - power system planning\nKW  - energy storage\nKW  - power system\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27602v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
-          "xplore_url": null,
-          "zotero_collection": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2606.27712v1",
-          "source": "arxiv",
-          "section": "arxiv",
-          "journal": "arXiv",
-          "title": "A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources",
-          "authors": [
-            "Wei Wang",
-            "Minwu Chen",
-            "Yinyu Chen",
-            "Jingyan He"
-          ],
-          "abstract": "Separable scheduling unleashes the deployment flexibility of mobile emergency resources by dispatching carriers and functional modules separately yet in a coordinated manner, offering a promising avenue to enhance power system resilience. However, this flexibility induces a distinct carrier-supported module routing structure, where non-self-mobile modules must be routed through compatible carrier movements. The resulting carrier-module spatio-temporal coupling makes exact and tractable optimization challenging. This letter identifies this structure and develops a novel exact bi-layer time-space network formulation as a mixed-integer linear program. The proposed formulation represents carrier and module trajectories as interacting network flows and enforces their support relations through explicit arc-level coupling. Compared with the prior logic-based model, the proposed formulation preserves exactness while improving modeling flexibility by eliminating mandatory post-arrival dwelling. Numerical studies validate its correctness and demonstrate substantial computational advantages.",
-          "url": "http://arxiv.org/abs/2606.27712v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.27712v1",
-          "doi": null,
-          "published_at": "2026-06-26T04:34:19+00:00",
+          "published_at": "2026-07-02T02:32:20+00:00",
           "categories": [
             "eess.SY"
           ],
@@ -497,223 +499,28 @@
             "query": "cat:eess.SY OR cat:math.OC"
           },
           "matched_keywords": [
-            "resilience",
-            "scheduling",
-            "dispatch",
-            "power system"
+            "grid-forming",
+            "dispatch"
           ],
           "matched_keyword_groups": [
-            "韧性与恢复",
+            "构网与暂态稳定",
             "电力系统运行与规划"
           ],
-          "rule_score": 7.53,
-          "llm_score": 7.53,
-          "final_score": 7.53,
-          "relevance_label": "Strong Match",
-          "score_reason": "命中关键词：resilience、scheduling、dispatch、power system",
-          "ai_summary": "该论文题为《A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources》，来自 arXiv。从摘要看，论文主要内容为：Separable scheduling unleashes the deployment flexibility of mobile emergency resources by dispatching carriers and functional modules separately yet in a coordinated manner, offering a promising avenue to enhance power system resilience. However, this flexibility induces a distinct carrier-supported module routing structure, where non-self-mobile modules must be routed through compatible carrier movements. The resul...",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-26T12:34:19+08:00",
-          "published_date_local": "2026-06-26",
-          "published_time_local": "12:34",
-          "doi_url": null,
-          "citation_key": "wang2026bilayer7712v1",
-          "bibtex_entry": "@article{wang2026bilayer7712v1,\n  title = {A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources},\n  author = {Wei Wang and Minwu Chen and Yinyu Chen and Jingyan He},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27712v1},\n  keywords = {Strong Match, 韧性与恢复, 电力系统运行与规划, resilience, scheduling, dispatch, power system},\n  note = {Auto-selected by Power Paper Digest; score=7.5}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources\nJO  - arXiv\nAU  - Wei Wang\nAU  - Minwu Chen\nAU  - Yinyu Chen\nAU  - Jingyan He\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - resilience\nKW  - scheduling\nKW  - dispatch\nKW  - power system\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27712v1\nN1  - Auto-selected by Power Paper Digest; score=7.5\nER  -",
-          "xplore_url": null,
-          "zotero_collection": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2606.26648v1",
-          "source": "arxiv",
-          "section": "arxiv",
-          "journal": "arXiv",
-          "title": "Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems",
-          "authors": [
-            "Anna Sacilotto",
-            "Ambrogio Maria Bernardelli",
-            "Stefano Gualandi"
-          ],
-          "abstract": "This work addresses the problem of minimizing equivalent carbon emissions in residential photovoltaic-battery energy storage systems (PV-BESS) under uncertainty. We develop and compare a hierarchy of linear optimization models that differ in their degree of anticipativity and feedback complexity, ranging from a rule-based self-consumption heuristic to fully stochastic formulations with linear feedback control. The proposed models explicitly incorporate the stochastic variability of household load, solar production, and grid carbon intensity through large scenario sets generated via principal component analysis of real operational data. Computational experiments on synthetic yet realistic scenarios show that direct stochastic optimization of expected emissions (Programmed Battery model) substantially outperforms heuristic control, achieving emission reductions close to the theoretical lower bound provided by the Omniscient Battery benchmark. Feedback-based models marginally improve training performance but do not generalize better on unseen data, while incurring higher computational costs. Overall, results demonstrate that linear stochastic programming provides an effective and tractable framework for emission-aware energy management in distributed PV-BESS systems.",
-          "url": "http://arxiv.org/abs/2606.26648v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.26648v1",
-          "doi": null,
-          "published_at": "2026-06-25T06:22:38+00:00",
-          "categories": [
-            "math.OC"
-          ],
-          "metadata": {
-            "query": "cat:eess.SY OR cat:math.OC"
-          },
-          "matched_keywords": [
-            "stochastic optimization",
-            "energy storage",
-            "uncertainty"
-          ],
-          "matched_keyword_groups": [
-            "鲁棒随机优化",
-            "源网荷储协同"
-          ],
-          "rule_score": 6.25,
-          "llm_score": 6.25,
-          "final_score": 6.25,
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
           "relevance_label": "Promising",
-          "score_reason": "命中关键词：stochastic optimization、energy storage、uncertainty",
-          "ai_summary": "该论文题为《Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems》，来自 arXiv。从摘要看，论文主要内容为：This work addresses the problem of minimizing equivalent carbon emissions in residential photovoltaic-battery energy storage systems (PV-BESS) under uncertainty. We develop and compare a hierarchy of linear optimization models that differ in their degree of anticipativity and feedback complexity, ranging from a rule-based self-consumption heuristic to fully stochastic formulations with linear feedback control. The pr...",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "score_reason": "命中关键词：grid-forming、dispatch",
+          "ai_summary": "该论文题为《A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control》，来自 arXiv。从摘要看，论文主要内容为：This paper proposes a novel unified control framework for achieving hybrid grid-forming (GFM) and grid-following (GFL) inverter operation by integrating dispatchable virtual oscillator control with reference-following synchronization. The proposed inverter control method supports multiple operating modes within a unified structure, including voltage- and frequency-following (PQ mode), voltage-forming and frequency-fo...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
           "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-25T14:22:38+08:00",
-          "published_date_local": "2026-06-25",
-          "published_time_local": "14:22",
+          "published_at_local": "2026-07-02T10:32:20+08:00",
+          "published_date_local": "2026-07-02",
+          "published_time_local": "10:32",
           "doi_url": null,
-          "citation_key": "sacilotto2026comparative6648v1",
-          "bibtex_entry": "@article{sacilotto2026comparative6648v1,\n  title = {Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems},\n  author = {Anna Sacilotto and Ambrogio Maria Bernardelli and Stefano Gualandi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.26648v1},\n  keywords = {Promising, 鲁棒随机优化, 源网荷储协同, stochastic optimization, energy storage, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.2}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems\nJO  - arXiv\nAU  - Anna Sacilotto\nAU  - Ambrogio Maria Bernardelli\nAU  - Stefano Gualandi\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 源网荷储协同\nKW  - stochastic optimization\nKW  - energy storage\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.26648v1\nN1  - Auto-selected by Power Paper Digest; score=6.2\nER  -",
-          "xplore_url": null,
-          "zotero_collection": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2606.27610v1",
-          "source": "arxiv",
-          "section": "arxiv",
-          "journal": "arXiv",
-          "title": "Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity",
-          "authors": [
-            "Yadh Hafsi",
-            "Samy Mekkaoui",
-            "Huyên Pham",
-            "Kaixin Yan"
-          ],
-          "abstract": "We study finite-horizon Markov Decision Processes (MDPs) under distributional uncertainty in the transition kernels and develop a policy-gradient framework for Wasserstein distributionally robust control. Ambiguity is modeled by state-action dependent Wasserstein balls around nominal transition kernels, leading to a max-min control problem over randomized policies and admissible transition laws. Since the worst-case transition law depends implicitly on the policy parameters, the usual policy-gradient argument does not apply. We address this difficulty by using a Wasserstein dual reformulation of the robust Bellman recursion and analyzing its directional differentiability. This yields an explicit recursive characterization of the robust policy gradient. Building on this characterization, we propose a robust actor-critic algorithm and illustrate its behavior on discrete and continuous benchmark examples.",
-          "url": "http://arxiv.org/abs/2606.27610v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.27610v1",
-          "doi": null,
-          "published_at": "2026-06-25T23:53:09+00:00",
-          "categories": [
-            "math.OC"
-          ],
-          "metadata": {
-            "query": "cat:eess.SY OR cat:math.OC"
-          },
-          "matched_keywords": [
-            "distributionally robust",
-            "uncertainty"
-          ],
-          "matched_keyword_groups": [
-            "鲁棒随机优化"
-          ],
-          "rule_score": 6.04,
-          "llm_score": 6.04,
-          "final_score": 6.04,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：distributionally robust、uncertainty",
-          "ai_summary": "该论文题为《Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity》，来自 arXiv。从摘要看，论文主要内容为：We study finite-horizon Markov Decision Processes (MDPs) under distributional uncertainty in the transition kernels and develop a policy-gradient framework for Wasserstein distributionally robust control. Ambiguity is modeled by state-action dependent Wasserstein balls around nominal transition kernels, leading to a max-min control problem over randomized policies and admissible transition laws. Since the worst-case ...",
-          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-26T07:53:09+08:00",
-          "published_date_local": "2026-06-26",
-          "published_time_local": "07:53",
-          "doi_url": null,
-          "citation_key": "hafsi2026policy7610v1",
-          "bibtex_entry": "@article{hafsi2026policy7610v1,\n  title = {Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity},\n  author = {Yadh Hafsi and Samy Mekkaoui and Huyên Pham and Kaixin Yan},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27610v1},\n  keywords = {Promising, 鲁棒随机优化, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity\nJO  - arXiv\nAU  - Yadh Hafsi\nAU  - Samy Mekkaoui\nAU  - Huyên Pham\nAU  - Kaixin Yan\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27610v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
-          "xplore_url": null,
-          "zotero_collection": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2606.26920v1",
-          "source": "arxiv",
-          "section": "arxiv",
-          "journal": "arXiv",
-          "title": "When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations",
-          "authors": [
-            "Yifan Wang"
-          ],
-          "abstract": "Cold-climate transit agencies are electrifying fixed-timetable fleets, but winter exposes a block-level failure mode hidden by seasonal energy margins: cabin heating can deplete batteries faster than layovers recharge them, causing later trips to start undercharged and making one cold day cascade into timetable infeasibility. We present WeatherRobustBus, an open-data framework that converts this risk into block-level failure probability by injecting real hourly weather into real transit duties and propagating cold-weather energy uncertainty. The framework couples a transparent traction and cabin-thermal backbone with a bounded monotone residual ensemble, and validates cabin heating against an independent EnergyPlus bus-cabin simulation driven by the same Toronto weather record. Against this first-principles reference, it achieves the lowest all-year error (0.213 kWh RMSE over 8760 hours) and remains reliable in the out-of-support cold tail ($T \\le -12^\\circ$C), where pure machine-learning baselines degrade by 1.5--4x and the best competitor reaches only 1.055 kWh. Embedded in a Monte Carlo block-feasibility simulator over 60 real Toronto TTC vehicle blocks, the model reveals a sharp weather-induced failure envelope. A forecast-triggered robust policy combining opportunity charging, a fuel-fired cabin-heating bridge, and modest buffering reduces mean cold-wave failure probability from 0.759 to 0.112 across eight cold-wave days; a deconfounded ablation shows opportunity charging is the dominant lever and the heater is a low-cost complement. WeatherRobustBus provides a reproducible pathway from weather data to winter-resilience decisions for electric-bus fleets.",
-          "url": "http://arxiv.org/abs/2606.26920v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.26920v1",
-          "doi": null,
-          "published_at": "2026-06-25T11:57:17+00:00",
-          "categories": [
-            "eess.SY"
-          ],
-          "metadata": {
-            "query": "cat:eess.SY OR cat:math.OC"
-          },
-          "matched_keywords": [
-            "resilience",
-            "machine learning",
-            "uncertainty"
-          ],
-          "matched_keyword_groups": [
-            "韧性与恢复",
-            "AI+电力优化",
-            "鲁棒随机优化"
-          ],
-          "rule_score": 5.63,
-          "llm_score": 5.63,
-          "final_score": 5.63,
-          "relevance_label": "Promising",
-          "score_reason": "命中关键词：resilience、machine learning、uncertainty",
-          "ai_summary": "该论文题为《When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations》，来自 arXiv。从摘要看，论文主要内容为：Cold-climate transit agencies are electrifying fixed-timetable fleets, but winter exposes a block-level failure mode hidden by seasonal energy margins: cabin heating can deplete batteries faster than layovers recharge them, causing later trips to start undercharged and making one cold day cascade into timetable infeasibility. We present WeatherRobustBus, an open-data framework that converts this risk into block-level...",
-          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
-          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-25T19:57:17+08:00",
-          "published_date_local": "2026-06-25",
-          "published_time_local": "19:57",
-          "doi_url": null,
-          "citation_key": "wang2026when6920v1",
-          "bibtex_entry": "@article{wang2026when6920v1,\n  title = {When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations},\n  author = {Yifan Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.26920v1},\n  keywords = {Promising, 韧性与恢复, AI+电力优化, 鲁棒随机优化, resilience, machine learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations\nJO  - arXiv\nAU  - Yifan Wang\nKW  - Promising\nKW  - 韧性与恢复\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - resilience\nKW  - machine learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.26920v1\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
-          "xplore_url": null,
-          "zotero_collection": null
-        },
-        {
-          "id": "http://arxiv.org/abs/2606.27542v1",
-          "source": "arxiv",
-          "section": "arxiv",
-          "journal": "arXiv",
-          "title": "Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks",
-          "authors": [
-            "Biswajit Kumar Dash",
-            "Garrett Thomas",
-            "Adedoyin Inaolaji",
-            "Filippo Malandra"
-          ],
-          "abstract": "In this paper, we present an experimental evaluation study of the Alternating Direction Method of Multipliers (ADMM), which is a widely used technique in the distributed optimization of power distribution networks. The focus of this study is on how real 5G communication performance affects ADMM in a fully experimental platform that features commercial 5G connectivity and real-time control. The ADMM-based Distributed Optimal Power Flow (DOPF) problem is solved using the IEEE 123-bus unbalanced distribution feeder subdivided into five areas, each managed by a local controller implemented on a Raspberry Pi. To mitigate the impact of the communication network variability, we propose a delay threshold-based mechanism that yields a 7.75% reduction in convergence time compared to a no-threshold baseline. We also devised a policy to dynamically update the threshold value based on communication and computation conditions, achieving a 26.42% reduction in the convergence time compared with the static optimal threshold. These results demonstrate the potential of adaptive, communication-aware control strategies for real-world Smart Grid (SG) deployments.",
-          "url": "http://arxiv.org/abs/2606.27542v1",
-          "pdf_url": "https://arxiv.org/pdf/2606.27542v1",
-          "doi": null,
-          "published_at": "2026-06-25T20:43:31+00:00",
-          "categories": [
-            "eess.SY",
-            "eess.SP"
-          ],
-          "metadata": {
-            "query": "cat:eess.SY OR cat:math.OC"
-          },
-          "matched_keywords": [
-            "optimal power flow"
-          ],
-          "matched_keyword_groups": [
-            "电力系统运行与规划"
-          ],
-          "rule_score": 5.48,
-          "llm_score": 5.48,
-          "final_score": 5.48,
-          "relevance_label": "Background Read",
-          "score_reason": "命中关键词：optimal power flow",
-          "ai_summary": "该论文题为《Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks》，来自 arXiv。从摘要看，论文主要内容为：In this paper, we present an experimental evaluation study of the Alternating Direction Method of Multipliers (ADMM), which is a widely used technique in the distributed optimization of power distribution networks. The focus of this study is on how real 5G communication performance affects ADMM in a fully experimental platform that features commercial 5G connectivity and real-time control. The ADMM-based Distributed ...",
-          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-          "published_at_local": "2026-06-26T04:43:31+08:00",
-          "published_date_local": "2026-06-26",
-          "published_time_local": "04:43",
-          "doi_url": null,
-          "citation_key": "dash2026threshold7542v1",
-          "bibtex_entry": "@article{dash2026threshold7542v1,\n  title = {Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks},\n  author = {Biswajit Kumar Dash and Garrett Thomas and Adedoyin Inaolaji and Filippo Malandra},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27542v1},\n  keywords = {Background Read, 电力系统运行与规划, optimal power flow},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
-          "ris_entry": "TY  - JOUR\nTI  - Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks\nJO  - arXiv\nAU  - Biswajit Kumar Dash\nAU  - Garrett Thomas\nAU  - Adedoyin Inaolaji\nAU  - Filippo Malandra\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - optimal power flow\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27542v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
+          "citation_key": "wang2026unified1616v1",
+          "bibtex_entry": "@article{wang2026unified1616v1,\n  title = {A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control},\n  author = {Xiaoyang Wang and Xin Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.01616v1},\n  keywords = {Promising, 构网与暂态稳定, 电力系统运行与规划, grid-forming, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control\nJO  - arXiv\nAU  - Xiaoyang Wang\nAU  - Xin Chen\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.01616v1\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
           "xplore_url": null,
           "zotero_collection": null
         }
@@ -728,174 +535,23 @@
   },
   "papers": [
     {
-      "id": "http://arxiv.org/abs/2606.27602v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "Uncertainty-aware Power System Planning via Gradient Descent",
-      "authors": [
-        "Mehrnoush Ghazanfariharandi",
-        "Robert Mieth"
-      ],
-      "abstract": "Power system planning models provide important guidance on long-term investment strategies with significant socio-economic impact. To remain computationally manageable, however, such planning models compromise on the level of complexity with which power system operations and physics are captured. A common approach in most planning models is to collapse multi-stage power system operational processes into a single stage and, as a result, give up on the ability to account for uncertainty in each operational stage. In light of newly emerging load patterns and the continuing adoption of weather-dependent stochastic renewable generation, this uncertainty, however, becomes increasingly impactful on operations, and ignoring it has been shown to cause underinvestment in transmission capacity and flexible resources. In this work, we present a computational approach for power system expansion planning that explicitly considers two-stage day-ahead (DA) and real-time (RT) operational decisions under uncertainty while retaining time-coupling constraints to allow modeling generator ramping and energy storage. To solve the resulting optimization problem efficiently, we employ a projected stochastic gradient descent algorithm combined with a primal-dual optimization framework and an exponential moving average smoothing strategy to improve convergence stability. We evaluate the resulting investment decisions within a two-stage DA and RT simulation framework and compare them with a classic expansion planning model that assumes perfect knowledge of renewable generation. Our experiments show that the proposed framework achieves lower total system costs while ensuring that the implemented technology portfolio achieves set renewable integration targets.",
-      "url": "http://arxiv.org/abs/2606.27602v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27602v1",
-      "doi": null,
-      "published_at": "2026-06-25T23:25:56+00:00",
-      "categories": [
-        "math.OC"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "power system operation",
-        "power system planning",
-        "energy storage",
-        "power system",
-        "uncertainty"
-      ],
-      "matched_keyword_groups": [
-        "电力系统运行与规划",
-        "源网荷储协同",
-        "鲁棒随机优化"
-      ],
-      "rule_score": 10.0,
-      "llm_score": 10.0,
-      "final_score": 10.0,
-      "relevance_label": "Strong Match",
-      "score_reason": "命中关键词：power system operation、power system planning、energy storage、power system",
-      "ai_summary": "该论文题为《Uncertainty-aware Power System Planning via Gradient Descent》，来自 arXiv。从摘要看，论文主要内容为：Power system planning models provide important guidance on long-term investment strategies with significant socio-economic impact. To remain computationally manageable, however, such planning models compromise on the level of complexity with which power system operations and physics are captured. A common approach in most planning models is to collapse multi-stage power system operational processes into a single stag...",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-26T07:25:56+08:00",
-      "published_date_local": "2026-06-26",
-      "published_time_local": "07:25",
-      "doi_url": null,
-      "citation_key": "ghazanfariharandi2026uncertaintyaware7602v1",
-      "bibtex_entry": "@article{ghazanfariharandi2026uncertaintyaware7602v1,\n  title = {Uncertainty-aware Power System Planning via Gradient Descent},\n  author = {Mehrnoush Ghazanfariharandi and Robert Mieth},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27602v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, power system operation, power system planning, energy storage, power system, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Uncertainty-aware Power System Planning via Gradient Descent\nJO  - arXiv\nAU  - Mehrnoush Ghazanfariharandi\nAU  - Robert Mieth\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - power system operation\nKW  - power system planning\nKW  - energy storage\nKW  - power system\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27602v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.27712v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources",
-      "authors": [
-        "Wei Wang",
-        "Minwu Chen",
-        "Yinyu Chen",
-        "Jingyan He"
-      ],
-      "abstract": "Separable scheduling unleashes the deployment flexibility of mobile emergency resources by dispatching carriers and functional modules separately yet in a coordinated manner, offering a promising avenue to enhance power system resilience. However, this flexibility induces a distinct carrier-supported module routing structure, where non-self-mobile modules must be routed through compatible carrier movements. The resulting carrier-module spatio-temporal coupling makes exact and tractable optimization challenging. This letter identifies this structure and develops a novel exact bi-layer time-space network formulation as a mixed-integer linear program. The proposed formulation represents carrier and module trajectories as interacting network flows and enforces their support relations through explicit arc-level coupling. Compared with the prior logic-based model, the proposed formulation preserves exactness while improving modeling flexibility by eliminating mandatory post-arrival dwelling. Numerical studies validate its correctness and demonstrate substantial computational advantages.",
-      "url": "http://arxiv.org/abs/2606.27712v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27712v1",
-      "doi": null,
-      "published_at": "2026-06-26T04:34:19+00:00",
-      "categories": [
-        "eess.SY"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "resilience",
-        "scheduling",
-        "dispatch",
-        "power system"
-      ],
-      "matched_keyword_groups": [
-        "韧性与恢复",
-        "电力系统运行与规划"
-      ],
-      "rule_score": 7.53,
-      "llm_score": 7.53,
-      "final_score": 7.53,
-      "relevance_label": "Strong Match",
-      "score_reason": "命中关键词：resilience、scheduling、dispatch、power system",
-      "ai_summary": "该论文题为《A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources》，来自 arXiv。从摘要看，论文主要内容为：Separable scheduling unleashes the deployment flexibility of mobile emergency resources by dispatching carriers and functional modules separately yet in a coordinated manner, offering a promising avenue to enhance power system resilience. However, this flexibility induces a distinct carrier-supported module routing structure, where non-self-mobile modules must be routed through compatible carrier movements. The resul...",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-26T12:34:19+08:00",
-      "published_date_local": "2026-06-26",
-      "published_time_local": "12:34",
-      "doi_url": null,
-      "citation_key": "wang2026bilayer7712v1",
-      "bibtex_entry": "@article{wang2026bilayer7712v1,\n  title = {A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources},\n  author = {Wei Wang and Minwu Chen and Yinyu Chen and Jingyan He},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27712v1},\n  keywords = {Strong Match, 韧性与恢复, 电力系统运行与规划, resilience, scheduling, dispatch, power system},\n  note = {Auto-selected by Power Paper Digest; score=7.5}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - A Bi-Layer TSN Formulation for Separable Scheduling of Mobile Emergency Resources\nJO  - arXiv\nAU  - Wei Wang\nAU  - Minwu Chen\nAU  - Yinyu Chen\nAU  - Jingyan He\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - resilience\nKW  - scheduling\nKW  - dispatch\nKW  - power system\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27712v1\nN1  - Auto-selected by Power Paper Digest; score=7.5\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "10.1109/tpwrs.2026.3706325",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Power Systems",
-      "title": "Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources",
-      "authors": [
-        "Feixiang Zhang",
-        "Hongyi Li",
-        "Zhaoyu Wang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tpwrs.2026.3706325",
-      "pdf_url": null,
-      "doi": "10.1109/tpwrs.2026.3706325",
-      "published_at": "2026-06-24T19:50:37+00:00",
-      "categories": [],
-      "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.35,
-        "crossref_type": "journal-article",
-        "configured_journal": "IEEE Transactions on Power Systems",
-        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
-        "zotero_collection": "IEEE Transactions on Power Systems"
-      },
-      "matched_keywords": [
-        "distributed energy resources",
-        "uncertainty"
-      ],
-      "matched_keyword_groups": [
-        "源网荷储协同",
-        "鲁棒随机优化"
-      ],
-      "rule_score": 6.71,
-      "llm_score": 6.71,
-      "final_score": 6.71,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：distributed energy resources、uncertainty",
-      "ai_summary": "该论文题为《Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-25T03:50:37+08:00",
-      "published_date_local": "2026-06-25",
-      "published_time_local": "03:50",
-      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3706325",
-      "citation_key": "zhang2026uncertaintyaware706325",
-      "bibtex_entry": "@article{zhang2026uncertaintyaware706325,\n  title = {Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources},\n  author = {Feixiang Zhang and Hongyi Li and Zhaoyu Wang},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3706325},\n  url = {https://doi.org/10.1109/tpwrs.2026.3706325},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, distributed energy resources, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources\nJO  - IEEE Transactions on Power Systems\nAU  - Feixiang Zhang\nAU  - Hongyi Li\nAU  - Zhaoyu Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - distributed energy resources\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3706325\nUR  - https://doi.org/10.1109/tpwrs.2026.3706325\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
-      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
-      "zotero_collection": "IEEE Transactions on Power Systems"
-    },
-    {
-      "id": "10.1109/tsg.2026.3706571",
+      "id": "10.1109/tsg.2026.3709107",
       "source": "ieee",
       "section": "ieee",
       "journal": "IEEE Transactions on Smart Grid",
-      "title": "Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids",
+      "title": "Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach",
       "authors": [
-        "Imane Biyya",
-        "Zakarya Oubrahim",
-        "Ahmed Abbou"
+        "Hongpeng Li",
+        "Bo Yang",
+        "Teng Lv",
+        "Xinchun Jia",
+        "Xinping Guan"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3706571",
+      "url": "https://doi.org/10.1109/tsg.2026.3709107",
       "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3706571",
-      "published_at": "2026-06-23T19:45:42+00:00",
+      "doi": "10.1109/tsg.2026.3709107",
+      "published_at": "2026-07-01T19:37:02+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -906,48 +562,103 @@
         "zotero_collection": "IEEE Transactions on Smart Grid"
       },
       "matched_keywords": [
-        "microgrid",
-        "microgrids"
+        "energy storage",
+        "power system",
+        "power systems"
       ],
       "matched_keyword_groups": [
-        "源网荷储协同"
+        "源网荷储协同",
+        "电力系统运行与规划"
       ],
-      "rule_score": 6.53,
-      "llm_score": 6.53,
-      "final_score": 6.53,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：microgrid、microgrids",
-      "ai_summary": "该论文题为《Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "rule_score": 8.31,
+      "llm_score": 8.31,
+      "final_score": 8.31,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：energy storage、power system、power systems",
+      "ai_summary": "该论文题为《Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
       "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-24T03:45:42+08:00",
-      "published_date_local": "2026-06-24",
-      "published_time_local": "03:45",
-      "doi_url": "https://doi.org/10.1109/tsg.2026.3706571",
-      "citation_key": "biyya2026realtime706571",
-      "bibtex_entry": "@article{biyya2026realtime706571,\n  title = {Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids},\n  author = {Imane Biyya and Zakarya Oubrahim and Ahmed Abbou},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3706571},\n  url = {https://doi.org/10.1109/tsg.2026.3706571},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Real-Time Maximum Likelihood Frequency Estimation via Wirtinger Calculus for Low-Inertia Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Imane Biyya\nAU  - Zakarya Oubrahim\nAU  - Ahmed Abbou\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3706571\nUR  - https://doi.org/10.1109/tsg.2026.3706571\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "published_at_local": "2026-07-02T03:37:02+08:00",
+      "published_date_local": "2026-07-02",
+      "published_time_local": "03:37",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3709107",
+      "citation_key": "li2026robust709107",
+      "bibtex_entry": "@article{li2026robust709107,\n  title = {Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach},\n  author = {Hongpeng Li and Bo Yang and Teng Lv and Xinchun Jia and Xinping Guan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3709107},\n  url = {https://doi.org/10.1109/tsg.2026.3709107},\n  keywords = {Strong Match, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=8.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Hongpeng Li\nAU  - Bo Yang\nAU  - Teng Lv\nAU  - Xinchun Jia\nAU  - Xinping Guan\nKW  - Strong Match\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tsg.2026.3709107\nUR  - https://doi.org/10.1109/tsg.2026.3709107\nN1  - Auto-selected by Power Paper Digest; score=8.3\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
       "zotero_collection": "IEEE Transactions on Smart Grid"
     },
     {
-      "id": "10.1109/tpwrs.2026.3705983",
+      "id": "10.1109/tsg.2026.3708992",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems",
+      "authors": [
+        "Suhan Zhang",
+        "Xin Zhang",
+        "Dongmeng Qiu",
+        "Vladimir Terzija"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3708992",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3708992",
+      "published_at": "2026-07-01T19:37:02+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems",
+        "surrogate model"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 8.21,
+      "llm_score": 8.21,
+      "final_score": 8.21,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：power system、power systems、surrogate model",
+      "ai_summary": "该论文题为《Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-02T03:37:02+08:00",
+      "published_date_local": "2026-07-02",
+      "published_time_local": "03:37",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3708992",
+      "citation_key": "zhang2026rank708992",
+      "bibtex_entry": "@article{zhang2026rank708992,\n  title = {Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems},\n  author = {Suhan Zhang and Xin Zhang and Dongmeng Qiu and Vladimir Terzija},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3708992},\n  url = {https://doi.org/10.1109/tsg.2026.3708992},\n  keywords = {Strong Match, 电力系统运行与规划, AI+电力优化, power system, power systems, surrogate model},\n  note = {Auto-selected by Power Paper Digest; score=8.2}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Suhan Zhang\nAU  - Xin Zhang\nAU  - Dongmeng Qiu\nAU  - Vladimir Terzija\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system\nKW  - power systems\nKW  - surrogate model\nPY  - 2026\nDO  - 10.1109/tsg.2026.3708992\nUR  - https://doi.org/10.1109/tsg.2026.3708992\nN1  - Auto-selected by Power Paper Digest; score=8.2\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid"
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3709542",
       "source": "ieee",
       "section": "ieee",
       "journal": "IEEE Transactions on Power Systems",
-      "title": "Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation",
+      "title": "Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling",
       "authors": [
-        "Jaemin Moon",
-        "Hyeokjun Yoon",
-        "Seonghee Suk",
-        "Ning Zhang",
-        "Kyeon Hur"
+        "Kseniia Zhgun",
+        "Sanjana Kunkolienkar",
+        "Rawand Badawi",
+        "Farnaz Safdarian",
+        "Thomas J. Overbye"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tpwrs.2026.3705983",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3709542",
       "pdf_url": null,
-      "doi": "10.1109/tpwrs.2026.3705983",
-      "published_at": "2026-06-22T19:56:53+00:00",
+      "doi": "10.1109/tpwrs.2026.3709542",
+      "published_at": "2026-07-02T19:45:00+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -969,336 +680,37 @@
       "final_score": 6.53,
       "relevance_label": "Promising",
       "score_reason": "命中关键词：power system、power systems",
-      "ai_summary": "该论文题为《Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "ai_summary": "该论文题为《Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
       "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
       "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-23T03:56:53+08:00",
-      "published_date_local": "2026-06-23",
-      "published_time_local": "03:56",
-      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3705983",
-      "citation_key": "moon2026voltagesensitive705983",
-      "bibtex_entry": "@article{moon2026voltagesensitive705983,\n  title = {Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation},\n  author = {Jaemin Moon and Hyeokjun Yoon and Seonghee Suk and Ning Zhang and Kyeon Hur},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3705983},\n  url = {https://doi.org/10.1109/tpwrs.2026.3705983},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation\nJO  - IEEE Transactions on Power Systems\nAU  - Jaemin Moon\nAU  - Hyeokjun Yoon\nAU  - Seonghee Suk\nAU  - Ning Zhang\nAU  - Kyeon Hur\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3705983\nUR  - https://doi.org/10.1109/tpwrs.2026.3705983\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "published_at_local": "2026-07-03T03:45:00+08:00",
+      "published_date_local": "2026-07-03",
+      "published_time_local": "03:45",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3709542",
+      "citation_key": "zhgun2026phase709542",
+      "bibtex_entry": "@article{zhgun2026phase709542,\n  title = {Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling},\n  author = {Kseniia Zhgun and Sanjana Kunkolienkar and Rawand Badawi and Farnaz Safdarian and Thomas J. Overbye},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3709542},\n  url = {https://doi.org/10.1109/tpwrs.2026.3709542},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling\nJO  - IEEE Transactions on Power Systems\nAU  - Kseniia Zhgun\nAU  - Sanjana Kunkolienkar\nAU  - Rawand Badawi\nAU  - Farnaz Safdarian\nAU  - Thomas J. Overbye\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3709542\nUR  - https://doi.org/10.1109/tpwrs.2026.3709542\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
       "zotero_collection": "IEEE Transactions on Power Systems"
     },
     {
-      "id": "10.1109/tsg.2026.3707150",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs",
-      "authors": [
-        "Haoyuan Deng",
-        "Lingyu Chen",
-        "Wenbo Zeng",
-        "Xueyuan Cui",
-        "Yi Wang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3707150",
-      "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3707150",
-      "published_at": "2026-06-25T19:45:20+00:00",
-      "categories": [],
-      "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.35,
-        "crossref_type": "journal-article",
-        "configured_journal": "IEEE Transactions on Smart Grid",
-        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-        "zotero_collection": "IEEE Transactions on Smart Grid"
-      },
-      "matched_keywords": [
-        "reinforcement learning",
-        "dispatch"
-      ],
-      "matched_keyword_groups": [
-        "AI+电力优化",
-        "电力系统运行与规划"
-      ],
-      "rule_score": 6.31,
-      "llm_score": 6.31,
-      "final_score": 6.31,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：reinforcement learning、dispatch",
-      "ai_summary": "该论文题为《Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-26T03:45:20+08:00",
-      "published_date_local": "2026-06-26",
-      "published_time_local": "03:45",
-      "doi_url": "https://doi.org/10.1109/tsg.2026.3707150",
-      "citation_key": "deng2026federated707150",
-      "bibtex_entry": "@article{deng2026federated707150,\n  title = {Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs},\n  author = {Haoyuan Deng and Lingyu Chen and Wenbo Zeng and Xueyuan Cui and Yi Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3707150},\n  url = {https://doi.org/10.1109/tsg.2026.3707150},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Federated Heterogeneous-agent Reinforcement Learning for the Flexible Dispatch of Energy Hubs\nJO  - IEEE Transactions on Smart Grid\nAU  - Haoyuan Deng\nAU  - Lingyu Chen\nAU  - Wenbo Zeng\nAU  - Xueyuan Cui\nAU  - Yi Wang\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tsg.2026.3707150\nUR  - https://doi.org/10.1109/tsg.2026.3707150\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
-      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-      "zotero_collection": "IEEE Transactions on Smart Grid"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.26648v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems",
-      "authors": [
-        "Anna Sacilotto",
-        "Ambrogio Maria Bernardelli",
-        "Stefano Gualandi"
-      ],
-      "abstract": "This work addresses the problem of minimizing equivalent carbon emissions in residential photovoltaic-battery energy storage systems (PV-BESS) under uncertainty. We develop and compare a hierarchy of linear optimization models that differ in their degree of anticipativity and feedback complexity, ranging from a rule-based self-consumption heuristic to fully stochastic formulations with linear feedback control. The proposed models explicitly incorporate the stochastic variability of household load, solar production, and grid carbon intensity through large scenario sets generated via principal component analysis of real operational data. Computational experiments on synthetic yet realistic scenarios show that direct stochastic optimization of expected emissions (Programmed Battery model) substantially outperforms heuristic control, achieving emission reductions close to the theoretical lower bound provided by the Omniscient Battery benchmark. Feedback-based models marginally improve training performance but do not generalize better on unseen data, while incurring higher computational costs. Overall, results demonstrate that linear stochastic programming provides an effective and tractable framework for emission-aware energy management in distributed PV-BESS systems.",
-      "url": "http://arxiv.org/abs/2606.26648v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26648v1",
-      "doi": null,
-      "published_at": "2026-06-25T06:22:38+00:00",
-      "categories": [
-        "math.OC"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "stochastic optimization",
-        "energy storage",
-        "uncertainty"
-      ],
-      "matched_keyword_groups": [
-        "鲁棒随机优化",
-        "源网荷储协同"
-      ],
-      "rule_score": 6.25,
-      "llm_score": 6.25,
-      "final_score": 6.25,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：stochastic optimization、energy storage、uncertainty",
-      "ai_summary": "该论文题为《Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems》，来自 arXiv。从摘要看，论文主要内容为：This work addresses the problem of minimizing equivalent carbon emissions in residential photovoltaic-battery energy storage systems (PV-BESS) under uncertainty. We develop and compare a hierarchy of linear optimization models that differ in their degree of anticipativity and feedback complexity, ranging from a rule-based self-consumption heuristic to fully stochastic formulations with linear feedback control. The pr...",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-25T14:22:38+08:00",
-      "published_date_local": "2026-06-25",
-      "published_time_local": "14:22",
-      "doi_url": null,
-      "citation_key": "sacilotto2026comparative6648v1",
-      "bibtex_entry": "@article{sacilotto2026comparative6648v1,\n  title = {Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems},\n  author = {Anna Sacilotto and Ambrogio Maria Bernardelli and Stefano Gualandi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.26648v1},\n  keywords = {Promising, 鲁棒随机优化, 源网荷储协同, stochastic optimization, energy storage, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.2}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems\nJO  - arXiv\nAU  - Anna Sacilotto\nAU  - Ambrogio Maria Bernardelli\nAU  - Stefano Gualandi\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - 源网荷储协同\nKW  - stochastic optimization\nKW  - energy storage\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.26648v1\nN1  - Auto-selected by Power Paper Digest; score=6.2\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "10.1109/tsg.2026.3705774",
-      "source": "ieee",
-      "section": "ieee",
-      "journal": "IEEE Transactions on Smart Grid",
-      "title": "Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions",
-      "authors": [
-        "Zhigang Li",
-        "Hongyuan Liang",
-        "Ning Qi",
-        "Yue Chen",
-        "Haipeng Lai",
-        "Ziheng Wei",
-        "Qi Wang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1109/tsg.2026.3705774",
-      "pdf_url": null,
-      "doi": "10.1109/tsg.2026.3705774",
-      "published_at": "2026-06-22T19:56:34+00:00",
-      "categories": [],
-      "metadata": {
-        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "journal_weight": 1.35,
-        "crossref_type": "journal-article",
-        "configured_journal": "IEEE Transactions on Smart Grid",
-        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-        "zotero_collection": "IEEE Transactions on Smart Grid"
-      },
-      "matched_keywords": [
-        "scheduling",
-        "energy storage"
-      ],
-      "matched_keyword_groups": [
-        "电力系统运行与规划",
-        "源网荷储协同"
-      ],
-      "rule_score": 6.21,
-      "llm_score": 6.21,
-      "final_score": 6.21,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：scheduling、energy storage",
-      "ai_summary": "该论文题为《Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-23T03:56:34+08:00",
-      "published_date_local": "2026-06-23",
-      "published_time_local": "03:56",
-      "doi_url": "https://doi.org/10.1109/tsg.2026.3705774",
-      "citation_key": "li2026exact705774",
-      "bibtex_entry": "@article{li2026exact705774,\n  title = {Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions},\n  author = {Zhigang Li and Hongyuan Liang and Ning Qi and Yue Chen and Haipeng Lai and Ziheng Wei and Qi Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3705774},\n  url = {https://doi.org/10.1109/tsg.2026.3705774},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=6.2}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Exact Analytical Solution for Self-Scheduling of Energy Storage with Piecewise Objective and Energy Loss Functions\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhigang Li\nAU  - Hongyuan Liang\nAU  - Ning Qi\nAU  - Yue Chen\nAU  - Haipeng Lai\nAU  - Ziheng Wei\nAU  - Qi Wang\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3705774\nUR  - https://doi.org/10.1109/tsg.2026.3705774\nN1  - Auto-selected by Power Paper Digest; score=6.2\nER  -",
-      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
-      "zotero_collection": "IEEE Transactions on Smart Grid"
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.27610v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity",
-      "authors": [
-        "Yadh Hafsi",
-        "Samy Mekkaoui",
-        "Huyên Pham",
-        "Kaixin Yan"
-      ],
-      "abstract": "We study finite-horizon Markov Decision Processes (MDPs) under distributional uncertainty in the transition kernels and develop a policy-gradient framework for Wasserstein distributionally robust control. Ambiguity is modeled by state-action dependent Wasserstein balls around nominal transition kernels, leading to a max-min control problem over randomized policies and admissible transition laws. Since the worst-case transition law depends implicitly on the policy parameters, the usual policy-gradient argument does not apply. We address this difficulty by using a Wasserstein dual reformulation of the robust Bellman recursion and analyzing its directional differentiability. This yields an explicit recursive characterization of the robust policy gradient. Building on this characterization, we propose a robust actor-critic algorithm and illustrate its behavior on discrete and continuous benchmark examples.",
-      "url": "http://arxiv.org/abs/2606.27610v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27610v1",
-      "doi": null,
-      "published_at": "2026-06-25T23:53:09+00:00",
-      "categories": [
-        "math.OC"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "distributionally robust",
-        "uncertainty"
-      ],
-      "matched_keyword_groups": [
-        "鲁棒随机优化"
-      ],
-      "rule_score": 6.04,
-      "llm_score": 6.04,
-      "final_score": 6.04,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：distributionally robust、uncertainty",
-      "ai_summary": "该论文题为《Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity》，来自 arXiv。从摘要看，论文主要内容为：We study finite-horizon Markov Decision Processes (MDPs) under distributional uncertainty in the transition kernels and develop a policy-gradient framework for Wasserstein distributionally robust control. Ambiguity is modeled by state-action dependent Wasserstein balls around nominal transition kernels, leading to a max-min control problem over randomized policies and admissible transition laws. Since the worst-case ...",
-      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-26T07:53:09+08:00",
-      "published_date_local": "2026-06-26",
-      "published_time_local": "07:53",
-      "doi_url": null,
-      "citation_key": "hafsi2026policy7610v1",
-      "bibtex_entry": "@article{hafsi2026policy7610v1,\n  title = {Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity},\n  author = {Yadh Hafsi and Samy Mekkaoui and Huyên Pham and Kaixin Yan},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27610v1},\n  keywords = {Promising, 鲁棒随机优化, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Policy Gradient Learning for Distributionally Robust Markov Decision Processes under Wasserstein Ambiguity\nJO  - arXiv\nAU  - Yadh Hafsi\nAU  - Samy Mekkaoui\nAU  - Huyên Pham\nAU  - Kaixin Yan\nKW  - Promising\nKW  - 鲁棒随机优化\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27610v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.26920v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations",
-      "authors": [
-        "Yifan Wang"
-      ],
-      "abstract": "Cold-climate transit agencies are electrifying fixed-timetable fleets, but winter exposes a block-level failure mode hidden by seasonal energy margins: cabin heating can deplete batteries faster than layovers recharge them, causing later trips to start undercharged and making one cold day cascade into timetable infeasibility. We present WeatherRobustBus, an open-data framework that converts this risk into block-level failure probability by injecting real hourly weather into real transit duties and propagating cold-weather energy uncertainty. The framework couples a transparent traction and cabin-thermal backbone with a bounded monotone residual ensemble, and validates cabin heating against an independent EnergyPlus bus-cabin simulation driven by the same Toronto weather record. Against this first-principles reference, it achieves the lowest all-year error (0.213 kWh RMSE over 8760 hours) and remains reliable in the out-of-support cold tail ($T \\le -12^\\circ$C), where pure machine-learning baselines degrade by 1.5--4x and the best competitor reaches only 1.055 kWh. Embedded in a Monte Carlo block-feasibility simulator over 60 real Toronto TTC vehicle blocks, the model reveals a sharp weather-induced failure envelope. A forecast-triggered robust policy combining opportunity charging, a fuel-fired cabin-heating bridge, and modest buffering reduces mean cold-wave failure probability from 0.759 to 0.112 across eight cold-wave days; a deconfounded ablation shows opportunity charging is the dominant lever and the heater is a low-cost complement. WeatherRobustBus provides a reproducible pathway from weather data to winter-resilience decisions for electric-bus fleets.",
-      "url": "http://arxiv.org/abs/2606.26920v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26920v1",
-      "doi": null,
-      "published_at": "2026-06-25T11:57:17+00:00",
-      "categories": [
-        "eess.SY"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "resilience",
-        "machine learning",
-        "uncertainty"
-      ],
-      "matched_keyword_groups": [
-        "韧性与恢复",
-        "AI+电力优化",
-        "鲁棒随机优化"
-      ],
-      "rule_score": 5.63,
-      "llm_score": 5.63,
-      "final_score": 5.63,
-      "relevance_label": "Promising",
-      "score_reason": "命中关键词：resilience、machine learning、uncertainty",
-      "ai_summary": "该论文题为《When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations》，来自 arXiv。从摘要看，论文主要内容为：Cold-climate transit agencies are electrifying fixed-timetable fleets, but winter exposes a block-level failure mode hidden by seasonal energy margins: cabin heating can deplete batteries faster than layovers recharge them, causing later trips to start undercharged and making one cold day cascade into timetable infeasibility. We present WeatherRobustBus, an open-data framework that converts this risk into block-level...",
-      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-25T19:57:17+08:00",
-      "published_date_local": "2026-06-25",
-      "published_time_local": "19:57",
-      "doi_url": null,
-      "citation_key": "wang2026when6920v1",
-      "bibtex_entry": "@article{wang2026when6920v1,\n  title = {When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations},\n  author = {Yifan Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.26920v1},\n  keywords = {Promising, 韧性与恢复, AI+电力优化, 鲁棒随机优化, resilience, machine learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - When the Timetable Breaks: Physics-Anchored Scientific Machine Learning for Cold-Wave-Robust Battery-Electric Bus Operations\nJO  - arXiv\nAU  - Yifan Wang\nKW  - Promising\nKW  - 韧性与恢复\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - resilience\nKW  - machine learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.26920v1\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.27542v1",
-      "source": "arxiv",
-      "section": "arxiv",
-      "journal": "arXiv",
-      "title": "Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks",
-      "authors": [
-        "Biswajit Kumar Dash",
-        "Garrett Thomas",
-        "Adedoyin Inaolaji",
-        "Filippo Malandra"
-      ],
-      "abstract": "In this paper, we present an experimental evaluation study of the Alternating Direction Method of Multipliers (ADMM), which is a widely used technique in the distributed optimization of power distribution networks. The focus of this study is on how real 5G communication performance affects ADMM in a fully experimental platform that features commercial 5G connectivity and real-time control. The ADMM-based Distributed Optimal Power Flow (DOPF) problem is solved using the IEEE 123-bus unbalanced distribution feeder subdivided into five areas, each managed by a local controller implemented on a Raspberry Pi. To mitigate the impact of the communication network variability, we propose a delay threshold-based mechanism that yields a 7.75% reduction in convergence time compared to a no-threshold baseline. We also devised a policy to dynamically update the threshold value based on communication and computation conditions, achieving a 26.42% reduction in the convergence time compared with the static optimal threshold. These results demonstrate the potential of adaptive, communication-aware control strategies for real-world Smart Grid (SG) deployments.",
-      "url": "http://arxiv.org/abs/2606.27542v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27542v1",
-      "doi": null,
-      "published_at": "2026-06-25T20:43:31+00:00",
-      "categories": [
-        "eess.SY",
-        "eess.SP"
-      ],
-      "metadata": {
-        "query": "cat:eess.SY OR cat:math.OC"
-      },
-      "matched_keywords": [
-        "optimal power flow"
-      ],
-      "matched_keyword_groups": [
-        "电力系统运行与规划"
-      ],
-      "rule_score": 5.48,
-      "llm_score": 5.48,
-      "final_score": 5.48,
-      "relevance_label": "Background Read",
-      "score_reason": "命中关键词：optimal power flow",
-      "ai_summary": "该论文题为《Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks》，来自 arXiv。从摘要看，论文主要内容为：In this paper, we present an experimental evaluation study of the Alternating Direction Method of Multipliers (ADMM), which is a widely used technique in the distributed optimization of power distribution networks. The focus of this study is on how real 5G communication performance affects ADMM in a fully experimental platform that features commercial 5G connectivity and real-time control. The ADMM-based Distributed ...",
-      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
-      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
-      "published_at_local": "2026-06-26T04:43:31+08:00",
-      "published_date_local": "2026-06-26",
-      "published_time_local": "04:43",
-      "doi_url": null,
-      "citation_key": "dash2026threshold7542v1",
-      "bibtex_entry": "@article{dash2026threshold7542v1,\n  title = {Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks},\n  author = {Biswajit Kumar Dash and Garrett Thomas and Adedoyin Inaolaji and Filippo Malandra},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2606.27542v1},\n  keywords = {Background Read, 电力系统运行与规划, optimal power flow},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Threshold Optimization and Dynamic Adaptation of Distributed Optimal Power Flow in 5G Networks\nJO  - arXiv\nAU  - Biswajit Kumar Dash\nAU  - Garrett Thomas\nAU  - Adedoyin Inaolaji\nAU  - Filippo Malandra\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - optimal power flow\nPY  - 2026\nUR  - http://arxiv.org/abs/2606.27542v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
-      "xplore_url": null,
-      "zotero_collection": null
-    },
-    {
-      "id": "10.1109/tpwrs.2026.3706404",
+      "id": "10.1109/tpwrs.2026.3709567",
       "source": "ieee",
       "section": "ieee",
       "journal": "IEEE Transactions on Power Systems",
-      "title": "Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment",
+      "title": "Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems",
       "authors": [
-        "Wei Hong",
         "Wangkun Xu",
+        "Hongyang Jia",
+        "Yi Wang",
+        "Ning Zhang",
         "Fei Teng"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1109/tpwrs.2026.3706404",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3709567",
       "pdf_url": null,
-      "doi": "10.1109/tpwrs.2026.3706404",
-      "published_at": "2026-06-23T19:45:52+00:00",
+      "doi": "10.1109/tpwrs.2026.3709567",
+      "published_at": "2026-07-02T19:45:00+00:00",
       "categories": [],
       "metadata": {
         "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -1309,26 +721,229 @@
         "zotero_collection": "IEEE Transactions on Power Systems"
       },
       "matched_keywords": [
-        "unit commitment"
+        "power system",
+        "power systems"
       ],
       "matched_keyword_groups": [
         "电力系统运行与规划"
       ],
-      "rule_score": 5.23,
-      "llm_score": 5.23,
-      "final_score": 5.23,
-      "relevance_label": "Background Read",
-      "score_reason": "命中关键词：unit commitment",
-      "ai_summary": "该论文题为《Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
       "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
       "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
-      "published_at_local": "2026-06-24T03:45:52+08:00",
-      "published_date_local": "2026-06-24",
+      "published_at_local": "2026-07-03T03:45:00+08:00",
+      "published_date_local": "2026-07-03",
       "published_time_local": "03:45",
-      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3706404",
-      "citation_key": "hong2026qubitefficient706404",
-      "bibtex_entry": "@article{hong2026qubitefficient706404,\n  title = {Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment},\n  author = {Wei Hong and Wangkun Xu and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3706404},\n  url = {https://doi.org/10.1109/tpwrs.2026.3706404},\n  keywords = {Background Read, 电力系统运行与规划, unit commitment},\n  note = {Auto-selected by Power Paper Digest; score=5.2}\n}",
-      "ris_entry": "TY  - JOUR\nTI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment\nJO  - IEEE Transactions on Power Systems\nAU  - Wei Hong\nAU  - Wangkun Xu\nAU  - Fei Teng\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - unit commitment\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3706404\nUR  - https://doi.org/10.1109/tpwrs.2026.3706404\nN1  - Auto-selected by Power Paper Digest; score=5.2\nER  -",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3709567",
+      "citation_key": "xu2026input709567",
+      "bibtex_entry": "@article{xu2026input709567,\n  title = {Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems},\n  author = {Wangkun Xu and Hongyang Jia and Yi Wang and Ning Zhang and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3709567},\n  url = {https://doi.org/10.1109/tpwrs.2026.3709567},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Wangkun Xu\nAU  - Hongyang Jia\nAU  - Yi Wang\nAU  - Ning Zhang\nAU  - Fei Teng\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3709567\nUR  - https://doi.org/10.1109/tpwrs.2026.3709567\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems"
+    },
+    {
+      "id": "10.1109/tsg.2026.3709623",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids",
+      "authors": [
+        "Congyue Zhang",
+        "Xiaobo Dou",
+        "Jianfeng Zhao",
+        "Qinran Hu",
+        "Guangsheng Pan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3709623",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3709623",
+      "published_at": "2026-07-02T19:45:00+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-03T03:45:00+08:00",
+      "published_date_local": "2026-07-03",
+      "published_time_local": "03:45",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3709623",
+      "citation_key": "zhang2026general709623",
+      "bibtex_entry": "@article{zhang2026general709623,\n  title = {A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids},\n  author = {Congyue Zhang and Xiaobo Dou and Jianfeng Zhao and Qinran Hu and Guangsheng Pan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3709623},\n  url = {https://doi.org/10.1109/tsg.2026.3709623},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Congyue Zhang\nAU  - Xiaobo Dou\nAU  - Jianfeng Zhao\nAU  - Qinran Hu\nAU  - Guangsheng Pan\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3709623\nUR  - https://doi.org/10.1109/tsg.2026.3709623\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid"
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.01616v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control",
+      "authors": [
+        "Xiaoyang Wang",
+        "Xin Chen"
+      ],
+      "abstract": "This paper proposes a novel unified control framework for achieving hybrid grid-forming (GFM) and grid-following (GFL) inverter operation by integrating dispatchable virtual oscillator control with reference-following synchronization. The proposed inverter control method supports multiple operating modes within a unified structure, including voltage- and frequency-following (PQ mode), voltage-forming and frequency-following (PV mode), voltage-following and frequency-forming (Qf mode), voltage- and frequency-forming (Vf mode), and a hybrid mode with mixed GFM and GFL behaviors. In particular, the proposed method achieves smooth pre-synchronization and enables seamless transitions across a spectrum of inverter operating modes by tuning a small set of continuous control parameters, rather than relying on discrete controller switching. This framework provides a flexible and physically interpretable approach for adapting inverter dynamics to varying grid conditions and operational requirements. The small-signal stability and input-output frequency-domain characteristics are further analyzed under different control parameter settings. The effectiveness and robustness of the proposed unified control method are demonstrated through extensive electromagnetic transient (EMT) simulations and hardware-in-the-loop (HIL) experiments.",
+      "url": "http://arxiv.org/abs/2607.01616v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01616v1",
+      "doi": null,
+      "published_at": "2026-07-02T02:32:20+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "dispatch"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：grid-forming、dispatch",
+      "ai_summary": "该论文题为《A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control》，来自 arXiv。从摘要看，论文主要内容为：This paper proposes a novel unified control framework for achieving hybrid grid-forming (GFM) and grid-following (GFL) inverter operation by integrating dispatchable virtual oscillator control with reference-following synchronization. The proposed inverter control method supports multiple operating modes within a unified structure, including voltage- and frequency-following (PQ mode), voltage-forming and frequency-fo...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-02T10:32:20+08:00",
+      "published_date_local": "2026-07-02",
+      "published_time_local": "10:32",
+      "doi_url": null,
+      "citation_key": "wang2026unified1616v1",
+      "bibtex_entry": "@article{wang2026unified1616v1,\n  title = {A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control},\n  author = {Xiaoyang Wang and Xin Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.01616v1},\n  keywords = {Promising, 构网与暂态稳定, 电力系统运行与规划, grid-forming, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control\nJO  - arXiv\nAU  - Xiaoyang Wang\nAU  - Xin Chen\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.01616v1\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null
+    },
+    {
+      "id": "10.1109/tsg.2026.3708486",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning",
+      "authors": [
+        "Zipeng Liang",
+        "C.Y. Chung",
+        "Xin Yin",
+        "Xueqian Fu",
+        "Qin Wang",
+        "Jizhong Zhu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3708486",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3708486",
+      "published_at": "2026-06-30T20:26:18+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-01T04:26:18+08:00",
+      "published_date_local": "2026-07-01",
+      "published_time_local": "04:26",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3708486",
+      "citation_key": "liang2026robust708486",
+      "bibtex_entry": "@article{liang2026robust708486,\n  title = {Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning},\n  author = {Zipeng Liang and C.Y. Chung and Xin Yin and Xueqian Fu and Qin Wang and Jizhong Zhu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3708486},\n  url = {https://doi.org/10.1109/tsg.2026.3708486},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning\nJO  - IEEE Transactions on Smart Grid\nAU  - Zipeng Liang\nAU  - C.Y. Chung\nAU  - Xin Yin\nAU  - Xueqian Fu\nAU  - Qin Wang\nAU  - Jizhong Zhu\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3708486\nUR  - https://doi.org/10.1109/tsg.2026.3708486\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid"
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3708060",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems",
+      "authors": [
+        "Dongyeong Lee",
+        "Francisco J. Cifuentes Garcia",
+        "Jef Beerten"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3708060",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3708060",
+      "published_at": "2026-06-29T19:40:36+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-06-30T03:40:36+08:00",
+      "published_date_local": "2026-06-30",
+      "published_time_local": "03:40",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3708060",
+      "citation_key": "lee2026generalized708060",
+      "bibtex_entry": "@article{lee2026generalized708060,\n  title = {Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems},\n  author = {Dongyeong Lee and Francisco J. Cifuentes Garcia and Jef Beerten},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3708060},\n  url = {https://doi.org/10.1109/tpwrs.2026.3708060},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems\nJO  - IEEE Transactions on Power Systems\nAU  - Dongyeong Lee\nAU  - Francisco J. Cifuentes Garcia\nAU  - Jef Beerten\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3708060\nUR  - https://doi.org/10.1109/tpwrs.2026.3708060\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
       "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
       "zotero_collection": "IEEE Transactions on Power Systems"
     }

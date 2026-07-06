@@ -1,49 +1,51 @@
 TY  - JOUR
-TI  - Uncertainty-Aware Robust Dynamic Operating Envelope for Safe Integration of Distributed Energy Resources
+TI  - Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling
 JO  - IEEE Transactions on Power Systems
-AU  - Feixiang Zhang
-AU  - Hongyi Li
-AU  - Zhaoyu Wang
-KW  - Promising
-KW  - 源网荷储协同
-KW  - 鲁棒随机优化
-KW  - distributed energy resources
-KW  - uncertainty
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3706325
-UR  - https://doi.org/10.1109/tpwrs.2026.3706325
-N1  - Auto-selected by Power Paper Digest; score=6.7
-ER  -
-
-TY  - JOUR
-TI  - Voltage-Sensitive DER-Aware Contingency Analysis and Reserve Sizing for Frequency Stability in Power Systems with High Inverter-Based Generation
-JO  - IEEE Transactions on Power Systems
-AU  - Jaemin Moon
-AU  - Hyeokjun Yoon
-AU  - Seonghee Suk
-AU  - Ning Zhang
-AU  - Kyeon Hur
+AU  - Kseniia Zhgun
+AU  - Sanjana Kunkolienkar
+AU  - Rawand Badawi
+AU  - Farnaz Safdarian
+AU  - Thomas J. Overbye
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3705983
-UR  - https://doi.org/10.1109/tpwrs.2026.3705983
+DO  - 10.1109/tpwrs.2026.3709542
+UR  - https://doi.org/10.1109/tpwrs.2026.3709542
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Qubit-Efficient Quantum Annealing for Stochastic Unit Commitment
+TI  - Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems
 JO  - IEEE Transactions on Power Systems
-AU  - Wei Hong
 AU  - Wangkun Xu
+AU  - Hongyang Jia
+AU  - Yi Wang
+AU  - Ning Zhang
 AU  - Fei Teng
-KW  - Background Read
+KW  - Promising
 KW  - 电力系统运行与规划
-KW  - unit commitment
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3706404
-UR  - https://doi.org/10.1109/tpwrs.2026.3706404
-N1  - Auto-selected by Power Paper Digest; score=5.2
+DO  - 10.1109/tpwrs.2026.3709567
+UR  - https://doi.org/10.1109/tpwrs.2026.3709567
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Dongyeong Lee
+AU  - Francisco J. Cifuentes Garcia
+AU  - Jef Beerten
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3708060
+UR  - https://doi.org/10.1109/tpwrs.2026.3708060
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -

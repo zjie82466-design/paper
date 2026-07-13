@@ -1,75 +1,105 @@
 TY  - JOUR
-TI  - Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach
+TI  - False Data Injection and Replay Attack Detection with Dynamic Watermarking and Robust State Estimation in DC Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Hongpeng Li
-AU  - Bo Yang
-AU  - Teng Lv
-AU  - Xinchun Jia
-AU  - Xinping Guan
-KW  - Strong Match
+AU  - Anik Ghosh
+AU  - Sajal K. Das
+AU  - Hemanshu Roy Pota
+AU  - S. M. Muyeen
+AU  - Yu-Chu Tian
+KW  - Promising
 KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - energy storage
-KW  - power system
-KW  - power systems
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3709107
-UR  - https://doi.org/10.1109/tsg.2026.3709107
-N1  - Auto-selected by Power Paper Digest; score=8.3
+DO  - 10.1109/tsg.2026.3711153
+UR  - https://doi.org/10.1109/tsg.2026.3711153
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems
+TI  - Grid-Aware Islanding and Resynchronisation of AC/DC Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Suhan Zhang
-AU  - Xin Zhang
-AU  - Dongmeng Qiu
-AU  - Vladimir Terzija
-KW  - Strong Match
-KW  - 电力系统运行与规划
+AU  - Willem Lambrichts
+AU  - Jules Mace
+AU  - Drazen Dujic
+AU  - Mario Paolone
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710616
+UR  - https://doi.org/10.1109/tsg.2026.3710616
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Enhancing Power Distribution System Resilience through Insurance Mechanisms: An Insurer Optimization Approach with V2G Aggregator Participation
+JO  - IEEE Transactions on Smart Grid
+AU  - Jing Huang
+AU  - Kai Liao
+AU  - Chenjia Gu
+AU  - Jianwei Yang
+AU  - Yue Xiang
+AU  - Chengcheng Shao
+AU  - Alexis Pengfei Zhao
+KW  - Promising
+KW  - 韧性与恢复
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3712171
+UR  - https://doi.org/10.1109/tsg.2026.3712171
+N1  - Auto-selected by Power Paper Digest; score=5.8
+ER  -
+
+TY  - JOUR
+TI  - Carbon-Aware V2G Coordination in PV-Rich Distribution Systems via Weather-Incorporated Two-Stage Graph Reinforcement Learning and Data Distillation
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ruoheng Wang
+AU  - Ziqing Zhu
+AU  - Wentao Zhang
+AU  - Siqi Bu
+KW  - Background Read
 KW  - AI+电力优化
-KW  - power system
-KW  - power systems
-KW  - surrogate model
+KW  - reinforcement learning
 PY  - 2026
-DO  - 10.1109/tsg.2026.3708992
-UR  - https://doi.org/10.1109/tsg.2026.3708992
-N1  - Auto-selected by Power Paper Digest; score=8.2
+DO  - 10.1109/tsg.2026.3708399
+UR  - https://doi.org/10.1109/tsg.2026.3708399
+N1  - Auto-selected by Power Paper Digest; score=5.4
 ER  -
 
 TY  - JOUR
-TI  - A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids
+TI  - Resilience Equity-Aware Distribution System and Energy Community Co-Planning with a Fair Subsidy Allocation Mechanism
 JO  - IEEE Transactions on Smart Grid
-AU  - Congyue Zhang
-AU  - Xiaobo Dou
-AU  - Jianfeng Zhao
-AU  - Qinran Hu
-AU  - Guangsheng Pan
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+AU  - Mingze Xu
+AU  - Yuxuan Wang
+AU  - Weimin Wu
+AU  - Zhengyu Lin
+AU  - Yuan Luo
+AU  - Shunbo Lei
+KW  - Background Read
+KW  - 韧性与恢复
+KW  - resilience
 PY  - 2026
-DO  - 10.1109/tsg.2026.3709623
-UR  - https://doi.org/10.1109/tsg.2026.3709623
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3710589
+UR  - https://doi.org/10.1109/tsg.2026.3710589
+N1  - Auto-selected by Power Paper Digest; score=5.4
 ER  -
 
 TY  - JOUR
-TI  - Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning
+TI  - Robust Energy Management for Distributed Energy Resources Using Homothetic Tube-based Economic Model Predictive Control
 JO  - IEEE Transactions on Smart Grid
-AU  - Zipeng Liang
-AU  - C.Y. Chung
-AU  - Xin Yin
-AU  - Xueqian Fu
-AU  - Qin Wang
-AU  - Jizhong Zhu
-KW  - Promising
+AU  - Zihang Dong
+AU  - Cheng Hu
+AU  - Dawei Qiu
+AU  - Liang Yu
+AU  - Zhu Han
+KW  - Background Read
 KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - distributed energy resources
 PY  - 2026
-DO  - 10.1109/tsg.2026.3708486
-UR  - https://doi.org/10.1109/tsg.2026.3708486
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3710218
+UR  - https://doi.org/10.1109/tsg.2026.3710218
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

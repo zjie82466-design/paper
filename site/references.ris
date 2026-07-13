@@ -1,142 +1,208 @@
 TY  - JOUR
-TI  - Robust Load Frequency Control for Multi-Area Power Systems with Electro-Hydrogen Hybrid Energy Storage System: A Prescribed-Time Consensus Approach
-JO  - IEEE Transactions on Smart Grid
-AU  - Hongpeng Li
-AU  - Bo Yang
-AU  - Teng Lv
-AU  - Xinchun Jia
-AU  - Xinping Guan
-KW  - Strong Match
-KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - energy storage
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tsg.2026.3709107
-UR  - https://doi.org/10.1109/tsg.2026.3709107
-N1  - Auto-selected by Power Paper Digest; score=8.3
-ER  -
-
-TY  - JOUR
-TI  - Low Rank Approximation-Based Surrogate Model for Sensitivity Analysis of Dynamic Cyber-Physical Power Systems
-JO  - IEEE Transactions on Smart Grid
-AU  - Suhan Zhang
-AU  - Xin Zhang
-AU  - Dongmeng Qiu
-AU  - Vladimir Terzija
+TI  - Inertia-Aware Optimal Power Flow Using PINN in IBR-Dominated Power Systems
+JO  - arXiv
+AU  - Mahyar Tofighi-Milani
+AU  - Sajjad Fattaheian-Dehkordi
+AU  - Franz Martin Rohrhofer
+AU  - Matti Lehtonen
 KW  - Strong Match
 KW  - 电力系统运行与规划
 KW  - AI+电力优化
+KW  - optimal power flow
+KW  - opf
 KW  - power system
 KW  - power systems
-KW  - surrogate model
+KW  - machine learning
 PY  - 2026
-DO  - 10.1109/tsg.2026.3708992
-UR  - https://doi.org/10.1109/tsg.2026.3708992
-N1  - Auto-selected by Power Paper Digest; score=8.2
+UR  - http://arxiv.org/abs/2607.09297v1
+N1  - Auto-selected by Power Paper Digest; score=10.0
 ER  -
 
 TY  - JOUR
-TI  - Phase Shift Groups in Power Flow Analysis for Improved Power Systems Modeling
-JO  - IEEE Transactions on Power Systems
-AU  - Kseniia Zhgun
-AU  - Sanjana Kunkolienkar
-AU  - Rawand Badawi
-AU  - Farnaz Safdarian
-AU  - Thomas J. Overbye
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3709542
-UR  - https://doi.org/10.1109/tpwrs.2026.3709542
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - Input Convex Neural Network as a Surrogate in Stability-Constrained Optimization for IBR-dominated Power Systems
-JO  - IEEE Transactions on Power Systems
-AU  - Wangkun Xu
-AU  - Hongyang Jia
-AU  - Yi Wang
-AU  - Ning Zhang
-AU  - Fei Teng
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3709567
-UR  - https://doi.org/10.1109/tpwrs.2026.3709567
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Congyue Zhang
-AU  - Xiaobo Dou
-AU  - Jianfeng Zhao
+TI  - Robust Coordinated Prescriptive Power System Dispatch: Bridging Adjustable Robust OPF and Multiple Probabilistic Predictions
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Linwei Sang
+AU  - Xinshu Ling
+AU  - Zaijun Wu
+AU  - Meng Song
 AU  - Qinran Hu
-AU  - Guangsheng Pan
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - dispatch
+KW  - opf
+KW  - power system
 PY  - 2026
-DO  - 10.1109/tsg.2026.3709623
-UR  - https://doi.org/10.1109/tsg.2026.3709623
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tste.2026.3710413
+UR  - https://doi.org/10.1109/tste.2026.3710413
+N1  - Auto-selected by Power Paper Digest; score=7.8
 ER  -
 
 TY  - JOUR
-TI  - A Unified Framework for Hybrid Grid-Forming and Grid-Following Inverter Control
+TI  - Jacobian Voltage Stiffness Metric -- A Measure of Grid-Forming Capability and System Strength in IBR-Dominated Grids
 JO  - arXiv
-AU  - Xiaoyang Wang
-AU  - Xin Chen
-KW  - Promising
+AU  - Ambuj Gupta
+AU  - Balarko Chaudhuri
+AU  - Mark O'Malley
+KW  - Strong Match
 KW  - 构网与暂态稳定
 KW  - 电力系统运行与规划
 KW  - grid-forming
-KW  - dispatch
+KW  - power system
+KW  - power systems
 PY  - 2026
-UR  - http://arxiv.org/abs/2607.01616v1
-N1  - Auto-selected by Power Paper Digest; score=6.5
+UR  - http://arxiv.org/abs/2607.09249v1
+N1  - Auto-selected by Power Paper Digest; score=7.5
 ER  -
 
 TY  - JOUR
-TI  - Robust Energy Management of Hybrid Microgrids via a Nonintrusive Load Monitoring Framework with Dual-Task Learning
+TI  - On the Convergence of the Current-Constrained Power Angle Curve of Virtual Admittance-Based Grid Forming Converters
+JO  - arXiv
+AU  - Haoxiang Zong
+AU  - Chen Zhang
+AU  - Yu Zhang
+AU  - Xu Cai
+AU  - Marta Molinas
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+KW  - grid forming
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.08214v1
+N1  - Auto-selected by Power Paper Digest; score=7.0
+ER  -
+
+TY  - JOUR
+TI  - False Data Injection and Replay Attack Detection with Dynamic Watermarking and Robust State Estimation in DC Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Zipeng Liang
-AU  - C.Y. Chung
-AU  - Xin Yin
-AU  - Xueqian Fu
-AU  - Qin Wang
-AU  - Jizhong Zhu
+AU  - Anik Ghosh
+AU  - Sajal K. Das
+AU  - Hemanshu Roy Pota
+AU  - S. M. Muyeen
+AU  - Yu-Chu Tian
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3708486
-UR  - https://doi.org/10.1109/tsg.2026.3708486
+DO  - 10.1109/tsg.2026.3711153
+UR  - https://doi.org/10.1109/tsg.2026.3711153
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Generalized Passivity Sensitivity Methodology for Small-Signal Stability Analysis in Converter-Dominated Power Systems
-JO  - IEEE Transactions on Power Systems
-AU  - Dongyeong Lee
-AU  - Francisco J. Cifuentes Garcia
-AU  - Jef Beerten
+TI  - Grid-Aware Islanding and Resynchronisation of AC/DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Willem Lambrichts
+AU  - Jules Mace
+AU  - Drazen Dujic
+AU  - Mario Paolone
 KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3708060
-UR  - https://doi.org/10.1109/tpwrs.2026.3708060
+DO  - 10.1109/tsg.2026.3710616
+UR  - https://doi.org/10.1109/tsg.2026.3710616
 N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Enhancing Power Distribution System Resilience through Insurance Mechanisms: An Insurer Optimization Approach with V2G Aggregator Participation
+JO  - IEEE Transactions on Smart Grid
+AU  - Jing Huang
+AU  - Kai Liao
+AU  - Chenjia Gu
+AU  - Jianwei Yang
+AU  - Yue Xiang
+AU  - Chengcheng Shao
+AU  - Alexis Pengfei Zhao
+KW  - Promising
+KW  - 韧性与恢复
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3712171
+UR  - https://doi.org/10.1109/tsg.2026.3712171
+N1  - Auto-selected by Power Paper Digest; score=5.8
+ER  -
+
+TY  - JOUR
+TI  - Structural Decoupling and Current-Angle Steering for Post-Fault Recovery of Current-Limited Grid-Forming Inverters
+JO  - arXiv
+AU  - Neethu Sajeev
+AU  - Stephen Arinze Obi
+AU  - Jae-Jung Jung
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.09058v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - Carbon-Aware V2G Coordination in PV-Rich Distribution Systems via Weather-Incorporated Two-Stage Graph Reinforcement Learning and Data Distillation
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ruoheng Wang
+AU  - Ziqing Zhu
+AU  - Wentao Zhang
+AU  - Siqi Bu
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3708399
+UR  - https://doi.org/10.1109/tsg.2026.3708399
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - Resilience Equity-Aware Distribution System and Energy Community Co-Planning with a Fair Subsidy Allocation Mechanism
+JO  - IEEE Transactions on Smart Grid
+AU  - Mingze Xu
+AU  - Yuxuan Wang
+AU  - Weimin Wu
+AU  - Zhengyu Lin
+AU  - Yuan Luo
+AU  - Shunbo Lei
+KW  - Background Read
+KW  - 韧性与恢复
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710589
+UR  - https://doi.org/10.1109/tsg.2026.3710589
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - A Multi-Scale Optimization Framework for Grid-Integrated Electrolysis
+JO  - arXiv
+AU  - Kiernan X. Jennings
+AU  - Victor M. Zavala
+AU  - Styliani Avraamidou
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - demand response
+KW  - scheduling
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.09512v1
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Robust Energy Management for Distributed Energy Resources Using Homothetic Tube-based Economic Model Predictive Control
+JO  - IEEE Transactions on Smart Grid
+AU  - Zihang Dong
+AU  - Cheng Hu
+AU  - Dawei Qiu
+AU  - Liang Yu
+AU  - Zhu Han
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - distributed energy resources
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710218
+UR  - https://doi.org/10.1109/tsg.2026.3710218
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

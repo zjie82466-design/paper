@@ -1,4 +1,23 @@
 TY  - JOUR
+TI  - Robust Coordinated Prescriptive Power System Dispatch: Bridging Adjustable Robust OPF and Multiple Probabilistic Predictions
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Linwei Sang
+AU  - Xinshu Ling
+AU  - Zaijun Wu
+AU  - Meng Song
+AU  - Qinran Hu
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - dispatch
+KW  - opf
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tste.2026.3710413
+UR  - https://doi.org/10.1109/tste.2026.3710413
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
 TI  - Distributed Adaptive Coordination of Flexibility Resources for Real-Time Power Balancing in Islanded DC Microgrids
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Mohammad Rajabi Nasab

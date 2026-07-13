@@ -1,4 +1,110 @@
 TY  - JOUR
+TI  - Enhancing Power Distribution System Resilience through Insurance Mechanisms: An Insurer Optimization Approach with V2G Aggregator Participation
+JO  - IEEE Transactions on Smart Grid
+AU  - Jing Huang
+AU  - Kai Liao
+AU  - Chenjia Gu
+AU  - Jianwei Yang
+AU  - Yue Xiang
+AU  - Chengcheng Shao
+AU  - Alexis Pengfei Zhao
+KW  - Promising
+KW  - 韧性与恢复
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3712171
+UR  - https://doi.org/10.1109/tsg.2026.3712171
+N1  - Auto-selected by Power Paper Digest; score=5.8
+ER  -
+
+TY  - JOUR
+TI  - False Data Injection and Replay Attack Detection with Dynamic Watermarking and Robust State Estimation in DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Anik Ghosh
+AU  - Sajal K. Das
+AU  - Hemanshu Roy Pota
+AU  - S. M. Muyeen
+AU  - Yu-Chu Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3711153
+UR  - https://doi.org/10.1109/tsg.2026.3711153
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Carbon-Aware V2G Coordination in PV-Rich Distribution Systems via Weather-Incorporated Two-Stage Graph Reinforcement Learning and Data Distillation
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ruoheng Wang
+AU  - Ziqing Zhu
+AU  - Wentao Zhang
+AU  - Siqi Bu
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3708399
+UR  - https://doi.org/10.1109/tsg.2026.3708399
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - Grid-Aware Islanding and Resynchronisation of AC/DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Willem Lambrichts
+AU  - Jules Mace
+AU  - Drazen Dujic
+AU  - Mario Paolone
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710616
+UR  - https://doi.org/10.1109/tsg.2026.3710616
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Resilience Equity-Aware Distribution System and Energy Community Co-Planning with a Fair Subsidy Allocation Mechanism
+JO  - IEEE Transactions on Smart Grid
+AU  - Mingze Xu
+AU  - Yuxuan Wang
+AU  - Weimin Wu
+AU  - Zhengyu Lin
+AU  - Yuan Luo
+AU  - Shunbo Lei
+KW  - Background Read
+KW  - 韧性与恢复
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710589
+UR  - https://doi.org/10.1109/tsg.2026.3710589
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - Robust Energy Management for Distributed Energy Resources Using Homothetic Tube-based Economic Model Predictive Control
+JO  - IEEE Transactions on Smart Grid
+AU  - Zihang Dong
+AU  - Cheng Hu
+AU  - Dawei Qiu
+AU  - Liang Yu
+AU  - Zhu Han
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - distributed energy resources
+PY  - 2026
+DO  - 10.1109/tsg.2026.3710218
+UR  - https://doi.org/10.1109/tsg.2026.3710218
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - A General Distributed Bounded-and-Deadband Voltage Control Framework For Microgrids
 JO  - IEEE Transactions on Smart Grid
 AU  - Congyue Zhang

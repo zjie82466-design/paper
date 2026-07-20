@@ -1,4 +1,42 @@
 TY  - JOUR
+TI  - A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhenghao Zhou
+AU  - Yiyan Li
+AU  - Xinjie Yu
+AU  - Runlong Liu
+AU  - Zelin Guo
+AU  - Zheng Yan
+AU  - Mo-Yuen Chow
+AU  - Yuqi Yang
+AU  - Yang Xu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tsg.2026.3714202
+UR  - https://doi.org/10.1109/tsg.2026.3714202
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination
+JO  - IEEE Transactions on Smart Grid
+AU  - Yufei Zhao
+AU  - Hanwen Gu
+AU  - Jingtao Zhao
+AU  - Zaibin Jiao
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3712963
+UR  - https://doi.org/10.1109/tsg.2026.3712963
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Enhancing Power Distribution System Resilience through Insurance Mechanisms: An Insurer Optimization Approach with V2G Aggregator Participation
 JO  - IEEE Transactions on Smart Grid
 AU  - Jing Huang

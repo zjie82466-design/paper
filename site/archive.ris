@@ -1,4 +1,114 @@
 TY  - JOUR
+TI  - A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhenghao Zhou
+AU  - Yiyan Li
+AU  - Xinjie Yu
+AU  - Runlong Liu
+AU  - Zelin Guo
+AU  - Zheng Yan
+AU  - Mo-Yuen Chow
+AU  - Yuqi Yang
+AU  - Yang Xu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tsg.2026.3714202
+UR  - https://doi.org/10.1109/tsg.2026.3714202
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems
+JO  - arXiv
+AU  - Heng Wu
+AU  - Changjiang Zhan
+AU  - Jiacheng Li
+AU  - Xiaoyao Zhou
+AU  - Xiongfei Wang
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - grid forming
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.15680v1
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs
+JO  - arXiv
+AU  - Yalin Zhang
+AU  - Zhongxin Liu
+AU  - Zengqiang Chen
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - economic dispatch
+KW  - energy storage
+KW  - dispatch
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.15572v1
+N1  - Auto-selected by Power Paper Digest; score=8.0
+ER  -
+
+TY  - JOUR
+TI  - Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision
+JO  - arXiv
+AU  - Kyung-bin Kwon
+AU  - SangWoo Park
+AU  - Dam Kim
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - scheduling
+KW  - energy storage
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.15460v1
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Co-Design of Aeroelastic Systems with Deep Reinforcement Learning
+JO  - arXiv
+AU  - Yao Cheng Li
+AU  - Urban Fasel
+KW  - Promising
+KW  - AI+电力优化
+KW  - 鲁棒随机优化
+KW  - reinforcement learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.15329v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination
+JO  - IEEE Transactions on Smart Grid
+AU  - Yufei Zhao
+AU  - Hanwen Gu
+AU  - Jingtao Zhao
+AU  - Zaibin Jiao
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3712963
+UR  - https://doi.org/10.1109/tsg.2026.3712963
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Enhancing Power Distribution System Resilience through Insurance Mechanisms: An Insurer Optimization Approach with V2G Aggregator Participation
 JO  - IEEE Transactions on Smart Grid
 AU  - Jing Huang

@@ -7,29 +7,29 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-07-13T12:07:37.257373+08:00",
-    "target_date": "2026-07-13",
-    "window_start": "2026-07-07",
+    "generated_at": "2026-07-20T12:11:56.553626+08:00",
+    "target_date": "2026-07-20",
+    "window_start": "2026-07-14",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 67,
-    "archive_count": 67,
+    "paper_count": 73,
+    "archive_count": 73,
     "source_counts": {
-      "ieee": 38,
-      "arxiv": 29
+      "ieee": 40,
+      "arxiv": 33
     },
     "journal_counts": {
-      "arXiv": 29,
-      "IEEE Transactions on Smart Grid": 20,
+      "arXiv": 33,
+      "IEEE Transactions on Smart Grid": 22,
       "IEEE Transactions on Power Systems": 15,
       "IEEE Transactions on Sustainable Energy": 3
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 37,
-      "源网荷储协同": 25,
-      "AI+电力优化": 12,
-      "鲁棒随机优化": 12,
-      "构网与暂态稳定": 9,
+      "电力系统运行与规划": 41,
+      "源网荷储协同": 29,
+      "鲁棒随机优化": 14,
+      "AI+电力优化": 13,
+      "构网与暂态稳定": 10,
       "韧性与恢复": 6
     },
     "required_topics": [
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 20
+        "archive_count": 22
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -102,8 +102,132 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 38,
+      "count": 40,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3714202",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics",
+          "authors": [
+            "Zhenghao Zhou",
+            "Yiyan Li",
+            "Xinjie Yu",
+            "Runlong Liu",
+            "Zelin Guo",
+            "Zheng Yan",
+            "Mo-Yuen Chow",
+            "Yuqi Yang",
+            "Yang Xu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3714202",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3714202",
+          "published_at": "2026-07-17T19:45:33+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "power system"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.48,
+          "llm_score": 5.48,
+          "final_score": 5.48,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：power system",
+          "ai_summary": "该论文题为《A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-18T03:45:33+08:00",
+          "published_date_local": "2026-07-18",
+          "published_time_local": "03:45",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3714202",
+          "citation_key": "zhou2026causalguided714202",
+          "bibtex_entry": "@article{zhou2026causalguided714202,\n  title = {A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics},\n  author = {Zhenghao Zhou and Yiyan Li and Xinjie Yu and Runlong Liu and Zelin Guo and Zheng Yan and Mo-Yuen Chow and Yuqi Yang and Yang Xu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3714202},\n  url = {https://doi.org/10.1109/tsg.2026.3714202},\n  keywords = {Background Read, 电力系统运行与规划, power system},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhenghao Zhou\nAU  - Yiyan Li\nAU  - Xinjie Yu\nAU  - Runlong Liu\nAU  - Zelin Guo\nAU  - Zheng Yan\nAU  - Mo-Yuen Chow\nAU  - Yuqi Yang\nAU  - Yang Xu\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tsg.2026.3714202\nUR  - https://doi.org/10.1109/tsg.2026.3714202\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3712963",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination",
+          "authors": [
+            "Yufei Zhao",
+            "Hanwen Gu",
+            "Jingtao Zhao",
+            "Zaibin Jiao"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3712963",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3712963",
+          "published_at": "2026-07-13T20:05:02+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-14T04:05:02+08:00",
+          "published_date_local": "2026-07-14",
+          "published_time_local": "04:05",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3712963",
+          "citation_key": "zhao2026frequency712963",
+          "bibtex_entry": "@article{zhao2026frequency712963,\n  title = {Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination},\n  author = {Yufei Zhao and Hanwen Gu and Jingtao Zhao and Zaibin Jiao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3712963},\n  url = {https://doi.org/10.1109/tsg.2026.3712963},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination\nJO  - IEEE Transactions on Smart Grid\nAU  - Yufei Zhao\nAU  - Hanwen Gu\nAU  - Jingtao Zhao\nAU  - Zaibin Jiao\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3712963\nUR  - https://doi.org/10.1109/tsg.2026.3712963\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tsg.2026.3712171",
           "source": "ieee",
@@ -2452,8 +2576,244 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 29,
+      "count": 33,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2607.15680v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems",
+          "authors": [
+            "Heng Wu",
+            "Changjiang Zhan",
+            "Jiacheng Li",
+            "Xiaoyao Zhou",
+            "Xiongfei Wang"
+          ],
+          "abstract": "Grid-forming (GFM) energy storage system (ESS) is a key enabler for stabilizing future power systems with high penetration of converter-based resources (CBRs). To get a better overview of the state-of-the-art and challenges for implementing and deploying GFM-ESS, a global survey has been initiated by Cigre Working Group B4.101 - industrial implementation and application of grid forming energy storage systems. Feedback was collected from universities, transmission system operators (TSOs), power plant developers, original equipment manufacturers (OEMs), research institutes, as well as consultants. It is interesting to note that while many common understandings have been established in practice, certain gaps persist among different stakeholders. This article intends to bridge this gap by presenting a summary of the survey, including the questionnaire, responses from various stakeholders, and in-depth analysis of the survey results. The key challenges faced by different stakeholders in deploying GFM-ESS are identified, shedding light on future research in this direction.",
+          "url": "http://arxiv.org/abs/2607.15680v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15680v1",
+          "doi": null,
+          "published_at": "2026-07-17T06:48:49+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "grid forming",
+            "energy storage",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 10.0,
+          "llm_score": 10.0,
+          "final_score": 10.0,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、grid forming、energy storage、power system",
+          "ai_summary": "该论文题为《Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems》，来自 arXiv。从摘要看，论文主要内容为：Grid-forming (GFM) energy storage system (ESS) is a key enabler for stabilizing future power systems with high penetration of converter-based resources (CBRs). To get a better overview of the state-of-the-art and challenges for implementing and deploying GFM-ESS, a global survey has been initiated by Cigre Working Group B4.101 - industrial implementation and application of grid forming energy storage systems. Feedbac...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-17T14:48:49+08:00",
+          "published_date_local": "2026-07-17",
+          "published_time_local": "14:48",
+          "doi_url": null,
+          "citation_key": "wu2026global5680v1",
+          "bibtex_entry": "@article{wu2026global5680v1,\n  title = {Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems},\n  author = {Heng Wu and Changjiang Zhan and Jiacheng Li and Xiaoyao Zhou and Xiongfei Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15680v1},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, 电力系统运行与规划, grid-forming, grid forming, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems\nJO  - arXiv\nAU  - Heng Wu\nAU  - Changjiang Zhan\nAU  - Jiacheng Li\nAU  - Xiaoyao Zhou\nAU  - Xiongfei Wang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - grid forming\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15680v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.15572v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs",
+          "authors": [
+            "Yalin Zhang",
+            "Zhongxin Liu",
+            "Zengqiang Chen"
+          ],
+          "abstract": "Battery energy storage systems (BESSs) are widely used in smart grids. However, power consumed by inner impedance and the capacity degradation of each battery unit become particularly severe, which has resulted in an increase in operating costs. The general economic dispatch (ED) algorithm based on marginal cost (MC) consensus is usually a proportional (P) controller, which encounters the defects of slow convergence speed and low control accuracy. In order to solve the distributed ED problem of the isolated BESS network with excellent dynamic and steady-state performance, we attempt to design a proportional integral (PI) controller with a reset mechanism (PI+R) to asymptotically promote MC consensus and total power mismatch towards 0 in this paper. To be frank, the integral term in the PI controller is reset to 0 at an appropriate time when the proportional term undergoes a zero crossing, which accelerates convergence, improves control accuracy, and avoids overshoot. The eigenvalues of the system under a PI+R controller is well analyzed, ensuring the regularity of the system and enabling the reset mechanism. To ensure supply and demand balance within the isolated BESSs, a centralized reset mechanism is introduced, so that the controller is distributed in a flow set and centralized in a jump set. To cope with Zeno behavior and input delay, a dwell time that the system resides in a flow set is given. Based on this, the system with input delays can be reduced to a time-delay free system. Considering the capacity limitation of the battery, a modified MC scheme with PI+R controller is designed. The correctness of the designed scheme is verified through relevant simulations.",
+          "url": "http://arxiv.org/abs/2607.15572v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15572v1",
+          "doi": null,
+          "published_at": "2026-07-17T02:29:32+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "economic dispatch",
+            "energy storage",
+            "dispatch"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.99,
+          "llm_score": 7.99,
+          "final_score": 7.99,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：economic dispatch、energy storage、dispatch",
+          "ai_summary": "该论文题为《A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs》，来自 arXiv。从摘要看，论文主要内容为：Battery energy storage systems (BESSs) are widely used in smart grids. However, power consumed by inner impedance and the capacity degradation of each battery unit become particularly severe, which has resulted in an increase in operating costs. The general economic dispatch (ED) algorithm based on marginal cost (MC) consensus is usually a proportional (P) controller, which encounters the defects of slow convergence ...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-17T10:29:32+08:00",
+          "published_date_local": "2026-07-17",
+          "published_time_local": "10:29",
+          "doi_url": null,
+          "citation_key": "zhang2026control5572v1",
+          "bibtex_entry": "@article{zhang2026control5572v1,\n  title = {A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs},\n  author = {Yalin Zhang and Zhongxin Liu and Zengqiang Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15572v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, economic dispatch, energy storage, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=8.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs\nJO  - arXiv\nAU  - Yalin Zhang\nAU  - Zhongxin Liu\nAU  - Zengqiang Chen\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - economic dispatch\nKW  - energy storage\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15572v1\nN1  - Auto-selected by Power Paper Digest; score=8.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.15460v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision",
+          "authors": [
+            "Kyung-bin Kwon",
+            "SangWoo Park",
+            "Dam Kim"
+          ],
+          "abstract": "Variable-speed pumped storage hydropower (VS-PSH) offers long-duration energy storage alongside ancillary services in competitive electricity markets. However, its operation and scheduling are challenged by head-dependent nonlinearities, discrete mode transitions, and energy-continuity constraints. This study proposes a stochastic framework for VS-PSH that employs a multi-segment bidding structure to generate market-consistent energy and synchronized reserve offers in compliance with market rules. The framework explicitly incorporates physical constraints, including head-dependent capability limits, discrete pumping and generating modes, as well as state-of-charge (SoC) and head dynamics, within a stochastic mixed-integer linear programming (MILP) formulation. Price uncertainty is represented through a scenario-based modeling approach that scales base-case prices and allows variations in (dis)charging incentives. The stochastic MILP produces optimal energy and mode schedules that maintain feasible SoC trajectories across scenarios and ensure physically feasible operating strategies. Case studies under different levels of price variability demonstrate the operational feasibility and market applicability of the proposed framework, showing effective coordination between energy arbitrage and reserve provision under uncertainty. These results highlight the operational and economic value of VS-PSH as a grid-scale energy storage resource.",
+          "url": "http://arxiv.org/abs/2607.15460v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15460v1",
+          "doi": null,
+          "published_at": "2026-07-16T21:10:37+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "scheduling",
+            "energy storage",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 6.83,
+          "llm_score": 6.83,
+          "final_score": 6.83,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：scheduling、energy storage、uncertainty",
+          "ai_summary": "该论文题为《Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision》，来自 arXiv。从摘要看，论文主要内容为：Variable-speed pumped storage hydropower (VS-PSH) offers long-duration energy storage alongside ancillary services in competitive electricity markets. However, its operation and scheduling are challenged by head-dependent nonlinearities, discrete mode transitions, and energy-continuity constraints. This study proposes a stochastic framework for VS-PSH that employs a multi-segment bidding structure to generate market-...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-17T05:10:37+08:00",
+          "published_date_local": "2026-07-17",
+          "published_time_local": "05:10",
+          "doi_url": null,
+          "citation_key": "kwon2026stochastic5460v1",
+          "bibtex_entry": "@article{kwon2026stochastic5460v1,\n  title = {Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision},\n  author = {Kyung-bin Kwon and SangWoo Park and Dam Kim},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15460v1},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, scheduling, energy storage, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision\nJO  - arXiv\nAU  - Kyung-bin Kwon\nAU  - SangWoo Park\nAU  - Dam Kim\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - scheduling\nKW  - energy storage\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15460v1\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.15329v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Co-Design of Aeroelastic Systems with Deep Reinforcement Learning",
+          "authors": [
+            "Yao Cheng Li",
+            "Urban Fasel"
+          ],
+          "abstract": "Control co-design considers the physical system and its controller together, enabling the strong coupling between system design and control to be uncovered and exploited. This is especially relevant in aeroelastic flight systems, where structural, aerodynamic, and control design choices jointly determine manoeuvrability and efficiency. This paper presents a model-free nested co-design framework for aeroelastic systems using deep reinforcement learning, in which a design-conditioned control policy is trained with proximal policy optimisation while an outer loop updates a distribution over candidate design parameters. The approach is evaluated on three case studies of increasing complexity: a spring-mass-damper system, a pitch-plunge-flap aerofoil, and a highly flexible high-aspect-ratio glider performing a thermal-soaring mission in a stochastic environment. Across these case studies, the framework is shown to progressively concentrate the design search towards high-performing regions and to outperform policies trained on randomly sampled designs. The results also show that reward shaping plays an important role in enabling stable learning in partially observed and stochastic environments. In the final glider case, the method jointly addresses wing design, flight control, and mission-level behaviour in the presence of aeroelastic coupling and atmospheric uncertainty. These results highlight the potential of model-free co-design for complex aeroelastic systems in which design, control, and mission objectives are tightly coupled.",
+          "url": "http://arxiv.org/abs/2607.15329v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.15329v1",
+          "doi": null,
+          "published_at": "2026-07-16T15:38:18+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 5.72,
+          "llm_score": 5.72,
+          "final_score": 5.72,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、uncertainty",
+          "ai_summary": "该论文题为《Co-Design of Aeroelastic Systems with Deep Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：Control co-design considers the physical system and its controller together, enabling the strong coupling between system design and control to be uncovered and exploited. This is especially relevant in aeroelastic flight systems, where structural, aerodynamic, and control design choices jointly determine manoeuvrability and efficiency. This paper presents a model-free nested co-design framework for aeroelastic system...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-16T23:38:18+08:00",
+          "published_date_local": "2026-07-16",
+          "published_time_local": "23:38",
+          "doi_url": null,
+          "citation_key": "li2026codesign5329v1",
+          "bibtex_entry": "@article{li2026codesign5329v1,\n  title = {Co-Design of Aeroelastic Systems with Deep Reinforcement Learning},\n  author = {Yao Cheng Li and Urban Fasel},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15329v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Co-Design of Aeroelastic Systems with Deep Reinforcement Learning\nJO  - arXiv\nAU  - Yao Cheng Li\nAU  - Urban Fasel\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15329v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-07-20T12:11:56.553626+08:00",
+          "last_seen": "2026-07-20T12:11:56.553626+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-14",
+              "target_date": "2026-07-20",
+              "generated_at": "2026-07-20T12:11:56.553626+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2607.09512v1",
           "source": "arxiv",
@@ -4183,6 +4543,366 @@
     }
   },
   "papers": [
+    {
+      "id": "10.1109/tsg.2026.3714202",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics",
+      "authors": [
+        "Zhenghao Zhou",
+        "Yiyan Li",
+        "Xinjie Yu",
+        "Runlong Liu",
+        "Zelin Guo",
+        "Zheng Yan",
+        "Mo-Yuen Chow",
+        "Yuqi Yang",
+        "Yang Xu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3714202",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3714202",
+      "published_at": "2026-07-17T19:45:33+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "power system"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.48,
+      "llm_score": 5.48,
+      "final_score": 5.48,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：power system",
+      "ai_summary": "该论文题为《A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-18T03:45:33+08:00",
+      "published_date_local": "2026-07-18",
+      "published_time_local": "03:45",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3714202",
+      "citation_key": "zhou2026causalguided714202",
+      "bibtex_entry": "@article{zhou2026causalguided714202,\n  title = {A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics},\n  author = {Zhenghao Zhou and Yiyan Li and Xinjie Yu and Runlong Liu and Zelin Guo and Zheng Yan and Mo-Yuen Chow and Yuqi Yang and Yang Xu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3714202},\n  url = {https://doi.org/10.1109/tsg.2026.3714202},\n  keywords = {Background Read, 电力系统运行与规划, power system},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhenghao Zhou\nAU  - Yiyan Li\nAU  - Xinjie Yu\nAU  - Runlong Liu\nAU  - Zelin Guo\nAU  - Zheng Yan\nAU  - Mo-Yuen Chow\nAU  - Yuqi Yang\nAU  - Yang Xu\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tsg.2026.3714202\nUR  - https://doi.org/10.1109/tsg.2026.3714202\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.15680v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems",
+      "authors": [
+        "Heng Wu",
+        "Changjiang Zhan",
+        "Jiacheng Li",
+        "Xiaoyao Zhou",
+        "Xiongfei Wang"
+      ],
+      "abstract": "Grid-forming (GFM) energy storage system (ESS) is a key enabler for stabilizing future power systems with high penetration of converter-based resources (CBRs). To get a better overview of the state-of-the-art and challenges for implementing and deploying GFM-ESS, a global survey has been initiated by Cigre Working Group B4.101 - industrial implementation and application of grid forming energy storage systems. Feedback was collected from universities, transmission system operators (TSOs), power plant developers, original equipment manufacturers (OEMs), research institutes, as well as consultants. It is interesting to note that while many common understandings have been established in practice, certain gaps persist among different stakeholders. This article intends to bridge this gap by presenting a summary of the survey, including the questionnaire, responses from various stakeholders, and in-depth analysis of the survey results. The key challenges faced by different stakeholders in deploying GFM-ESS are identified, shedding light on future research in this direction.",
+      "url": "http://arxiv.org/abs/2607.15680v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15680v1",
+      "doi": null,
+      "published_at": "2026-07-17T06:48:49+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "grid forming",
+        "energy storage",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 10.0,
+      "llm_score": 10.0,
+      "final_score": 10.0,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、grid forming、energy storage、power system",
+      "ai_summary": "该论文题为《Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems》，来自 arXiv。从摘要看，论文主要内容为：Grid-forming (GFM) energy storage system (ESS) is a key enabler for stabilizing future power systems with high penetration of converter-based resources (CBRs). To get a better overview of the state-of-the-art and challenges for implementing and deploying GFM-ESS, a global survey has been initiated by Cigre Working Group B4.101 - industrial implementation and application of grid forming energy storage systems. Feedbac...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-17T14:48:49+08:00",
+      "published_date_local": "2026-07-17",
+      "published_time_local": "14:48",
+      "doi_url": null,
+      "citation_key": "wu2026global5680v1",
+      "bibtex_entry": "@article{wu2026global5680v1,\n  title = {Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems},\n  author = {Heng Wu and Changjiang Zhan and Jiacheng Li and Xiaoyao Zhou and Xiongfei Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15680v1},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, 电力系统运行与规划, grid-forming, grid forming, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Global Survey of Technologies and Industrial Applications of Grid Forming Energy Storage Systems\nJO  - arXiv\nAU  - Heng Wu\nAU  - Changjiang Zhan\nAU  - Jiacheng Li\nAU  - Xiaoyao Zhou\nAU  - Xiongfei Wang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - grid forming\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15680v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.15572v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs",
+      "authors": [
+        "Yalin Zhang",
+        "Zhongxin Liu",
+        "Zengqiang Chen"
+      ],
+      "abstract": "Battery energy storage systems (BESSs) are widely used in smart grids. However, power consumed by inner impedance and the capacity degradation of each battery unit become particularly severe, which has resulted in an increase in operating costs. The general economic dispatch (ED) algorithm based on marginal cost (MC) consensus is usually a proportional (P) controller, which encounters the defects of slow convergence speed and low control accuracy. In order to solve the distributed ED problem of the isolated BESS network with excellent dynamic and steady-state performance, we attempt to design a proportional integral (PI) controller with a reset mechanism (PI+R) to asymptotically promote MC consensus and total power mismatch towards 0 in this paper. To be frank, the integral term in the PI controller is reset to 0 at an appropriate time when the proportional term undergoes a zero crossing, which accelerates convergence, improves control accuracy, and avoids overshoot. The eigenvalues of the system under a PI+R controller is well analyzed, ensuring the regularity of the system and enabling the reset mechanism. To ensure supply and demand balance within the isolated BESSs, a centralized reset mechanism is introduced, so that the controller is distributed in a flow set and centralized in a jump set. To cope with Zeno behavior and input delay, a dwell time that the system resides in a flow set is given. Based on this, the system with input delays can be reduced to a time-delay free system. Considering the capacity limitation of the battery, a modified MC scheme with PI+R controller is designed. The correctness of the designed scheme is verified through relevant simulations.",
+      "url": "http://arxiv.org/abs/2607.15572v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15572v1",
+      "doi": null,
+      "published_at": "2026-07-17T02:29:32+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "economic dispatch",
+        "energy storage",
+        "dispatch"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同"
+      ],
+      "rule_score": 7.99,
+      "llm_score": 7.99,
+      "final_score": 7.99,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：economic dispatch、energy storage、dispatch",
+      "ai_summary": "该论文题为《A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs》，来自 arXiv。从摘要看，论文主要内容为：Battery energy storage systems (BESSs) are widely used in smart grids. However, power consumed by inner impedance and the capacity degradation of each battery unit become particularly severe, which has resulted in an increase in operating costs. The general economic dispatch (ED) algorithm based on marginal cost (MC) consensus is usually a proportional (P) controller, which encounters the defects of slow convergence ...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-17T10:29:32+08:00",
+      "published_date_local": "2026-07-17",
+      "published_time_local": "10:29",
+      "doi_url": null,
+      "citation_key": "zhang2026control5572v1",
+      "bibtex_entry": "@article{zhang2026control5572v1,\n  title = {A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs},\n  author = {Yalin Zhang and Zhongxin Liu and Zengqiang Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15572v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, economic dispatch, energy storage, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=8.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A PI+R Control Scheme Based on Multi-agent Systems for Economic Dispatch in Isolated BESSs\nJO  - arXiv\nAU  - Yalin Zhang\nAU  - Zhongxin Liu\nAU  - Zengqiang Chen\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - economic dispatch\nKW  - energy storage\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15572v1\nN1  - Auto-selected by Power Paper Digest; score=8.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.15460v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision",
+      "authors": [
+        "Kyung-bin Kwon",
+        "SangWoo Park",
+        "Dam Kim"
+      ],
+      "abstract": "Variable-speed pumped storage hydropower (VS-PSH) offers long-duration energy storage alongside ancillary services in competitive electricity markets. However, its operation and scheduling are challenged by head-dependent nonlinearities, discrete mode transitions, and energy-continuity constraints. This study proposes a stochastic framework for VS-PSH that employs a multi-segment bidding structure to generate market-consistent energy and synchronized reserve offers in compliance with market rules. The framework explicitly incorporates physical constraints, including head-dependent capability limits, discrete pumping and generating modes, as well as state-of-charge (SoC) and head dynamics, within a stochastic mixed-integer linear programming (MILP) formulation. Price uncertainty is represented through a scenario-based modeling approach that scales base-case prices and allows variations in (dis)charging incentives. The stochastic MILP produces optimal energy and mode schedules that maintain feasible SoC trajectories across scenarios and ensure physically feasible operating strategies. Case studies under different levels of price variability demonstrate the operational feasibility and market applicability of the proposed framework, showing effective coordination between energy arbitrage and reserve provision under uncertainty. These results highlight the operational and economic value of VS-PSH as a grid-scale energy storage resource.",
+      "url": "http://arxiv.org/abs/2607.15460v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15460v1",
+      "doi": null,
+      "published_at": "2026-07-16T21:10:37+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "scheduling",
+        "energy storage",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 6.83,
+      "llm_score": 6.83,
+      "final_score": 6.83,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：scheduling、energy storage、uncertainty",
+      "ai_summary": "该论文题为《Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision》，来自 arXiv。从摘要看，论文主要内容为：Variable-speed pumped storage hydropower (VS-PSH) offers long-duration energy storage alongside ancillary services in competitive electricity markets. However, its operation and scheduling are challenged by head-dependent nonlinearities, discrete mode transitions, and energy-continuity constraints. This study proposes a stochastic framework for VS-PSH that employs a multi-segment bidding structure to generate market-...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-17T05:10:37+08:00",
+      "published_date_local": "2026-07-17",
+      "published_time_local": "05:10",
+      "doi_url": null,
+      "citation_key": "kwon2026stochastic5460v1",
+      "bibtex_entry": "@article{kwon2026stochastic5460v1,\n  title = {Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision},\n  author = {Kyung-bin Kwon and SangWoo Park and Dam Kim},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15460v1},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, scheduling, energy storage, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Stochastic Multi-Segment Scheduling of Variable-Speed Pumped Storage Hydropower for Energy and Ancillary Services Provision\nJO  - arXiv\nAU  - Kyung-bin Kwon\nAU  - SangWoo Park\nAU  - Dam Kim\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - scheduling\nKW  - energy storage\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15460v1\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.15329v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Co-Design of Aeroelastic Systems with Deep Reinforcement Learning",
+      "authors": [
+        "Yao Cheng Li",
+        "Urban Fasel"
+      ],
+      "abstract": "Control co-design considers the physical system and its controller together, enabling the strong coupling between system design and control to be uncovered and exploited. This is especially relevant in aeroelastic flight systems, where structural, aerodynamic, and control design choices jointly determine manoeuvrability and efficiency. This paper presents a model-free nested co-design framework for aeroelastic systems using deep reinforcement learning, in which a design-conditioned control policy is trained with proximal policy optimisation while an outer loop updates a distribution over candidate design parameters. The approach is evaluated on three case studies of increasing complexity: a spring-mass-damper system, a pitch-plunge-flap aerofoil, and a highly flexible high-aspect-ratio glider performing a thermal-soaring mission in a stochastic environment. Across these case studies, the framework is shown to progressively concentrate the design search towards high-performing regions and to outperform policies trained on randomly sampled designs. The results also show that reward shaping plays an important role in enabling stable learning in partially observed and stochastic environments. In the final glider case, the method jointly addresses wing design, flight control, and mission-level behaviour in the presence of aeroelastic coupling and atmospheric uncertainty. These results highlight the potential of model-free co-design for complex aeroelastic systems in which design, control, and mission objectives are tightly coupled.",
+      "url": "http://arxiv.org/abs/2607.15329v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15329v1",
+      "doi": null,
+      "published_at": "2026-07-16T15:38:18+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 5.72,
+      "llm_score": 5.72,
+      "final_score": 5.72,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、uncertainty",
+      "ai_summary": "该论文题为《Co-Design of Aeroelastic Systems with Deep Reinforcement Learning》，来自 arXiv。从摘要看，论文主要内容为：Control co-design considers the physical system and its controller together, enabling the strong coupling between system design and control to be uncovered and exploited. This is especially relevant in aeroelastic flight systems, where structural, aerodynamic, and control design choices jointly determine manoeuvrability and efficiency. This paper presents a model-free nested co-design framework for aeroelastic system...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-16T23:38:18+08:00",
+      "published_date_local": "2026-07-16",
+      "published_time_local": "23:38",
+      "doi_url": null,
+      "citation_key": "li2026codesign5329v1",
+      "bibtex_entry": "@article{li2026codesign5329v1,\n  title = {Co-Design of Aeroelastic Systems with Deep Reinforcement Learning},\n  author = {Yao Cheng Li and Urban Fasel},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.15329v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Co-Design of Aeroelastic Systems with Deep Reinforcement Learning\nJO  - arXiv\nAU  - Yao Cheng Li\nAU  - Urban Fasel\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.15329v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3712963",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination",
+      "authors": [
+        "Yufei Zhao",
+        "Hanwen Gu",
+        "Jingtao Zhao",
+        "Zaibin Jiao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3712963",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3712963",
+      "published_at": "2026-07-13T20:05:02+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-14T04:05:02+08:00",
+      "published_date_local": "2026-07-14",
+      "published_time_local": "04:05",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3712963",
+      "citation_key": "zhao2026frequency712963",
+      "bibtex_entry": "@article{zhao2026frequency712963,\n  title = {Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination},\n  author = {Yufei Zhao and Hanwen Gu and Jingtao Zhao and Zaibin Jiao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3712963},\n  url = {https://doi.org/10.1109/tsg.2026.3712963},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Frequency Regulation in Isolated Microgrids Considering Peak Frequency Deviation Suppression and Improved Resource Coordination\nJO  - IEEE Transactions on Smart Grid\nAU  - Yufei Zhao\nAU  - Hanwen Gu\nAU  - Jingtao Zhao\nAU  - Zaibin Jiao\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3712963\nUR  - https://doi.org/10.1109/tsg.2026.3712963\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-07-20T12:11:56.553626+08:00",
+      "last_seen": "2026-07-20T12:11:56.553626+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-14",
+          "target_date": "2026-07-20",
+          "generated_at": "2026-07-20T12:11:56.553626+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tsg.2026.3712171",
       "source": "ieee",

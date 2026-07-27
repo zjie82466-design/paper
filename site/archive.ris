@@ -1,4 +1,154 @@
 TY  - JOUR
+TI  - Physics-Informed Neural Network for Modeling the Dynamic Behavior of Grid-Forming Converters
+JO  - arXiv
+AU  - Hussein Jaffal
+AU  - Arianna Fois
+AU  - Sarra Bouchkati
+AU  - Amirali Mahjoob
+AU  - Andreas Ulbig
+KW  - Background Read
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.22327
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - A Necessary and Sufficient Condition for Exact Relaxation of Energy Storage Power Dispatch
+JO  - arXiv
+AU  - Shan Liu
+AU  - Zhigang Li
+AU  - Ye Guo
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - dispatch
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.21902
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Auction-Based Multi-Microgrid Coalition with Two-Dimensional Individual Rationality for Subsidized Electricity Markets, Part I: Framework and Optimization Methodology
+JO  - IEEE Transactions on Smart Grid
+AU  - M.H. Taabodi
+AU  - T. Niknam
+AU  - M. Fotuhi-Firuzabad
+AU  - S.M. Sharifhosseini
+AU  - E. Sheybani
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3716740
+UR  - https://doi.org/10.1109/tsg.2026.3716740
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - A Probabilistic Graph Reinforcement Learning for Resilient Service Restoration via Microgrid Formation
+JO  - IEEE Transactions on Smart Grid
+AU  - Bangji Fan
+AU  - Xinghua Liu
+AU  - Gaoxi Xiao
+AU  - Yan Xu
+AU  - Badong Chen
+AU  - Xiang Yang
+AU  - Peng Wang
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - service restoration
+KW  - reinforcement learning
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3716399
+UR  - https://doi.org/10.1109/tsg.2026.3716399
+N1  - Auto-selected by Power Paper Digest; score=9.4
+ER  -
+
+TY  - JOUR
+TI  - Short-Circuit Ratio Constrained Robust Unit Commitment with Grid-Forming Energy Storage: A Filter-Column-and-Constraint Generation Algorithm
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Tianyou Xue
+AU  - Tao Ding
+AU  - Yujie Ding
+AU  - Wenhao Jia
+AU  - Xin Fang
+AU  - Guobin Fu
+AU  - Shengjie Wang
+AU  - Mohammad Shahidehpour
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - unit commitment
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tste.2026.3716052
+UR  - https://doi.org/10.1109/tste.2026.3716052
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - A Genetic-Reinforcement Learning Algorithm based Fuzzy Distributed Frequency Regulation Strategy With Virtual Power Plant Under PMU Missing Data
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhenzhen Zhang
+AU  - Lin Gan
+AU  - Hao Chen
+AU  - Jinkun Liu
+AU  - Bin Liu
+KW  - Promising
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - virtual power plant
+PY  - 2026
+DO  - 10.1109/tsg.2026.3715830
+UR  - https://doi.org/10.1109/tsg.2026.3715830
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A Data-Driven Physics-Informed Defense Framework of DC Microgrids Against Cyberattacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Jianbin Li
+AU  - Weipeng Gao
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3715989
+UR  - https://doi.org/10.1109/tsg.2026.3715989
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Forecast-Assisted Deep Reinforcement Learning for Energy Management of Hydrogen-Enabled Community Microgrids
+JO  - arXiv
+AU  - Mohamed Atef
+AU  - Sanath Alahakoon
+AU  - Umme Mumtahina
+AU  - Peter Wolfs
+AU  - Tamer Khatib
+AU  - Moslem Uddin
+KW  - Promising
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.18903
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
 TI  - A Causal-Guided Multimodal Large Language Model for Generalized Power System Time-Series Data Analytics
 JO  - IEEE Transactions on Smart Grid
 AU  - Zhenghao Zhou

@@ -7,30 +7,30 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-07-27T12:11:09.168318+08:00",
-    "target_date": "2026-07-27",
-    "window_start": "2026-07-21",
+    "generated_at": "2026-08-03T12:04:14.747454+08:00",
+    "target_date": "2026-08-03",
+    "window_start": "2026-07-28",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 81,
-    "archive_count": 81,
+    "paper_count": 88,
+    "archive_count": 88,
     "source_counts": {
-      "ieee": 45,
-      "arxiv": 36
+      "ieee": 48,
+      "arxiv": 40
     },
     "journal_counts": {
-      "arXiv": 36,
+      "arXiv": 40,
       "IEEE Transactions on Smart Grid": 26,
-      "IEEE Transactions on Power Systems": 15,
-      "IEEE Transactions on Sustainable Energy": 4
+      "IEEE Transactions on Power Systems": 16,
+      "IEEE Transactions on Sustainable Energy": 6
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 43,
-      "源网荷储协同": 36,
-      "AI+电力优化": 16,
+      "电力系统运行与规划": 46,
+      "源网荷储协同": 37,
+      "AI+电力优化": 20,
       "鲁棒随机优化": 14,
-      "构网与暂态稳定": 12,
-      "韧性与恢复": 7
+      "构网与暂态稳定": 13,
+      "韧性与恢复": 8
     },
     "required_topics": [
       "power system operation",
@@ -63,7 +63,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 0,
-        "archive_count": 15
+        "archive_count": 16
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -87,7 +87,7 @@
         "archive_bibtex_path": "./zotero/ieee_tste_archive.bib",
         "archive_ris_path": "./zotero/ieee_tste_archive.ris",
         "selected_count": 0,
-        "archive_count": 4
+        "archive_count": 6
       }
     ],
     "source_notes": {
@@ -102,8 +102,183 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 45,
+      "count": 48,
       "papers": [
+        {
+          "id": "10.1109/tpwrs.2026.3719356",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Robust Power System State Estimation via Least Quantile Regression",
+          "authors": [
+            "Rabih A. Jabr"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3719356",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3719356",
+          "published_at": "2026-07-31T18:01:31+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "power system"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.28,
+          "llm_score": 5.28,
+          "final_score": 5.28,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：power system",
+          "ai_summary": "该论文题为《Robust Power System State Estimation via Least Quantile Regression》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-01T02:01:31+08:00",
+          "published_date_local": "2026-08-01",
+          "published_time_local": "02:01",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3719356",
+          "citation_key": "jabr2026robust719356",
+          "bibtex_entry": "@article{jabr2026robust719356,\n  title = {Robust Power System State Estimation via Least Quantile Regression},\n  author = {Rabih A. Jabr},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3719356},\n  url = {https://doi.org/10.1109/tpwrs.2026.3719356},\n  keywords = {Background Read, 电力系统运行与规划, power system},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Robust Power System State Estimation via Least Quantile Regression\nJO  - IEEE Transactions on Power Systems\nAU  - Rabih A. Jabr\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3719356\nUR  - https://doi.org/10.1109/tpwrs.2026.3719356\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tste.2026.3717288",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning",
+          "authors": [
+            "Xiao Liu",
+            "Youbo Liu",
+            "Yongdong Chen",
+            "Zhiyuan Tang",
+            "Hongjun Gao"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3717288",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3717288",
+          "published_at": "2026-07-27T19:12:19+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "reinforcement learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化"
+          ],
+          "rule_score": 5.33,
+          "llm_score": 5.33,
+          "final_score": 5.33,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：reinforcement learning",
+          "ai_summary": "该论文题为《Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-28T03:12:19+08:00",
+          "published_date_local": "2026-07-28",
+          "published_time_local": "03:12",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3717288",
+          "citation_key": "liu2026fairnessawareness717288",
+          "bibtex_entry": "@article{liu2026fairnessawareness717288,\n  title = {Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning},\n  author = {Xiao Liu and Youbo Liu and Yongdong Chen and Zhiyuan Tang and Hongjun Gao},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3717288},\n  url = {https://doi.org/10.1109/tste.2026.3717288},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Xiao Liu\nAU  - Youbo Liu\nAU  - Yongdong Chen\nAU  - Zhiyuan Tang\nAU  - Hongjun Gao\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tste.2026.3717288\nUR  - https://doi.org/10.1109/tste.2026.3717288\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tste.2026.3717480",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning",
+          "authors": [
+            "Zhenxiang Liu",
+            "Yanbo Chen",
+            "Zhi Zhang",
+            "Linchen Han"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3717480",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3717480",
+          "published_at": "2026-07-27T19:07:03+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "reinforcement learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化"
+          ],
+          "rule_score": 5.33,
+          "llm_score": 5.33,
+          "final_score": 5.33,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：reinforcement learning",
+          "ai_summary": "该论文题为《Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-07-28T03:07:03+08:00",
+          "published_date_local": "2026-07-28",
+          "published_time_local": "03:07",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3717480",
+          "citation_key": "liu2026designing717480",
+          "bibtex_entry": "@article{liu2026designing717480,\n  title = {Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning},\n  author = {Zhenxiang Liu and Yanbo Chen and Zhi Zhang and Linchen Han},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3717480},\n  url = {https://doi.org/10.1109/tste.2026.3717480},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Zhenxiang Liu\nAU  - Yanbo Chen\nAU  - Zhi Zhang\nAU  - Linchen Han\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tste.2026.3717480\nUR  - https://doi.org/10.1109/tste.2026.3717480\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tsg.2026.3716740",
           "source": "ieee",
@@ -2889,8 +3064,241 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 36,
+      "count": 40,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2607.29293v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels",
+          "authors": [
+            "Burak Karabulut",
+            "Olayiwola Arowolo",
+            "Carlo Manna",
+            "Chris Develder",
+            "Jochen L. Cremer"
+          ],
+          "abstract": "Accurate fault location is critical for distribution network reliability. However, increasing distributed energy resource (DER) penetration complicates fault location due to intermittent generation and bidirectional power flows that reshape fault signatures. Spatio-Temporal Graph Neural Networks (STGNNs) have shown promise by jointly modeling spatial and temporal dependencies, but their behavior under increasing DER penetration has not been studied rigorously. In this paper, we (i) systematically benchmark spatio-temporal graph attention network (STGATv2) against purely temporal (gated recurrent unit, GRU), purely spatial (GATv2) and traditional machine learning baselines, and (ii) evaluate how well models generalize across increasing DER penetration levels (10%, 25%, 50%) on a reconfigured IEEE 123-bus feeder with multiple DER injection points and moderate-to-high impedance faults. Results show that STGATv2 consistently outperforms neural baselines, achieving 92-94% macro F1 in-distribution. Notably, generalization across penetration levels is asymmetric: training at 50% penetration retains near in-distribution F1 score at lower levels, whereas training at 10% degrades considerably at 50% - with STGATv2 retaining 81-84% F1 under these drastic shifts, substantially higher than GATv2 and GRU which drop to 69-74% F1 and 73-75% F1 respectively. Under realistic measurement noise, STGATv2 maintains > 85% F1, while GRU drops as low as 33.5% F1, highlighting the critical role of topological awareness for robust fault location in active distribution networks.",
+          "url": "http://arxiv.org/abs/2607.29293v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29293v1",
+          "doi": null,
+          "published_at": "2026-07-31T11:11:15+00:00",
+          "categories": [
+            "cs.LG",
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "graph neural network",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化"
+          ],
+          "rule_score": 5.44,
+          "llm_score": 5.44,
+          "final_score": 5.44,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：graph neural network、machine learning",
+          "ai_summary": "该论文题为《Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels》，来自 arXiv。从摘要看，论文主要内容为：Accurate fault location is critical for distribution network reliability. However, increasing distributed energy resource (DER) penetration complicates fault location due to intermittent generation and bidirectional power flows that reshape fault signatures. Spatio-Temporal Graph Neural Networks (STGNNs) have shown promise by jointly modeling spatial and temporal dependencies, but their behavior under increasing DER ...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-31T19:11:15+08:00",
+          "published_date_local": "2026-07-31",
+          "published_time_local": "19:11",
+          "doi_url": null,
+          "citation_key": "karabulut2026assessing9293v1",
+          "bibtex_entry": "@article{karabulut2026assessing9293v1,\n  title = {Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels},\n  author = {Burak Karabulut and Olayiwola Arowolo and Carlo Manna and Chris Develder and Jochen L. Cremer},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.29293v1},\n  keywords = {Background Read, AI+电力优化, graph neural network, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels\nJO  - arXiv\nAU  - Burak Karabulut\nAU  - Olayiwola Arowolo\nAU  - Carlo Manna\nAU  - Chris Develder\nAU  - Jochen L. Cremer\nKW  - Background Read\nKW  - AI+电力优化\nKW  - graph neural network\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.29293v1\nN1  - Auto-selected by Power Paper Digest; score=5.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.29072v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants",
+          "authors": [
+            "Qianxue Xia",
+            "Suman Debnath",
+            "Maryam Saeedifard"
+          ],
+          "abstract": "The multiport autonomous reconfigurable solar power plant (MARS) is a promising solution to integrate renewable energy resources and energy storage systems into the ac power grid and HVdc links. In the MARS system, various input power sources are connected to the individual submodules (SMs) through dc-dc converters. However, the presence of external power sources can result in unbalanced capacitor voltages of SMs, thereby violating stability constraints under multiple/diverse operating conditions. This paper aims to address the research gap by accurately determining the stability boundary for the MARS system. A novel machine learning (ML)-assisted energy balancing control (EBC) criterion is proposed. In conjunction with a refined EBC, this approach ensures balanced capacitor voltages across various types of SMs, significantly enhancing the overall system efficiency. The proposed EBC criterion effectively controls EBC activation and deactivation, achieving remarkable accuracy. Both PSCAD/EMTDC simulations and control hardware-in-the-loop (cHIL) tests are conducted to validate the feasibility and efficiency of the proposed method. By combining the EBC and ML-assisted EBC criteria, efficient energy management becomes achievable for systems featuring multiple input power sources, such as MARS. This approach enables the system to fully exploit its potential across an expanded operational range while upholding high efficiency standards.",
+          "url": "http://arxiv.org/abs/2607.29072v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.29072v1",
+          "doi": null,
+          "published_at": "2026-07-31T06:47:45+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "energy storage",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "AI+电力优化"
+          ],
+          "rule_score": 5.58,
+          "llm_score": 5.58,
+          "final_score": 5.58,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：energy storage、machine learning",
+          "ai_summary": "该论文题为《Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants》，来自 arXiv。从摘要看，论文主要内容为：The multiport autonomous reconfigurable solar power plant (MARS) is a promising solution to integrate renewable energy resources and energy storage systems into the ac power grid and HVdc links. In the MARS system, various input power sources are connected to the individual submodules (SMs) through dc-dc converters. However, the presence of external power sources can result in unbalanced capacitor voltages of SMs, th...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-31T14:47:45+08:00",
+          "published_date_local": "2026-07-31",
+          "published_time_local": "14:47",
+          "doi_url": null,
+          "citation_key": "xia2026machine9072v1",
+          "bibtex_entry": "@article{xia2026machine9072v1,\n  title = {Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants},\n  author = {Qianxue Xia and Suman Debnath and Maryam Saeedifard},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.29072v1},\n  keywords = {Background Read, 源网荷储协同, AI+电力优化, energy storage, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants\nJO  - arXiv\nAU  - Qianxue Xia\nAU  - Suman Debnath\nAU  - Maryam Saeedifard\nKW  - Background Read\nKW  - 源网荷储协同\nKW  - AI+电力优化\nKW  - energy storage\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.29072v1\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.28822v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps",
+          "authors": [
+            "Eve Tsybina",
+            "Samim Konjicija",
+            "Slaven Peles"
+          ],
+          "abstract": "The rapid expansion of AI-driven information infrastructure, particularly data centers, is placing unprecedented pressure on power systems and accelerating the pace at which new assets must interconnect with the grid. As bulk transmission expansion rolls out slowly, new loads and generation are increasingly deployed within existing network constraints. Agentic AI is urgently needed to automate the numerous and repetitive connection processes, but its maturity has not been systematically validated on complex tasks and large-scale systems. We replicate the current state of the art in agentic AI for power systems planning and evaluate it against a structured suite of nodal planning problems spanning six levels of task complexity and four grid scales. We find that only the two lowest complexity levels are solvable on some of the test grid sizes, and identify the specific capability upgrades required to close this gap. Adopting stricter testing protocols and reproducible evaluation benchmarks is essential for assessing both genuine progress and the operational readiness of agentic AI.",
+          "url": "http://arxiv.org/abs/2607.28822v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28822v1",
+          "doi": null,
+          "published_at": "2026-07-30T20:26:14+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.08,
+          "llm_score": 6.08,
+          "final_score": 6.08,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps》，来自 arXiv。从摘要看，论文主要内容为：The rapid expansion of AI-driven information infrastructure, particularly data centers, is placing unprecedented pressure on power systems and accelerating the pace at which new assets must interconnect with the grid. As bulk transmission expansion rolls out slowly, new loads and generation are increasingly deployed within existing network constraints. Agentic AI is urgently needed to automate the numerous and repeti...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-31T04:26:14+08:00",
+          "published_date_local": "2026-07-31",
+          "published_time_local": "04:26",
+          "doi_url": null,
+          "citation_key": "tsybina2026agentic8822v1",
+          "bibtex_entry": "@article{tsybina2026agentic8822v1,\n  title = {Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps},\n  author = {Eve Tsybina and Samim Konjicija and Slaven Peles},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.28822v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps\nJO  - arXiv\nAU  - Eve Tsybina\nAU  - Samim Konjicija\nAU  - Slaven Peles\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.28822v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.28270v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Grid-Forming Converter DC-link Control Considering the Primary Energy Source",
+          "authors": [
+            "Carlo de Paolis Robles",
+            "Andrés Tomás-Martín",
+            "Ignacio Egido",
+            "Aurelio García-Cerrada"
+          ],
+          "abstract": "The gradual substitution of conventional synchronous generators by converter-interfaced renewable energy sources raises concerns about the reduction of conventional inertia in electric power systems and the ensuing threat to their stability. In this regard, grid-forming voltage source converters have been proposed as a key solution to address this challenge. Although a growing body of literature addresses DC-link voltage regulation in grid-forming converters, most existing approaches implicitly assume an ideal and unconstrained DC power source. As a result, the dynamic response and operational limits of the primary energy source, which can critically shape the available DC-side power during transients, are rarely modeled or explicitly accounted for in the design of the DC-link control. This paper demonstrates that incorporating these aspects at the design stage reduces the risk of converter disconnection from the power grid under sudden power imbalances, while enhancing system resilience. A systematic methodology based on a Genetic Algorithm is proposed to tune the control parameters. The performance of the proposed control is validated by simulation using a detailed electromagnetic transient model.",
+          "url": "http://arxiv.org/abs/2607.28270v1",
+          "pdf_url": "https://arxiv.org/pdf/2607.28270v1",
+          "doi": null,
+          "published_at": "2026-07-30T14:24:54+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "resilience",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "韧性与恢复",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 8.71,
+          "llm_score": 8.71,
+          "final_score": 8.71,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、resilience、power system、power systems",
+          "ai_summary": "该论文题为《Grid-Forming Converter DC-link Control Considering the Primary Energy Source》，来自 arXiv。从摘要看，论文主要内容为：The gradual substitution of conventional synchronous generators by converter-interfaced renewable energy sources raises concerns about the reduction of conventional inertia in electric power systems and the ensuing threat to their stability. In this regard, grid-forming voltage source converters have been proposed as a key solution to address this challenge. Although a growing body of literature addresses DC-link vol...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-07-30T22:24:54+08:00",
+          "published_date_local": "2026-07-30",
+          "published_time_local": "22:24",
+          "doi_url": null,
+          "citation_key": "robles2026gridforming8270v1",
+          "bibtex_entry": "@article{robles2026gridforming8270v1,\n  title = {Grid-Forming Converter DC-link Control Considering the Primary Energy Source},\n  author = {Carlo de Paolis Robles and Andrés Tomás-Martín and Ignacio Egido and Aurelio García-Cerrada},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.28270v1},\n  keywords = {Strong Match, 构网与暂态稳定, 韧性与恢复, 电力系统运行与规划, grid-forming, resilience, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=8.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Grid-Forming Converter DC-link Control Considering the Primary Energy Source\nJO  - arXiv\nAU  - Carlo de Paolis Robles\nAU  - Andrés Tomás-Martín\nAU  - Ignacio Egido\nAU  - Aurelio García-Cerrada\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - resilience\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.28270v1\nN1  - Auto-selected by Power Paper Digest; score=8.7\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-03T12:04:14.747454+08:00",
+          "last_seen": "2026-08-03T12:04:14.747454+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-07-28",
+              "target_date": "2026-08-03",
+              "generated_at": "2026-08-03T12:04:14.747454+08:00"
+            }
+          ]
+        },
         {
           "id": "https://arxiv.org/abs/2607.22327",
           "source": "arxiv",
@@ -5034,6 +5442,414 @@
     }
   },
   "papers": [
+    {
+      "id": "10.1109/tpwrs.2026.3719356",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Robust Power System State Estimation via Least Quantile Regression",
+      "authors": [
+        "Rabih A. Jabr"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3719356",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3719356",
+      "published_at": "2026-07-31T18:01:31+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "power system"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.28,
+      "llm_score": 5.28,
+      "final_score": 5.28,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：power system",
+      "ai_summary": "该论文题为《Robust Power System State Estimation via Least Quantile Regression》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-01T02:01:31+08:00",
+      "published_date_local": "2026-08-01",
+      "published_time_local": "02:01",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3719356",
+      "citation_key": "jabr2026robust719356",
+      "bibtex_entry": "@article{jabr2026robust719356,\n  title = {Robust Power System State Estimation via Least Quantile Regression},\n  author = {Rabih A. Jabr},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3719356},\n  url = {https://doi.org/10.1109/tpwrs.2026.3719356},\n  keywords = {Background Read, 电力系统运行与规划, power system},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Robust Power System State Estimation via Least Quantile Regression\nJO  - IEEE Transactions on Power Systems\nAU  - Rabih A. Jabr\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3719356\nUR  - https://doi.org/10.1109/tpwrs.2026.3719356\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.29293v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels",
+      "authors": [
+        "Burak Karabulut",
+        "Olayiwola Arowolo",
+        "Carlo Manna",
+        "Chris Develder",
+        "Jochen L. Cremer"
+      ],
+      "abstract": "Accurate fault location is critical for distribution network reliability. However, increasing distributed energy resource (DER) penetration complicates fault location due to intermittent generation and bidirectional power flows that reshape fault signatures. Spatio-Temporal Graph Neural Networks (STGNNs) have shown promise by jointly modeling spatial and temporal dependencies, but their behavior under increasing DER penetration has not been studied rigorously. In this paper, we (i) systematically benchmark spatio-temporal graph attention network (STGATv2) against purely temporal (gated recurrent unit, GRU), purely spatial (GATv2) and traditional machine learning baselines, and (ii) evaluate how well models generalize across increasing DER penetration levels (10%, 25%, 50%) on a reconfigured IEEE 123-bus feeder with multiple DER injection points and moderate-to-high impedance faults. Results show that STGATv2 consistently outperforms neural baselines, achieving 92-94% macro F1 in-distribution. Notably, generalization across penetration levels is asymmetric: training at 50% penetration retains near in-distribution F1 score at lower levels, whereas training at 10% degrades considerably at 50% - with STGATv2 retaining 81-84% F1 under these drastic shifts, substantially higher than GATv2 and GRU which drop to 69-74% F1 and 73-75% F1 respectively. Under realistic measurement noise, STGATv2 maintains > 85% F1, while GRU drops as low as 33.5% F1, highlighting the critical role of topological awareness for robust fault location in active distribution networks.",
+      "url": "http://arxiv.org/abs/2607.29293v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29293v1",
+      "doi": null,
+      "published_at": "2026-07-31T11:11:15+00:00",
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "graph neural network",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化"
+      ],
+      "rule_score": 5.44,
+      "llm_score": 5.44,
+      "final_score": 5.44,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：graph neural network、machine learning",
+      "ai_summary": "该论文题为《Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels》，来自 arXiv。从摘要看，论文主要内容为：Accurate fault location is critical for distribution network reliability. However, increasing distributed energy resource (DER) penetration complicates fault location due to intermittent generation and bidirectional power flows that reshape fault signatures. Spatio-Temporal Graph Neural Networks (STGNNs) have shown promise by jointly modeling spatial and temporal dependencies, but their behavior under increasing DER ...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-31T19:11:15+08:00",
+      "published_date_local": "2026-07-31",
+      "published_time_local": "19:11",
+      "doi_url": null,
+      "citation_key": "karabulut2026assessing9293v1",
+      "bibtex_entry": "@article{karabulut2026assessing9293v1,\n  title = {Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels},\n  author = {Burak Karabulut and Olayiwola Arowolo and Carlo Manna and Chris Develder and Jochen L. Cremer},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.29293v1},\n  keywords = {Background Read, AI+电力优化, graph neural network, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels\nJO  - arXiv\nAU  - Burak Karabulut\nAU  - Olayiwola Arowolo\nAU  - Carlo Manna\nAU  - Chris Develder\nAU  - Jochen L. Cremer\nKW  - Background Read\nKW  - AI+电力优化\nKW  - graph neural network\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.29293v1\nN1  - Auto-selected by Power Paper Digest; score=5.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.29072v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants",
+      "authors": [
+        "Qianxue Xia",
+        "Suman Debnath",
+        "Maryam Saeedifard"
+      ],
+      "abstract": "The multiport autonomous reconfigurable solar power plant (MARS) is a promising solution to integrate renewable energy resources and energy storage systems into the ac power grid and HVdc links. In the MARS system, various input power sources are connected to the individual submodules (SMs) through dc-dc converters. However, the presence of external power sources can result in unbalanced capacitor voltages of SMs, thereby violating stability constraints under multiple/diverse operating conditions. This paper aims to address the research gap by accurately determining the stability boundary for the MARS system. A novel machine learning (ML)-assisted energy balancing control (EBC) criterion is proposed. In conjunction with a refined EBC, this approach ensures balanced capacitor voltages across various types of SMs, significantly enhancing the overall system efficiency. The proposed EBC criterion effectively controls EBC activation and deactivation, achieving remarkable accuracy. Both PSCAD/EMTDC simulations and control hardware-in-the-loop (cHIL) tests are conducted to validate the feasibility and efficiency of the proposed method. By combining the EBC and ML-assisted EBC criteria, efficient energy management becomes achievable for systems featuring multiple input power sources, such as MARS. This approach enables the system to fully exploit its potential across an expanded operational range while upholding high efficiency standards.",
+      "url": "http://arxiv.org/abs/2607.29072v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29072v1",
+      "doi": null,
+      "published_at": "2026-07-31T06:47:45+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "energy storage",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "AI+电力优化"
+      ],
+      "rule_score": 5.58,
+      "llm_score": 5.58,
+      "final_score": 5.58,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：energy storage、machine learning",
+      "ai_summary": "该论文题为《Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants》，来自 arXiv。从摘要看，论文主要内容为：The multiport autonomous reconfigurable solar power plant (MARS) is a promising solution to integrate renewable energy resources and energy storage systems into the ac power grid and HVdc links. In the MARS system, various input power sources are connected to the individual submodules (SMs) through dc-dc converters. However, the presence of external power sources can result in unbalanced capacitor voltages of SMs, th...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-31T14:47:45+08:00",
+      "published_date_local": "2026-07-31",
+      "published_time_local": "14:47",
+      "doi_url": null,
+      "citation_key": "xia2026machine9072v1",
+      "bibtex_entry": "@article{xia2026machine9072v1,\n  title = {Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants},\n  author = {Qianxue Xia and Suman Debnath and Maryam Saeedifard},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.29072v1},\n  keywords = {Background Read, 源网荷储协同, AI+电力优化, energy storage, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants\nJO  - arXiv\nAU  - Qianxue Xia\nAU  - Suman Debnath\nAU  - Maryam Saeedifard\nKW  - Background Read\nKW  - 源网荷储协同\nKW  - AI+电力优化\nKW  - energy storage\nKW  - machine learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.29072v1\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.28822v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps",
+      "authors": [
+        "Eve Tsybina",
+        "Samim Konjicija",
+        "Slaven Peles"
+      ],
+      "abstract": "The rapid expansion of AI-driven information infrastructure, particularly data centers, is placing unprecedented pressure on power systems and accelerating the pace at which new assets must interconnect with the grid. As bulk transmission expansion rolls out slowly, new loads and generation are increasingly deployed within existing network constraints. Agentic AI is urgently needed to automate the numerous and repetitive connection processes, but its maturity has not been systematically validated on complex tasks and large-scale systems. We replicate the current state of the art in agentic AI for power systems planning and evaluate it against a structured suite of nodal planning problems spanning six levels of task complexity and four grid scales. We find that only the two lowest complexity levels are solvable on some of the test grid sizes, and identify the specific capability upgrades required to close this gap. Adopting stricter testing protocols and reproducible evaluation benchmarks is essential for assessing both genuine progress and the operational readiness of agentic AI.",
+      "url": "http://arxiv.org/abs/2607.28822v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28822v1",
+      "doi": null,
+      "published_at": "2026-07-30T20:26:14+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.08,
+      "llm_score": 6.08,
+      "final_score": 6.08,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps》，来自 arXiv。从摘要看，论文主要内容为：The rapid expansion of AI-driven information infrastructure, particularly data centers, is placing unprecedented pressure on power systems and accelerating the pace at which new assets must interconnect with the grid. As bulk transmission expansion rolls out slowly, new loads and generation are increasingly deployed within existing network constraints. Agentic AI is urgently needed to automate the numerous and repeti...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-31T04:26:14+08:00",
+      "published_date_local": "2026-07-31",
+      "published_time_local": "04:26",
+      "doi_url": null,
+      "citation_key": "tsybina2026agentic8822v1",
+      "bibtex_entry": "@article{tsybina2026agentic8822v1,\n  title = {Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps},\n  author = {Eve Tsybina and Samim Konjicija and Slaven Peles},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.28822v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps\nJO  - arXiv\nAU  - Eve Tsybina\nAU  - Samim Konjicija\nAU  - Slaven Peles\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.28822v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.28270v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Grid-Forming Converter DC-link Control Considering the Primary Energy Source",
+      "authors": [
+        "Carlo de Paolis Robles",
+        "Andrés Tomás-Martín",
+        "Ignacio Egido",
+        "Aurelio García-Cerrada"
+      ],
+      "abstract": "The gradual substitution of conventional synchronous generators by converter-interfaced renewable energy sources raises concerns about the reduction of conventional inertia in electric power systems and the ensuing threat to their stability. In this regard, grid-forming voltage source converters have been proposed as a key solution to address this challenge. Although a growing body of literature addresses DC-link voltage regulation in grid-forming converters, most existing approaches implicitly assume an ideal and unconstrained DC power source. As a result, the dynamic response and operational limits of the primary energy source, which can critically shape the available DC-side power during transients, are rarely modeled or explicitly accounted for in the design of the DC-link control. This paper demonstrates that incorporating these aspects at the design stage reduces the risk of converter disconnection from the power grid under sudden power imbalances, while enhancing system resilience. A systematic methodology based on a Genetic Algorithm is proposed to tune the control parameters. The performance of the proposed control is validated by simulation using a detailed electromagnetic transient model.",
+      "url": "http://arxiv.org/abs/2607.28270v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28270v1",
+      "doi": null,
+      "published_at": "2026-07-30T14:24:54+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "resilience",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "韧性与恢复",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 8.71,
+      "llm_score": 8.71,
+      "final_score": 8.71,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、resilience、power system、power systems",
+      "ai_summary": "该论文题为《Grid-Forming Converter DC-link Control Considering the Primary Energy Source》，来自 arXiv。从摘要看，论文主要内容为：The gradual substitution of conventional synchronous generators by converter-interfaced renewable energy sources raises concerns about the reduction of conventional inertia in electric power systems and the ensuing threat to their stability. In this regard, grid-forming voltage source converters have been proposed as a key solution to address this challenge. Although a growing body of literature addresses DC-link vol...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-07-30T22:24:54+08:00",
+      "published_date_local": "2026-07-30",
+      "published_time_local": "22:24",
+      "doi_url": null,
+      "citation_key": "robles2026gridforming8270v1",
+      "bibtex_entry": "@article{robles2026gridforming8270v1,\n  title = {Grid-Forming Converter DC-link Control Considering the Primary Energy Source},\n  author = {Carlo de Paolis Robles and Andrés Tomás-Martín and Ignacio Egido and Aurelio García-Cerrada},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2607.28270v1},\n  keywords = {Strong Match, 构网与暂态稳定, 韧性与恢复, 电力系统运行与规划, grid-forming, resilience, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=8.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Grid-Forming Converter DC-link Control Considering the Primary Energy Source\nJO  - arXiv\nAU  - Carlo de Paolis Robles\nAU  - Andrés Tomás-Martín\nAU  - Ignacio Egido\nAU  - Aurelio García-Cerrada\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 韧性与恢复\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - resilience\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2607.28270v1\nN1  - Auto-selected by Power Paper Digest; score=8.7\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tste.2026.3717288",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning",
+      "authors": [
+        "Xiao Liu",
+        "Youbo Liu",
+        "Yongdong Chen",
+        "Zhiyuan Tang",
+        "Hongjun Gao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3717288",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3717288",
+      "published_at": "2026-07-27T19:12:19+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "reinforcement learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化"
+      ],
+      "rule_score": 5.33,
+      "llm_score": 5.33,
+      "final_score": 5.33,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：reinforcement learning",
+      "ai_summary": "该论文题为《Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-28T03:12:19+08:00",
+      "published_date_local": "2026-07-28",
+      "published_time_local": "03:12",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3717288",
+      "citation_key": "liu2026fairnessawareness717288",
+      "bibtex_entry": "@article{liu2026fairnessawareness717288,\n  title = {Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning},\n  author = {Xiao Liu and Youbo Liu and Yongdong Chen and Zhiyuan Tang and Hongjun Gao},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3717288},\n  url = {https://doi.org/10.1109/tste.2026.3717288},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Xiao Liu\nAU  - Youbo Liu\nAU  - Yongdong Chen\nAU  - Zhiyuan Tang\nAU  - Hongjun Gao\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tste.2026.3717288\nUR  - https://doi.org/10.1109/tste.2026.3717288\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tste.2026.3717480",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning",
+      "authors": [
+        "Zhenxiang Liu",
+        "Yanbo Chen",
+        "Zhi Zhang",
+        "Linchen Han"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3717480",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3717480",
+      "published_at": "2026-07-27T19:07:03+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "reinforcement learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化"
+      ],
+      "rule_score": 5.33,
+      "llm_score": 5.33,
+      "final_score": 5.33,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：reinforcement learning",
+      "ai_summary": "该论文题为《Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-07-28T03:07:03+08:00",
+      "published_date_local": "2026-07-28",
+      "published_time_local": "03:07",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3717480",
+      "citation_key": "liu2026designing717480",
+      "bibtex_entry": "@article{liu2026designing717480,\n  title = {Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning},\n  author = {Zhenxiang Liu and Yanbo Chen and Zhi Zhang and Linchen Han},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3717480},\n  url = {https://doi.org/10.1109/tste.2026.3717480},\n  keywords = {Background Read, AI+电力优化, reinforcement learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Zhenxiang Liu\nAU  - Yanbo Chen\nAU  - Zhi Zhang\nAU  - Linchen Han\nKW  - Background Read\nKW  - AI+电力优化\nKW  - reinforcement learning\nPY  - 2026\nDO  - 10.1109/tste.2026.3717480\nUR  - https://doi.org/10.1109/tste.2026.3717480\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-08-03T12:04:14.747454+08:00",
+      "last_seen": "2026-08-03T12:04:14.747454+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-07-28",
+          "target_date": "2026-08-03",
+          "generated_at": "2026-08-03T12:04:14.747454+08:00"
+        }
+      ]
+    },
     {
       "id": "https://arxiv.org/abs/2607.22327",
       "source": "arxiv",

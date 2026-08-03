@@ -1,4 +1,118 @@
 TY  - JOUR
+TI  - Robust Power System State Estimation via Least Quantile Regression
+JO  - IEEE Transactions on Power Systems
+AU  - Rabih A. Jabr
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3719356
+UR  - https://doi.org/10.1109/tpwrs.2026.3719356
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels
+JO  - arXiv
+AU  - Burak Karabulut
+AU  - Olayiwola Arowolo
+AU  - Carlo Manna
+AU  - Chris Develder
+AU  - Jochen L. Cremer
+KW  - Background Read
+KW  - AI+电力优化
+KW  - graph neural network
+KW  - machine learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.29293v1
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - Machine Learning-Assisted Stability Boundary Determination of Multiport Autonomous Reconfigurable Solar Power Plants
+JO  - arXiv
+AU  - Qianxue Xia
+AU  - Suman Debnath
+AU  - Maryam Saeedifard
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - AI+电力优化
+KW  - energy storage
+KW  - machine learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.29072v1
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Agentic Artificial Intelligence for Power Systems: Strategies to Identify and Close Capability Gaps
+JO  - arXiv
+AU  - Eve Tsybina
+AU  - Samim Konjicija
+AU  - Slaven Peles
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.28822v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Grid-Forming Converter DC-link Control Considering the Primary Energy Source
+JO  - arXiv
+AU  - Carlo de Paolis Robles
+AU  - Andrés Tomás-Martín
+AU  - Ignacio Egido
+AU  - Aurelio García-Cerrada
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 韧性与恢复
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - resilience
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2607.28270v1
+N1  - Auto-selected by Power Paper Digest; score=8.7
+ER  -
+
+TY  - JOUR
+TI  - Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Xiao Liu
+AU  - Youbo Liu
+AU  - Yongdong Chen
+AU  - Zhiyuan Tang
+AU  - Hongjun Gao
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tste.2026.3717288
+UR  - https://doi.org/10.1109/tste.2026.3717288
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Designing Robust Defense Agents for Multiple Grid-Connected Converter Systems: Leveraging Adversarial Deep Reinforcement Learning
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Zhenxiang Liu
+AU  - Yanbo Chen
+AU  - Zhi Zhang
+AU  - Linchen Han
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tste.2026.3717480
+UR  - https://doi.org/10.1109/tste.2026.3717480
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
 TI  - Physics-Informed Neural Network for Modeling the Dynamic Behavior of Grid-Forming Converters
 JO  - arXiv
 AU  - Hussein Jaffal

@@ -7,29 +7,29 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-08-03T12:04:14.747454+08:00",
-    "target_date": "2026-08-03",
-    "window_start": "2026-07-28",
+    "generated_at": "2026-08-10T10:39:27.232070+08:00",
+    "target_date": "2026-08-10",
+    "window_start": "2026-08-04",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 88,
-    "archive_count": 88,
+    "paper_count": 94,
+    "archive_count": 94,
     "source_counts": {
-      "ieee": 48,
-      "arxiv": 40
+      "ieee": 51,
+      "arxiv": 43
     },
     "journal_counts": {
-      "arXiv": 40,
-      "IEEE Transactions on Smart Grid": 26,
+      "arXiv": 43,
+      "IEEE Transactions on Smart Grid": 29,
       "IEEE Transactions on Power Systems": 16,
       "IEEE Transactions on Sustainable Energy": 6
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 46,
-      "源网荷储协同": 37,
-      "AI+电力优化": 20,
-      "鲁棒随机优化": 14,
-      "构网与暂态稳定": 13,
+      "电力系统运行与规划": 48,
+      "源网荷储协同": 41,
+      "AI+电力优化": 21,
+      "构网与暂态稳定": 16,
+      "鲁棒随机优化": 15,
       "韧性与恢复": 8
     },
     "required_topics": [
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 26
+        "archive_count": 29
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -102,8 +102,185 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 48,
+      "count": 51,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3721318",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management",
+          "authors": [
+            "Kajal Pokharel",
+            "Hepeng Li",
+            "Haibo He"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3721318",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3721318",
+          "published_at": "2026-08-06T19:13:16+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "microgrid"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.11,
+          "llm_score": 7.11,
+          "final_score": 7.11,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、microgrid",
+          "ai_summary": "该论文题为《World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-07T03:13:16+08:00",
+          "published_date_local": "2026-08-07",
+          "published_time_local": "03:13",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3721318",
+          "citation_key": "pokharel2026worldmodelbased721318",
+          "bibtex_entry": "@article{pokharel2026worldmodelbased721318,\n  title = {World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management},\n  author = {Kajal Pokharel and Hepeng Li and Haibo He},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3721318},\n  url = {https://doi.org/10.1109/tsg.2026.3721318},\n  keywords = {Promising, AI+电力优化, 源网荷储协同, reinforcement learning, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management\nJO  - IEEE Transactions on Smart Grid\nAU  - Kajal Pokharel\nAU  - Hepeng Li\nAU  - Haibo He\nKW  - Promising\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - reinforcement learning\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3721318\nUR  - https://doi.org/10.1109/tsg.2026.3721318\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3720391",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System",
+          "authors": [
+            "Yi Qi",
+            "Yi Zhang",
+            "Aniruddha Gole"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3720391",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3720391",
+          "published_at": "2026-08-05T19:08:11+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "grid forming",
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.91,
+          "llm_score": 7.91,
+          "final_score": 7.91,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid forming、energy storage",
+          "ai_summary": "该论文题为《Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-06T03:08:11+08:00",
+          "published_date_local": "2026-08-06",
+          "published_time_local": "03:08",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3720391",
+          "citation_key": "qi2026stability720391",
+          "bibtex_entry": "@article{qi2026stability720391,\n  title = {Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System},\n  author = {Yi Qi and Yi Zhang and Aniruddha Gole},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3720391},\n  url = {https://doi.org/10.1109/tsg.2026.3720391},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid forming, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System\nJO  - IEEE Transactions on Smart Grid\nAU  - Yi Qi\nAU  - Yi Zhang\nAU  - Aniruddha Gole\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid forming\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3720391\nUR  - https://doi.org/10.1109/tsg.2026.3720391\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3720584",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs",
+          "authors": [
+            "Moetasem Ali",
+            "Yasser A.-R. I. Mohamed"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3720584",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3720584",
+          "published_at": "2026-08-05T19:06:38+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "grid-forming"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定"
+          ],
+          "rule_score": 5.93,
+          "llm_score": 5.93,
+          "final_score": 5.93,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：grid-forming",
+          "ai_summary": "该论文题为《Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-06T03:06:38+08:00",
+          "published_date_local": "2026-08-06",
+          "published_time_local": "03:06",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3720584",
+          "citation_key": "ali2026adaptive720584",
+          "bibtex_entry": "@article{ali2026adaptive720584,\n  title = {Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs},\n  author = {Moetasem Ali and Yasser A.-R. I. Mohamed},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3720584},\n  url = {https://doi.org/10.1109/tsg.2026.3720584},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs\nJO  - IEEE Transactions on Smart Grid\nAU  - Moetasem Ali\nAU  - Yasser A.-R. I. Mohamed\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nDO  - 10.1109/tsg.2026.3720584\nUR  - https://doi.org/10.1109/tsg.2026.3720584\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tpwrs.2026.3719356",
           "source": "ieee",
@@ -3064,8 +3241,185 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 40,
+      "count": 43,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2608.07348v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective",
+          "authors": [
+            "Ruike Lyu",
+            "Tengmu Li"
+          ],
+          "abstract": "Energy storage and flexible loads both help balance power systems with high shares of variable renewables, but they do so differently. A battery moves electricity from one period to another. A factory or data center instead moves production or computing activity, while meeting demand for its product or service. As batteries become cheaper, it is natural to ask whether demand flexibility is still needed. Many assessments treat that controllable load as already available and focus on enabling or participation costs. For a large load that normally runs near full capacity, however, shifting electricity use can require extra equipment, delay sales, tie up working capital, and disrupt the process. Here, we compare energy storage technologies with industrial and data-center load shifting on a levelized cost basis, measuring the incremental cost of flexible relative to baseline operation. We find that energy storage becomes more expensive per shifted kilowatt-hour as the flexibility period lengthens and assets are cycled less often. Load shifting does not share that rise in capacity cost under a fixed avoided-hour share, but new productive capacity can still be too expensive to justify. Under representative central technology costs, batteries compete well for short-cycle shifting but are more than 80 times more expensive than load shifting of aluminum smelting when providing seasonal flexibility. The answer therefore depends on the timescale, the load, and whether the needed capacity is new or already sunk.",
+          "url": "http://arxiv.org/abs/2608.07348v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.07348v1",
+          "doi": null,
+          "published_at": "2026-08-07T15:44:50+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "energy storage",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.72,
+          "llm_score": 5.72,
+          "final_score": 5.72,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：energy storage、power system、power systems",
+          "ai_summary": "该论文题为《Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective》，来自 arXiv。从摘要看，论文主要内容为：Energy storage and flexible loads both help balance power systems with high shares of variable renewables, but they do so differently. A battery moves electricity from one period to another. A factory or data center instead moves production or computing activity, while meeting demand for its product or service. As batteries become cheaper, it is natural to ask whether demand flexibility is still needed. Many assessme...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-07T23:44:50+08:00",
+          "published_date_local": "2026-08-07",
+          "published_time_local": "23:44",
+          "doi_url": null,
+          "citation_key": "lyu2026still7348v1",
+          "bibtex_entry": "@article{lyu2026still7348v1,\n  title = {Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective},\n  author = {Ruike Lyu and Tengmu Li},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.07348v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective\nJO  - arXiv\nAU  - Ruike Lyu\nAU  - Tengmu Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.07348v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2608.06821v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization",
+          "authors": [
+            "Jin Qi",
+            "Chen Yang"
+          ],
+          "abstract": "Two-stage distributionally robust optimization chooses a here-and-now decision and a wait-and-see decision policy that adapts to uncertainty realizations. Decision-rule methods specify the form of this adaptive policy in advance, whereas decomposition-generation methods construct second-stage value information iteratively. We connect these approaches through extreme points of the second-stage dual problem. Each extreme point defines an affine value piece, and a compatible primal basis can define an affine policy piece. Solving the first-stage problem may require only a subset of these pieces. We specialize an extreme-point generation method to solve the first-stage problem. A separate linear-programming procedure adds pieces until it recovers the recourse value over the uncertainty set, and the pieces can also be used to recover the optimal recourse policy. Building on the algorithm output, we develop a posteriori exactness test for conventional decision rules. We give extensions for degeneracy, rank-deficient recourse, and structured random recourse. The proposed algorithm is computationally efficient on the reported instances, and the results show that completing the second-stage value across the uncertainty set requires more extreme points than solving the first-stage problem alone.",
+          "url": "http://arxiv.org/abs/2608.06821v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.06821v1",
+          "doi": null,
+          "published_at": "2026-08-07T05:21:35+00:00",
+          "categories": [
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "robust optimization",
+            "distributionally robust",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化"
+          ],
+          "rule_score": 8.04,
+          "llm_score": 8.04,
+          "final_score": 8.04,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：robust optimization、distributionally robust、uncertainty",
+          "ai_summary": "该论文题为《Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization》，来自 arXiv。从摘要看，论文主要内容为：Two-stage distributionally robust optimization chooses a here-and-now decision and a wait-and-see decision policy that adapts to uncertainty realizations. Decision-rule methods specify the form of this adaptive policy in advance, whereas decomposition-generation methods construct second-stage value information iteratively. We connect these approaches through extreme points of the second-stage dual problem. Each extre...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-07T13:21:35+08:00",
+          "published_date_local": "2026-08-07",
+          "published_time_local": "13:21",
+          "doi_url": null,
+          "citation_key": "qi2026connecting6821v1",
+          "bibtex_entry": "@article{qi2026connecting6821v1,\n  title = {Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization},\n  author = {Jin Qi and Chen Yang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.06821v1},\n  keywords = {Strong Match, 鲁棒随机优化, robust optimization, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization\nJO  - arXiv\nAU  - Jin Qi\nAU  - Chen Yang\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - robust optimization\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.06821v1\nN1  - Auto-selected by Power Paper Digest; score=8.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2608.06349v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "The Benefits of an Integrated Approach for Stability-Constrained Power System Planning",
+          "authors": [
+            "Gereon Recht",
+            "Benedikt Jahn",
+            "Oussama Alaya",
+            "Karl-Kiên Cao",
+            "Hendrik Lens"
+          ],
+          "abstract": "Increasing penetration of inverter-based resources in today's power systems requires substitution of the contribution from synchronous generators to dynamic voltage stability and inertial response. However, established approaches for power system planning are sequential, as stabilising measures are only considered at a later stage of the planning process. We investigate the advantages of an integrated approach for power system planning, where stabilising measures are considered simultaneously with the expansion of generation, transmission, and storage systems via simplified stability constraints on inertia and voltage stability. We find that system costs are reduced with the integrated approach and that the dual-use option of grid-forming battery energy storage systems is favoured over other stabilising measures like static synchronous compensators.",
+          "url": "http://arxiv.org/abs/2608.06349v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.06349v1",
+          "doi": null,
+          "published_at": "2026-08-06T17:52:51+00:00",
+          "categories": [
+            "math.OC",
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system planning",
+            "grid-forming",
+            "energy storage",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 10.0,
+          "llm_score": 10.0,
+          "final_score": 10.0,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：power system planning、grid-forming、energy storage、power system",
+          "ai_summary": "该论文题为《The Benefits of an Integrated Approach for Stability-Constrained Power System Planning》，来自 arXiv。从摘要看，论文主要内容为：Increasing penetration of inverter-based resources in today's power systems requires substitution of the contribution from synchronous generators to dynamic voltage stability and inertial response. However, established approaches for power system planning are sequential, as stabilising measures are only considered at a later stage of the planning process. We investigate the advantages of an integrated approach for po...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-07T01:52:51+08:00",
+          "published_date_local": "2026-08-07",
+          "published_time_local": "01:52",
+          "doi_url": null,
+          "citation_key": "recht2026benefits6349v1",
+          "bibtex_entry": "@article{recht2026benefits6349v1,\n  title = {The Benefits of an Integrated Approach for Stability-Constrained Power System Planning},\n  author = {Gereon Recht and Benedikt Jahn and Oussama Alaya and Karl-Kiên Cao and Hendrik Lens},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.06349v1},\n  keywords = {Strong Match, 电力系统运行与规划, 构网与暂态稳定, 源网荷储协同, power system planning, grid-forming, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - The Benefits of an Integrated Approach for Stability-Constrained Power System Planning\nJO  - arXiv\nAU  - Gereon Recht\nAU  - Benedikt Jahn\nAU  - Oussama Alaya\nAU  - Karl-Kiên Cao\nAU  - Hendrik Lens\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - power system planning\nKW  - grid-forming\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.06349v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-10T10:39:27.232070+08:00",
+          "last_seen": "2026-08-10T10:39:27.232070+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-04",
+              "target_date": "2026-08-10",
+              "generated_at": "2026-08-10T10:39:27.232070+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2607.29293v1",
           "source": "arxiv",
@@ -5442,6 +5796,360 @@
     }
   },
   "papers": [
+    {
+      "id": "http://arxiv.org/abs/2608.07348v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective",
+      "authors": [
+        "Ruike Lyu",
+        "Tengmu Li"
+      ],
+      "abstract": "Energy storage and flexible loads both help balance power systems with high shares of variable renewables, but they do so differently. A battery moves electricity from one period to another. A factory or data center instead moves production or computing activity, while meeting demand for its product or service. As batteries become cheaper, it is natural to ask whether demand flexibility is still needed. Many assessments treat that controllable load as already available and focus on enabling or participation costs. For a large load that normally runs near full capacity, however, shifting electricity use can require extra equipment, delay sales, tie up working capital, and disrupt the process. Here, we compare energy storage technologies with industrial and data-center load shifting on a levelized cost basis, measuring the incremental cost of flexible relative to baseline operation. We find that energy storage becomes more expensive per shifted kilowatt-hour as the flexibility period lengthens and assets are cycled less often. Load shifting does not share that rise in capacity cost under a fixed avoided-hour share, but new productive capacity can still be too expensive to justify. Under representative central technology costs, batteries compete well for short-cycle shifting but are more than 80 times more expensive than load shifting of aluminum smelting when providing seasonal flexibility. The answer therefore depends on the timescale, the load, and whether the needed capacity is new or already sunk.",
+      "url": "http://arxiv.org/abs/2608.07348v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07348v1",
+      "doi": null,
+      "published_at": "2026-08-07T15:44:50+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "energy storage",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.72,
+      "llm_score": 5.72,
+      "final_score": 5.72,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：energy storage、power system、power systems",
+      "ai_summary": "该论文题为《Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective》，来自 arXiv。从摘要看，论文主要内容为：Energy storage and flexible loads both help balance power systems with high shares of variable renewables, but they do so differently. A battery moves electricity from one period to another. A factory or data center instead moves production or computing activity, while meeting demand for its product or service. As batteries become cheaper, it is natural to ask whether demand flexibility is still needed. Many assessme...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-07T23:44:50+08:00",
+      "published_date_local": "2026-08-07",
+      "published_time_local": "23:44",
+      "doi_url": null,
+      "citation_key": "lyu2026still7348v1",
+      "bibtex_entry": "@article{lyu2026still7348v1,\n  title = {Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective},\n  author = {Ruike Lyu and Tengmu Li},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.07348v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective\nJO  - arXiv\nAU  - Ruike Lyu\nAU  - Tengmu Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.07348v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06821v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization",
+      "authors": [
+        "Jin Qi",
+        "Chen Yang"
+      ],
+      "abstract": "Two-stage distributionally robust optimization chooses a here-and-now decision and a wait-and-see decision policy that adapts to uncertainty realizations. Decision-rule methods specify the form of this adaptive policy in advance, whereas decomposition-generation methods construct second-stage value information iteratively. We connect these approaches through extreme points of the second-stage dual problem. Each extreme point defines an affine value piece, and a compatible primal basis can define an affine policy piece. Solving the first-stage problem may require only a subset of these pieces. We specialize an extreme-point generation method to solve the first-stage problem. A separate linear-programming procedure adds pieces until it recovers the recourse value over the uncertainty set, and the pieces can also be used to recover the optimal recourse policy. Building on the algorithm output, we develop a posteriori exactness test for conventional decision rules. We give extensions for degeneracy, rank-deficient recourse, and structured random recourse. The proposed algorithm is computationally efficient on the reported instances, and the results show that completing the second-stage value across the uncertainty set requires more extreme points than solving the first-stage problem alone.",
+      "url": "http://arxiv.org/abs/2608.06821v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06821v1",
+      "doi": null,
+      "published_at": "2026-08-07T05:21:35+00:00",
+      "categories": [
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "robust optimization",
+        "distributionally robust",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化"
+      ],
+      "rule_score": 8.04,
+      "llm_score": 8.04,
+      "final_score": 8.04,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：robust optimization、distributionally robust、uncertainty",
+      "ai_summary": "该论文题为《Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization》，来自 arXiv。从摘要看，论文主要内容为：Two-stage distributionally robust optimization chooses a here-and-now decision and a wait-and-see decision policy that adapts to uncertainty realizations. Decision-rule methods specify the form of this adaptive policy in advance, whereas decomposition-generation methods construct second-stage value information iteratively. We connect these approaches through extreme points of the second-stage dual problem. Each extre...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-07T13:21:35+08:00",
+      "published_date_local": "2026-08-07",
+      "published_time_local": "13:21",
+      "doi_url": null,
+      "citation_key": "qi2026connecting6821v1",
+      "bibtex_entry": "@article{qi2026connecting6821v1,\n  title = {Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization},\n  author = {Jin Qi and Chen Yang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.06821v1},\n  keywords = {Strong Match, 鲁棒随机优化, robust optimization, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization\nJO  - arXiv\nAU  - Jin Qi\nAU  - Chen Yang\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - robust optimization\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.06821v1\nN1  - Auto-selected by Power Paper Digest; score=8.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3721318",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management",
+      "authors": [
+        "Kajal Pokharel",
+        "Hepeng Li",
+        "Haibo He"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3721318",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3721318",
+      "published_at": "2026-08-06T19:13:16+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "microgrid"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "源网荷储协同"
+      ],
+      "rule_score": 7.11,
+      "llm_score": 7.11,
+      "final_score": 7.11,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、microgrid",
+      "ai_summary": "该论文题为《World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-07T03:13:16+08:00",
+      "published_date_local": "2026-08-07",
+      "published_time_local": "03:13",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3721318",
+      "citation_key": "pokharel2026worldmodelbased721318",
+      "bibtex_entry": "@article{pokharel2026worldmodelbased721318,\n  title = {World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management},\n  author = {Kajal Pokharel and Hepeng Li and Haibo He},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3721318},\n  url = {https://doi.org/10.1109/tsg.2026.3721318},\n  keywords = {Promising, AI+电力优化, 源网荷储协同, reinforcement learning, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management\nJO  - IEEE Transactions on Smart Grid\nAU  - Kajal Pokharel\nAU  - Hepeng Li\nAU  - Haibo He\nKW  - Promising\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - reinforcement learning\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3721318\nUR  - https://doi.org/10.1109/tsg.2026.3721318\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06349v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "The Benefits of an Integrated Approach for Stability-Constrained Power System Planning",
+      "authors": [
+        "Gereon Recht",
+        "Benedikt Jahn",
+        "Oussama Alaya",
+        "Karl-Kiên Cao",
+        "Hendrik Lens"
+      ],
+      "abstract": "Increasing penetration of inverter-based resources in today's power systems requires substitution of the contribution from synchronous generators to dynamic voltage stability and inertial response. However, established approaches for power system planning are sequential, as stabilising measures are only considered at a later stage of the planning process. We investigate the advantages of an integrated approach for power system planning, where stabilising measures are considered simultaneously with the expansion of generation, transmission, and storage systems via simplified stability constraints on inertia and voltage stability. We find that system costs are reduced with the integrated approach and that the dual-use option of grid-forming battery energy storage systems is favoured over other stabilising measures like static synchronous compensators.",
+      "url": "http://arxiv.org/abs/2608.06349v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06349v1",
+      "doi": null,
+      "published_at": "2026-08-06T17:52:51+00:00",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system planning",
+        "grid-forming",
+        "energy storage",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "构网与暂态稳定",
+        "源网荷储协同"
+      ],
+      "rule_score": 10.0,
+      "llm_score": 10.0,
+      "final_score": 10.0,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：power system planning、grid-forming、energy storage、power system",
+      "ai_summary": "该论文题为《The Benefits of an Integrated Approach for Stability-Constrained Power System Planning》，来自 arXiv。从摘要看，论文主要内容为：Increasing penetration of inverter-based resources in today's power systems requires substitution of the contribution from synchronous generators to dynamic voltage stability and inertial response. However, established approaches for power system planning are sequential, as stabilising measures are only considered at a later stage of the planning process. We investigate the advantages of an integrated approach for po...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-07T01:52:51+08:00",
+      "published_date_local": "2026-08-07",
+      "published_time_local": "01:52",
+      "doi_url": null,
+      "citation_key": "recht2026benefits6349v1",
+      "bibtex_entry": "@article{recht2026benefits6349v1,\n  title = {The Benefits of an Integrated Approach for Stability-Constrained Power System Planning},\n  author = {Gereon Recht and Benedikt Jahn and Oussama Alaya and Karl-Kiên Cao and Hendrik Lens},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.06349v1},\n  keywords = {Strong Match, 电力系统运行与规划, 构网与暂态稳定, 源网荷储协同, power system planning, grid-forming, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - The Benefits of an Integrated Approach for Stability-Constrained Power System Planning\nJO  - arXiv\nAU  - Gereon Recht\nAU  - Benedikt Jahn\nAU  - Oussama Alaya\nAU  - Karl-Kiên Cao\nAU  - Hendrik Lens\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - power system planning\nKW  - grid-forming\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.06349v1\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3720391",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System",
+      "authors": [
+        "Yi Qi",
+        "Yi Zhang",
+        "Aniruddha Gole"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3720391",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3720391",
+      "published_at": "2026-08-05T19:08:11+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "grid forming",
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "源网荷储协同"
+      ],
+      "rule_score": 7.91,
+      "llm_score": 7.91,
+      "final_score": 7.91,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid forming、energy storage",
+      "ai_summary": "该论文题为《Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-06T03:08:11+08:00",
+      "published_date_local": "2026-08-06",
+      "published_time_local": "03:08",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3720391",
+      "citation_key": "qi2026stability720391",
+      "bibtex_entry": "@article{qi2026stability720391,\n  title = {Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System},\n  author = {Yi Qi and Yi Zhang and Aniruddha Gole},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3720391},\n  url = {https://doi.org/10.1109/tsg.2026.3720391},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid forming, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System\nJO  - IEEE Transactions on Smart Grid\nAU  - Yi Qi\nAU  - Yi Zhang\nAU  - Aniruddha Gole\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid forming\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3720391\nUR  - https://doi.org/10.1109/tsg.2026.3720391\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3720584",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs",
+      "authors": [
+        "Moetasem Ali",
+        "Yasser A.-R. I. Mohamed"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3720584",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3720584",
+      "published_at": "2026-08-05T19:06:38+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "grid-forming"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定"
+      ],
+      "rule_score": 5.93,
+      "llm_score": 5.93,
+      "final_score": 5.93,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：grid-forming",
+      "ai_summary": "该论文题为《Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-06T03:06:38+08:00",
+      "published_date_local": "2026-08-06",
+      "published_time_local": "03:06",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3720584",
+      "citation_key": "ali2026adaptive720584",
+      "bibtex_entry": "@article{ali2026adaptive720584,\n  title = {Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs},\n  author = {Moetasem Ali and Yasser A.-R. I. Mohamed},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3720584},\n  url = {https://doi.org/10.1109/tsg.2026.3720584},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs\nJO  - IEEE Transactions on Smart Grid\nAU  - Moetasem Ali\nAU  - Yasser A.-R. I. Mohamed\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nDO  - 10.1109/tsg.2026.3720584\nUR  - https://doi.org/10.1109/tsg.2026.3720584\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-10T10:39:27.232070+08:00",
+      "last_seen": "2026-08-10T10:39:27.232070+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-04",
+          "target_date": "2026-08-10",
+          "generated_at": "2026-08-10T10:39:27.232070+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tpwrs.2026.3719356",
       "source": "ieee",

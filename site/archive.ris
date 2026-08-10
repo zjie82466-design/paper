@@ -1,4 +1,105 @@
 TY  - JOUR
+TI  - Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective
+JO  - arXiv
+AU  - Ruike Lyu
+AU  - Tengmu Li
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.07348v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization
+JO  - arXiv
+AU  - Jin Qi
+AU  - Chen Yang
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - robust optimization
+KW  - distributionally robust
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.06821v1
+N1  - Auto-selected by Power Paper Digest; score=8.0
+ER  -
+
+TY  - JOUR
+TI  - World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management
+JO  - IEEE Transactions on Smart Grid
+AU  - Kajal Pokharel
+AU  - Hepeng Li
+AU  - Haibo He
+KW  - Promising
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3721318
+UR  - https://doi.org/10.1109/tsg.2026.3721318
+N1  - Auto-selected by Power Paper Digest; score=7.1
+ER  -
+
+TY  - JOUR
+TI  - The Benefits of an Integrated Approach for Stability-Constrained Power System Planning
+JO  - arXiv
+AU  - Gereon Recht
+AU  - Benedikt Jahn
+AU  - Oussama Alaya
+AU  - Karl-Kiên Cao
+AU  - Hendrik Lens
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - power system planning
+KW  - grid-forming
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.06349v1
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System
+JO  - IEEE Transactions on Smart Grid
+AU  - Yi Qi
+AU  - Yi Zhang
+AU  - Aniruddha Gole
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - grid forming
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tsg.2026.3720391
+UR  - https://doi.org/10.1109/tsg.2026.3720391
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
+TI  - Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs
+JO  - IEEE Transactions on Smart Grid
+AU  - Moetasem Ali
+AU  - Yasser A.-R. I. Mohamed
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tsg.2026.3720584
+UR  - https://doi.org/10.1109/tsg.2026.3720584
+N1  - Auto-selected by Power Paper Digest; score=5.9
+ER  -
+
+TY  - JOUR
 TI  - Robust Power System State Estimation via Least Quantile Regression
 JO  - IEEE Transactions on Power Systems
 AU  - Rabih A. Jabr

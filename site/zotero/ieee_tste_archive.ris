@@ -1,4 +1,87 @@
 TY  - JOUR
+TI  - Online Inertia Estimation in AC Microgrids using Ambient Measurements: A Bayesian Approach
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Jiacheng Ge
+AU  - Linwei Sang
+AU  - Zaijun Wu
+AU  - Qinran Hu
+AU  - Can Huang
+AU  - Hongyi Zhang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tste.2026.3722285
+UR  - https://doi.org/10.1109/tste.2026.3722285
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
+TI  - Accelerating Underground Pumped Hydro Energy Storage Scheduling with Decision-Focused Learning
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Honghui Zheng
+AU  - Pietro Favaro
+AU  - Yury Dvorkin
+AU  - Jan Drgona
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - decision-focused learning
+KW  - scheduling
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tste.2026.3722492
+UR  - https://doi.org/10.1109/tste.2026.3722492
+N1  - Auto-selected by Power Paper Digest; score=8.6
+ER  -
+
+TY  - JOUR
+TI  - Toward Enhanced Active Support in High-Penetration Wind Power Systems: An Optimization Model Integrating Spatial Frequency Distribution
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Li Guo
+AU  - Chengao Wang
+AU  - Jiaqing Zhai
+AU  - Yuxuan Zhang
+AU  - Zhongguan Wang
+AU  - Xialin Li
+AU  - Chengshan Wang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tste.2026.3722034
+UR  - https://doi.org/10.1109/tste.2026.3722034
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
+TI  - Frequency Security Constrained Grid-Forming Energy Storage Planning for Renewable Power Systems
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Tingke He
+AU  - Shichang Cui
+AU  - Kun Li
+AU  - Chu Jin
+AU  - Xiaomeng Ai
+AU  - Jiakun Fang
+AU  - Jinyu Wen
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tste.2026.3722208
+UR  - https://doi.org/10.1109/tste.2026.3722208
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
 TI  - Fairness-Awareness Control for Medium-Low Voltage Distribution Networks Based on Leader-Follower Reinforcement Learning
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Xiao Liu

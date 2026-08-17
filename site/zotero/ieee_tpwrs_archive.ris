@@ -1,4 +1,40 @@
 TY  - JOUR
+TI  - Integrated Bayesian Inference for Online Inertia Estimation with Non Gaussian Posterior in Inverter Based Resources Interfaced Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Komal Singh
+AU  - Rabindra Mohanty
+AU  - Ashu Verma
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3724140
+UR  - https://doi.org/10.1109/tpwrs.2026.3724140
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Historical-Data-Free and System-Independent Training: A Neural Network-assisted Improved Lagrangian Relaxation Method for Large-Scale Security-Constrained Unit Commitment
+JO  - IEEE Transactions on Power Systems
+AU  - Qiaozhu Zhai
+AU  - Yuxuan Zhang
+AU  - Yuzhou Zhou
+AU  - Jiexing Zhao
+AU  - Xiaoyu Cao
+AU  - Qing-Shan Jia
+AU  - Xiaohong Guan
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - security-constrained unit commitment
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3722729
+UR  - https://doi.org/10.1109/tpwrs.2026.3722729
+N1  - Auto-selected by Power Paper Digest; score=7.7
+ER  -
+
+TY  - JOUR
 TI  - Robust Power System State Estimation via Least Quantile Regression
 JO  - IEEE Transactions on Power Systems
 AU  - Rabih A. Jabr

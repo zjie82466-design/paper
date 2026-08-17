@@ -5,19 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:39:27 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 09:59:18 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-08-10</title>
+      <title>电力系统论文周报 · 2026-08-17</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 10:39:27 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-08-10
-1. The Benefits of an Integrated Approach for Stability-Constrained Power System Planning [arXiv] - 10.0/10
-2. Connecting Extreme-Point Generation and Decision Rules in Two-Stage Distributionally Robust Optimization [arXiv] - 8.0/10
-3. Stability Analysis and Control of a Unified Grid Forming-Following Controller in a Battery Energy Storage System [IEEE Transactions on Smart Grid] - 7.9/10
-4. World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management [IEEE Transactions on Smart Grid] - 7.1/10
-5. Adaptive Liquid Time-Constant Equivalent Dynamic Model with Transfer Learning for Active Distribution Networks with Grid-Forming IBRs [IEEE Transactions on Smart Grid] - 5.9/10
-6. Do We Still Need Demand Flexibility as Batteries Become Cheaper? A Levelized Cost Perspective [arXiv] - 5.7/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 09:59:18 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-08-17
+1. Frequency Security Constrained Grid-Forming Energy Storage Planning for Renewable Power Systems [IEEE Transactions on Sustainable Energy] - 10.0/10
+2. A Shrinkage Path Heuristic for Wasserstein Distributionally Robust Optimization [arXiv] - 9.3/10
+3. Accelerating Underground Pumped Hydro Energy Storage Scheduling with Decision-Focused Learning [IEEE Transactions on Sustainable Energy] - 8.6/10
+4. SPLIT-Q: A Scalable Sequential Quantum Computing Framework for Coherent Controlled Islanding [arXiv] - 8.0/10
+5. Historical-Data-Free and System-Independent Training: A Neural Network-assisted Improved Lagrangian Relaxation Method for Large-Scale Security-Constrained Unit Commitment [IEEE Transactions on Power Systems] - 7.7/10
+6. Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination [arXiv] - 6.9/10
+7. Integrated Bayesian Inference for Online Inertia Estimation with Non Gaussian Posterior in Inverter Based Resources Interfaced Power Systems [IEEE Transactions on Power Systems] - 6.9/10
+8. PINN-Based Distributed Cooperative Control for Cyber-Physical Hybrid AC/DC Microgrids Under Hybrid Attacks and Actuator Faults [IEEE Transactions on Smart Grid] - 6.5/10</description>
     </item>
   </channel>
 </rss>

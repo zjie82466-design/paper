@@ -1,4 +1,41 @@
 TY  - JOUR
+TI  - Microgrid Island Partitioning Strategy Integrating Cumulative Prospect Theory and Transfer Learning
+JO  - IEEE Transactions on Smart Grid
+AU  - Can Wang
+AU  - Pengtao Li
+AU  - Zhen Wang
+AU  - Lei Xi
+AU  - Nan Yang
+AU  - Zhuoli Zhao
+AU  - Chun Sing Lai
+AU  - Loi Lei Lai
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3723810
+UR  - https://doi.org/10.1109/tsg.2026.3723810
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - PINN-Based Distributed Cooperative Control for Cyber-Physical Hybrid AC/DC Microgrids Under Hybrid Attacks and Actuator Faults
+JO  - IEEE Transactions on Smart Grid
+AU  - Hanlin Gao
+AU  - Sha Fan
+AU  - Chao Deng
+AU  - Hang Zhao
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3723457
+UR  - https://doi.org/10.1109/tsg.2026.3723457
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - World-Model-Based Deep Reinforcement Learning for Real-Time Microgrid Energy Management
 JO  - IEEE Transactions on Smart Grid
 AU  - Kajal Pokharel

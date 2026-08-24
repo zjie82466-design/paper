@@ -1,35 +1,30 @@
 TY  - JOUR
-TI  - Historical-Data-Free and System-Independent Training: A Neural Network-assisted Improved Lagrangian Relaxation Method for Large-Scale Security-Constrained Unit Commitment
+TI  - Learning-Augmented Power System Operations: A Unified Optimization View
 JO  - IEEE Transactions on Power Systems
-AU  - Qiaozhu Zhai
-AU  - Yuxuan Zhang
-AU  - Yuzhou Zhou
-AU  - Jiexing Zhao
-AU  - Xiaoyu Cao
-AU  - Qing-Shan Jia
-AU  - Xiaohong Guan
+AU  - Wangkun Xu
+AU  - Zhongda Chu
+AU  - Fei Teng
 KW  - Strong Match
 KW  - 电力系统运行与规划
-KW  - security-constrained unit commitment
-KW  - unit commitment
+KW  - power system operation
+KW  - power system
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3722729
-UR  - https://doi.org/10.1109/tpwrs.2026.3722729
-N1  - Auto-selected by Power Paper Digest; score=7.7
+DO  - 10.1109/tpwrs.2026.3726363
+UR  - https://doi.org/10.1109/tpwrs.2026.3726363
+N1  - Auto-selected by Power Paper Digest; score=7.9
 ER  -
 
 TY  - JOUR
-TI  - Integrated Bayesian Inference for Online Inertia Estimation with Non Gaussian Posterior in Inverter Based Resources Interfaced Power Systems
+TI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space
 JO  - IEEE Transactions on Power Systems
-AU  - Komal Singh
-AU  - Rabindra Mohanty
-AU  - Ashu Verma
-KW  - Promising
+AU  - Afshin Najafi
+AU  - Mohammad A. Pourmousavi
+AU  - Turaj Amraee
+KW  - Background Read
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - unit commitment
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3724140
-UR  - https://doi.org/10.1109/tpwrs.2026.3724140
-N1  - Auto-selected by Power Paper Digest; score=6.9
+DO  - 10.1109/tpwrs.2026.3724406
+UR  - https://doi.org/10.1109/tpwrs.2026.3724406
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

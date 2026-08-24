@@ -1,36 +1,57 @@
 TY  - JOUR
-TI  - PINN-Based Distributed Cooperative Control for Cyber-Physical Hybrid AC/DC Microgrids Under Hybrid Attacks and Actuator Faults
+TI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems
 JO  - IEEE Transactions on Smart Grid
-AU  - Hanlin Gao
-AU  - Sha Fan
-AU  - Chao Deng
-AU  - Hang Zhao
+AU  - Ruben Smets
+AU  - Mathieu Tanneau
+AU  - Jean-Francois Toubeau
+AU  - Kenneth Bruninx
+AU  - Erik Delarue
+AU  - Pascal Van Hentenryck
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - decision-focused learning
+KW  - energy storage
+KW  - machine learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3724483
+UR  - https://doi.org/10.1109/tsg.2026.3724483
+N1  - Auto-selected by Power Paper Digest; score=8.1
+ER  -
+
+TY  - JOUR
+TI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination
+JO  - IEEE Transactions on Smart Grid
+AU  - Mengxiang Liu
+AU  - Xin Zhang
+AU  - Shiyi Zhao
+AU  - Ruilong Deng
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3723457
-UR  - https://doi.org/10.1109/tsg.2026.3723457
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3725864
+UR  - https://doi.org/10.1109/tsg.2026.3725864
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -
 
 TY  - JOUR
-TI  - Microgrid Island Partitioning Strategy Integrating Cumulative Prospect Theory and Transfer Learning
+TI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration
 JO  - IEEE Transactions on Smart Grid
-AU  - Can Wang
-AU  - Pengtao Li
-AU  - Zhen Wang
-AU  - Lei Xi
-AU  - Nan Yang
-AU  - Zhuoli Zhao
-AU  - Chun Sing Lai
-AU  - Loi Lei Lai
-KW  - Background Read
+AU  - Pengfei Gu
+AU  - Yuan Du
+AU  - Yixun Xue
+AU  - Mohammad Shahidehpour
+AU  - Xinyue Chang
+AU  - Hongbin Sun
+KW  - Promising
+KW  - 电力系统运行与规划
 KW  - 源网荷储协同
+KW  - dispatch
 KW  - microgrid
 PY  - 2026
-DO  - 10.1109/tsg.2026.3723810
-UR  - https://doi.org/10.1109/tsg.2026.3723810
-N1  - Auto-selected by Power Paper Digest; score=5.5
+DO  - 10.1109/tsg.2026.3725835
+UR  - https://doi.org/10.1109/tsg.2026.3725835
+N1  - Auto-selected by Power Paper Digest; score=6.8
 ER  -

@@ -7,28 +7,28 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-08-17T09:59:18.385180+08:00",
-    "target_date": "2026-08-17",
-    "window_start": "2026-08-11",
+    "generated_at": "2026-08-24T10:04:24.968686+08:00",
+    "target_date": "2026-08-24",
+    "window_start": "2026-08-18",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 107,
-    "archive_count": 107,
+    "paper_count": 115,
+    "archive_count": 115,
     "source_counts": {
-      "ieee": 59,
-      "arxiv": 48
+      "ieee": 65,
+      "arxiv": 50
     },
     "journal_counts": {
-      "arXiv": 48,
-      "IEEE Transactions on Smart Grid": 31,
-      "IEEE Transactions on Power Systems": 18,
-      "IEEE Transactions on Sustainable Energy": 10
+      "arXiv": 50,
+      "IEEE Transactions on Smart Grid": 34,
+      "IEEE Transactions on Power Systems": 20,
+      "IEEE Transactions on Sustainable Energy": 11
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 57,
-      "源网荷储协同": 48,
-      "AI+电力优化": 24,
-      "构网与暂态稳定": 17,
+      "电力系统运行与规划": 62,
+      "源网荷储协同": 52,
+      "AI+电力优化": 28,
+      "构网与暂态稳定": 18,
       "鲁棒随机优化": 17,
       "韧性与恢复": 9
     },
@@ -63,7 +63,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 0,
-        "archive_count": 18
+        "archive_count": 20
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 31
+        "archive_count": 34
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -87,7 +87,7 @@
         "archive_bibtex_path": "./zotero/ieee_tste_archive.bib",
         "archive_ris_path": "./zotero/ieee_tste_archive.ris",
         "selected_count": 0,
-        "archive_count": 10
+        "archive_count": 11
       }
     ],
     "source_notes": {
@@ -102,8 +102,380 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 59,
+      "count": 65,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3725864",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination",
+          "authors": [
+            "Mengxiang Liu",
+            "Xin Zhang",
+            "Shiyi Zhao",
+            "Ruilong Deng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3725864",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3725864",
+          "published_at": "2026-08-21T19:08:40+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.88,
+          "llm_score": 6.88,
+          "final_score": 6.88,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-22T03:08:40+08:00",
+          "published_date_local": "2026-08-22",
+          "published_time_local": "03:08",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3725864",
+          "citation_key": "liu2026hierarchical725864",
+          "bibtex_entry": "@article{liu2026hierarchical725864,\n  title = {Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination},\n  author = {Mengxiang Liu and Xin Zhang and Shiyi Zhao and Ruilong Deng},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3725864},\n  url = {https://doi.org/10.1109/tsg.2026.3725864},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination\nJO  - IEEE Transactions on Smart Grid\nAU  - Mengxiang Liu\nAU  - Xin Zhang\nAU  - Shiyi Zhao\nAU  - Ruilong Deng\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3725864\nUR  - https://doi.org/10.1109/tsg.2026.3725864\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3726363",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Learning-Augmented Power System Operations: A Unified Optimization View",
+          "authors": [
+            "Wangkun Xu",
+            "Zhongda Chu",
+            "Fei Teng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3726363",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3726363",
+          "published_at": "2026-08-21T19:06:29+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "power system operation",
+            "power system"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 7.88,
+          "llm_score": 7.88,
+          "final_score": 7.88,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：power system operation、power system",
+          "ai_summary": "该论文题为《Learning-Augmented Power System Operations: A Unified Optimization View》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-22T03:06:29+08:00",
+          "published_date_local": "2026-08-22",
+          "published_time_local": "03:06",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3726363",
+          "citation_key": "xu2026learningaugmented726363",
+          "bibtex_entry": "@article{xu2026learningaugmented726363,\n  title = {Learning-Augmented Power System Operations: A Unified Optimization View},\n  author = {Wangkun Xu and Zhongda Chu and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3726363},\n  url = {https://doi.org/10.1109/tpwrs.2026.3726363},\n  keywords = {Strong Match, 电力系统运行与规划, power system operation, power system},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Learning-Augmented Power System Operations: A Unified Optimization View\nJO  - IEEE Transactions on Power Systems\nAU  - Wangkun Xu\nAU  - Zhongda Chu\nAU  - Fei Teng\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - power system operation\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3726363\nUR  - https://doi.org/10.1109/tpwrs.2026.3726363\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3725835",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration",
+          "authors": [
+            "Pengfei Gu",
+            "Yuan Du",
+            "Yixun Xue",
+            "Mohammad Shahidehpour",
+            "Xinyue Chang",
+            "Hongbin Sun"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3725835",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3725835",
+          "published_at": "2026-08-20T19:07:00+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "dispatch",
+            "microgrid"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同"
+          ],
+          "rule_score": 6.81,
+          "llm_score": 6.81,
+          "final_score": 6.81,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：dispatch、microgrid",
+          "ai_summary": "该论文题为《A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-21T03:07:00+08:00",
+          "published_date_local": "2026-08-21",
+          "published_time_local": "03:07",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3725835",
+          "citation_key": "gu2026twostage725835",
+          "bibtex_entry": "@article{gu2026twostage725835,\n  title = {A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration},\n  author = {Pengfei Gu and Yuan Du and Yixun Xue and Mohammad Shahidehpour and Xinyue Chang and Hongbin Sun},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3725835},\n  url = {https://doi.org/10.1109/tsg.2026.3725835},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, dispatch, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration\nJO  - IEEE Transactions on Smart Grid\nAU  - Pengfei Gu\nAU  - Yuan Du\nAU  - Yixun Xue\nAU  - Mohammad Shahidehpour\nAU  - Xinyue Chang\nAU  - Hongbin Sun\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - dispatch\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3725835\nUR  - https://doi.org/10.1109/tsg.2026.3725835\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tste.2026.3725711",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids",
+          "authors": [
+            "Linwei Sang",
+            "Xinbao Ma",
+            "Yuqi Zhang",
+            "Chenglei Liang",
+            "Xiaolong Xiao",
+            "Qinran Hu",
+            "Zaijun Wu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3725711",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3725711",
+          "published_at": "2026-08-19T19:04:39+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "reinforcement learning",
+            "energy storage",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "AI+电力优化",
+            "源网荷储协同"
+          ],
+          "rule_score": 10.0,
+          "llm_score": 10.0,
+          "final_score": 10.0,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、reinforcement learning、energy storage、microgrid",
+          "ai_summary": "该论文题为《Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-20T03:04:39+08:00",
+          "published_date_local": "2026-08-20",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3725711",
+          "citation_key": "sang2026physicsinformed725711",
+          "bibtex_entry": "@article{sang2026physicsinformed725711,\n  title = {Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids},\n  author = {Linwei Sang and Xinbao Ma and Yuqi Zhang and Chenglei Liang and Xiaolong Xiao and Qinran Hu and Zaijun Wu},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3725711},\n  url = {https://doi.org/10.1109/tste.2026.3725711},\n  keywords = {Strong Match, 构网与暂态稳定, AI+电力优化, 源网荷储协同, grid-forming, reinforcement learning, energy storage, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Linwei Sang\nAU  - Xinbao Ma\nAU  - Yuqi Zhang\nAU  - Chenglei Liang\nAU  - Xiaolong Xiao\nAU  - Qinran Hu\nAU  - Zaijun Wu\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - reinforcement learning\nKW  - energy storage\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tste.2026.3725711\nUR  - https://doi.org/10.1109/tste.2026.3725711\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3724483",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems",
+          "authors": [
+            "Ruben Smets",
+            "Mathieu Tanneau",
+            "Jean-Francois Toubeau",
+            "Kenneth Bruninx",
+            "Erik Delarue",
+            "Pascal Van Hentenryck"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3724483",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3724483",
+          "published_at": "2026-08-19T19:04:31+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "decision-focused learning",
+            "energy storage",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "源网荷储协同"
+          ],
+          "rule_score": 8.11,
+          "llm_score": 8.11,
+          "final_score": 8.11,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：decision-focused learning、energy storage、machine learning",
+          "ai_summary": "该论文题为《Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-20T03:04:31+08:00",
+          "published_date_local": "2026-08-20",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3724483",
+          "citation_key": "smets2026decisionfocused724483",
+          "bibtex_entry": "@article{smets2026decisionfocused724483,\n  title = {Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems},\n  author = {Ruben Smets and Mathieu Tanneau and Jean-Francois Toubeau and Kenneth Bruninx and Erik Delarue and Pascal Van Hentenryck},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3724483},\n  url = {https://doi.org/10.1109/tsg.2026.3724483},\n  keywords = {Strong Match, AI+电力优化, 源网荷储协同, decision-focused learning, energy storage, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Ruben Smets\nAU  - Mathieu Tanneau\nAU  - Jean-Francois Toubeau\nAU  - Kenneth Bruninx\nAU  - Erik Delarue\nAU  - Pascal Van Hentenryck\nKW  - Strong Match\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - decision-focused learning\nKW  - energy storage\nKW  - machine learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3724483\nUR  - https://doi.org/10.1109/tsg.2026.3724483\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3724406",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space",
+          "authors": [
+            "Afshin Najafi",
+            "Mohammad A. Pourmousavi",
+            "Turaj Amraee"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3724406",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3724406",
+          "published_at": "2026-08-17T19:08:35+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "unit commitment"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.23,
+          "llm_score": 5.23,
+          "final_score": 5.23,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：unit commitment",
+          "ai_summary": "该论文题为《Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-18T03:08:35+08:00",
+          "published_date_local": "2026-08-18",
+          "published_time_local": "03:08",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3724406",
+          "citation_key": "najafi2026improved724406",
+          "bibtex_entry": "@article{najafi2026improved724406,\n  title = {Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space},\n  author = {Afshin Najafi and Mohammad A. Pourmousavi and Turaj Amraee},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3724406},\n  url = {https://doi.org/10.1109/tpwrs.2026.3724406},\n  keywords = {Background Read, 电力系统运行与规划, unit commitment},\n  note = {Auto-selected by Power Paper Digest; score=5.2}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space\nJO  - IEEE Transactions on Power Systems\nAU  - Afshin Najafi\nAU  - Mohammad A. Pourmousavi\nAU  - Turaj Amraee\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - unit commitment\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3724406\nUR  - https://doi.org/10.1109/tpwrs.2026.3724406\nN1  - Auto-selected by Power Paper Digest; score=5.2\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tpwrs.2026.3724140",
           "source": "ieee",
@@ -3741,8 +4113,130 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 48,
+      "count": 50,
       "papers": [
+        {
+          "id": "https://arxiv.org/abs/2608.20914",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation",
+          "authors": [
+            "Ioannis Papadopoulos",
+            "Georgios Tsaousoglou",
+            "Johanna Vorwerk"
+          ],
+          "abstract": "",
+          "url": "https://arxiv.org/abs/2608.20914",
+          "pdf_url": "https://arxiv.org/pdf/2608.20914",
+          "doi": null,
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "categories": [
+            "Systems and Control (eess.SY)"
+          ],
+          "metadata": {
+            "primary_category": "eess.SY",
+            "fallback_source": "arxiv_recent_page"
+          },
+          "matched_keywords": [
+            "power system operation",
+            "reinforcement learning",
+            "power system"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 8.61,
+          "llm_score": 8.61,
+          "final_score": 8.61,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：power system operation、reinforcement learning、power system",
+          "ai_summary": "该论文题为《Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-24T08:00:00+08:00",
+          "published_date_local": "2026-08-24",
+          "published_time_local": "08:00",
+          "doi_url": null,
+          "citation_key": "papadopoulos2026multiobjective820914",
+          "bibtex_entry": "@article{papadopoulos2026multiobjective820914,\n  title = {Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation},\n  author = {Ioannis Papadopoulos and Georgios Tsaousoglou and Johanna Vorwerk},\n  journal = {arXiv},\n  year = {2026},\n  url = {https://arxiv.org/abs/2608.20914},\n  keywords = {Strong Match, 电力系统运行与规划, AI+电力优化, power system operation, reinforcement learning, power system},\n  note = {Auto-selected by Power Paper Digest; score=8.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation\nJO  - arXiv\nAU  - Ioannis Papadopoulos\nAU  - Georgios Tsaousoglou\nAU  - Johanna Vorwerk\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system operation\nKW  - reinforcement learning\nKW  - power system\nPY  - 2026\nUR  - https://arxiv.org/abs/2608.20914\nN1  - Auto-selected by Power Paper Digest; score=8.6\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
+        {
+          "id": "https://arxiv.org/abs/2608.19777",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "A simulation based dataset of faults and events for machine learning in power systems",
+          "authors": [
+            "Georg Kordowich",
+            "Jonathan Loebel",
+            "Julian Oelhaf",
+            "Andreas Maier",
+            "Siming Bayer",
+            "Christian Bergler",
+            "Johann Jaeger"
+          ],
+          "abstract": "",
+          "url": "https://arxiv.org/abs/2608.19777",
+          "pdf_url": "https://arxiv.org/pdf/2608.19777",
+          "doi": null,
+          "published_at": "2026-08-21T00:00:00+00:00",
+          "categories": [
+            "Systems and Control (eess.SY)"
+          ],
+          "metadata": {
+            "primary_category": "eess.SY",
+            "fallback_source": "arxiv_recent_page"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems",
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 6.41,
+          "llm_score": 6.41,
+          "final_score": 6.41,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems、machine learning",
+          "ai_summary": "该论文题为《A simulation based dataset of faults and events for machine learning in power systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-21T08:00:00+08:00",
+          "published_date_local": "2026-08-21",
+          "published_time_local": "08:00",
+          "doi_url": null,
+          "citation_key": "kordowich2026simulation819777",
+          "bibtex_entry": "@article{kordowich2026simulation819777,\n  title = {A simulation based dataset of faults and events for machine learning in power systems},\n  author = {Georg Kordowich and Jonathan Loebel and Julian Oelhaf and Andreas Maier and Siming Bayer and Christian Bergler and Johann Jaeger},\n  journal = {arXiv},\n  year = {2026},\n  url = {https://arxiv.org/abs/2608.19777},\n  keywords = {Promising, 电力系统运行与规划, AI+电力优化, power system, power systems, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A simulation based dataset of faults and events for machine learning in power systems\nJO  - arXiv\nAU  - Georg Kordowich\nAU  - Jonathan Loebel\nAU  - Julian Oelhaf\nAU  - Andreas Maier\nAU  - Siming Bayer\nAU  - Christian Bergler\nAU  - Johann Jaeger\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system\nKW  - power systems\nKW  - machine learning\nPY  - 2026\nUR  - https://arxiv.org/abs/2608.19777\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-24T10:04:24.968686+08:00",
+          "last_seen": "2026-08-24T10:04:24.968686+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-18",
+              "target_date": "2026-08-24",
+              "generated_at": "2026-08-24T10:04:24.968686+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2608.14491v1",
           "source": "arxiv",
@@ -6597,6 +7091,500 @@
     }
   },
   "papers": [
+    {
+      "id": "https://arxiv.org/abs/2608.20914",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation",
+      "authors": [
+        "Ioannis Papadopoulos",
+        "Georgios Tsaousoglou",
+        "Johanna Vorwerk"
+      ],
+      "abstract": "",
+      "url": "https://arxiv.org/abs/2608.20914",
+      "pdf_url": "https://arxiv.org/pdf/2608.20914",
+      "doi": null,
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "categories": [
+        "Systems and Control (eess.SY)"
+      ],
+      "metadata": {
+        "primary_category": "eess.SY",
+        "fallback_source": "arxiv_recent_page"
+      },
+      "matched_keywords": [
+        "power system operation",
+        "reinforcement learning",
+        "power system"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 8.61,
+      "llm_score": 8.61,
+      "final_score": 8.61,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：power system operation、reinforcement learning、power system",
+      "ai_summary": "该论文题为《Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-24T08:00:00+08:00",
+      "published_date_local": "2026-08-24",
+      "published_time_local": "08:00",
+      "doi_url": null,
+      "citation_key": "papadopoulos2026multiobjective820914",
+      "bibtex_entry": "@article{papadopoulos2026multiobjective820914,\n  title = {Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation},\n  author = {Ioannis Papadopoulos and Georgios Tsaousoglou and Johanna Vorwerk},\n  journal = {arXiv},\n  year = {2026},\n  url = {https://arxiv.org/abs/2608.20914},\n  keywords = {Strong Match, 电力系统运行与规划, AI+电力优化, power system operation, reinforcement learning, power system},\n  note = {Auto-selected by Power Paper Digest; score=8.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation\nJO  - arXiv\nAU  - Ioannis Papadopoulos\nAU  - Georgios Tsaousoglou\nAU  - Johanna Vorwerk\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system operation\nKW  - reinforcement learning\nKW  - power system\nPY  - 2026\nUR  - https://arxiv.org/abs/2608.20914\nN1  - Auto-selected by Power Paper Digest; score=8.6\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3725864",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination",
+      "authors": [
+        "Mengxiang Liu",
+        "Xin Zhang",
+        "Shiyi Zhao",
+        "Ruilong Deng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3725864",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3725864",
+      "published_at": "2026-08-21T19:08:40+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.88,
+      "llm_score": 6.88,
+      "final_score": 6.88,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-22T03:08:40+08:00",
+      "published_date_local": "2026-08-22",
+      "published_time_local": "03:08",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3725864",
+      "citation_key": "liu2026hierarchical725864",
+      "bibtex_entry": "@article{liu2026hierarchical725864,\n  title = {Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination},\n  author = {Mengxiang Liu and Xin Zhang and Shiyi Zhao and Ruilong Deng},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3725864},\n  url = {https://doi.org/10.1109/tsg.2026.3725864},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination\nJO  - IEEE Transactions on Smart Grid\nAU  - Mengxiang Liu\nAU  - Xin Zhang\nAU  - Shiyi Zhao\nAU  - Ruilong Deng\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3725864\nUR  - https://doi.org/10.1109/tsg.2026.3725864\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3726363",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Learning-Augmented Power System Operations: A Unified Optimization View",
+      "authors": [
+        "Wangkun Xu",
+        "Zhongda Chu",
+        "Fei Teng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3726363",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3726363",
+      "published_at": "2026-08-21T19:06:29+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "power system operation",
+        "power system"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 7.88,
+      "llm_score": 7.88,
+      "final_score": 7.88,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：power system operation、power system",
+      "ai_summary": "该论文题为《Learning-Augmented Power System Operations: A Unified Optimization View》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-22T03:06:29+08:00",
+      "published_date_local": "2026-08-22",
+      "published_time_local": "03:06",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3726363",
+      "citation_key": "xu2026learningaugmented726363",
+      "bibtex_entry": "@article{xu2026learningaugmented726363,\n  title = {Learning-Augmented Power System Operations: A Unified Optimization View},\n  author = {Wangkun Xu and Zhongda Chu and Fei Teng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3726363},\n  url = {https://doi.org/10.1109/tpwrs.2026.3726363},\n  keywords = {Strong Match, 电力系统运行与规划, power system operation, power system},\n  note = {Auto-selected by Power Paper Digest; score=7.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Learning-Augmented Power System Operations: A Unified Optimization View\nJO  - IEEE Transactions on Power Systems\nAU  - Wangkun Xu\nAU  - Zhongda Chu\nAU  - Fei Teng\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - power system operation\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3726363\nUR  - https://doi.org/10.1109/tpwrs.2026.3726363\nN1  - Auto-selected by Power Paper Digest; score=7.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2608.19777",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "A simulation based dataset of faults and events for machine learning in power systems",
+      "authors": [
+        "Georg Kordowich",
+        "Jonathan Loebel",
+        "Julian Oelhaf",
+        "Andreas Maier",
+        "Siming Bayer",
+        "Christian Bergler",
+        "Johann Jaeger"
+      ],
+      "abstract": "",
+      "url": "https://arxiv.org/abs/2608.19777",
+      "pdf_url": "https://arxiv.org/pdf/2608.19777",
+      "doi": null,
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "categories": [
+        "Systems and Control (eess.SY)"
+      ],
+      "metadata": {
+        "primary_category": "eess.SY",
+        "fallback_source": "arxiv_recent_page"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 6.41,
+      "llm_score": 6.41,
+      "final_score": 6.41,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems、machine learning",
+      "ai_summary": "该论文题为《A simulation based dataset of faults and events for machine learning in power systems》，来自 arXiv。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-21T08:00:00+08:00",
+      "published_date_local": "2026-08-21",
+      "published_time_local": "08:00",
+      "doi_url": null,
+      "citation_key": "kordowich2026simulation819777",
+      "bibtex_entry": "@article{kordowich2026simulation819777,\n  title = {A simulation based dataset of faults and events for machine learning in power systems},\n  author = {Georg Kordowich and Jonathan Loebel and Julian Oelhaf and Andreas Maier and Siming Bayer and Christian Bergler and Johann Jaeger},\n  journal = {arXiv},\n  year = {2026},\n  url = {https://arxiv.org/abs/2608.19777},\n  keywords = {Promising, 电力系统运行与规划, AI+电力优化, power system, power systems, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A simulation based dataset of faults and events for machine learning in power systems\nJO  - arXiv\nAU  - Georg Kordowich\nAU  - Jonathan Loebel\nAU  - Julian Oelhaf\nAU  - Andreas Maier\nAU  - Siming Bayer\nAU  - Christian Bergler\nAU  - Johann Jaeger\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - power system\nKW  - power systems\nKW  - machine learning\nPY  - 2026\nUR  - https://arxiv.org/abs/2608.19777\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3725835",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration",
+      "authors": [
+        "Pengfei Gu",
+        "Yuan Du",
+        "Yixun Xue",
+        "Mohammad Shahidehpour",
+        "Xinyue Chang",
+        "Hongbin Sun"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3725835",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3725835",
+      "published_at": "2026-08-20T19:07:00+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "dispatch",
+        "microgrid"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同"
+      ],
+      "rule_score": 6.81,
+      "llm_score": 6.81,
+      "final_score": 6.81,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：dispatch、microgrid",
+      "ai_summary": "该论文题为《A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-21T03:07:00+08:00",
+      "published_date_local": "2026-08-21",
+      "published_time_local": "03:07",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3725835",
+      "citation_key": "gu2026twostage725835",
+      "bibtex_entry": "@article{gu2026twostage725835,\n  title = {A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration},\n  author = {Pengfei Gu and Yuan Du and Yixun Xue and Mohammad Shahidehpour and Xinyue Chang and Hongbin Sun},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3725835},\n  url = {https://doi.org/10.1109/tsg.2026.3725835},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, dispatch, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration\nJO  - IEEE Transactions on Smart Grid\nAU  - Pengfei Gu\nAU  - Yuan Du\nAU  - Yixun Xue\nAU  - Mohammad Shahidehpour\nAU  - Xinyue Chang\nAU  - Hongbin Sun\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - dispatch\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3725835\nUR  - https://doi.org/10.1109/tsg.2026.3725835\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tste.2026.3725711",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids",
+      "authors": [
+        "Linwei Sang",
+        "Xinbao Ma",
+        "Yuqi Zhang",
+        "Chenglei Liang",
+        "Xiaolong Xiao",
+        "Qinran Hu",
+        "Zaijun Wu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3725711",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3725711",
+      "published_at": "2026-08-19T19:04:39+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "reinforcement learning",
+        "energy storage",
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "AI+电力优化",
+        "源网荷储协同"
+      ],
+      "rule_score": 10.0,
+      "llm_score": 10.0,
+      "final_score": 10.0,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、reinforcement learning、energy storage、microgrid",
+      "ai_summary": "该论文题为《Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-20T03:04:39+08:00",
+      "published_date_local": "2026-08-20",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3725711",
+      "citation_key": "sang2026physicsinformed725711",
+      "bibtex_entry": "@article{sang2026physicsinformed725711,\n  title = {Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids},\n  author = {Linwei Sang and Xinbao Ma and Yuqi Zhang and Chenglei Liang and Xiaolong Xiao and Qinran Hu and Zaijun Wu},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3725711},\n  url = {https://doi.org/10.1109/tste.2026.3725711},\n  keywords = {Strong Match, 构网与暂态稳定, AI+电力优化, 源网荷储协同, grid-forming, reinforcement learning, energy storage, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Linwei Sang\nAU  - Xinbao Ma\nAU  - Yuqi Zhang\nAU  - Chenglei Liang\nAU  - Xiaolong Xiao\nAU  - Qinran Hu\nAU  - Zaijun Wu\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - reinforcement learning\nKW  - energy storage\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tste.2026.3725711\nUR  - https://doi.org/10.1109/tste.2026.3725711\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3724483",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems",
+      "authors": [
+        "Ruben Smets",
+        "Mathieu Tanneau",
+        "Jean-Francois Toubeau",
+        "Kenneth Bruninx",
+        "Erik Delarue",
+        "Pascal Van Hentenryck"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3724483",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3724483",
+      "published_at": "2026-08-19T19:04:31+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "decision-focused learning",
+        "energy storage",
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "源网荷储协同"
+      ],
+      "rule_score": 8.11,
+      "llm_score": 8.11,
+      "final_score": 8.11,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：decision-focused learning、energy storage、machine learning",
+      "ai_summary": "该论文题为《Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-20T03:04:31+08:00",
+      "published_date_local": "2026-08-20",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3724483",
+      "citation_key": "smets2026decisionfocused724483",
+      "bibtex_entry": "@article{smets2026decisionfocused724483,\n  title = {Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems},\n  author = {Ruben Smets and Mathieu Tanneau and Jean-Francois Toubeau and Kenneth Bruninx and Erik Delarue and Pascal Van Hentenryck},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3724483},\n  url = {https://doi.org/10.1109/tsg.2026.3724483},\n  keywords = {Strong Match, AI+电力优化, 源网荷储协同, decision-focused learning, energy storage, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Ruben Smets\nAU  - Mathieu Tanneau\nAU  - Jean-Francois Toubeau\nAU  - Kenneth Bruninx\nAU  - Erik Delarue\nAU  - Pascal Van Hentenryck\nKW  - Strong Match\nKW  - AI+电力优化\nKW  - 源网荷储协同\nKW  - decision-focused learning\nKW  - energy storage\nKW  - machine learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3724483\nUR  - https://doi.org/10.1109/tsg.2026.3724483\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3724406",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space",
+      "authors": [
+        "Afshin Najafi",
+        "Mohammad A. Pourmousavi",
+        "Turaj Amraee"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3724406",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3724406",
+      "published_at": "2026-08-17T19:08:35+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "unit commitment"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.23,
+      "llm_score": 5.23,
+      "final_score": 5.23,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：unit commitment",
+      "ai_summary": "该论文题为《Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-18T03:08:35+08:00",
+      "published_date_local": "2026-08-18",
+      "published_time_local": "03:08",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3724406",
+      "citation_key": "najafi2026improved724406",
+      "bibtex_entry": "@article{najafi2026improved724406,\n  title = {Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space},\n  author = {Afshin Najafi and Mohammad A. Pourmousavi and Turaj Amraee},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3724406},\n  url = {https://doi.org/10.1109/tpwrs.2026.3724406},\n  keywords = {Background Read, 电力系统运行与规划, unit commitment},\n  note = {Auto-selected by Power Paper Digest; score=5.2}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space\nJO  - IEEE Transactions on Power Systems\nAU  - Afshin Najafi\nAU  - Mohammad A. Pourmousavi\nAU  - Turaj Amraee\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - unit commitment\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3724406\nUR  - https://doi.org/10.1109/tpwrs.2026.3724406\nN1  - Auto-selected by Power Paper Digest; score=5.2\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-08-24T10:04:24.968686+08:00",
+      "last_seen": "2026-08-24T10:04:24.968686+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-18",
+          "target_date": "2026-08-24",
+          "generated_at": "2026-08-24T10:04:24.968686+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tpwrs.2026.3724140",
       "source": "ieee",

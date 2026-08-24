@@ -1,4 +1,156 @@
 TY  - JOUR
+TI  - Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation
+JO  - arXiv
+AU  - Ioannis Papadopoulos
+AU  - Georgios Tsaousoglou
+AU  - Johanna Vorwerk
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - power system operation
+KW  - reinforcement learning
+KW  - power system
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.20914
+N1  - Auto-selected by Power Paper Digest; score=8.6
+ER  -
+
+TY  - JOUR
+TI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination
+JO  - IEEE Transactions on Smart Grid
+AU  - Mengxiang Liu
+AU  - Xin Zhang
+AU  - Shiyi Zhao
+AU  - Ruilong Deng
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3725864
+UR  - https://doi.org/10.1109/tsg.2026.3725864
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Learning-Augmented Power System Operations: A Unified Optimization View
+JO  - IEEE Transactions on Power Systems
+AU  - Wangkun Xu
+AU  - Zhongda Chu
+AU  - Fei Teng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - power system operation
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3726363
+UR  - https://doi.org/10.1109/tpwrs.2026.3726363
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
+TI  - A simulation based dataset of faults and events for machine learning in power systems
+JO  - arXiv
+AU  - Georg Kordowich
+AU  - Jonathan Loebel
+AU  - Julian Oelhaf
+AU  - Andreas Maier
+AU  - Siming Bayer
+AU  - Christian Bergler
+AU  - Johann Jaeger
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - power system
+KW  - power systems
+KW  - machine learning
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.19777
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
+TI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration
+JO  - IEEE Transactions on Smart Grid
+AU  - Pengfei Gu
+AU  - Yuan Du
+AU  - Yixun Xue
+AU  - Mohammad Shahidehpour
+AU  - Xinyue Chang
+AU  - Hongbin Sun
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - dispatch
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3725835
+UR  - https://doi.org/10.1109/tsg.2026.3725835
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Linwei Sang
+AU  - Xinbao Ma
+AU  - Yuqi Zhang
+AU  - Chenglei Liang
+AU  - Xiaolong Xiao
+AU  - Qinran Hu
+AU  - Zaijun Wu
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - reinforcement learning
+KW  - energy storage
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tste.2026.3725711
+UR  - https://doi.org/10.1109/tste.2026.3725711
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems
+JO  - IEEE Transactions on Smart Grid
+AU  - Ruben Smets
+AU  - Mathieu Tanneau
+AU  - Jean-Francois Toubeau
+AU  - Kenneth Bruninx
+AU  - Erik Delarue
+AU  - Pascal Van Hentenryck
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - decision-focused learning
+KW  - energy storage
+KW  - machine learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3724483
+UR  - https://doi.org/10.1109/tsg.2026.3724483
+N1  - Auto-selected by Power Paper Digest; score=8.1
+ER  -
+
+TY  - JOUR
+TI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space
+JO  - IEEE Transactions on Power Systems
+AU  - Afshin Najafi
+AU  - Mohammad A. Pourmousavi
+AU  - Turaj Amraee
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3724406
+UR  - https://doi.org/10.1109/tpwrs.2026.3724406
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - Integrated Bayesian Inference for Online Inertia Estimation with Non Gaussian Posterior in Inverter Based Resources Interfaced Power Systems
 JO  - IEEE Transactions on Power Systems
 AU  - Komal Singh

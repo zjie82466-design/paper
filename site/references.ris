@@ -1,151 +1,158 @@
 TY  - JOUR
-TI  - Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Linwei Sang
-AU  - Xinbao Ma
-AU  - Yuqi Zhang
-AU  - Chenglei Liang
-AU  - Xiaolong Xiao
-AU  - Qinran Hu
-AU  - Zaijun Wu
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - AI+电力优化
-KW  - 源网荷储协同
-KW  - grid-forming
-KW  - reinforcement learning
-KW  - energy storage
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tste.2026.3725711
-UR  - https://doi.org/10.1109/tste.2026.3725711
-N1  - Auto-selected by Power Paper Digest; score=10.0
-ER  -
-
-TY  - JOUR
-TI  - Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation
+TI  - Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems
 JO  - arXiv
-AU  - Ioannis Papadopoulos
-AU  - Georgios Tsaousoglou
-AU  - Johanna Vorwerk
-KW  - Strong Match
+AU  - Rock Agon
+AU  - Robin Preece
+AU  - Jovica V. Milanovic
+KW  - Promising
 KW  - 电力系统运行与规划
-KW  - AI+电力优化
-KW  - power system operation
-KW  - reinforcement learning
+KW  - 鲁棒随机优化
 KW  - power system
+KW  - power systems
+KW  - uncertainty
 PY  - 2026
-UR  - https://arxiv.org/abs/2608.20914
-N1  - Auto-selected by Power Paper Digest; score=8.6
+UR  - http://arxiv.org/abs/2608.28296v1
+N1  - Auto-selected by Power Paper Digest; score=7.0
 ER  -
 
 TY  - JOUR
-TI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems
-JO  - IEEE Transactions on Smart Grid
-AU  - Ruben Smets
-AU  - Mathieu Tanneau
-AU  - Jean-Francois Toubeau
-AU  - Kenneth Bruninx
-AU  - Erik Delarue
-AU  - Pascal Van Hentenryck
-KW  - Strong Match
-KW  - AI+电力优化
-KW  - 源网荷储协同
-KW  - decision-focused learning
-KW  - energy storage
-KW  - machine learning
-PY  - 2026
-DO  - 10.1109/tsg.2026.3724483
-UR  - https://doi.org/10.1109/tsg.2026.3724483
-N1  - Auto-selected by Power Paper Digest; score=8.1
-ER  -
-
-TY  - JOUR
-TI  - Learning-Augmented Power System Operations: A Unified Optimization View
+TI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation
 JO  - IEEE Transactions on Power Systems
-AU  - Wangkun Xu
-AU  - Zhongda Chu
-AU  - Fei Teng
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - power system operation
-KW  - power system
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3726363
-UR  - https://doi.org/10.1109/tpwrs.2026.3726363
-N1  - Auto-selected by Power Paper Digest; score=7.9
-ER  -
-
-TY  - JOUR
-TI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination
-JO  - IEEE Transactions on Smart Grid
-AU  - Mengxiang Liu
-AU  - Xin Zhang
-AU  - Shiyi Zhao
-AU  - Ruilong Deng
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3725864
-UR  - https://doi.org/10.1109/tsg.2026.3725864
-N1  - Auto-selected by Power Paper Digest; score=6.9
-ER  -
-
-TY  - JOUR
-TI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration
-JO  - IEEE Transactions on Smart Grid
-AU  - Pengfei Gu
-AU  - Yuan Du
-AU  - Yixun Xue
-AU  - Mohammad Shahidehpour
-AU  - Xinyue Chang
-AU  - Hongbin Sun
+AU  - Xiaoting Wang
+AU  - Xiaozhe Wang
+AU  - Gregory Kish
+AU  - Yunwei Li
 KW  - Promising
 KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - dispatch
-KW  - microgrid
+KW  - AI+电力优化
+KW  - optimal power flow
+KW  - surrogate model
 PY  - 2026
-DO  - 10.1109/tsg.2026.3725835
-UR  - https://doi.org/10.1109/tsg.2026.3725835
+DO  - 10.1109/tpwrs.2026.3727456
+UR  - https://doi.org/10.1109/tpwrs.2026.3727456
 N1  - Auto-selected by Power Paper Digest; score=6.8
 ER  -
 
 TY  - JOUR
-TI  - A simulation based dataset of faults and events for machine learning in power systems
-JO  - arXiv
-AU  - Georg Kordowich
-AU  - Jonathan Loebel
-AU  - Julian Oelhaf
-AU  - Andreas Maier
-AU  - Siming Bayer
-AU  - Christian Bergler
-AU  - Johann Jaeger
+TI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty
+JO  - IEEE Transactions on Smart Grid
+AU  - Wei Lin
+AU  - Pengfei Yan
+AU  - Edoardo Dacco
+AU  - Claudio A. Canizares
+AU  - Yi Wang
+AU  - Davide Falabretti
 KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - virtual power plant
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tsg.2026.3726961
+UR  - https://doi.org/10.1109/tsg.2026.3726961
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Ganzhou Yao
+AU  - Xin Ge
+AU  - Zhongyue Lu
+AU  - Josep M. Guerrero
+AU  - Jose Matas
+AU  - Zirong Luo
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3727960
+UR  - https://doi.org/10.1109/tsg.2026.3727960
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Comparative Assessment of Frequency Scans using EMT and RMS Models
+JO  - arXiv
+AU  - Clea Bürgel
+AU  - Gustavo Valverde
+AU  - Gabriela Hug
+KW  - Promising
+KW  - 构网与暂态稳定
 KW  - 电力系统运行与规划
-KW  - AI+电力优化
+KW  - grid-forming
 KW  - power system
 KW  - power systems
-KW  - machine learning
 PY  - 2026
-UR  - https://arxiv.org/abs/2608.19777
+UR  - http://arxiv.org/abs/2608.26851v1
 N1  - Auto-selected by Power Paper Digest; score=6.4
 ER  -
 
 TY  - JOUR
-TI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space
+TI  - Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control
+JO  - arXiv
+AU  - Soraya Daabak
+AU  - Verena Häberle
+AU  - Gabriela Hug
+AU  - Gustavo Valverde
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.26975v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing
+JO  - arXiv
+AU  - David E. Ruíz-Guirola
+AU  - Samuel Montejo-Sánchez
+AU  - Richard Demo Souza
+AU  - Onel L. A. López
+KW  - Promising
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - reinforcement learning
+KW  - scheduling
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.26944v1
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
 JO  - IEEE Transactions on Power Systems
-AU  - Afshin Najafi
-AU  - Mohammad A. Pourmousavi
-AU  - Turaj Amraee
+AU  - Minghao Guo
+AU  - Hongjun Gao
+AU  - Yida Yang
+AU  - Renjun Wang
+AU  - Yuechuan Tao
+AU  - Longbo Luo
+AU  - Zhao Yang Dong
+AU  - Junyong Liu
 KW  - Background Read
 KW  - 电力系统运行与规划
-KW  - unit commitment
+KW  - scheduling
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3724406
-UR  - https://doi.org/10.1109/tpwrs.2026.3724406
-N1  - Auto-selected by Power Paper Digest; score=5.2
+DO  - 10.1109/tpwrs.2026.3728446
+UR  - https://doi.org/10.1109/tpwrs.2026.3728446
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
+JO  - IEEE Transactions on Smart Grid
+AU  - Chenhan Xiao
+AU  - Xiangyu Zhou
+AU  - Yang Weng
+KW  - Background Read
+KW  - AI+电力优化
+KW  - machine learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3728733
+UR  - https://doi.org/10.1109/tsg.2026.3728733
+N1  - Auto-selected by Power Paper Digest; score=5.3
 ER  -

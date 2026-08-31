@@ -7,29 +7,29 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-08-24T10:04:24.968686+08:00",
-    "target_date": "2026-08-24",
-    "window_start": "2026-08-18",
+    "generated_at": "2026-08-31T13:50:37.845664+08:00",
+    "target_date": "2026-08-31",
+    "window_start": "2026-08-25",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 115,
-    "archive_count": 115,
+    "paper_count": 124,
+    "archive_count": 124,
     "source_counts": {
-      "ieee": 65,
-      "arxiv": 50
+      "ieee": 70,
+      "arxiv": 54
     },
     "journal_counts": {
-      "arXiv": 50,
-      "IEEE Transactions on Smart Grid": 34,
-      "IEEE Transactions on Power Systems": 20,
+      "arXiv": 54,
+      "IEEE Transactions on Smart Grid": 37,
+      "IEEE Transactions on Power Systems": 22,
       "IEEE Transactions on Sustainable Energy": 11
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 62,
-      "源网荷储协同": 52,
-      "AI+电力优化": 28,
-      "构网与暂态稳定": 18,
-      "鲁棒随机优化": 17,
+      "电力系统运行与规划": 68,
+      "源网荷储协同": 54,
+      "AI+电力优化": 31,
+      "构网与暂态稳定": 19,
+      "鲁棒随机优化": 19,
       "韧性与恢复": 9
     },
     "required_topics": [
@@ -63,7 +63,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 0,
-        "archive_count": 20
+        "archive_count": 22
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 34
+        "archive_count": 37
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -102,8 +102,315 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 65,
+      "count": 70,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3728733",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI",
+          "authors": [
+            "Chenhan Xiao",
+            "Xiangyu Zhou",
+            "Yang Weng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3728733",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3728733",
+          "published_at": "2026-08-28T19:07:46+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "machine learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化"
+          ],
+          "rule_score": 5.28,
+          "llm_score": 5.28,
+          "final_score": 5.28,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：machine learning",
+          "ai_summary": "该论文题为《Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-29T03:07:46+08:00",
+          "published_date_local": "2026-08-29",
+          "published_time_local": "03:07",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3728733",
+          "citation_key": "xiao2026evaluating728733",
+          "bibtex_entry": "@article{xiao2026evaluating728733,\n  title = {Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI},\n  author = {Chenhan Xiao and Xiangyu Zhou and Yang Weng},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3728733},\n  url = {https://doi.org/10.1109/tsg.2026.3728733},\n  keywords = {Background Read, AI+电力优化, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI\nJO  - IEEE Transactions on Smart Grid\nAU  - Chenhan Xiao\nAU  - Xiangyu Zhou\nAU  - Yang Weng\nKW  - Background Read\nKW  - AI+电力优化\nKW  - machine learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3728733\nUR  - https://doi.org/10.1109/tsg.2026.3728733\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3728446",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility",
+          "authors": [
+            "Minghao Guo",
+            "Hongjun Gao",
+            "Yida Yang",
+            "Renjun Wang",
+            "Yuechuan Tao",
+            "Longbo Luo",
+            "Zhao Yang Dong",
+            "Junyong Liu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3728446",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3728446",
+          "published_at": "2026-08-28T19:04:07+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "scheduling"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.58,
+          "llm_score": 5.58,
+          "final_score": 5.58,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：scheduling",
+          "ai_summary": "该论文题为《Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-29T03:04:07+08:00",
+          "published_date_local": "2026-08-29",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3728446",
+          "citation_key": "guo2026stochasticrobust728446",
+          "bibtex_entry": "@article{guo2026stochasticrobust728446,\n  title = {Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility},\n  author = {Minghao Guo and Hongjun Gao and Yida Yang and Renjun Wang and Yuechuan Tao and Longbo Luo and Zhao Yang Dong and Junyong Liu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3728446},\n  url = {https://doi.org/10.1109/tpwrs.2026.3728446},\n  keywords = {Background Read, 电力系统运行与规划, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility\nJO  - IEEE Transactions on Power Systems\nAU  - Minghao Guo\nAU  - Hongjun Gao\nAU  - Yida Yang\nAU  - Renjun Wang\nAU  - Yuechuan Tao\nAU  - Longbo Luo\nAU  - Zhao Yang Dong\nAU  - Junyong Liu\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - scheduling\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3728446\nUR  - https://doi.org/10.1109/tpwrs.2026.3728446\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3727960",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids",
+          "authors": [
+            "Ganzhou Yao",
+            "Xin Ge",
+            "Zhongyue Lu",
+            "Josep M. Guerrero",
+            "Jose Matas",
+            "Zirong Luo"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3727960",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3727960",
+          "published_at": "2026-08-27T19:11:40+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-28T03:11:40+08:00",
+          "published_date_local": "2026-08-28",
+          "published_time_local": "03:11",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3727960",
+          "citation_key": "yao2026realtime727960",
+          "bibtex_entry": "@article{yao2026realtime727960,\n  title = {Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids},\n  author = {Ganzhou Yao and Xin Ge and Zhongyue Lu and Josep M. Guerrero and Jose Matas and Zirong Luo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3727960},\n  url = {https://doi.org/10.1109/tsg.2026.3727960},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Ganzhou Yao\nAU  - Xin Ge\nAU  - Zhongyue Lu\nAU  - Josep M. Guerrero\nAU  - Jose Matas\nAU  - Zirong Luo\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3727960\nUR  - https://doi.org/10.1109/tsg.2026.3727960\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3727456",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation",
+          "authors": [
+            "Xiaoting Wang",
+            "Xiaozhe Wang",
+            "Gregory Kish",
+            "Yunwei Li"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3727456",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3727456",
+          "published_at": "2026-08-25T19:03:53+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "optimal power flow",
+            "surrogate model"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "AI+电力优化"
+          ],
+          "rule_score": 6.81,
+          "llm_score": 6.81,
+          "final_score": 6.81,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：optimal power flow、surrogate model",
+          "ai_summary": "该论文题为《A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-26T03:03:53+08:00",
+          "published_date_local": "2026-08-26",
+          "published_time_local": "03:03",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3727456",
+          "citation_key": "wang2026bayesian727456",
+          "bibtex_entry": "@article{wang2026bayesian727456,\n  title = {A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation},\n  author = {Xiaoting Wang and Xiaozhe Wang and Gregory Kish and Yunwei Li},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3727456},\n  url = {https://doi.org/10.1109/tpwrs.2026.3727456},\n  keywords = {Promising, 电力系统运行与规划, AI+电力优化, optimal power flow, surrogate model},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation\nJO  - IEEE Transactions on Power Systems\nAU  - Xiaoting Wang\nAU  - Xiaozhe Wang\nAU  - Gregory Kish\nAU  - Yunwei Li\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - optimal power flow\nKW  - surrogate model\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3727456\nUR  - https://doi.org/10.1109/tpwrs.2026.3727456\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3726961",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty",
+          "authors": [
+            "Wei Lin",
+            "Pengfei Yan",
+            "Edoardo Dacco",
+            "Claudio A. Canizares",
+            "Yi Wang",
+            "Davide Falabretti"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3726961",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3726961",
+          "published_at": "2026-08-24T19:12:04+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "virtual power plant",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 6.81,
+          "llm_score": 6.81,
+          "final_score": 6.81,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：virtual power plant、uncertainty",
+          "ai_summary": "该论文题为《Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-08-25T03:12:04+08:00",
+          "published_date_local": "2026-08-25",
+          "published_time_local": "03:12",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3726961",
+          "citation_key": "lin2026modelfree726961",
+          "bibtex_entry": "@article{lin2026modelfree726961,\n  title = {Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty},\n  author = {Wei Lin and Pengfei Yan and Edoardo Dacco and Claudio A. Canizares and Yi Wang and Davide Falabretti},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3726961},\n  url = {https://doi.org/10.1109/tsg.2026.3726961},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, virtual power plant, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty\nJO  - IEEE Transactions on Smart Grid\nAU  - Wei Lin\nAU  - Pengfei Yan\nAU  - Edoardo Dacco\nAU  - Claudio A. Canizares\nAU  - Yi Wang\nAU  - Davide Falabretti\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - virtual power plant\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tsg.2026.3726961\nUR  - https://doi.org/10.1109/tsg.2026.3726961\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tsg.2026.3725864",
           "source": "ieee",
@@ -4113,8 +4420,240 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 50,
+      "count": 54,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2608.28296v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems",
+          "authors": [
+            "Rock Agon",
+            "Robin Preece",
+            "Jovica V. Milanovic"
+          ],
+          "abstract": "Voltage security assessment in power systems with high renewable energy source (RES) penetration requires analyzing many operating conditions to capture variability and uncertainty, but simulating a full year of operating points is computationally costly - motivating the selection of representative operating points (ROPs). Most existing methods cluster demand and generation profiles, but similarity in these profiles does not guarantee similarity in voltage behavior, since reactive power limits, voltage-control actions, and nonlinear network interactions shape voltage response in ways that cannot be inferred from power profile patterns. This paper proposes an unsupervised learning framework that selects ROPs based on the system's actual voltage response: each operating point is represented by system-wide voltage-risk indices from AC power-flow solutions, Principal Component Analysis reduces dimensionality, and Hierarchical Agglomerative Clustering with Ward linkage identifies representative voltage regimes. A comprehensive set of evaluation criteria then measures how well the selected ROPs reproduce the full year's voltage-security characteristics under normal and contingency conditions. On the IEEE Voltage Test System under very high RES penetration, the framework reduces the annual operating point set by 99.66 percent while reproducing full-year voltage behavior with 98.3 percent reconstruction accuracy in steady state and 93.4 percent in post-contingency response, outperforming existing injection-space clustering and heuristic sampling.",
+          "url": "http://arxiv.org/abs/2608.28296v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.28296v1",
+          "doi": null,
+          "published_at": "2026-08-28T12:59:15+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 7.02,
+          "llm_score": 7.02,
+          "final_score": 7.02,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems、uncertainty",
+          "ai_summary": "该论文题为《Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：Voltage security assessment in power systems with high renewable energy source (RES) penetration requires analyzing many operating conditions to capture variability and uncertainty, but simulating a full year of operating points is computationally costly - motivating the selection of representative operating points (ROPs). Most existing methods cluster demand and generation profiles, but similarity in these profiles ...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-28T20:59:15+08:00",
+          "published_date_local": "2026-08-28",
+          "published_time_local": "20:59",
+          "doi_url": null,
+          "citation_key": "agon2026hierarchical8296v1",
+          "bibtex_entry": "@article{agon2026hierarchical8296v1,\n  title = {Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems},\n  author = {Rock Agon and Robin Preece and Jovica V. Milanovic},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.28296v1},\n  keywords = {Promising, 电力系统运行与规划, 鲁棒随机优化, power system, power systems, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems\nJO  - arXiv\nAU  - Rock Agon\nAU  - Robin Preece\nAU  - Jovica V. Milanovic\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 鲁棒随机优化\nKW  - power system\nKW  - power systems\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.28296v1\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2608.26975v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control",
+          "authors": [
+            "Soraya Daabak",
+            "Verena Häberle",
+            "Gabriela Hug",
+            "Gustavo Valverde"
+          ],
+          "abstract": "Sustained forced oscillations in power systems, driven by large cyclic loads such as data centers, pose a challenge to conventional power system stabilizers (PSSs), which rely on fixed tuned parameters and limited adaptability. This paper investigates the use of Data-Enabled Predictive Control (DeePC) as a data-driven alternative for damping such oscillations. DeePC constructs control actions directly from measured trajectories without requiring an explicit system model, enabling adaptation to changing operating conditions. We evaluate the performance of DeePC on a multi-machine two-area system subject to forced oscillations and compare it against a conventional PSS. The study examines the impact of different input-output configurations and the role of representative historical data in the Hankel matrix construction. Results show that DeePC can achieve superior damping. However, its effectiveness depends critically on the quality and representativeness of the underlying dataset. These findings highlight the potential of data-driven predictive control to complement or outperform conventional stabilizers in modern power systems with evolving and uncertain dynamics.",
+          "url": "http://arxiv.org/abs/2608.26975v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26975v1",
+          "doi": null,
+          "published_at": "2026-08-27T11:20:14+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.08,
+          "llm_score": 6.08,
+          "final_score": 6.08,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control》，来自 arXiv。从摘要看，论文主要内容为：Sustained forced oscillations in power systems, driven by large cyclic loads such as data centers, pose a challenge to conventional power system stabilizers (PSSs), which rely on fixed tuned parameters and limited adaptability. This paper investigates the use of Data-Enabled Predictive Control (DeePC) as a data-driven alternative for damping such oscillations. DeePC constructs control actions directly from measured t...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-27T19:20:14+08:00",
+          "published_date_local": "2026-08-27",
+          "published_time_local": "19:20",
+          "doi_url": null,
+          "citation_key": "daabak2026mitigating6975v1",
+          "bibtex_entry": "@article{daabak2026mitigating6975v1,\n  title = {Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control},\n  author = {Soraya Daabak and Verena Häberle and Gabriela Hug and Gustavo Valverde},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26975v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control\nJO  - arXiv\nAU  - Soraya Daabak\nAU  - Verena Häberle\nAU  - Gabriela Hug\nAU  - Gustavo Valverde\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26975v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2608.26944v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing",
+          "authors": [
+            "David E. Ruíz-Guirola",
+            "Samuel Montejo-Sánchez",
+            "Richard Demo Souza",
+            "Onel L. A. López"
+          ],
+          "abstract": "Ambient IoT (A-IoT) devices rely on energy harvesting and duty cycling to sustain operation, thereby fundamentally changing collaborative sensing compared with traditional always-ON sensor networks. In this paper, we study the joint deployment and sensing scheduling of A-IoT devices equipped with directional sensing. We explore four solution strategies: (i) a grid deployment with static duty cycling, (ii) a centralized policy-gradient reinforcement learning (RL) approach that begins with a grid deployment and learns energy-aware device relocation and duty-cycling policies, (iii) a mixed-integer linear programming (LP) approach that couples static deployment design with duty-cycle allocation, and (iv) a hybrid LP+RL that combines optimization-based initialization with learning-based refinement. Using representative A-IoT use cases, we evaluate coverage as a function of device density, field-of-view, and maximum feasible duty cycle, determined by harvested energy and device consumption. Numerical results indicate that the proposed LP+RL and RL policies consistently outperform both the grid baseline and the LP-based method, achieving up to 2x higher mean effective coverage in low and medium energy harvesting (EH) regimes. In contrast, the standalone LP method remains limited by its conservative static duty cycle allocation under tight EH constraints. Moreover, the structured initialization of the LP+RL method substantially accelerates convergence, reducing the total offline optimization time by up to 10x compared to the standalone RL.",
+          "url": "http://arxiv.org/abs/2608.26944v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26944v1",
+          "doi": null,
+          "published_at": "2026-08-27T10:45:11+00:00",
+          "categories": [
+            "eess.SY",
+            "cs.IT"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "scheduling"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.0,
+          "llm_score": 6.0,
+          "final_score": 6.0,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、scheduling",
+          "ai_summary": "该论文题为《Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing》，来自 arXiv。从摘要看，论文主要内容为：Ambient IoT (A-IoT) devices rely on energy harvesting and duty cycling to sustain operation, thereby fundamentally changing collaborative sensing compared with traditional always-ON sensor networks. In this paper, we study the joint deployment and sensing scheduling of A-IoT devices equipped with directional sensing. We explore four solution strategies: (i) a grid deployment with static duty cycling, (ii) a centraliz...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-27T18:45:11+08:00",
+          "published_date_local": "2026-08-27",
+          "published_time_local": "18:45",
+          "doi_url": null,
+          "citation_key": "ruzguirola2026energyneutral6944v1",
+          "bibtex_entry": "@article{ruzguirola2026energyneutral6944v1,\n  title = {Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing},\n  author = {David E. Ruíz-Guirola and Samuel Montejo-Sánchez and Richard Demo Souza and Onel L. A. López},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26944v1},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing\nJO  - arXiv\nAU  - David E. Ruíz-Guirola\nAU  - Samuel Montejo-Sánchez\nAU  - Richard Demo Souza\nAU  - Onel L. A. López\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26944v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2608.26851v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Comparative Assessment of Frequency Scans using EMT and RMS Models",
+          "authors": [
+            "Clea Bürgel",
+            "Gustavo Valverde",
+            "Gabriela Hug"
+          ],
+          "abstract": "Frequency scans of inverter and grid impedances are crucial for assessing small-signal stability and system strength in inverter-dominated power systems. This paper compares frequency-scan results for several generating units, including a synchronous generator, grid-following, and grid-forming inverters, using fully dq electromagnetic transient and root-mean-square (RMS) models in Simulink. The scans are performed for the same device rating and operating point. Frequency scans and time-domain simulations show that the RMS models are valid only at low frequencies. We find that the current-controlled grid-forming inverter is more difficult to represent in RMS than the voltage-controlled grid-forming inverter. However, including the inner voltage-control loops improves the accuracy of the RMS representation. The paper also investigates the influence of generator and grid impedance on the total system impedance seen from the point of common coupling and relates the oscillatory modes and zeros of the system to peaks and dips in the first and second singular values of the system impedance, respectively.",
+          "url": "http://arxiv.org/abs/2608.26851v1",
+          "pdf_url": "https://arxiv.org/pdf/2608.26851v1",
+          "doi": null,
+          "published_at": "2026-08-27T09:16:47+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.42,
+          "llm_score": 6.42,
+          "final_score": 6.42,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：grid-forming、power system、power systems",
+          "ai_summary": "该论文题为《Comparative Assessment of Frequency Scans using EMT and RMS Models》，来自 arXiv。从摘要看，论文主要内容为：Frequency scans of inverter and grid impedances are crucial for assessing small-signal stability and system strength in inverter-dominated power systems. This paper compares frequency-scan results for several generating units, including a synchronous generator, grid-following, and grid-forming inverters, using fully dq electromagnetic transient and root-mean-square (RMS) models in Simulink. The scans are performed fo...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-08-27T17:16:47+08:00",
+          "published_date_local": "2026-08-27",
+          "published_time_local": "17:16",
+          "doi_url": null,
+          "citation_key": "brgel2026comparative6851v1",
+          "bibtex_entry": "@article{brgel2026comparative6851v1,\n  title = {Comparative Assessment of Frequency Scans using EMT and RMS Models},\n  author = {Clea Bürgel and Gustavo Valverde and Gabriela Hug},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26851v1},\n  keywords = {Promising, 构网与暂态稳定, 电力系统运行与规划, grid-forming, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Comparative Assessment of Frequency Scans using EMT and RMS Models\nJO  - arXiv\nAU  - Clea Bürgel\nAU  - Gustavo Valverde\nAU  - Gabriela Hug\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26851v1\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-08-31T13:50:37.845664+08:00",
+          "last_seen": "2026-08-31T13:50:37.845664+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-08-25",
+              "target_date": "2026-08-31",
+              "generated_at": "2026-08-31T13:50:37.845664+08:00"
+            }
+          ]
+        },
         {
           "id": "https://arxiv.org/abs/2608.20914",
           "source": "arxiv",
@@ -7091,6 +7630,545 @@
     }
   },
   "papers": [
+    {
+      "id": "10.1109/tsg.2026.3728733",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI",
+      "authors": [
+        "Chenhan Xiao",
+        "Xiangyu Zhou",
+        "Yang Weng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3728733",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3728733",
+      "published_at": "2026-08-28T19:07:46+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "machine learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化"
+      ],
+      "rule_score": 5.28,
+      "llm_score": 5.28,
+      "final_score": 5.28,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：machine learning",
+      "ai_summary": "该论文题为《Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-29T03:07:46+08:00",
+      "published_date_local": "2026-08-29",
+      "published_time_local": "03:07",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3728733",
+      "citation_key": "xiao2026evaluating728733",
+      "bibtex_entry": "@article{xiao2026evaluating728733,\n  title = {Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI},\n  author = {Chenhan Xiao and Xiangyu Zhou and Yang Weng},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3728733},\n  url = {https://doi.org/10.1109/tsg.2026.3728733},\n  keywords = {Background Read, AI+电力优化, machine learning},\n  note = {Auto-selected by Power Paper Digest; score=5.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI\nJO  - IEEE Transactions on Smart Grid\nAU  - Chenhan Xiao\nAU  - Xiangyu Zhou\nAU  - Yang Weng\nKW  - Background Read\nKW  - AI+电力优化\nKW  - machine learning\nPY  - 2026\nDO  - 10.1109/tsg.2026.3728733\nUR  - https://doi.org/10.1109/tsg.2026.3728733\nN1  - Auto-selected by Power Paper Digest; score=5.3\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3728446",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility",
+      "authors": [
+        "Minghao Guo",
+        "Hongjun Gao",
+        "Yida Yang",
+        "Renjun Wang",
+        "Yuechuan Tao",
+        "Longbo Luo",
+        "Zhao Yang Dong",
+        "Junyong Liu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3728446",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3728446",
+      "published_at": "2026-08-28T19:04:07+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "scheduling"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.58,
+      "llm_score": 5.58,
+      "final_score": 5.58,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：scheduling",
+      "ai_summary": "该论文题为《Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-29T03:04:07+08:00",
+      "published_date_local": "2026-08-29",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3728446",
+      "citation_key": "guo2026stochasticrobust728446",
+      "bibtex_entry": "@article{guo2026stochasticrobust728446,\n  title = {Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility},\n  author = {Minghao Guo and Hongjun Gao and Yida Yang and Renjun Wang and Yuechuan Tao and Longbo Luo and Zhao Yang Dong and Junyong Liu},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3728446},\n  url = {https://doi.org/10.1109/tpwrs.2026.3728446},\n  keywords = {Background Read, 电力系统运行与规划, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility\nJO  - IEEE Transactions on Power Systems\nAU  - Minghao Guo\nAU  - Hongjun Gao\nAU  - Yida Yang\nAU  - Renjun Wang\nAU  - Yuechuan Tao\nAU  - Longbo Luo\nAU  - Zhao Yang Dong\nAU  - Junyong Liu\nKW  - Background Read\nKW  - 电力系统运行与规划\nKW  - scheduling\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3728446\nUR  - https://doi.org/10.1109/tpwrs.2026.3728446\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28296v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems",
+      "authors": [
+        "Rock Agon",
+        "Robin Preece",
+        "Jovica V. Milanovic"
+      ],
+      "abstract": "Voltage security assessment in power systems with high renewable energy source (RES) penetration requires analyzing many operating conditions to capture variability and uncertainty, but simulating a full year of operating points is computationally costly - motivating the selection of representative operating points (ROPs). Most existing methods cluster demand and generation profiles, but similarity in these profiles does not guarantee similarity in voltage behavior, since reactive power limits, voltage-control actions, and nonlinear network interactions shape voltage response in ways that cannot be inferred from power profile patterns. This paper proposes an unsupervised learning framework that selects ROPs based on the system's actual voltage response: each operating point is represented by system-wide voltage-risk indices from AC power-flow solutions, Principal Component Analysis reduces dimensionality, and Hierarchical Agglomerative Clustering with Ward linkage identifies representative voltage regimes. A comprehensive set of evaluation criteria then measures how well the selected ROPs reproduce the full year's voltage-security characteristics under normal and contingency conditions. On the IEEE Voltage Test System under very high RES penetration, the framework reduces the annual operating point set by 99.66 percent while reproducing full-year voltage behavior with 98.3 percent reconstruction accuracy in steady state and 93.4 percent in post-contingency response, outperforming existing injection-space clustering and heuristic sampling.",
+      "url": "http://arxiv.org/abs/2608.28296v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28296v1",
+      "doi": null,
+      "published_at": "2026-08-28T12:59:15+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 7.02,
+      "llm_score": 7.02,
+      "final_score": 7.02,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems、uncertainty",
+      "ai_summary": "该论文题为《Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems》，来自 arXiv。从摘要看，论文主要内容为：Voltage security assessment in power systems with high renewable energy source (RES) penetration requires analyzing many operating conditions to capture variability and uncertainty, but simulating a full year of operating points is computationally costly - motivating the selection of representative operating points (ROPs). Most existing methods cluster demand and generation profiles, but similarity in these profiles ...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-28T20:59:15+08:00",
+      "published_date_local": "2026-08-28",
+      "published_time_local": "20:59",
+      "doi_url": null,
+      "citation_key": "agon2026hierarchical8296v1",
+      "bibtex_entry": "@article{agon2026hierarchical8296v1,\n  title = {Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems},\n  author = {Rock Agon and Robin Preece and Jovica V. Milanovic},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.28296v1},\n  keywords = {Promising, 电力系统运行与规划, 鲁棒随机优化, power system, power systems, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=7.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems\nJO  - arXiv\nAU  - Rock Agon\nAU  - Robin Preece\nAU  - Jovica V. Milanovic\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 鲁棒随机优化\nKW  - power system\nKW  - power systems\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.28296v1\nN1  - Auto-selected by Power Paper Digest; score=7.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3727960",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids",
+      "authors": [
+        "Ganzhou Yao",
+        "Xin Ge",
+        "Zhongyue Lu",
+        "Josep M. Guerrero",
+        "Jose Matas",
+        "Zirong Luo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3727960",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3727960",
+      "published_at": "2026-08-27T19:11:40+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-28T03:11:40+08:00",
+      "published_date_local": "2026-08-28",
+      "published_time_local": "03:11",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3727960",
+      "citation_key": "yao2026realtime727960",
+      "bibtex_entry": "@article{yao2026realtime727960,\n  title = {Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids},\n  author = {Ganzhou Yao and Xin Ge and Zhongyue Lu and Josep M. Guerrero and Jose Matas and Zirong Luo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3727960},\n  url = {https://doi.org/10.1109/tsg.2026.3727960},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Ganzhou Yao\nAU  - Xin Ge\nAU  - Zhongyue Lu\nAU  - Josep M. Guerrero\nAU  - Jose Matas\nAU  - Zirong Luo\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3727960\nUR  - https://doi.org/10.1109/tsg.2026.3727960\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26975v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control",
+      "authors": [
+        "Soraya Daabak",
+        "Verena Häberle",
+        "Gabriela Hug",
+        "Gustavo Valverde"
+      ],
+      "abstract": "Sustained forced oscillations in power systems, driven by large cyclic loads such as data centers, pose a challenge to conventional power system stabilizers (PSSs), which rely on fixed tuned parameters and limited adaptability. This paper investigates the use of Data-Enabled Predictive Control (DeePC) as a data-driven alternative for damping such oscillations. DeePC constructs control actions directly from measured trajectories without requiring an explicit system model, enabling adaptation to changing operating conditions. We evaluate the performance of DeePC on a multi-machine two-area system subject to forced oscillations and compare it against a conventional PSS. The study examines the impact of different input-output configurations and the role of representative historical data in the Hankel matrix construction. Results show that DeePC can achieve superior damping. However, its effectiveness depends critically on the quality and representativeness of the underlying dataset. These findings highlight the potential of data-driven predictive control to complement or outperform conventional stabilizers in modern power systems with evolving and uncertain dynamics.",
+      "url": "http://arxiv.org/abs/2608.26975v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26975v1",
+      "doi": null,
+      "published_at": "2026-08-27T11:20:14+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.08,
+      "llm_score": 6.08,
+      "final_score": 6.08,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control》，来自 arXiv。从摘要看，论文主要内容为：Sustained forced oscillations in power systems, driven by large cyclic loads such as data centers, pose a challenge to conventional power system stabilizers (PSSs), which rely on fixed tuned parameters and limited adaptability. This paper investigates the use of Data-Enabled Predictive Control (DeePC) as a data-driven alternative for damping such oscillations. DeePC constructs control actions directly from measured t...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-27T19:20:14+08:00",
+      "published_date_local": "2026-08-27",
+      "published_time_local": "19:20",
+      "doi_url": null,
+      "citation_key": "daabak2026mitigating6975v1",
+      "bibtex_entry": "@article{daabak2026mitigating6975v1,\n  title = {Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control},\n  author = {Soraya Daabak and Verena Häberle and Gabriela Hug and Gustavo Valverde},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26975v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control\nJO  - arXiv\nAU  - Soraya Daabak\nAU  - Verena Häberle\nAU  - Gabriela Hug\nAU  - Gustavo Valverde\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26975v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26944v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing",
+      "authors": [
+        "David E. Ruíz-Guirola",
+        "Samuel Montejo-Sánchez",
+        "Richard Demo Souza",
+        "Onel L. A. López"
+      ],
+      "abstract": "Ambient IoT (A-IoT) devices rely on energy harvesting and duty cycling to sustain operation, thereby fundamentally changing collaborative sensing compared with traditional always-ON sensor networks. In this paper, we study the joint deployment and sensing scheduling of A-IoT devices equipped with directional sensing. We explore four solution strategies: (i) a grid deployment with static duty cycling, (ii) a centralized policy-gradient reinforcement learning (RL) approach that begins with a grid deployment and learns energy-aware device relocation and duty-cycling policies, (iii) a mixed-integer linear programming (LP) approach that couples static deployment design with duty-cycle allocation, and (iv) a hybrid LP+RL that combines optimization-based initialization with learning-based refinement. Using representative A-IoT use cases, we evaluate coverage as a function of device density, field-of-view, and maximum feasible duty cycle, determined by harvested energy and device consumption. Numerical results indicate that the proposed LP+RL and RL policies consistently outperform both the grid baseline and the LP-based method, achieving up to 2x higher mean effective coverage in low and medium energy harvesting (EH) regimes. In contrast, the standalone LP method remains limited by its conservative static duty cycle allocation under tight EH constraints. Moreover, the structured initialization of the LP+RL method substantially accelerates convergence, reducing the total offline optimization time by up to 10x compared to the standalone RL.",
+      "url": "http://arxiv.org/abs/2608.26944v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26944v1",
+      "doi": null,
+      "published_at": "2026-08-27T10:45:11+00:00",
+      "categories": [
+        "eess.SY",
+        "cs.IT"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "scheduling"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.0,
+      "llm_score": 6.0,
+      "final_score": 6.0,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、scheduling",
+      "ai_summary": "该论文题为《Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing》，来自 arXiv。从摘要看，论文主要内容为：Ambient IoT (A-IoT) devices rely on energy harvesting and duty cycling to sustain operation, thereby fundamentally changing collaborative sensing compared with traditional always-ON sensor networks. In this paper, we study the joint deployment and sensing scheduling of A-IoT devices equipped with directional sensing. We explore four solution strategies: (i) a grid deployment with static duty cycling, (ii) a centraliz...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-27T18:45:11+08:00",
+      "published_date_local": "2026-08-27",
+      "published_time_local": "18:45",
+      "doi_url": null,
+      "citation_key": "ruzguirola2026energyneutral6944v1",
+      "bibtex_entry": "@article{ruzguirola2026energyneutral6944v1,\n  title = {Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing},\n  author = {David E. Ruíz-Guirola and Samuel Montejo-Sánchez and Richard Demo Souza and Onel L. A. López},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26944v1},\n  keywords = {Promising, AI+电力优化, 电力系统运行与规划, reinforcement learning, scheduling},\n  note = {Auto-selected by Power Paper Digest; score=6.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing\nJO  - arXiv\nAU  - David E. Ruíz-Guirola\nAU  - Samuel Montejo-Sánchez\nAU  - Richard Demo Souza\nAU  - Onel L. A. López\nKW  - Promising\nKW  - AI+电力优化\nKW  - 电力系统运行与规划\nKW  - reinforcement learning\nKW  - scheduling\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26944v1\nN1  - Auto-selected by Power Paper Digest; score=6.0\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26851v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Comparative Assessment of Frequency Scans using EMT and RMS Models",
+      "authors": [
+        "Clea Bürgel",
+        "Gustavo Valverde",
+        "Gabriela Hug"
+      ],
+      "abstract": "Frequency scans of inverter and grid impedances are crucial for assessing small-signal stability and system strength in inverter-dominated power systems. This paper compares frequency-scan results for several generating units, including a synchronous generator, grid-following, and grid-forming inverters, using fully dq electromagnetic transient and root-mean-square (RMS) models in Simulink. The scans are performed for the same device rating and operating point. Frequency scans and time-domain simulations show that the RMS models are valid only at low frequencies. We find that the current-controlled grid-forming inverter is more difficult to represent in RMS than the voltage-controlled grid-forming inverter. However, including the inner voltage-control loops improves the accuracy of the RMS representation. The paper also investigates the influence of generator and grid impedance on the total system impedance seen from the point of common coupling and relates the oscillatory modes and zeros of the system to peaks and dips in the first and second singular values of the system impedance, respectively.",
+      "url": "http://arxiv.org/abs/2608.26851v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26851v1",
+      "doi": null,
+      "published_at": "2026-08-27T09:16:47+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.42,
+      "llm_score": 6.42,
+      "final_score": 6.42,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：grid-forming、power system、power systems",
+      "ai_summary": "该论文题为《Comparative Assessment of Frequency Scans using EMT and RMS Models》，来自 arXiv。从摘要看，论文主要内容为：Frequency scans of inverter and grid impedances are crucial for assessing small-signal stability and system strength in inverter-dominated power systems. This paper compares frequency-scan results for several generating units, including a synchronous generator, grid-following, and grid-forming inverters, using fully dq electromagnetic transient and root-mean-square (RMS) models in Simulink. The scans are performed fo...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-08-27T17:16:47+08:00",
+      "published_date_local": "2026-08-27",
+      "published_time_local": "17:16",
+      "doi_url": null,
+      "citation_key": "brgel2026comparative6851v1",
+      "bibtex_entry": "@article{brgel2026comparative6851v1,\n  title = {Comparative Assessment of Frequency Scans using EMT and RMS Models},\n  author = {Clea Bürgel and Gustavo Valverde and Gabriela Hug},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2608.26851v1},\n  keywords = {Promising, 构网与暂态稳定, 电力系统运行与规划, grid-forming, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Comparative Assessment of Frequency Scans using EMT and RMS Models\nJO  - arXiv\nAU  - Clea Bürgel\nAU  - Gustavo Valverde\nAU  - Gabriela Hug\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2608.26851v1\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3727456",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation",
+      "authors": [
+        "Xiaoting Wang",
+        "Xiaozhe Wang",
+        "Gregory Kish",
+        "Yunwei Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3727456",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3727456",
+      "published_at": "2026-08-25T19:03:53+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "optimal power flow",
+        "surrogate model"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "AI+电力优化"
+      ],
+      "rule_score": 6.81,
+      "llm_score": 6.81,
+      "final_score": 6.81,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：optimal power flow、surrogate model",
+      "ai_summary": "该论文题为《A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-26T03:03:53+08:00",
+      "published_date_local": "2026-08-26",
+      "published_time_local": "03:03",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3727456",
+      "citation_key": "wang2026bayesian727456",
+      "bibtex_entry": "@article{wang2026bayesian727456,\n  title = {A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation},\n  author = {Xiaoting Wang and Xiaozhe Wang and Gregory Kish and Yunwei Li},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3727456},\n  url = {https://doi.org/10.1109/tpwrs.2026.3727456},\n  keywords = {Promising, 电力系统运行与规划, AI+电力优化, optimal power flow, surrogate model},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation\nJO  - IEEE Transactions on Power Systems\nAU  - Xiaoting Wang\nAU  - Xiaozhe Wang\nAU  - Gregory Kish\nAU  - Yunwei Li\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - AI+电力优化\nKW  - optimal power flow\nKW  - surrogate model\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3727456\nUR  - https://doi.org/10.1109/tpwrs.2026.3727456\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3726961",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty",
+      "authors": [
+        "Wei Lin",
+        "Pengfei Yan",
+        "Edoardo Dacco",
+        "Claudio A. Canizares",
+        "Yi Wang",
+        "Davide Falabretti"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3726961",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3726961",
+      "published_at": "2026-08-24T19:12:04+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "virtual power plant",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 6.81,
+      "llm_score": 6.81,
+      "final_score": 6.81,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：virtual power plant、uncertainty",
+      "ai_summary": "该论文题为《Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-08-25T03:12:04+08:00",
+      "published_date_local": "2026-08-25",
+      "published_time_local": "03:12",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3726961",
+      "citation_key": "lin2026modelfree726961",
+      "bibtex_entry": "@article{lin2026modelfree726961,\n  title = {Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty},\n  author = {Wei Lin and Pengfei Yan and Edoardo Dacco and Claudio A. Canizares and Yi Wang and Davide Falabretti},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3726961},\n  url = {https://doi.org/10.1109/tsg.2026.3726961},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, virtual power plant, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty\nJO  - IEEE Transactions on Smart Grid\nAU  - Wei Lin\nAU  - Pengfei Yan\nAU  - Edoardo Dacco\nAU  - Claudio A. Canizares\nAU  - Yi Wang\nAU  - Davide Falabretti\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - virtual power plant\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tsg.2026.3726961\nUR  - https://doi.org/10.1109/tsg.2026.3726961\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-08-31T13:50:37.845664+08:00",
+      "last_seen": "2026-08-31T13:50:37.845664+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-08-25",
+          "target_date": "2026-08-31",
+          "generated_at": "2026-08-31T13:50:37.845664+08:00"
+        }
+      ]
+    },
     {
       "id": "https://arxiv.org/abs/2608.20914",
       "source": "arxiv",

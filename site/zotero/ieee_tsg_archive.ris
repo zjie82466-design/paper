@@ -1,4 +1,58 @@
 TY  - JOUR
+TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
+JO  - IEEE Transactions on Smart Grid
+AU  - Chenhan Xiao
+AU  - Xiangyu Zhou
+AU  - Yang Weng
+KW  - Background Read
+KW  - AI+电力优化
+KW  - machine learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3728733
+UR  - https://doi.org/10.1109/tsg.2026.3728733
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Ganzhou Yao
+AU  - Xin Ge
+AU  - Zhongyue Lu
+AU  - Josep M. Guerrero
+AU  - Jose Matas
+AU  - Zirong Luo
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3727960
+UR  - https://doi.org/10.1109/tsg.2026.3727960
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty
+JO  - IEEE Transactions on Smart Grid
+AU  - Wei Lin
+AU  - Pengfei Yan
+AU  - Edoardo Dacco
+AU  - Claudio A. Canizares
+AU  - Yi Wang
+AU  - Davide Falabretti
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - virtual power plant
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tsg.2026.3726961
+UR  - https://doi.org/10.1109/tsg.2026.3726961
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
 TI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination
 JO  - IEEE Transactions on Smart Grid
 AU  - Mengxiang Liu

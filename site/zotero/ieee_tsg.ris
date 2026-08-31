@@ -1,57 +1,53 @@
 TY  - JOUR
-TI  - Decision-Focused Learning with Machine Learning Proxies for Energy Storage Systems
+TI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty
 JO  - IEEE Transactions on Smart Grid
-AU  - Ruben Smets
-AU  - Mathieu Tanneau
-AU  - Jean-Francois Toubeau
-AU  - Kenneth Bruninx
-AU  - Erik Delarue
-AU  - Pascal Van Hentenryck
-KW  - Strong Match
-KW  - AI+电力优化
+AU  - Wei Lin
+AU  - Pengfei Yan
+AU  - Edoardo Dacco
+AU  - Claudio A. Canizares
+AU  - Yi Wang
+AU  - Davide Falabretti
+KW  - Promising
 KW  - 源网荷储协同
-KW  - decision-focused learning
-KW  - energy storage
-KW  - machine learning
+KW  - 鲁棒随机优化
+KW  - virtual power plant
+KW  - uncertainty
 PY  - 2026
-DO  - 10.1109/tsg.2026.3724483
-UR  - https://doi.org/10.1109/tsg.2026.3724483
-N1  - Auto-selected by Power Paper Digest; score=8.1
+DO  - 10.1109/tsg.2026.3726961
+UR  - https://doi.org/10.1109/tsg.2026.3726961
+N1  - Auto-selected by Power Paper Digest; score=6.8
 ER  -
 
 TY  - JOUR
-TI  - Hierarchical Sensor-Spoofing Defence Framework for Networked DC Microgrids via Cyber-Physical Coordination
+TI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Mengxiang Liu
-AU  - Xin Zhang
-AU  - Shiyi Zhao
-AU  - Ruilong Deng
+AU  - Ganzhou Yao
+AU  - Xin Ge
+AU  - Zhongyue Lu
+AU  - Josep M. Guerrero
+AU  - Jose Matas
+AU  - Zirong Luo
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3725864
-UR  - https://doi.org/10.1109/tsg.2026.3725864
-N1  - Auto-selected by Power Paper Digest; score=6.9
+DO  - 10.1109/tsg.2026.3727960
+UR  - https://doi.org/10.1109/tsg.2026.3727960
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - A Two-Stage Robust Dispatching Model for Antarctic Islanded Microgrid with Wind Turbine Reserve Integration
+TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
 JO  - IEEE Transactions on Smart Grid
-AU  - Pengfei Gu
-AU  - Yuan Du
-AU  - Yixun Xue
-AU  - Mohammad Shahidehpour
-AU  - Xinyue Chang
-AU  - Hongbin Sun
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - dispatch
-KW  - microgrid
+AU  - Chenhan Xiao
+AU  - Xiangyu Zhou
+AU  - Yang Weng
+KW  - Background Read
+KW  - AI+电力优化
+KW  - machine learning
 PY  - 2026
-DO  - 10.1109/tsg.2026.3725835
-UR  - https://doi.org/10.1109/tsg.2026.3725835
-N1  - Auto-selected by Power Paper Digest; score=6.8
+DO  - 10.1109/tsg.2026.3728733
+UR  - https://doi.org/10.1109/tsg.2026.3728733
+N1  - Auto-selected by Power Paper Digest; score=5.3
 ER  -

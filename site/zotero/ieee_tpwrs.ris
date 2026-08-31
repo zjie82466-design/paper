@@ -1,30 +1,37 @@
 TY  - JOUR
-TI  - Learning-Augmented Power System Operations: A Unified Optimization View
+TI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation
 JO  - IEEE Transactions on Power Systems
-AU  - Wangkun Xu
-AU  - Zhongda Chu
-AU  - Fei Teng
-KW  - Strong Match
+AU  - Xiaoting Wang
+AU  - Xiaozhe Wang
+AU  - Gregory Kish
+AU  - Yunwei Li
+KW  - Promising
 KW  - 电力系统运行与规划
-KW  - power system operation
-KW  - power system
+KW  - AI+电力优化
+KW  - optimal power flow
+KW  - surrogate model
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3726363
-UR  - https://doi.org/10.1109/tpwrs.2026.3726363
-N1  - Auto-selected by Power Paper Digest; score=7.9
+DO  - 10.1109/tpwrs.2026.3727456
+UR  - https://doi.org/10.1109/tpwrs.2026.3727456
+N1  - Auto-selected by Power Paper Digest; score=6.8
 ER  -
 
 TY  - JOUR
-TI  - Improved Clustered Unit Commitment: Proposing Two Tight Models to Mitigate Infeasible Solution Space
+TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
 JO  - IEEE Transactions on Power Systems
-AU  - Afshin Najafi
-AU  - Mohammad A. Pourmousavi
-AU  - Turaj Amraee
+AU  - Minghao Guo
+AU  - Hongjun Gao
+AU  - Yida Yang
+AU  - Renjun Wang
+AU  - Yuechuan Tao
+AU  - Longbo Luo
+AU  - Zhao Yang Dong
+AU  - Junyong Liu
 KW  - Background Read
 KW  - 电力系统运行与规划
-KW  - unit commitment
+KW  - scheduling
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3724406
-UR  - https://doi.org/10.1109/tpwrs.2026.3724406
-N1  - Auto-selected by Power Paper Digest; score=5.2
+DO  - 10.1109/tpwrs.2026.3728446
+UR  - https://doi.org/10.1109/tpwrs.2026.3728446
+N1  - Auto-selected by Power Paper Digest; score=5.6
 ER  -

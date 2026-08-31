@@ -1,4 +1,42 @@
 TY  - JOUR
+TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
+JO  - IEEE Transactions on Power Systems
+AU  - Minghao Guo
+AU  - Hongjun Gao
+AU  - Yida Yang
+AU  - Renjun Wang
+AU  - Yuechuan Tao
+AU  - Longbo Luo
+AU  - Zhao Yang Dong
+AU  - Junyong Liu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3728446
+UR  - https://doi.org/10.1109/tpwrs.2026.3728446
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation
+JO  - IEEE Transactions on Power Systems
+AU  - Xiaoting Wang
+AU  - Xiaozhe Wang
+AU  - Gregory Kish
+AU  - Yunwei Li
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - optimal power flow
+KW  - surrogate model
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3727456
+UR  - https://doi.org/10.1109/tpwrs.2026.3727456
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
 TI  - Learning-Augmented Power System Operations: A Unified Optimization View
 JO  - IEEE Transactions on Power Systems
 AU  - Wangkun Xu

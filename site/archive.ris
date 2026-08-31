@@ -1,4 +1,163 @@
 TY  - JOUR
+TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
+JO  - IEEE Transactions on Smart Grid
+AU  - Chenhan Xiao
+AU  - Xiangyu Zhou
+AU  - Yang Weng
+KW  - Background Read
+KW  - AI+电力优化
+KW  - machine learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3728733
+UR  - https://doi.org/10.1109/tsg.2026.3728733
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
+JO  - IEEE Transactions on Power Systems
+AU  - Minghao Guo
+AU  - Hongjun Gao
+AU  - Yida Yang
+AU  - Renjun Wang
+AU  - Yuechuan Tao
+AU  - Longbo Luo
+AU  - Zhao Yang Dong
+AU  - Junyong Liu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3728446
+UR  - https://doi.org/10.1109/tpwrs.2026.3728446
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems
+JO  - arXiv
+AU  - Rock Agon
+AU  - Robin Preece
+AU  - Jovica V. Milanovic
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - power system
+KW  - power systems
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.28296v1
+N1  - Auto-selected by Power Paper Digest; score=7.0
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Ganzhou Yao
+AU  - Xin Ge
+AU  - Zhongyue Lu
+AU  - Josep M. Guerrero
+AU  - Jose Matas
+AU  - Zirong Luo
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3727960
+UR  - https://doi.org/10.1109/tsg.2026.3727960
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control
+JO  - arXiv
+AU  - Soraya Daabak
+AU  - Verena Häberle
+AU  - Gabriela Hug
+AU  - Gustavo Valverde
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.26975v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing
+JO  - arXiv
+AU  - David E. Ruíz-Guirola
+AU  - Samuel Montejo-Sánchez
+AU  - Richard Demo Souza
+AU  - Onel L. A. López
+KW  - Promising
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - reinforcement learning
+KW  - scheduling
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.26944v1
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - Comparative Assessment of Frequency Scans using EMT and RMS Models
+JO  - arXiv
+AU  - Clea Bürgel
+AU  - Gustavo Valverde
+AU  - Gabriela Hug
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2608.26851v1
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
+TI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation
+JO  - IEEE Transactions on Power Systems
+AU  - Xiaoting Wang
+AU  - Xiaozhe Wang
+AU  - Gregory Kish
+AU  - Yunwei Li
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - optimal power flow
+KW  - surrogate model
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3727456
+UR  - https://doi.org/10.1109/tpwrs.2026.3727456
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty
+JO  - IEEE Transactions on Smart Grid
+AU  - Wei Lin
+AU  - Pengfei Yan
+AU  - Edoardo Dacco
+AU  - Claudio A. Canizares
+AU  - Yi Wang
+AU  - Davide Falabretti
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - virtual power plant
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tsg.2026.3726961
+UR  - https://doi.org/10.1109/tsg.2026.3726961
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
 TI  - Multi-Objective Deep Reinforcement Learning for Secure and Stable Power System Operation
 JO  - arXiv
 AU  - Ioannis Papadopoulos

@@ -1,4 +1,122 @@
 TY  - JOUR
+TI  - Data-Driven Fault-Tolerant Control Method with Physical Constraint in AC Microgrids Under Hybrid Actuator Faults
+JO  - IEEE Transactions on Smart Grid
+AU  - Qi Zhou
+AU  - Chao Deng
+AU  - Sha Fan
+AU  - Wei-Wei Che
+AU  - Congcong Tian
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3730859
+UR  - https://doi.org/10.1109/tsg.2026.3730859
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids
+JO  - arXiv
+AU  - Erfan Mehdipour Abadi
+AU  - Shuo Yuan
+AU  - Le Yi Wang
+AU  - Caisheng Wang
+AU  - Feng Lin
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.05332v1
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
+TI  - On the Concept of an Optimal Portfolio of Uncertain Flexible Loads
+JO  - arXiv
+AU  - Julie Rousseau
+AU  - Philipp Heer
+AU  - Kristina Orehounig
+AU  - Gabriela Hug
+KW  - Background Read
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - chance-constrained
+KW  - power system
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.05176v1
+N1  - Auto-selected by Power Paper Digest; score=5.3
+ER  -
+
+TY  - JOUR
+TI  - Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual Affine Recourse
+JO  - arXiv
+AU  - Aidan Looney
+AU  - Qian Zhang
+AU  - Le Xie
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - economic dispatch
+KW  - dispatch
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.05156v1
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classification
+JO  - arXiv
+AU  - Adnan Anwar
+KW  - Promising
+KW  - AI+电力优化
+KW  - 电力系统运行与规划
+KW  - graph neural network
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.04943v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - DRL-Driven Edge Control for Real-Time Coordination of Grid-Forming BESSs under Spatial Frequency Dynamics in Weak Grids
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Yousef Asadi
+AU  - Mohsen Eskandari
+AU  - Milad Mansouri
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tste.2026.3729867
+UR  - https://doi.org/10.1109/tste.2026.3729867
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - PCE-Kriging Surrogate-Based Stability Analysis Assisting Economic Dispatch for Offshore Wind-Solar-Wave Energy Base with Virtual Inertia
+JO  - IEEE Transactions on Sustainable Energy
+AU  - J.H. Zheng
+AU  - Yule Lin
+AU  - Yang Liu
+AU  - Wei Yao
+AU  - Jinghua Li
+AU  - Q.H. Wu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tste.2026.3728758
+UR  - https://doi.org/10.1109/tste.2026.3728758
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
 TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
 JO  - IEEE Transactions on Smart Grid
 AU  - Chenhan Xiao

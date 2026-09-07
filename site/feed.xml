@@ -5,21 +5,20 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 31 Aug 2026 13:50:37 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 12:58:41 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-08-31</title>
+      <title>电力系统论文周报 · 2026-09-07</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-08-31</guid>
-      <pubDate>Mon, 31 Aug 2026 13:50:37 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-08-31
-1. Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems [arXiv] - 7.0/10
-2. A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation [IEEE Transactions on Power Systems] - 6.8/10
-3. Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty [IEEE Transactions on Smart Grid] - 6.8/10
-4. Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids [IEEE Transactions on Smart Grid] - 6.5/10
-5. Comparative Assessment of Frequency Scans using EMT and RMS Models [arXiv] - 6.4/10
-6. Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control [arXiv] - 6.1/10
-7. Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing [arXiv] - 6.0/10
-8. Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility [IEEE Transactions on Power Systems] - 5.6/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 12:58:41 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-09-07
+1. Data-Driven Fault-Tolerant Control Method with Physical Constraint in AC Microgrids Under Hybrid Actuator Faults [IEEE Transactions on Smart Grid] - 6.9/10
+2. Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids [arXiv] - 6.4/10
+3. PCE-Kriging Surrogate-Based Stability Analysis Assisting Economic Dispatch for Offshore Wind-Solar-Wave Energy Base with Virtual Inertia [IEEE Transactions on Sustainable Energy] - 6.4/10
+4. Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual Affine Recourse [arXiv] - 6.0/10
+5. DRL-Driven Edge Control for Real-Time Coordination of Grid-Forming BESSs under Spatial Frequency Dynamics in Weak Grids [IEEE Transactions on Sustainable Energy] - 6.0/10
+6. Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classification [arXiv] - 5.7/10
+7. On the Concept of an Optimal Portfolio of Uncertain Flexible Loads [arXiv] - 5.3/10</description>
     </item>
   </channel>
 </rss>

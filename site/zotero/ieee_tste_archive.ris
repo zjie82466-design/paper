@@ -1,4 +1,38 @@
 TY  - JOUR
+TI  - DRL-Driven Edge Control for Real-Time Coordination of Grid-Forming BESSs under Spatial Frequency Dynamics in Weak Grids
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Yousef Asadi
+AU  - Mohsen Eskandari
+AU  - Milad Mansouri
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tste.2026.3729867
+UR  - https://doi.org/10.1109/tste.2026.3729867
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - PCE-Kriging Surrogate-Based Stability Analysis Assisting Economic Dispatch for Offshore Wind-Solar-Wave Energy Base with Virtual Inertia
+JO  - IEEE Transactions on Sustainable Energy
+AU  - J.H. Zheng
+AU  - Yule Lin
+AU  - Yang Liu
+AU  - Wei Yao
+AU  - Jinghua Li
+AU  - Q.H. Wu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tste.2026.3728758
+UR  - https://doi.org/10.1109/tste.2026.3728758
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
 TI  - Physics-Informed Reinforcement Learning for Coordinated Real-Time Frequency Control of Grid-Forming Energy Storage in Low-Inertia Microgrids
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Linwei Sang

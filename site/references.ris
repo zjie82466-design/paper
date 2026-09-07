@@ -1,158 +1,117 @@
 TY  - JOUR
-TI  - Hierarchical Agglomerative Clustering for Efficient Annual Voltage Security Assessment in Very-High RES Penetrated Power Systems
-JO  - arXiv
-AU  - Rock Agon
-AU  - Robin Preece
-AU  - Jovica V. Milanovic
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 鲁棒随机优化
-KW  - power system
-KW  - power systems
-KW  - uncertainty
-PY  - 2026
-UR  - http://arxiv.org/abs/2608.28296v1
-N1  - Auto-selected by Power Paper Digest; score=7.0
-ER  -
-
-TY  - JOUR
-TI  - A Bayesian Adaptive Spectral Surrogate Model for Efficient Probabilistic Optimal Power Flow Evaluation
-JO  - IEEE Transactions on Power Systems
-AU  - Xiaoting Wang
-AU  - Xiaozhe Wang
-AU  - Gregory Kish
-AU  - Yunwei Li
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - AI+电力优化
-KW  - optimal power flow
-KW  - surrogate model
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3727456
-UR  - https://doi.org/10.1109/tpwrs.2026.3727456
-N1  - Auto-selected by Power Paper Digest; score=6.8
-ER  -
-
-TY  - JOUR
-TI  - Model-Free Aggregation for Virtual Power Plants under Distributed Energy Resource Uncertainty
+TI  - Data-Driven Fault-Tolerant Control Method with Physical Constraint in AC Microgrids Under Hybrid Actuator Faults
 JO  - IEEE Transactions on Smart Grid
-AU  - Wei Lin
-AU  - Pengfei Yan
-AU  - Edoardo Dacco
-AU  - Claudio A. Canizares
-AU  - Yi Wang
-AU  - Davide Falabretti
-KW  - Promising
-KW  - 源网荷储协同
-KW  - 鲁棒随机优化
-KW  - virtual power plant
-KW  - uncertainty
-PY  - 2026
-DO  - 10.1109/tsg.2026.3726961
-UR  - https://doi.org/10.1109/tsg.2026.3726961
-N1  - Auto-selected by Power Paper Digest; score=6.8
-ER  -
-
-TY  - JOUR
-TI  - Real-Time Prediction and Active Prevention of Chaotic Voltage Collapse in Wave-Energy DC Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Ganzhou Yao
-AU  - Xin Ge
-AU  - Zhongyue Lu
-AU  - Josep M. Guerrero
-AU  - Jose Matas
-AU  - Zirong Luo
+AU  - Qi Zhou
+AU  - Chao Deng
+AU  - Sha Fan
+AU  - Wei-Wei Che
+AU  - Congcong Tian
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3727960
-UR  - https://doi.org/10.1109/tsg.2026.3727960
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3730859
+UR  - https://doi.org/10.1109/tsg.2026.3730859
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -
 
 TY  - JOUR
-TI  - Comparative Assessment of Frequency Scans using EMT and RMS Models
+TI  - Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids
 JO  - arXiv
-AU  - Clea Bürgel
-AU  - Gustavo Valverde
-AU  - Gabriela Hug
+AU  - Erfan Mehdipour Abadi
+AU  - Shuo Yuan
+AU  - Le Yi Wang
+AU  - Caisheng Wang
+AU  - Feng Lin
 KW  - Promising
-KW  - 构网与暂态稳定
-KW  - 电力系统运行与规划
-KW  - grid-forming
-KW  - power system
-KW  - power systems
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
-UR  - http://arxiv.org/abs/2608.26851v1
+UR  - http://arxiv.org/abs/2609.05332v1
 N1  - Auto-selected by Power Paper Digest; score=6.4
 ER  -
 
 TY  - JOUR
-TI  - Mitigating Forced Oscillations in Power Systems via Data-Enabled Predictive Control
-JO  - arXiv
-AU  - Soraya Daabak
-AU  - Verena Häberle
-AU  - Gabriela Hug
-AU  - Gustavo Valverde
+TI  - PCE-Kriging Surrogate-Based Stability Analysis Assisting Economic Dispatch for Offshore Wind-Solar-Wave Energy Base with Virtual Inertia
+JO  - IEEE Transactions on Sustainable Energy
+AU  - J.H. Zheng
+AU  - Yule Lin
+AU  - Yang Liu
+AU  - Wei Yao
+AU  - Jinghua Li
+AU  - Q.H. Wu
 KW  - Promising
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - economic dispatch
+KW  - dispatch
 PY  - 2026
-UR  - http://arxiv.org/abs/2608.26975v1
-N1  - Auto-selected by Power Paper Digest; score=6.1
+DO  - 10.1109/tste.2026.3728758
+UR  - https://doi.org/10.1109/tste.2026.3728758
+N1  - Auto-selected by Power Paper Digest; score=6.4
 ER  -
 
 TY  - JOUR
-TI  - Energy-Neutral Coverage Optimization by Joint Deployment and Scheduling in Ambient IoT Devices with Directional Sensing
+TI  - Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual Affine Recourse
 JO  - arXiv
-AU  - David E. Ruíz-Guirola
-AU  - Samuel Montejo-Sánchez
-AU  - Richard Demo Souza
-AU  - Onel L. A. López
+AU  - Aidan Looney
+AU  - Qian Zhang
+AU  - Le Xie
 KW  - Promising
-KW  - AI+电力优化
 KW  - 电力系统运行与规划
-KW  - reinforcement learning
-KW  - scheduling
+KW  - 鲁棒随机优化
+KW  - economic dispatch
+KW  - dispatch
+KW  - uncertainty
 PY  - 2026
-UR  - http://arxiv.org/abs/2608.26944v1
+UR  - http://arxiv.org/abs/2609.05156v1
 N1  - Auto-selected by Power Paper Digest; score=6.0
 ER  -
 
 TY  - JOUR
-TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
-JO  - IEEE Transactions on Power Systems
-AU  - Minghao Guo
-AU  - Hongjun Gao
-AU  - Yida Yang
-AU  - Renjun Wang
-AU  - Yuechuan Tao
-AU  - Longbo Luo
-AU  - Zhao Yang Dong
-AU  - Junyong Liu
-KW  - Background Read
-KW  - 电力系统运行与规划
-KW  - scheduling
+TI  - DRL-Driven Edge Control for Real-Time Coordination of Grid-Forming BESSs under Spatial Frequency Dynamics in Weak Grids
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Yousef Asadi
+AU  - Mohsen Eskandari
+AU  - Milad Mansouri
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3728446
-UR  - https://doi.org/10.1109/tpwrs.2026.3728446
-N1  - Auto-selected by Power Paper Digest; score=5.6
+DO  - 10.1109/tste.2026.3729867
+UR  - https://doi.org/10.1109/tste.2026.3729867
+N1  - Auto-selected by Power Paper Digest; score=6.0
 ER  -
 
 TY  - JOUR
-TI  - Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI
-JO  - IEEE Transactions on Smart Grid
-AU  - Chenhan Xiao
-AU  - Xiangyu Zhou
-AU  - Yang Weng
-KW  - Background Read
+TI  - Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classification
+JO  - arXiv
+AU  - Adnan Anwar
+KW  - Promising
 KW  - AI+电力优化
-KW  - machine learning
+KW  - 电力系统运行与规划
+KW  - graph neural network
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3728733
-UR  - https://doi.org/10.1109/tsg.2026.3728733
+UR  - http://arxiv.org/abs/2609.04943v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - On the Concept of an Optimal Portfolio of Uncertain Flexible Loads
+JO  - arXiv
+AU  - Julie Rousseau
+AU  - Philipp Heer
+AU  - Kristina Orehounig
+AU  - Gabriela Hug
+KW  - Background Read
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - chance-constrained
+KW  - power system
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.05176v1
 N1  - Auto-selected by Power Paper Digest; score=5.3
 ER  -

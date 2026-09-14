@@ -1,117 +1,87 @@
 TY  - JOUR
-TI  - Data-Driven Fault-Tolerant Control Method with Physical Constraint in AC Microgrids Under Hybrid Actuator Faults
-JO  - IEEE Transactions on Smart Grid
-AU  - Qi Zhou
-AU  - Chao Deng
-AU  - Sha Fan
-AU  - Wei-Wei Che
-AU  - Congcong Tian
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3730859
-UR  - https://doi.org/10.1109/tsg.2026.3730859
-N1  - Auto-selected by Power Paper Digest; score=6.9
-ER  -
-
-TY  - JOUR
-TI  - Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids
-JO  - arXiv
-AU  - Erfan Mehdipour Abadi
-AU  - Shuo Yuan
-AU  - Le Yi Wang
-AU  - Caisheng Wang
-AU  - Feng Lin
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-UR  - http://arxiv.org/abs/2609.05332v1
-N1  - Auto-selected by Power Paper Digest; score=6.4
-ER  -
-
-TY  - JOUR
-TI  - PCE-Kriging Surrogate-Based Stability Analysis Assisting Economic Dispatch for Offshore Wind-Solar-Wave Energy Base with Virtual Inertia
+TI  - Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems
 JO  - IEEE Transactions on Sustainable Energy
-AU  - J.H. Zheng
-AU  - Yule Lin
-AU  - Yang Liu
-AU  - Wei Yao
-AU  - Jinghua Li
-AU  - Q.H. Wu
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - economic dispatch
-KW  - dispatch
-PY  - 2026
-DO  - 10.1109/tste.2026.3728758
-UR  - https://doi.org/10.1109/tste.2026.3728758
-N1  - Auto-selected by Power Paper Digest; score=6.4
-ER  -
-
-TY  - JOUR
-TI  - Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual Affine Recourse
-JO  - arXiv
-AU  - Aidan Looney
-AU  - Qian Zhang
-AU  - Le Xie
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 鲁棒随机优化
-KW  - economic dispatch
-KW  - dispatch
-KW  - uncertainty
-PY  - 2026
-UR  - http://arxiv.org/abs/2609.05156v1
-N1  - Auto-selected by Power Paper Digest; score=6.0
-ER  -
-
-TY  - JOUR
-TI  - DRL-Driven Edge Control for Real-Time Coordination of Grid-Forming BESSs under Spatial Frequency Dynamics in Weak Grids
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Yousef Asadi
-AU  - Mohsen Eskandari
-AU  - Milad Mansouri
-KW  - Promising
+AU  - Ming Li
+AU  - Rui Zhang
+AU  - Hua Geng
+AU  - Xiuqiang He
+AU  - Tianli Fang
+AU  - Xing Zhang
+KW  - Strong Match
 KW  - 构网与暂态稳定
 KW  - grid-forming
+KW  - transient stability
 PY  - 2026
-DO  - 10.1109/tste.2026.3729867
-UR  - https://doi.org/10.1109/tste.2026.3729867
-N1  - Auto-selected by Power Paper Digest; score=6.0
+DO  - 10.1109/tste.2026.3733084
+UR  - https://doi.org/10.1109/tste.2026.3733084
+N1  - Auto-selected by Power Paper Digest; score=8.1
 ER  -
 
 TY  - JOUR
-TI  - Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classification
-JO  - arXiv
-AU  - Adnan Anwar
+TI  - L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention
+JO  - IEEE Transactions on Smart Grid
+AU  - Liu Wencheng
+AU  - Zhao Xiaoxuan
+AU  - Mao Zhizhong
 KW  - Promising
-KW  - AI+电力优化
 KW  - 电力系统运行与规划
-KW  - graph neural network
+KW  - 源网荷储协同
+KW  - dispatch
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3726858
+UR  - https://doi.org/10.1109/tsg.2026.3726858
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Qi Tang
+AU  - Chao Deng
+AU  - Sha Fan
+AU  - Shan Zuo
+AU  - Yu Wang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3732152
+UR  - https://doi.org/10.1109/tsg.2026.3732152
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems
+JO  - IEEE Transactions on Smart Grid
+AU  - Duange Guo
+AU  - Shanyu Li
+AU  - Xingyu Shi
+AU  - Shan Jiang
+AU  - Georgios Konstantinou
+AU  - Yijia Cao
+KW  - Promising
+KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-UR  - http://arxiv.org/abs/2609.04943v1
-N1  - Auto-selected by Power Paper Digest; score=5.7
+DO  - 10.1109/tsg.2026.3731592
+UR  - https://doi.org/10.1109/tsg.2026.3731592
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - On the Concept of an Optimal Portfolio of Uncertain Flexible Loads
-JO  - arXiv
-AU  - Julie Rousseau
-AU  - Philipp Heer
-AU  - Kristina Orehounig
-AU  - Gabriela Hug
-KW  - Background Read
-KW  - 鲁棒随机优化
-KW  - 电力系统运行与规划
-KW  - chance-constrained
-KW  - power system
+TI  - Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Hisham Mahmood
+AU  - Marcelo A. Elizondo
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
-UR  - http://arxiv.org/abs/2609.05176v1
-N1  - Auto-selected by Power Paper Digest; score=5.3
+DO  - 10.1109/tsg.2026.3732228
+UR  - https://doi.org/10.1109/tsg.2026.3732228
+N1  - Auto-selected by Power Paper Digest; score=6.3
 ER  -

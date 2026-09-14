@@ -7,29 +7,29 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-09-07T12:58:41.207621+08:00",
-    "target_date": "2026-09-07",
-    "window_start": "2026-09-01",
+    "generated_at": "2026-09-14T13:11:45.724989+08:00",
+    "target_date": "2026-09-14",
+    "window_start": "2026-09-08",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 131,
-    "archive_count": 131,
+    "paper_count": 136,
+    "archive_count": 136,
     "source_counts": {
-      "ieee": 73,
+      "ieee": 78,
       "arxiv": 58
     },
     "journal_counts": {
       "arXiv": 58,
-      "IEEE Transactions on Smart Grid": 38,
+      "IEEE Transactions on Smart Grid": 42,
       "IEEE Transactions on Power Systems": 22,
-      "IEEE Transactions on Sustainable Energy": 13
+      "IEEE Transactions on Sustainable Energy": 14
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 72,
-      "源网荷储协同": 56,
+      "电力系统运行与规划": 74,
+      "源网荷储协同": 59,
       "AI+电力优化": 32,
+      "构网与暂态稳定": 21,
       "鲁棒随机优化": 21,
-      "构网与暂态稳定": 20,
       "韧性与恢复": 9
     },
     "required_topics": [
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 38
+        "archive_count": 42
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -87,7 +87,7 @@
         "archive_bibtex_path": "./zotero/ieee_tste_archive.bib",
         "archive_ris_path": "./zotero/ieee_tste_archive.ris",
         "selected_count": 0,
-        "archive_count": 13
+        "archive_count": 14
       }
     ],
     "source_notes": {
@@ -102,8 +102,311 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 73,
+      "count": 78,
       "papers": [
+        {
+          "id": "10.1109/tste.2026.3733084",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems",
+          "authors": [
+            "Ming Li",
+            "Rui Zhang",
+            "Hua Geng",
+            "Xiuqiang He",
+            "Tianli Fang",
+            "Xing Zhang"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3733084",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3733084",
+          "published_at": "2026-09-10T19:03:40+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "transient stability"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定"
+          ],
+          "rule_score": 8.13,
+          "llm_score": 8.13,
+          "final_score": 8.13,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、transient stability",
+          "ai_summary": "该论文题为《Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-11T03:03:40+08:00",
+          "published_date_local": "2026-09-11",
+          "published_time_local": "03:03",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3733084",
+          "citation_key": "li2026stabilitydomainbased733084",
+          "bibtex_entry": "@article{li2026stabilitydomainbased733084,\n  title = {Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems},\n  author = {Ming Li and Rui Zhang and Hua Geng and Xiuqiang He and Tianli Fang and Xing Zhang},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3733084},\n  url = {https://doi.org/10.1109/tste.2026.3733084},\n  keywords = {Strong Match, 构网与暂态稳定, grid-forming, transient stability},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Ming Li\nAU  - Rui Zhang\nAU  - Hua Geng\nAU  - Xiuqiang He\nAU  - Tianli Fang\nAU  - Xing Zhang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - grid-forming\nKW  - transient stability\nPY  - 2026\nDO  - 10.1109/tste.2026.3733084\nUR  - https://doi.org/10.1109/tste.2026.3733084\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-09-14T13:11:45.724989+08:00",
+          "last_seen": "2026-09-14T13:11:45.724989+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-08",
+              "target_date": "2026-09-14",
+              "generated_at": "2026-09-14T13:11:45.724989+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3732228",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids",
+          "authors": [
+            "Hisham Mahmood",
+            "Marcelo A. Elizondo"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3732228",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3732228",
+          "published_at": "2026-09-09T19:04:22+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.33,
+          "llm_score": 6.33,
+          "final_score": 6.33,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-10T03:04:22+08:00",
+          "published_date_local": "2026-09-10",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3732228",
+          "citation_key": "mahmood2026gridformingcapable732228",
+          "bibtex_entry": "@article{mahmood2026gridformingcapable732228,\n  title = {Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids},\n  author = {Hisham Mahmood and Marcelo A. Elizondo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3732228},\n  url = {https://doi.org/10.1109/tsg.2026.3732228},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Hisham Mahmood\nAU  - Marcelo A. Elizondo\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3732228\nUR  - https://doi.org/10.1109/tsg.2026.3732228\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-14T13:11:45.724989+08:00",
+          "last_seen": "2026-09-14T13:11:45.724989+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-08",
+              "target_date": "2026-09-14",
+              "generated_at": "2026-09-14T13:11:45.724989+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3732152",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids",
+          "authors": [
+            "Qi Tang",
+            "Chao Deng",
+            "Sha Fan",
+            "Shan Zuo",
+            "Yu Wang"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3732152",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3732152",
+          "published_at": "2026-09-08T19:03:54+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-09T03:03:54+08:00",
+          "published_date_local": "2026-09-09",
+          "published_time_local": "03:03",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3732152",
+          "citation_key": "tang2026hybridattackresilient732152",
+          "bibtex_entry": "@article{tang2026hybridattackresilient732152,\n  title = {Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids},\n  author = {Qi Tang and Chao Deng and Sha Fan and Shan Zuo and Yu Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3732152},\n  url = {https://doi.org/10.1109/tsg.2026.3732152},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Qi Tang\nAU  - Chao Deng\nAU  - Sha Fan\nAU  - Shan Zuo\nAU  - Yu Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3732152\nUR  - https://doi.org/10.1109/tsg.2026.3732152\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-14T13:11:45.724989+08:00",
+          "last_seen": "2026-09-14T13:11:45.724989+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-08",
+              "target_date": "2026-09-14",
+              "generated_at": "2026-09-14T13:11:45.724989+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3731592",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems",
+          "authors": [
+            "Duange Guo",
+            "Shanyu Li",
+            "Xingyu Shi",
+            "Shan Jiang",
+            "Georgios Konstantinou",
+            "Yijia Cao"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3731592",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3731592",
+          "published_at": "2026-09-08T19:02:42+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-09T03:02:42+08:00",
+          "published_date_local": "2026-09-09",
+          "published_time_local": "03:02",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3731592",
+          "citation_key": "guo2026large731592",
+          "bibtex_entry": "@article{guo2026large731592,\n  title = {A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems},\n  author = {Duange Guo and Shanyu Li and Xingyu Shi and Shan Jiang and Georgios Konstantinou and Yijia Cao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3731592},\n  url = {https://doi.org/10.1109/tsg.2026.3731592},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Duange Guo\nAU  - Shanyu Li\nAU  - Xingyu Shi\nAU  - Shan Jiang\nAU  - Georgios Konstantinou\nAU  - Yijia Cao\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tsg.2026.3731592\nUR  - https://doi.org/10.1109/tsg.2026.3731592\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-14T13:11:45.724989+08:00",
+          "last_seen": "2026-09-14T13:11:45.724989+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-08",
+              "target_date": "2026-09-14",
+              "generated_at": "2026-09-14T13:11:45.724989+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3726858",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention",
+          "authors": [
+            "Liu Wencheng",
+            "Zhao Xiaoxuan",
+            "Mao Zhizhong"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3726858",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3726858",
+          "published_at": "2026-09-07T19:07:26+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "dispatch",
+            "microgrid"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同"
+          ],
+          "rule_score": 6.81,
+          "llm_score": 6.81,
+          "final_score": 6.81,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：dispatch、microgrid",
+          "ai_summary": "该论文题为《L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-08T03:07:26+08:00",
+          "published_date_local": "2026-09-08",
+          "published_time_local": "03:07",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3726858",
+          "citation_key": "wencheng2026l2gridsemanticallyenhanced726858",
+          "bibtex_entry": "@article{wencheng2026l2gridsemanticallyenhanced726858,\n  title = {L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention},\n  author = {Liu Wencheng and Zhao Xiaoxuan and Mao Zhizhong},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3726858},\n  url = {https://doi.org/10.1109/tsg.2026.3726858},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, dispatch, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention\nJO  - IEEE Transactions on Smart Grid\nAU  - Liu Wencheng\nAU  - Zhao Xiaoxuan\nAU  - Mao Zhizhong\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - dispatch\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3726858\nUR  - https://doi.org/10.1109/tsg.2026.3726858\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-14T13:11:45.724989+08:00",
+          "last_seen": "2026-09-14T13:11:45.724989+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-08",
+              "target_date": "2026-09-14",
+              "generated_at": "2026-09-14T13:11:45.724989+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tsg.2026.3730859",
           "source": "ieee",
@@ -8042,6 +8345,309 @@
     }
   },
   "papers": [
+    {
+      "id": "10.1109/tste.2026.3733084",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems",
+      "authors": [
+        "Ming Li",
+        "Rui Zhang",
+        "Hua Geng",
+        "Xiuqiang He",
+        "Tianli Fang",
+        "Xing Zhang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3733084",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3733084",
+      "published_at": "2026-09-10T19:03:40+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "transient stability"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定"
+      ],
+      "rule_score": 8.13,
+      "llm_score": 8.13,
+      "final_score": 8.13,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、transient stability",
+      "ai_summary": "该论文题为《Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-11T03:03:40+08:00",
+      "published_date_local": "2026-09-11",
+      "published_time_local": "03:03",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3733084",
+      "citation_key": "li2026stabilitydomainbased733084",
+      "bibtex_entry": "@article{li2026stabilitydomainbased733084,\n  title = {Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems},\n  author = {Ming Li and Rui Zhang and Hua Geng and Xiuqiang He and Tianli Fang and Xing Zhang},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3733084},\n  url = {https://doi.org/10.1109/tste.2026.3733084},\n  keywords = {Strong Match, 构网与暂态稳定, grid-forming, transient stability},\n  note = {Auto-selected by Power Paper Digest; score=8.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Ming Li\nAU  - Rui Zhang\nAU  - Hua Geng\nAU  - Xiuqiang He\nAU  - Tianli Fang\nAU  - Xing Zhang\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - grid-forming\nKW  - transient stability\nPY  - 2026\nDO  - 10.1109/tste.2026.3733084\nUR  - https://doi.org/10.1109/tste.2026.3733084\nN1  - Auto-selected by Power Paper Digest; score=8.1\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-09-14T13:11:45.724989+08:00",
+      "last_seen": "2026-09-14T13:11:45.724989+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-08",
+          "target_date": "2026-09-14",
+          "generated_at": "2026-09-14T13:11:45.724989+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3732228",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids",
+      "authors": [
+        "Hisham Mahmood",
+        "Marcelo A. Elizondo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3732228",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3732228",
+      "published_at": "2026-09-09T19:04:22+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.33,
+      "llm_score": 6.33,
+      "final_score": 6.33,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-10T03:04:22+08:00",
+      "published_date_local": "2026-09-10",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3732228",
+      "citation_key": "mahmood2026gridformingcapable732228",
+      "bibtex_entry": "@article{mahmood2026gridformingcapable732228,\n  title = {Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids},\n  author = {Hisham Mahmood and Marcelo A. Elizondo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3732228},\n  url = {https://doi.org/10.1109/tsg.2026.3732228},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.3}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Hisham Mahmood\nAU  - Marcelo A. Elizondo\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3732228\nUR  - https://doi.org/10.1109/tsg.2026.3732228\nN1  - Auto-selected by Power Paper Digest; score=6.3\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-14T13:11:45.724989+08:00",
+      "last_seen": "2026-09-14T13:11:45.724989+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-08",
+          "target_date": "2026-09-14",
+          "generated_at": "2026-09-14T13:11:45.724989+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3732152",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids",
+      "authors": [
+        "Qi Tang",
+        "Chao Deng",
+        "Sha Fan",
+        "Shan Zuo",
+        "Yu Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3732152",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3732152",
+      "published_at": "2026-09-08T19:03:54+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-09T03:03:54+08:00",
+      "published_date_local": "2026-09-09",
+      "published_time_local": "03:03",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3732152",
+      "citation_key": "tang2026hybridattackresilient732152",
+      "bibtex_entry": "@article{tang2026hybridattackresilient732152,\n  title = {Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids},\n  author = {Qi Tang and Chao Deng and Sha Fan and Shan Zuo and Yu Wang},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3732152},\n  url = {https://doi.org/10.1109/tsg.2026.3732152},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Qi Tang\nAU  - Chao Deng\nAU  - Sha Fan\nAU  - Shan Zuo\nAU  - Yu Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3732152\nUR  - https://doi.org/10.1109/tsg.2026.3732152\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-14T13:11:45.724989+08:00",
+      "last_seen": "2026-09-14T13:11:45.724989+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-08",
+          "target_date": "2026-09-14",
+          "generated_at": "2026-09-14T13:11:45.724989+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3731592",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems",
+      "authors": [
+        "Duange Guo",
+        "Shanyu Li",
+        "Xingyu Shi",
+        "Shan Jiang",
+        "Georgios Konstantinou",
+        "Yijia Cao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3731592",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3731592",
+      "published_at": "2026-09-08T19:02:42+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-09T03:02:42+08:00",
+      "published_date_local": "2026-09-09",
+      "published_time_local": "03:02",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3731592",
+      "citation_key": "guo2026large731592",
+      "bibtex_entry": "@article{guo2026large731592,\n  title = {A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems},\n  author = {Duange Guo and Shanyu Li and Xingyu Shi and Shan Jiang and Georgios Konstantinou and Yijia Cao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3731592},\n  url = {https://doi.org/10.1109/tsg.2026.3731592},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems\nJO  - IEEE Transactions on Smart Grid\nAU  - Duange Guo\nAU  - Shanyu Li\nAU  - Xingyu Shi\nAU  - Shan Jiang\nAU  - Georgios Konstantinou\nAU  - Yijia Cao\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tsg.2026.3731592\nUR  - https://doi.org/10.1109/tsg.2026.3731592\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-14T13:11:45.724989+08:00",
+      "last_seen": "2026-09-14T13:11:45.724989+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-08",
+          "target_date": "2026-09-14",
+          "generated_at": "2026-09-14T13:11:45.724989+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3726858",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention",
+      "authors": [
+        "Liu Wencheng",
+        "Zhao Xiaoxuan",
+        "Mao Zhizhong"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3726858",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3726858",
+      "published_at": "2026-09-07T19:07:26+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "dispatch",
+        "microgrid"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同"
+      ],
+      "rule_score": 6.81,
+      "llm_score": 6.81,
+      "final_score": 6.81,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：dispatch、microgrid",
+      "ai_summary": "该论文题为《L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-08T03:07:26+08:00",
+      "published_date_local": "2026-09-08",
+      "published_time_local": "03:07",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3726858",
+      "citation_key": "wencheng2026l2gridsemanticallyenhanced726858",
+      "bibtex_entry": "@article{wencheng2026l2gridsemanticallyenhanced726858,\n  title = {L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention},\n  author = {Liu Wencheng and Zhao Xiaoxuan and Mao Zhizhong},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3726858},\n  url = {https://doi.org/10.1109/tsg.2026.3726858},\n  keywords = {Promising, 电力系统运行与规划, 源网荷储协同, dispatch, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention\nJO  - IEEE Transactions on Smart Grid\nAU  - Liu Wencheng\nAU  - Zhao Xiaoxuan\nAU  - Mao Zhizhong\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - dispatch\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3726858\nUR  - https://doi.org/10.1109/tsg.2026.3726858\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-14T13:11:45.724989+08:00",
+      "last_seen": "2026-09-14T13:11:45.724989+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-08",
+          "target_date": "2026-09-14",
+          "generated_at": "2026-09-14T13:11:45.724989+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tsg.2026.3730859",
       "source": "ieee",

@@ -1,4 +1,56 @@
 TY  - JOUR
+TI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Lei Huang
+AU  - Wei Sun
+AU  - Weitao Li
+AU  - Qiyue Li
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3734052
+UR  - https://doi.org/10.1109/tsg.2026.3734052
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization
+JO  - IEEE Transactions on Smart Grid
+AU  - Jie Deng
+AU  - Zhigang Li
+AU  - J. H. Zheng
+AU  - Ye Guo
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - scheduling
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tsg.2026.3734002
+UR  - https://doi.org/10.1109/tsg.2026.3734002
+N1  - Auto-selected by Power Paper Digest; score=6.6
+ER  -
+
+TY  - JOUR
+TI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico
+JO  - IEEE Transactions on Smart Grid
+AU  - Maximiliano Ferrari
+AU  - Michael Starke
+AU  - Joao Pinto
+AU  - John Smith
+AU  - Arturo Massol Deya
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3733980
+UR  - https://doi.org/10.1109/tsg.2026.3733980
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids
 JO  - IEEE Transactions on Smart Grid
 AU  - Hisham Mahmood

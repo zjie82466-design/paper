@@ -1,68 +1,51 @@
 TY  - JOUR
-TI  - L2-Grid:Semantically-Enhanced Microgrid Dispatch via Large Language Model Reasoning and Cross-Modal Attention
+TI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization
 JO  - IEEE Transactions on Smart Grid
-AU  - Liu Wencheng
-AU  - Zhao Xiaoxuan
-AU  - Mao Zhizhong
+AU  - Jie Deng
+AU  - Zhigang Li
+AU  - J. H. Zheng
+AU  - Ye Guo
 KW  - Promising
 KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - dispatch
-KW  - microgrid
-PY  - 2026
-DO  - 10.1109/tsg.2026.3726858
-UR  - https://doi.org/10.1109/tsg.2026.3726858
-N1  - Auto-selected by Power Paper Digest; score=6.8
-ER  -
-
-TY  - JOUR
-TI  - Hybrid-Attack-Resilient Dynamic Event-triggered Distributed Secondary Control for ESSs in Islanded Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Qi Tang
-AU  - Chao Deng
-AU  - Sha Fan
-AU  - Shan Zuo
-AU  - Yu Wang
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3732152
-UR  - https://doi.org/10.1109/tsg.2026.3732152
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - A Large Language Model-Based Framework for Automated Dynamic Simulation of Power Systems
-JO  - IEEE Transactions on Smart Grid
-AU  - Duange Guo
-AU  - Shanyu Li
-AU  - Xingyu Shi
-AU  - Shan Jiang
-AU  - Georgios Konstantinou
-AU  - Yijia Cao
-KW  - Promising
-KW  - 电力系统运行与规划
+KW  - scheduling
 KW  - power system
-KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3731592
-UR  - https://doi.org/10.1109/tsg.2026.3731592
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3734002
+UR  - https://doi.org/10.1109/tsg.2026.3734002
+N1  - Auto-selected by Power Paper Digest; score=6.6
 ER  -
 
 TY  - JOUR
-TI  - Grid‑Forming‑Capable Coordination of SST‑Interconnected Microgrids
+TI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks
 JO  - IEEE Transactions on Smart Grid
-AU  - Hisham Mahmood
-AU  - Marcelo A. Elizondo
+AU  - Lei Huang
+AU  - Wei Sun
+AU  - Weitao Li
+AU  - Qiyue Li
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3732228
-UR  - https://doi.org/10.1109/tsg.2026.3732228
-N1  - Auto-selected by Power Paper Digest; score=6.3
+DO  - 10.1109/tsg.2026.3734052
+UR  - https://doi.org/10.1109/tsg.2026.3734052
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico
+JO  - IEEE Transactions on Smart Grid
+AU  - Maximiliano Ferrari
+AU  - Michael Starke
+AU  - Joao Pinto
+AU  - John Smith
+AU  - Arturo Massol Deya
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3733980
+UR  - https://doi.org/10.1109/tsg.2026.3733980
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -

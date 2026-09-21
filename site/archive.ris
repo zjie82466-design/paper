@@ -1,4 +1,171 @@
 TY  - JOUR
+TI  - Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance
+JO  - arXiv
+AU  - Ruzica Cvetanovic
+AU  - Lazar Stojanovic
+AU  - Paolo Sbabo
+AU  - Paolo Mattavelli
+AU  - Massimo Bongiorno
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.22037v1
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization
+JO  - arXiv
+AU  - Ognjen Stanojev
+AU  - Jovan Krajacic
+AU  - Enea Bianda
+AU  - Orcun Karaca
+AU  - Mario Schweizer
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21913v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations
+JO  - arXiv
+AU  - Navid Noroozi
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - stochastic optimization
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21808v1
+N1  - Auto-selected by Power Paper Digest; score=7.4
+ER  -
+
+TY  - JOUR
+TI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization
+JO  - arXiv
+AU  - Navid Noroozi
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21802v1
+N1  - Auto-selected by Power Paper Digest; score=5.9
+ER  -
+
+TY  - JOUR
+TI  - A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control
+JO  - arXiv
+AU  - Yalin Zhang
+AU  - Yunzhong Song
+AU  - Shumin Fei
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21313v1
+N1  - Auto-selected by Power Paper Digest; score=6.6
+ER  -
+
+TY  - JOUR
+TI  - Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing
+JO  - arXiv
+AU  - Yaxuan Yu
+AU  - Jingguan Liu
+AU  - Cong Chen
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - power system operation
+KW  - energy storage
+KW  - dispatch
+KW  - power system
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21230v1
+N1  - Auto-selected by Power Paper Digest; score=8.9
+ER  -
+
+TY  - JOUR
+TI  - FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift
+JO  - arXiv
+AU  - Herlock Rahimi
+AU  - Dionysis Kalogerias
+KW  - Background Read
+KW  - 鲁棒随机优化
+KW  - robust optimization
+KW  - distributionally robust
+PY  - 2026
+UR  - http://arxiv.org/abs/2609.21057v1
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Lei Huang
+AU  - Wei Sun
+AU  - Weitao Li
+AU  - Qiyue Li
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3734052
+UR  - https://doi.org/10.1109/tsg.2026.3734052
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization
+JO  - IEEE Transactions on Smart Grid
+AU  - Jie Deng
+AU  - Zhigang Li
+AU  - J. H. Zheng
+AU  - Ye Guo
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - scheduling
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tsg.2026.3734002
+UR  - https://doi.org/10.1109/tsg.2026.3734002
+N1  - Auto-selected by Power Paper Digest; score=6.6
+ER  -
+
+TY  - JOUR
+TI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico
+JO  - IEEE Transactions on Smart Grid
+AU  - Maximiliano Ferrari
+AU  - Michael Starke
+AU  - Joao Pinto
+AU  - John Smith
+AU  - Arturo Massol Deya
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3733980
+UR  - https://doi.org/10.1109/tsg.2026.3733980
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Stability-Domain-Based Transient Stability Analysis of Grid-Forming and Grid-Following Hybrid Converter Systems
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Ming Li

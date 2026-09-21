@@ -7,29 +7,29 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-09-14T13:11:45.724989+08:00",
-    "target_date": "2026-09-14",
-    "window_start": "2026-09-08",
+    "generated_at": "2026-09-21T13:10:53.546755+08:00",
+    "target_date": "2026-09-21",
+    "window_start": "2026-09-15",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 136,
-    "archive_count": 136,
+    "paper_count": 146,
+    "archive_count": 146,
     "source_counts": {
-      "ieee": 78,
-      "arxiv": 58
+      "ieee": 81,
+      "arxiv": 65
     },
     "journal_counts": {
-      "arXiv": 58,
-      "IEEE Transactions on Smart Grid": 42,
+      "arXiv": 65,
+      "IEEE Transactions on Smart Grid": 45,
       "IEEE Transactions on Power Systems": 22,
       "IEEE Transactions on Sustainable Energy": 14
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 74,
-      "源网荷储协同": 59,
+      "电力系统运行与规划": 80,
+      "源网荷储协同": 64,
       "AI+电力优化": 32,
-      "构网与暂态稳定": 21,
-      "鲁棒随机优化": 21,
+      "鲁棒随机优化": 24,
+      "构网与暂态稳定": 22,
       "韧性与恢复": 9
     },
     "required_topics": [
@@ -75,7 +75,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 42
+        "archive_count": 45
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -102,8 +102,189 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 78,
+      "count": 81,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3734052",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks",
+          "authors": [
+            "Lei Huang",
+            "Wei Sun",
+            "Weitao Li",
+            "Qiyue Li"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3734052",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3734052",
+          "published_at": "2026-09-16T19:04:09+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-17T03:04:09+08:00",
+          "published_date_local": "2026-09-17",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3734052",
+          "citation_key": "huang2026resilient734052",
+          "bibtex_entry": "@article{huang2026resilient734052,\n  title = {Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks},\n  author = {Lei Huang and Wei Sun and Weitao Li and Qiyue Li},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3734052},\n  url = {https://doi.org/10.1109/tsg.2026.3734052},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks\nJO  - IEEE Transactions on Smart Grid\nAU  - Lei Huang\nAU  - Wei Sun\nAU  - Weitao Li\nAU  - Qiyue Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3734052\nUR  - https://doi.org/10.1109/tsg.2026.3734052\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3734002",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization",
+          "authors": [
+            "Jie Deng",
+            "Zhigang Li",
+            "J. H. Zheng",
+            "Ye Guo"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3734002",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3734002",
+          "published_at": "2026-09-16T19:04:00+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "scheduling",
+            "power system"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.63,
+          "llm_score": 6.63,
+          "final_score": 6.63,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：scheduling、power system",
+          "ai_summary": "该论文题为《Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-17T03:04:00+08:00",
+          "published_date_local": "2026-09-17",
+          "published_time_local": "03:04",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3734002",
+          "citation_key": "deng2026integrated734002",
+          "bibtex_entry": "@article{deng2026integrated734002,\n  title = {Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization},\n  author = {Jie Deng and Zhigang Li and J. H. Zheng and Ye Guo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3734002},\n  url = {https://doi.org/10.1109/tsg.2026.3734002},\n  keywords = {Promising, 电力系统运行与规划, scheduling, power system},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization\nJO  - IEEE Transactions on Smart Grid\nAU  - Jie Deng\nAU  - Zhigang Li\nAU  - J. H. Zheng\nAU  - Ye Guo\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - scheduling\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tsg.2026.3734002\nUR  - https://doi.org/10.1109/tsg.2026.3734002\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3733980",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico",
+          "authors": [
+            "Maximiliano Ferrari",
+            "Michael Starke",
+            "Joao Pinto",
+            "John Smith",
+            "Arturo Massol Deya"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3733980",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3733980",
+          "published_at": "2026-09-15T19:07:40+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-09-16T03:07:40+08:00",
+          "published_date_local": "2026-09-16",
+          "published_time_local": "03:07",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3733980",
+          "citation_key": "ferrari2026dcinterlinked733980",
+          "bibtex_entry": "@article{ferrari2026dcinterlinked733980,\n  title = {DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico},\n  author = {Maximiliano Ferrari and Michael Starke and Joao Pinto and John Smith and Arturo Massol Deya},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3733980},\n  url = {https://doi.org/10.1109/tsg.2026.3733980},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico\nJO  - IEEE Transactions on Smart Grid\nAU  - Maximiliano Ferrari\nAU  - Michael Starke\nAU  - Joao Pinto\nAU  - John Smith\nAU  - Arturo Massol Deya\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3733980\nUR  - https://doi.org/10.1109/tsg.2026.3733980\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tste.2026.3733084",
           "source": "ieee",
@@ -4904,8 +5085,413 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 58,
+      "count": 65,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2609.22037v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance",
+          "authors": [
+            "Ruzica Cvetanovic",
+            "Lazar Stojanovic",
+            "Paolo Sbabo",
+            "Paolo Mattavelli",
+            "Massimo Bongiorno"
+          ],
+          "abstract": "The large-scale integration of renewable energy into electrical power systems places a growing reliance on grid-forming converters (GFMs) to overcome critical stability and control hurdles. By emulating a slowly varying voltage source behind a tunable resistive?inductive impedance, GFMs enable precise setpoint tracking and vital grid support. In this regard, virtual admittance (VA)-based inner-loop control provides exceptional flexibility in shaping the converter's small-signal immittance at connection terminals, allowing for advanced GFM functionalities. This article addresses a novel internal-model-control-based VA approach, which inherently accounts for the effects of the inner current-control loop and the voltage feedforward. Unlike the state-of-the-art VA control, the proposed VA control ensures that, at frequencies outside the influence of outer loops, the converter's terminal admittance closely matches the target admittance, which is shown to be relevant for stability. It is revealed how, with the state-of-the art VA control, a small-signal instability in the harmonic range may arise if a low-pass filter with a high cut-off frequency is used for the voltage feedforward. However, the proposed VA control ensures stable operation regardless of this cut-off frequency. The methodology is experimentally validated using a laboratory prototype that features three-phase voltage-source converters.",
+          "url": "http://arxiv.org/abs/2609.22037v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.22037v1",
+          "doi": null,
+          "published_at": "2026-09-18T17:30:20+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 7.85,
+          "llm_score": 7.85,
+          "final_score": 7.85,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、power system、power systems",
+          "ai_summary": "该论文题为《Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance》，来自 arXiv。从摘要看，论文主要内容为：The large-scale integration of renewable energy into electrical power systems places a growing reliance on grid-forming converters (GFMs) to overcome critical stability and control hurdles. By emulating a slowly varying voltage source behind a tunable resistive?inductive impedance, GFMs enable precise setpoint tracking and vital grid support. In this regard, virtual admittance (VA)-based inner-loop control provides e...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-19T01:30:20+08:00",
+          "published_date_local": "2026-09-19",
+          "published_time_local": "01:30",
+          "doi_url": null,
+          "citation_key": "cvetanovic2026internalmodelcontrolbased2037v1",
+          "bibtex_entry": "@article{cvetanovic2026internalmodelcontrolbased2037v1,\n  title = {Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance},\n  author = {Ruzica Cvetanovic and Lazar Stojanovic and Paolo Sbabo and Paolo Mattavelli and Massimo Bongiorno},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.22037v1},\n  keywords = {Strong Match, 构网与暂态稳定, 电力系统运行与规划, grid-forming, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance\nJO  - arXiv\nAU  - Ruzica Cvetanovic\nAU  - Lazar Stojanovic\nAU  - Paolo Sbabo\nAU  - Paolo Mattavelli\nAU  - Massimo Bongiorno\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.22037v1\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21913v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization",
+          "authors": [
+            "Ognjen Stanojev",
+            "Jovan Krajacic",
+            "Enea Bianda",
+            "Orcun Karaca",
+            "Mario Schweizer"
+          ],
+          "abstract": "DC microgrids are low- or medium-voltage networks designed to connect and manage DC-based sources and loads. A key challenge in operating DC microgrids is maintaining the DC voltage within certain predefined limits while ensuring its stability. Droop control, the most common method towards addressing this challenge, enables decentralized voltage control and power sharing, but suffers from poor transient performance, resulting in voltage dips and overshoots in applications with fast varying loads such as AI datacenters. This paper introduces an improved droop control method based on voltage-locked loop synchronization, which ensures DC voltage stabilization with significantly improved transient response and achieves the desired load sharing between the available source converters. The core design principle is reflected in the functional separation of the control scheme into a virtual DC machine (VDCM) that operates as a spinning wheel and a virtual current source connected in parallel. The transient response is provided by the VDCM to damp and stabilize DC bus voltage variations, while the slow droop response is provided by the virtual current source to ensure steady-state power balance. The performance of the proposed method is validated in an experimental microgrid setup.",
+          "url": "http://arxiv.org/abs/2609.21913v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21913v1",
+          "doi": null,
+          "published_at": "2026-09-18T15:36:48+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.08,
+          "llm_score": 6.08,
+          "final_score": 6.08,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization》，来自 arXiv。从摘要看，论文主要内容为：DC microgrids are low- or medium-voltage networks designed to connect and manage DC-based sources and loads. A key challenge in operating DC microgrids is maintaining the DC voltage within certain predefined limits while ensuring its stability. Droop control, the most common method towards addressing this challenge, enables decentralized voltage control and power sharing, but suffers from poor transient performance, ...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T23:36:48+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "23:36",
+          "doi_url": null,
+          "citation_key": "stanojev2026improved1913v1",
+          "bibtex_entry": "@article{stanojev2026improved1913v1,\n  title = {Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization},\n  author = {Ognjen Stanojev and Jovan Krajacic and Enea Bianda and Orcun Karaca and Mario Schweizer},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21913v1},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization\nJO  - arXiv\nAU  - Ognjen Stanojev\nAU  - Jovan Krajacic\nAU  - Enea Bianda\nAU  - Orcun Karaca\nAU  - Mario Schweizer\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21913v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21808v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations",
+          "authors": [
+            "Navid Noroozi"
+          ],
+          "abstract": "In a series of three papers, we propose a distributed intraday scenario planner for energy management in 16.7-Hz single-phase railway power systems, which is realized and tested as open-source Python package \\texttt{bahnstrom\\_ems v0.9.1}~\\cite{noroozi2026bahnstromems}. The first part of our work develops the mathematical foundation of a two-layer energy management system for a 16.7-Hz single-phase railway power network, where the network is an interconnection of several control areas. Given a day-ahead plan, last measurement of stored energy in wayside batteries, and forecasts of the tractive, available regenerative and renewable energy, we provide a mathematical modeling of the 16.7-Hz single-phase railway power network in intraday time-scale. Then the intraday energy planning is formulated as a risk-neutral convex stochastic optimization problem. The overall intraday planning is shown to be a sparse convex quadratic program. Hence, this problem is solved recursively by adopting a distributed scenario model predictive control (MPC) setting. The corresponding area problems, coordination updates, convergence conditions, and closed-loop key-performance-index accumulation are derived. In practice, detailed train-motion and microscopic motoring and regenerative-power profiles are usually needed for accurate simulations and numerical validation purposes. Due to data privacy and security concerns, detailed train-motion and microscopic motoring and regenerative-power profiles in a real power network may not be publicly available. Therefore, we also propose a mathematically-solid approach to estimate such microscopic information by converting causally timetable and train-motion information into quarter-hour motoring and regenerative-power profiles while exactly preserving each hourly energy target.",
+          "url": "http://arxiv.org/abs/2609.21808v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21808v1",
+          "doi": null,
+          "published_at": "2026-09-18T14:18:55+00:00",
+          "categories": [
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "stochastic optimization",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 7.37,
+          "llm_score": 7.37,
+          "final_score": 7.37,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：stochastic optimization、power system、power systems",
+          "ai_summary": "该论文题为《Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations》，来自 arXiv。从摘要看，论文主要内容为：In a series of three papers, we propose a distributed intraday scenario planner for energy management in 16.7-Hz single-phase railway power systems, which is realized and tested as open-source Python package \\texttt{bahnstrom\\_ems v0.9.1}~\\cite{noroozi2026bahnstromems}. The first part of our work develops the mathematical foundation of a two-layer energy management system for a 16.7-Hz single-phase railway power netw...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T22:18:55+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "22:18",
+          "doi_url": null,
+          "citation_key": "noroozi2026distributed1808v1",
+          "bibtex_entry": "@article{noroozi2026distributed1808v1,\n  title = {Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations},\n  author = {Navid Noroozi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21808v1},\n  keywords = {Strong Match, 鲁棒随机优化, 电力系统运行与规划, stochastic optimization, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=7.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations\nJO  - arXiv\nAU  - Navid Noroozi\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21808v1\nN1  - Auto-selected by Power Paper Digest; score=7.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21802v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization",
+          "authors": [
+            "Navid Noroozi"
+          ],
+          "abstract": "This paper presents the executable Python implementation~\\cite{noroozi2026bahnstromems} of the two-layer energy-management system developed mathematically in Part~I~\\cite{norooziP1I}. If needed, the software first converts hourly railway operation data into a 15-minute timetable and calculates the amount of gross motoring and available regenerative powers in a 15-minute resolution using the timetable handling layer. Given the energy prices are available either cached or by sending request to ENTSO-E Transparency Platform through the price handling layer, the software constructs a deterministic hourly day-ahead plan with either in the so-called must-run converter commitment mode or in a sub-hourly feasibility certificate mode, where the latter demands more computational complexity. Given the inputs from the timetable, day-ahead planning layers and initial measurements of the intraday-resolutions network's physical quantities, the intraday handling layer executes a risk-neutral intraday scenario model predictive controller by area-wise quadratic programming and consensus ADMM. The retained S1 forecast layer combines a one-week seasonal-naive point forecast with causal residual-path resampling, while the current measured stage is identical in all scenarios. We specify the day-ahead and intraday data contracts, absolute-UTC coupling, local-QP assembly, warm starts, residual tests, solver-status interpretation, physically validated recovery paths, state and key-performance-index updates, and the railway-owned generation and pumping increment. The Python package version, dependency lock, frozen-plan manifests, deterministic fixtures, run logs, and hash manifests make the software configuration executable and auditable. The paper describes software behavior and numerical contracts; comparative performance and stress-test claims are reserved for Part~III~\\cite{norooziP1III}.",
+          "url": "http://arxiv.org/abs/2609.21802v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21802v1",
+          "doi": null,
+          "published_at": "2026-09-18T14:16:26+00:00",
+          "categories": [
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.88,
+          "llm_score": 5.88,
+          "final_score": 5.88,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization》，来自 arXiv。从摘要看，论文主要内容为：This paper presents the executable Python implementation~\\cite{noroozi2026bahnstromems} of the two-layer energy-management system developed mathematically in Part~I~\\cite{norooziP1I}. If needed, the software first converts hourly railway operation data into a 15-minute timetable and calculates the amount of gross motoring and available regenerative powers in a 15-minute resolution using the timetable handling layer. ...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T22:16:26+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "22:16",
+          "doi_url": null,
+          "citation_key": "noroozi2026distributed1802v1",
+          "bibtex_entry": "@article{noroozi2026distributed1802v1,\n  title = {Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization},\n  author = {Navid Noroozi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21802v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization\nJO  - arXiv\nAU  - Navid Noroozi\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21802v1\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21313v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control",
+          "authors": [
+            "Yalin Zhang",
+            "Yunzhong Song",
+            "Shumin Fei"
+          ],
+          "abstract": "As all generators are distributed in different areas among large scale power systems, the cooperative manipulation of the multi-generator system cannot be done well without consideration of the distance information of the generators, A distributed step-by-step finite-time consensus scheme for the heterogeneous Battery Energy Storage System (BESS) is proposed in this paper, where the coordinated consensus can be come into reality within a limited time, which is appealing for the electrical engineering community. To be concrete, at first, all BESSs are classified into several clusters according to their locations, and in each cluster, there is an active leader in charge of information receiving from outside. Then after, in order to coordinate the multi BESSs, five inputs, which are function oriented, were used to achieve energy level balancing, active/reactive power sharing, and voltage/frequency synchronization of the multi BESSs. To be further, the frequency and voltage restoration to the nominal values of the main grid was made possible by the introduction of a virtual leader, which is actually an external leader. Compared with the centralized methods, this control scheme is entirely distributed, and each BESS only utilizes the information of its own and its neighbors. Besides, this control is robust to the load perturbation and the plug-and-play of the communication topology. Finally, some simulation experiments are executed on the modified IEEE 57-bus system to verify the suggested scheme.",
+          "url": "http://arxiv.org/abs/2609.21313v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21313v1",
+          "doi": null,
+          "published_at": "2026-09-18T04:45:40+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "energy storage",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.6,
+          "llm_score": 6.6,
+          "final_score": 6.6,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：energy storage、power system、power systems",
+          "ai_summary": "该论文题为《A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control》，来自 arXiv。从摘要看，论文主要内容为：As all generators are distributed in different areas among large scale power systems, the cooperative manipulation of the multi-generator system cannot be done well without consideration of the distance information of the generators, A distributed step-by-step finite-time consensus scheme for the heterogeneous Battery Energy Storage System (BESS) is proposed in this paper, where the coordinated consensus can be come ...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T12:45:40+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "12:45",
+          "doi_url": null,
+          "citation_key": "zhang2026distributed1313v1",
+          "bibtex_entry": "@article{zhang2026distributed1313v1,\n  title = {A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control},\n  author = {Yalin Zhang and Yunzhong Song and Shumin Fei},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21313v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control\nJO  - arXiv\nAU  - Yalin Zhang\nAU  - Yunzhong Song\nAU  - Shumin Fei\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21313v1\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21230v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing",
+          "authors": [
+            "Yaxuan Yu",
+            "Jingguan Liu",
+            "Cong Chen"
+          ],
+          "abstract": "We study in-market uniform pricing and out-of-market bid cost recovery (BCR) payments in rolling-window dispatch for real-time power system operations with energy storage resources (ESRs). Due to intertemporal state-of-charge (SOC) constraints, ESR operations are temporally coupled, and existing in-market locational marginal pricing (LMP) may fail to compensate ESR's intertemporal opportunity costs, thereby triggering out-of-market BCR payments. We show that positive BCR is unavoidable when dispatched generators or ESRs have supply-side bids higher than the demand-side bid. We further identify an intertemporal coupling indicator associated with binding SOC constraints and demonstrate empirically that positive BCR arises only when this indicator is active, revealing that BCR is fundamentally driven by intertemporal coupling. In the simulation, we compare a BCR-minimizing uniform pricing scheme (UP-BCR) with existing real-time pricing methods under forecast uncertainty and show that UP-BCR substantially reduces BCR and demand payments relative to LMP while maintaining zero merchandising surplus in a copper-plate model.",
+          "url": "http://arxiv.org/abs/2609.21230v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21230v1",
+          "doi": null,
+          "published_at": "2026-09-18T02:24:11+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system operation",
+            "energy storage",
+            "dispatch",
+            "power system",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 8.86,
+          "llm_score": 8.86,
+          "final_score": 8.86,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：power system operation、energy storage、dispatch、power system",
+          "ai_summary": "该论文题为《Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing》，来自 arXiv。从摘要看，论文主要内容为：We study in-market uniform pricing and out-of-market bid cost recovery (BCR) payments in rolling-window dispatch for real-time power system operations with energy storage resources (ESRs). Due to intertemporal state-of-charge (SOC) constraints, ESR operations are temporally coupled, and existing in-market locational marginal pricing (LMP) may fail to compensate ESR's intertemporal opportunity costs, thereby triggerin...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T10:24:11+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "10:24",
+          "doi_url": null,
+          "citation_key": "yu2026minimizing1230v1",
+          "bibtex_entry": "@article{yu2026minimizing1230v1,\n  title = {Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing},\n  author = {Yaxuan Yu and Jingguan Liu and Cong Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21230v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, power system operation, energy storage, dispatch, power system, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing\nJO  - arXiv\nAU  - Yaxuan Yu\nAU  - Jingguan Liu\nAU  - Cong Chen\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - power system operation\nKW  - energy storage\nKW  - dispatch\nKW  - power system\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21230v1\nN1  - Auto-selected by Power Paper Digest; score=8.9\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2609.21057v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift",
+          "authors": [
+            "Herlock Rahimi",
+            "Dionysis Kalogerias"
+          ],
+          "abstract": "Federated learning (FL) enables collaborative model training without sharing raw data, but its performance degrades under non-IID data and stochastic client participation. Remedies built on classical Federated Averaging (FedAvg) typically presuppose that client participation probabilities are known to the server, which is rarely the case in deployed systems. We first discuss and then characterize the optimization problem that \\emph{distributionally agnostic} FedAvg actually solves when participation is entirely unknown, possibly highly skewed, and of variable size across rounds: uniform aggregation is shown to minimize a well-defined stochastic objective, weighted by the participation-induced marginal, at a standard $\\mathcal{O}(1/\\sqrt{T})$ rate for convex and possibly nonsmooth losses. Building on this characterization, we propose \\emph{Federated Risk-Averse Averaging} (\\textsc{FedeRage}), a risk-averse extension of FedAvg that embeds the \\emph{Conditional Value-at-Risk} (CVaR) into the local objective within a natural distributionally robust optimization (DRO) framework. \\textsc{FedeRage} implicitly upweights high-loss and infrequently participating clients while adding only a \\emph{single scalar per-client}, and admits an $\\mathcal{O}(κ/\\sqrt{T})$ rate in which the factor $κ$ is the upper bound on the ``price\" of risk aversion. In contrast with aggregation-alignment schemes based on optimal transport, which require the availability distribution as an input, \\textsc{FedeRage} remains agnostic to it. Several experiments on three heterogeneous benchmarks indicate consistent improvements over state-of-the-art methods in accuracy, fairness, and convergence speed.",
+          "url": "http://arxiv.org/abs/2609.21057v1",
+          "pdf_url": "https://arxiv.org/pdf/2609.21057v1",
+          "doi": null,
+          "published_at": "2026-09-17T20:25:57+00:00",
+          "categories": [
+            "cs.LG",
+            "cs.DC",
+            "eess.SP",
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "robust optimization",
+            "distributionally robust"
+          ],
+          "matched_keyword_groups": [
+            "鲁棒随机优化"
+          ],
+          "rule_score": 5.45,
+          "llm_score": 5.45,
+          "final_score": 5.45,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：robust optimization、distributionally robust",
+          "ai_summary": "该论文题为《FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift》，来自 arXiv。从摘要看，论文主要内容为：Federated learning (FL) enables collaborative model training without sharing raw data, but its performance degrades under non-IID data and stochastic client participation. Remedies built on classical Federated Averaging (FedAvg) typically presuppose that client participation probabilities are known to the server, which is rarely the case in deployed systems. We first discuss and then characterize the optimization pro...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-09-18T04:25:57+08:00",
+          "published_date_local": "2026-09-18",
+          "published_time_local": "04:25",
+          "doi_url": null,
+          "citation_key": "rahimi2026federage1057v1",
+          "bibtex_entry": "@article{rahimi2026federage1057v1,\n  title = {FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift},\n  author = {Herlock Rahimi and Dionysis Kalogerias},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21057v1},\n  keywords = {Background Read, 鲁棒随机优化, robust optimization, distributionally robust},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift\nJO  - arXiv\nAU  - Herlock Rahimi\nAU  - Dionysis Kalogerias\nKW  - Background Read\nKW  - 鲁棒随机优化\nKW  - robust optimization\nKW  - distributionally robust\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21057v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-09-21T13:10:53.546755+08:00",
+          "last_seen": "2026-09-21T13:10:53.546755+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-09-15",
+              "target_date": "2026-09-21",
+              "generated_at": "2026-09-21T13:10:53.546755+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2609.05332v1",
           "source": "arxiv",
@@ -8345,6 +8931,592 @@
     }
   },
   "papers": [
+    {
+      "id": "http://arxiv.org/abs/2609.22037v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance",
+      "authors": [
+        "Ruzica Cvetanovic",
+        "Lazar Stojanovic",
+        "Paolo Sbabo",
+        "Paolo Mattavelli",
+        "Massimo Bongiorno"
+      ],
+      "abstract": "The large-scale integration of renewable energy into electrical power systems places a growing reliance on grid-forming converters (GFMs) to overcome critical stability and control hurdles. By emulating a slowly varying voltage source behind a tunable resistive?inductive impedance, GFMs enable precise setpoint tracking and vital grid support. In this regard, virtual admittance (VA)-based inner-loop control provides exceptional flexibility in shaping the converter's small-signal immittance at connection terminals, allowing for advanced GFM functionalities. This article addresses a novel internal-model-control-based VA approach, which inherently accounts for the effects of the inner current-control loop and the voltage feedforward. Unlike the state-of-the-art VA control, the proposed VA control ensures that, at frequencies outside the influence of outer loops, the converter's terminal admittance closely matches the target admittance, which is shown to be relevant for stability. It is revealed how, with the state-of-the art VA control, a small-signal instability in the harmonic range may arise if a low-pass filter with a high cut-off frequency is used for the voltage feedforward. However, the proposed VA control ensures stable operation regardless of this cut-off frequency. The methodology is experimentally validated using a laboratory prototype that features three-phase voltage-source converters.",
+      "url": "http://arxiv.org/abs/2609.22037v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22037v1",
+      "doi": null,
+      "published_at": "2026-09-18T17:30:20+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 7.85,
+      "llm_score": 7.85,
+      "final_score": 7.85,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、power system、power systems",
+      "ai_summary": "该论文题为《Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance》，来自 arXiv。从摘要看，论文主要内容为：The large-scale integration of renewable energy into electrical power systems places a growing reliance on grid-forming converters (GFMs) to overcome critical stability and control hurdles. By emulating a slowly varying voltage source behind a tunable resistive?inductive impedance, GFMs enable precise setpoint tracking and vital grid support. In this regard, virtual admittance (VA)-based inner-loop control provides e...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-19T01:30:20+08:00",
+      "published_date_local": "2026-09-19",
+      "published_time_local": "01:30",
+      "doi_url": null,
+      "citation_key": "cvetanovic2026internalmodelcontrolbased2037v1",
+      "bibtex_entry": "@article{cvetanovic2026internalmodelcontrolbased2037v1,\n  title = {Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance},\n  author = {Ruzica Cvetanovic and Lazar Stojanovic and Paolo Sbabo and Paolo Mattavelli and Massimo Bongiorno},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.22037v1},\n  keywords = {Strong Match, 构网与暂态稳定, 电力系统运行与规划, grid-forming, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Internal-Model-Control-Based Virtual Admittance Emulation for Enhanced Grid-Forming Performance\nJO  - arXiv\nAU  - Ruzica Cvetanovic\nAU  - Lazar Stojanovic\nAU  - Paolo Sbabo\nAU  - Paolo Mattavelli\nAU  - Massimo Bongiorno\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 电力系统运行与规划\nKW  - grid-forming\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.22037v1\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21913v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization",
+      "authors": [
+        "Ognjen Stanojev",
+        "Jovan Krajacic",
+        "Enea Bianda",
+        "Orcun Karaca",
+        "Mario Schweizer"
+      ],
+      "abstract": "DC microgrids are low- or medium-voltage networks designed to connect and manage DC-based sources and loads. A key challenge in operating DC microgrids is maintaining the DC voltage within certain predefined limits while ensuring its stability. Droop control, the most common method towards addressing this challenge, enables decentralized voltage control and power sharing, but suffers from poor transient performance, resulting in voltage dips and overshoots in applications with fast varying loads such as AI datacenters. This paper introduces an improved droop control method based on voltage-locked loop synchronization, which ensures DC voltage stabilization with significantly improved transient response and achieves the desired load sharing between the available source converters. The core design principle is reflected in the functional separation of the control scheme into a virtual DC machine (VDCM) that operates as a spinning wheel and a virtual current source connected in parallel. The transient response is provided by the VDCM to damp and stabilize DC bus voltage variations, while the slow droop response is provided by the virtual current source to ensure steady-state power balance. The performance of the proposed method is validated in an experimental microgrid setup.",
+      "url": "http://arxiv.org/abs/2609.21913v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21913v1",
+      "doi": null,
+      "published_at": "2026-09-18T15:36:48+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.08,
+      "llm_score": 6.08,
+      "final_score": 6.08,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization》，来自 arXiv。从摘要看，论文主要内容为：DC microgrids are low- or medium-voltage networks designed to connect and manage DC-based sources and loads. A key challenge in operating DC microgrids is maintaining the DC voltage within certain predefined limits while ensuring its stability. Droop control, the most common method towards addressing this challenge, enables decentralized voltage control and power sharing, but suffers from poor transient performance, ...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T23:36:48+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "23:36",
+      "doi_url": null,
+      "citation_key": "stanojev2026improved1913v1",
+      "bibtex_entry": "@article{stanojev2026improved1913v1,\n  title = {Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization},\n  author = {Ognjen Stanojev and Jovan Krajacic and Enea Bianda and Orcun Karaca and Mario Schweizer},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21913v1},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Improved Droop Control in DC Microgrids via Voltage-Locked Loop Synchronization\nJO  - arXiv\nAU  - Ognjen Stanojev\nAU  - Jovan Krajacic\nAU  - Enea Bianda\nAU  - Orcun Karaca\nAU  - Mario Schweizer\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21913v1\nN1  - Auto-selected by Power Paper Digest; score=6.1\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21808v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations",
+      "authors": [
+        "Navid Noroozi"
+      ],
+      "abstract": "In a series of three papers, we propose a distributed intraday scenario planner for energy management in 16.7-Hz single-phase railway power systems, which is realized and tested as open-source Python package \\texttt{bahnstrom\\_ems v0.9.1}~\\cite{noroozi2026bahnstromems}. The first part of our work develops the mathematical foundation of a two-layer energy management system for a 16.7-Hz single-phase railway power network, where the network is an interconnection of several control areas. Given a day-ahead plan, last measurement of stored energy in wayside batteries, and forecasts of the tractive, available regenerative and renewable energy, we provide a mathematical modeling of the 16.7-Hz single-phase railway power network in intraday time-scale. Then the intraday energy planning is formulated as a risk-neutral convex stochastic optimization problem. The overall intraday planning is shown to be a sparse convex quadratic program. Hence, this problem is solved recursively by adopting a distributed scenario model predictive control (MPC) setting. The corresponding area problems, coordination updates, convergence conditions, and closed-loop key-performance-index accumulation are derived. In practice, detailed train-motion and microscopic motoring and regenerative-power profiles are usually needed for accurate simulations and numerical validation purposes. Due to data privacy and security concerns, detailed train-motion and microscopic motoring and regenerative-power profiles in a real power network may not be publicly available. Therefore, we also propose a mathematically-solid approach to estimate such microscopic information by converting causally timetable and train-motion information into quarter-hour motoring and regenerative-power profiles while exactly preserving each hourly energy target.",
+      "url": "http://arxiv.org/abs/2609.21808v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21808v1",
+      "doi": null,
+      "published_at": "2026-09-18T14:18:55+00:00",
+      "categories": [
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "stochastic optimization",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 7.37,
+      "llm_score": 7.37,
+      "final_score": 7.37,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：stochastic optimization、power system、power systems",
+      "ai_summary": "该论文题为《Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations》，来自 arXiv。从摘要看，论文主要内容为：In a series of three papers, we propose a distributed intraday scenario planner for energy management in 16.7-Hz single-phase railway power systems, which is realized and tested as open-source Python package \\texttt{bahnstrom\\_ems v0.9.1}~\\cite{noroozi2026bahnstromems}. The first part of our work develops the mathematical foundation of a two-layer energy management system for a 16.7-Hz single-phase railway power netw...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T22:18:55+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "22:18",
+      "doi_url": null,
+      "citation_key": "noroozi2026distributed1808v1",
+      "bibtex_entry": "@article{noroozi2026distributed1808v1,\n  title = {Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations},\n  author = {Navid Noroozi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21808v1},\n  keywords = {Strong Match, 鲁棒随机优化, 电力系统运行与规划, stochastic optimization, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=7.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations\nJO  - arXiv\nAU  - Navid Noroozi\nKW  - Strong Match\nKW  - 鲁棒随机优化\nKW  - 电力系统运行与规划\nKW  - stochastic optimization\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21808v1\nN1  - Auto-selected by Power Paper Digest; score=7.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21802v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization",
+      "authors": [
+        "Navid Noroozi"
+      ],
+      "abstract": "This paper presents the executable Python implementation~\\cite{noroozi2026bahnstromems} of the two-layer energy-management system developed mathematically in Part~I~\\cite{norooziP1I}. If needed, the software first converts hourly railway operation data into a 15-minute timetable and calculates the amount of gross motoring and available regenerative powers in a 15-minute resolution using the timetable handling layer. Given the energy prices are available either cached or by sending request to ENTSO-E Transparency Platform through the price handling layer, the software constructs a deterministic hourly day-ahead plan with either in the so-called must-run converter commitment mode or in a sub-hourly feasibility certificate mode, where the latter demands more computational complexity. Given the inputs from the timetable, day-ahead planning layers and initial measurements of the intraday-resolutions network's physical quantities, the intraday handling layer executes a risk-neutral intraday scenario model predictive controller by area-wise quadratic programming and consensus ADMM. The retained S1 forecast layer combines a one-week seasonal-naive point forecast with causal residual-path resampling, while the current measured stage is identical in all scenarios. We specify the day-ahead and intraday data contracts, absolute-UTC coupling, local-QP assembly, warm starts, residual tests, solver-status interpretation, physically validated recovery paths, state and key-performance-index updates, and the railway-owned generation and pumping increment. The Python package version, dependency lock, frozen-plan manifests, deterministic fixtures, run logs, and hash manifests make the software configuration executable and auditable. The paper describes software behavior and numerical contracts; comparative performance and stress-test claims are reserved for Part~III~\\cite{norooziP1III}.",
+      "url": "http://arxiv.org/abs/2609.21802v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21802v1",
+      "doi": null,
+      "published_at": "2026-09-18T14:16:26+00:00",
+      "categories": [
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.88,
+      "llm_score": 5.88,
+      "final_score": 5.88,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization》，来自 arXiv。从摘要看，论文主要内容为：This paper presents the executable Python implementation~\\cite{noroozi2026bahnstromems} of the two-layer energy-management system developed mathematically in Part~I~\\cite{norooziP1I}. If needed, the software first converts hourly railway operation data into a 15-minute timetable and calculates the amount of gross motoring and available regenerative powers in a 15-minute resolution using the timetable handling layer. ...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T22:16:26+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "22:16",
+      "doi_url": null,
+      "citation_key": "noroozi2026distributed1802v1",
+      "bibtex_entry": "@article{noroozi2026distributed1802v1,\n  title = {Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization},\n  author = {Navid Noroozi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21802v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part II: Software Realization\nJO  - arXiv\nAU  - Navid Noroozi\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21802v1\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21313v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control",
+      "authors": [
+        "Yalin Zhang",
+        "Yunzhong Song",
+        "Shumin Fei"
+      ],
+      "abstract": "As all generators are distributed in different areas among large scale power systems, the cooperative manipulation of the multi-generator system cannot be done well without consideration of the distance information of the generators, A distributed step-by-step finite-time consensus scheme for the heterogeneous Battery Energy Storage System (BESS) is proposed in this paper, where the coordinated consensus can be come into reality within a limited time, which is appealing for the electrical engineering community. To be concrete, at first, all BESSs are classified into several clusters according to their locations, and in each cluster, there is an active leader in charge of information receiving from outside. Then after, in order to coordinate the multi BESSs, five inputs, which are function oriented, were used to achieve energy level balancing, active/reactive power sharing, and voltage/frequency synchronization of the multi BESSs. To be further, the frequency and voltage restoration to the nominal values of the main grid was made possible by the introduction of a virtual leader, which is actually an external leader. Compared with the centralized methods, this control scheme is entirely distributed, and each BESS only utilizes the information of its own and its neighbors. Besides, this control is robust to the load perturbation and the plug-and-play of the communication topology. Finally, some simulation experiments are executed on the modified IEEE 57-bus system to verify the suggested scheme.",
+      "url": "http://arxiv.org/abs/2609.21313v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21313v1",
+      "doi": null,
+      "published_at": "2026-09-18T04:45:40+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "energy storage",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.6,
+      "llm_score": 6.6,
+      "final_score": 6.6,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：energy storage、power system、power systems",
+      "ai_summary": "该论文题为《A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control》，来自 arXiv。从摘要看，论文主要内容为：As all generators are distributed in different areas among large scale power systems, the cooperative manipulation of the multi-generator system cannot be done well without consideration of the distance information of the generators, A distributed step-by-step finite-time consensus scheme for the heterogeneous Battery Energy Storage System (BESS) is proposed in this paper, where the coordinated consensus can be come ...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T12:45:40+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "12:45",
+      "doi_url": null,
+      "citation_key": "zhang2026distributed1313v1",
+      "bibtex_entry": "@article{zhang2026distributed1313v1,\n  title = {A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control},\n  author = {Yalin Zhang and Yunzhong Song and Shumin Fei},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21313v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Distributed Step-by-step Finite-time Consensus Design for Heterogeneous Battery Energy Storage Devices with Droop Control\nJO  - arXiv\nAU  - Yalin Zhang\nAU  - Yunzhong Song\nAU  - Shumin Fei\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21313v1\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21230v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing",
+      "authors": [
+        "Yaxuan Yu",
+        "Jingguan Liu",
+        "Cong Chen"
+      ],
+      "abstract": "We study in-market uniform pricing and out-of-market bid cost recovery (BCR) payments in rolling-window dispatch for real-time power system operations with energy storage resources (ESRs). Due to intertemporal state-of-charge (SOC) constraints, ESR operations are temporally coupled, and existing in-market locational marginal pricing (LMP) may fail to compensate ESR's intertemporal opportunity costs, thereby triggering out-of-market BCR payments. We show that positive BCR is unavoidable when dispatched generators or ESRs have supply-side bids higher than the demand-side bid. We further identify an intertemporal coupling indicator associated with binding SOC constraints and demonstrate empirically that positive BCR arises only when this indicator is active, revealing that BCR is fundamentally driven by intertemporal coupling. In the simulation, we compare a BCR-minimizing uniform pricing scheme (UP-BCR) with existing real-time pricing methods under forecast uncertainty and show that UP-BCR substantially reduces BCR and demand payments relative to LMP while maintaining zero merchandising surplus in a copper-plate model.",
+      "url": "http://arxiv.org/abs/2609.21230v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21230v1",
+      "doi": null,
+      "published_at": "2026-09-18T02:24:11+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system operation",
+        "energy storage",
+        "dispatch",
+        "power system",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 8.86,
+      "llm_score": 8.86,
+      "final_score": 8.86,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：power system operation、energy storage、dispatch、power system",
+      "ai_summary": "该论文题为《Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing》，来自 arXiv。从摘要看，论文主要内容为：We study in-market uniform pricing and out-of-market bid cost recovery (BCR) payments in rolling-window dispatch for real-time power system operations with energy storage resources (ESRs). Due to intertemporal state-of-charge (SOC) constraints, ESR operations are temporally coupled, and existing in-market locational marginal pricing (LMP) may fail to compensate ESR's intertemporal opportunity costs, thereby triggerin...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T10:24:11+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "10:24",
+      "doi_url": null,
+      "citation_key": "yu2026minimizing1230v1",
+      "bibtex_entry": "@article{yu2026minimizing1230v1,\n  title = {Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing},\n  author = {Yaxuan Yu and Jingguan Liu and Cong Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21230v1},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, 鲁棒随机优化, power system operation, energy storage, dispatch, power system, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=8.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Minimizing Bid Cost Recovery for Energy Storage with Uniform Pricing\nJO  - arXiv\nAU  - Yaxuan Yu\nAU  - Jingguan Liu\nAU  - Cong Chen\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - power system operation\nKW  - energy storage\nKW  - dispatch\nKW  - power system\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21230v1\nN1  - Auto-selected by Power Paper Digest; score=8.9\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.21057v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift",
+      "authors": [
+        "Herlock Rahimi",
+        "Dionysis Kalogerias"
+      ],
+      "abstract": "Federated learning (FL) enables collaborative model training without sharing raw data, but its performance degrades under non-IID data and stochastic client participation. Remedies built on classical Federated Averaging (FedAvg) typically presuppose that client participation probabilities are known to the server, which is rarely the case in deployed systems. We first discuss and then characterize the optimization problem that \\emph{distributionally agnostic} FedAvg actually solves when participation is entirely unknown, possibly highly skewed, and of variable size across rounds: uniform aggregation is shown to minimize a well-defined stochastic objective, weighted by the participation-induced marginal, at a standard $\\mathcal{O}(1/\\sqrt{T})$ rate for convex and possibly nonsmooth losses. Building on this characterization, we propose \\emph{Federated Risk-Averse Averaging} (\\textsc{FedeRage}), a risk-averse extension of FedAvg that embeds the \\emph{Conditional Value-at-Risk} (CVaR) into the local objective within a natural distributionally robust optimization (DRO) framework. \\textsc{FedeRage} implicitly upweights high-loss and infrequently participating clients while adding only a \\emph{single scalar per-client}, and admits an $\\mathcal{O}(κ/\\sqrt{T})$ rate in which the factor $κ$ is the upper bound on the ``price\" of risk aversion. In contrast with aggregation-alignment schemes based on optimal transport, which require the availability distribution as an input, \\textsc{FedeRage} remains agnostic to it. Several experiments on three heterogeneous benchmarks indicate consistent improvements over state-of-the-art methods in accuracy, fairness, and convergence speed.",
+      "url": "http://arxiv.org/abs/2609.21057v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21057v1",
+      "doi": null,
+      "published_at": "2026-09-17T20:25:57+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.DC",
+        "eess.SP",
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "robust optimization",
+        "distributionally robust"
+      ],
+      "matched_keyword_groups": [
+        "鲁棒随机优化"
+      ],
+      "rule_score": 5.45,
+      "llm_score": 5.45,
+      "final_score": 5.45,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：robust optimization、distributionally robust",
+      "ai_summary": "该论文题为《FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift》，来自 arXiv。从摘要看，论文主要内容为：Federated learning (FL) enables collaborative model training without sharing raw data, but its performance degrades under non-IID data and stochastic client participation. Remedies built on classical Federated Averaging (FedAvg) typically presuppose that client participation probabilities are known to the server, which is rarely the case in deployed systems. We first discuss and then characterize the optimization pro...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-09-18T04:25:57+08:00",
+      "published_date_local": "2026-09-18",
+      "published_time_local": "04:25",
+      "doi_url": null,
+      "citation_key": "rahimi2026federage1057v1",
+      "bibtex_entry": "@article{rahimi2026federage1057v1,\n  title = {FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift},\n  author = {Herlock Rahimi and Dionysis Kalogerias},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2609.21057v1},\n  keywords = {Background Read, 鲁棒随机优化, robust optimization, distributionally robust},\n  note = {Auto-selected by Power Paper Digest; score=5.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - FedeRage: Provably Convergent Agnostic Federated Learning under General Client Drift\nJO  - arXiv\nAU  - Herlock Rahimi\nAU  - Dionysis Kalogerias\nKW  - Background Read\nKW  - 鲁棒随机优化\nKW  - robust optimization\nKW  - distributionally robust\nPY  - 2026\nUR  - http://arxiv.org/abs/2609.21057v1\nN1  - Auto-selected by Power Paper Digest; score=5.5\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3734052",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks",
+      "authors": [
+        "Lei Huang",
+        "Wei Sun",
+        "Weitao Li",
+        "Qiyue Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3734052",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3734052",
+      "published_at": "2026-09-16T19:04:09+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-17T03:04:09+08:00",
+      "published_date_local": "2026-09-17",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3734052",
+      "citation_key": "huang2026resilient734052",
+      "bibtex_entry": "@article{huang2026resilient734052,\n  title = {Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks},\n  author = {Lei Huang and Wei Sun and Weitao Li and Qiyue Li},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3734052},\n  url = {https://doi.org/10.1109/tsg.2026.3734052},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks\nJO  - IEEE Transactions on Smart Grid\nAU  - Lei Huang\nAU  - Wei Sun\nAU  - Weitao Li\nAU  - Qiyue Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3734052\nUR  - https://doi.org/10.1109/tsg.2026.3734052\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3734002",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization",
+      "authors": [
+        "Jie Deng",
+        "Zhigang Li",
+        "J. H. Zheng",
+        "Ye Guo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3734002",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3734002",
+      "published_at": "2026-09-16T19:04:00+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "scheduling",
+        "power system"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.63,
+      "llm_score": 6.63,
+      "final_score": 6.63,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：scheduling、power system",
+      "ai_summary": "该论文题为《Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-17T03:04:00+08:00",
+      "published_date_local": "2026-09-17",
+      "published_time_local": "03:04",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3734002",
+      "citation_key": "deng2026integrated734002",
+      "bibtex_entry": "@article{deng2026integrated734002,\n  title = {Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization},\n  author = {Jie Deng and Zhigang Li and J. H. Zheng and Ye Guo},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3734002},\n  url = {https://doi.org/10.1109/tsg.2026.3734002},\n  keywords = {Promising, 电力系统运行与规划, scheduling, power system},\n  note = {Auto-selected by Power Paper Digest; score=6.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization\nJO  - IEEE Transactions on Smart Grid\nAU  - Jie Deng\nAU  - Zhigang Li\nAU  - J. H. Zheng\nAU  - Ye Guo\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - scheduling\nKW  - power system\nPY  - 2026\nDO  - 10.1109/tsg.2026.3734002\nUR  - https://doi.org/10.1109/tsg.2026.3734002\nN1  - Auto-selected by Power Paper Digest; score=6.6\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3733980",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico",
+      "authors": [
+        "Maximiliano Ferrari",
+        "Michael Starke",
+        "Joao Pinto",
+        "John Smith",
+        "Arturo Massol Deya"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3733980",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3733980",
+      "published_at": "2026-09-15T19:07:40+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-09-16T03:07:40+08:00",
+      "published_date_local": "2026-09-16",
+      "published_time_local": "03:07",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3733980",
+      "citation_key": "ferrari2026dcinterlinked733980",
+      "bibtex_entry": "@article{ferrari2026dcinterlinked733980,\n  title = {DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico},\n  author = {Maximiliano Ferrari and Michael Starke and Joao Pinto and John Smith and Arturo Massol Deya},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3733980},\n  url = {https://doi.org/10.1109/tsg.2026.3733980},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico\nJO  - IEEE Transactions on Smart Grid\nAU  - Maximiliano Ferrari\nAU  - Michael Starke\nAU  - Joao Pinto\nAU  - John Smith\nAU  - Arturo Massol Deya\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3733980\nUR  - https://doi.org/10.1109/tsg.2026.3733980\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-09-21T13:10:53.546755+08:00",
+      "last_seen": "2026-09-21T13:10:53.546755+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-09-15",
+          "target_date": "2026-09-21",
+          "generated_at": "2026-09-21T13:10:53.546755+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tste.2026.3733084",
       "source": "ieee",

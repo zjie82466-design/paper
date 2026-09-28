@@ -1,51 +1,165 @@
 TY  - JOUR
-TI  - Integrated Heat and Power System Scheduling with Continuous-Time Thermal Dynamics via Bernstein–Galerkin Optimization
+TI  - Optimal Service Restoration for Active Distribution Networks with Wind Power-Energy Storage Systems Considering Dynamic Formulation and Merging of Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Jie Deng
-AU  - Zhigang Li
-AU  - J. H. Zheng
-AU  - Ye Guo
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - scheduling
-KW  - power system
-PY  - 2026
-DO  - 10.1109/tsg.2026.3734002
-UR  - https://doi.org/10.1109/tsg.2026.3734002
-N1  - Auto-selected by Power Paper Digest; score=6.6
-ER  -
-
-TY  - JOUR
-TI  - Resilient Distributed Secondary Control of Islanded AC Microgrids Against Stochastic Asynchronous Communication and False Data Injection Attacks
-JO  - IEEE Transactions on Smart Grid
-AU  - Lei Huang
-AU  - Wei Sun
-AU  - Weitao Li
-AU  - Qiyue Li
-KW  - Promising
+AU  - Han Wang
+AU  - Lei Sun
+AU  - Zhenzhi Lin
+AU  - Fushuan Wen
+KW  - Strong Match
+KW  - 韧性与恢复
 KW  - 源网荷储协同
+KW  - service restoration
+KW  - energy storage
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3734052
-UR  - https://doi.org/10.1109/tsg.2026.3734052
+DO  - 10.1109/tsg.2026.3737453
+UR  - https://doi.org/10.1109/tsg.2026.3737453
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Physics-Based Reinforcement Learning Framework for Energy Management of Airport Thermo-Electrical Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Pablo Verdugo-Rivadeneira
+AU  - Mehrdad Pirnia
+AU  - Claudio A. Canizares
+AU  - Gonzalo E. Constante-Flores
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3735470
+UR  - https://doi.org/10.1109/tsg.2026.3735470
+N1  - Auto-selected by Power Paper Digest; score=8.5
+ER  -
+
+TY  - JOUR
+TI  - Scheduling of Isolated Microgrids Considering Temporal Decomposition of Frequency Response
+JO  - IEEE Transactions on Smart Grid
+AU  - Yukun Chai
+AU  - Liangzhong Yao
+AU  - Yunxin Liu
+AU  - Siyang Liao
+AU  - Wanxing Sheng
+AU  - Keyan Liu
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3736481
+UR  - https://doi.org/10.1109/tsg.2026.3736481
+N1  - Auto-selected by Power Paper Digest; score=8.3
+ER  -
+
+TY  - JOUR
+TI  - Coordinated Scheduling and Energy Storage Planning for Grid-AIDC Systems Considering Heterogeneous Tasks
+JO  - IEEE Transactions on Smart Grid
+AU  - Niancheng Zhou
+AU  - Hang Gao
+AU  - Yuan Chi
+AU  - Yiyao Zhou
+AU  - Luona Xu
+AU  - Yanhan Wang
+AU  - Jia Ye
+AU  - Qianggang Wang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tsg.2026.3736427
+UR  - https://doi.org/10.1109/tsg.2026.3736427
+N1  - Auto-selected by Power Paper Digest; score=7.0
+ER  -
+
+TY  - JOUR
+TI  - Aggregation Evolution of Distributed Energy Resources in a Self-Organizing Virtual Power Plant based on Cellular Automata
+JO  - IEEE Transactions on Smart Grid
+AU  - Shuai Feng
+AU  - Dongsheng Yang
+AU  - Yu Yao
+KW  - Promising
+KW  - 源网荷储协同
+KW  - virtual power plant
+KW  - distributed energy resources
+PY  - 2026
+DO  - 10.1109/tsg.2026.3736208
+UR  - https://doi.org/10.1109/tsg.2026.3736208
+N1  - Auto-selected by Power Paper Digest; score=6.8
+ER  -
+
+TY  - JOUR
+TI  - Forecasting Carbon Intensity for PV-Rich Power Systems via Covariate-Conditioned Learning Approach
+JO  - IEEE Transactions on Smart Grid
+AU  - Zixuan Zhu
+AU  - Ruoheng Wang
+AU  - Ziqing Zhu
+AU  - Wentao Zhang
+AU  - Siqi Bu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3736254
+UR  - https://doi.org/10.1109/tsg.2026.3736254
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - DC-Interlinked Networked Microgrids with Off-the-Shelf Converters: Stability Analysis and Field Deployment in Puerto Rico
+TI  - Existence Conditions and Stability for the Equilibrium of DC Microgrids under Distributed Control Considering Converter Dynamics
 JO  - IEEE Transactions on Smart Grid
-AU  - Maximiliano Ferrari
-AU  - Michael Starke
-AU  - Joao Pinto
-AU  - John Smith
-AU  - Arturo Massol Deya
+AU  - Xinxi Li
+AU  - Herbert Ho-Ching Iu
+AU  - Yunfeng Luo
 KW  - Promising
 KW  - 源网荷储协同
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3733980
-UR  - https://doi.org/10.1109/tsg.2026.3733980
+DO  - 10.1109/tsg.2026.3734666
+UR  - https://doi.org/10.1109/tsg.2026.3734666
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Adaptive Optimal Control of Large-Scale Electrical/Thermal Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Dimitra G. Kyriakou
+AU  - Fotios D. Kanellos
+AU  - Nikos D. Hatziargyriou
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3734901
+UR  - https://doi.org/10.1109/tsg.2026.3734901
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Augmented State-Feedback Control for Global Stability and Cyber Defense in Interconnected AC Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Sen Tan
+AU  - Junjie Xiao
+AU  - Jian Sun
+AU  - Peilin Xie
+AU  - Zian Qin
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3736107
+UR  - https://doi.org/10.1109/tsg.2026.3736107
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -

@@ -1,4 +1,23 @@
 TY  - JOUR
+TI  - Comparative Analysis and Practical Implementations of Data-Driven Methods for Electromechanical Oscillation Identification in Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Andrea Pomarico
+AU  - Riccardo Nebuloni
+AU  - Andrea Vicario
+AU  - Salvatore Tessitore
+AU  - Giorgio Maria Giannuzzi
+AU  - Alberto Berizzi
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3735203
+UR  - https://doi.org/10.1109/tpwrs.2026.3735203
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Stochastic-Robust Continuous-Time Scheduling for Coordinated Transmission and Distribution Systems With Spatiotemporal Flexibility
 JO  - IEEE Transactions on Power Systems
 AU  - Minghao Guo

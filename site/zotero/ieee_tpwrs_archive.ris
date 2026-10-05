@@ -1,4 +1,35 @@
 TY  - JOUR
+TI  - Dynamic Line Ratings in AC Optimal Power Flow: Transient Temperature, Decomposition, and Large-Scale Evaluation
+JO  - IEEE Transactions on Power Systems
+AU  - Baptiste Rabecq
+AU  - Thomas Lee
+AU  - Andy Sun
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - optimal power flow
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3740059
+UR  - https://doi.org/10.1109/tpwrs.2026.3740059
+N1  - Auto-selected by Power Paper Digest; score=5.5
+ER  -
+
+TY  - JOUR
+TI  - Resilient Transmission and Generation Expansion Planning Under High Renewable Penetration and Hurricanes: A Mobile Energy Storage Approach
+JO  - IEEE Transactions on Power Systems
+AU  - Akbar Khajegili
+AU  - Mehdi Mahmoudnia
+AU  - Mohammadreza Toulabi
+AU  - Turaj Amraee
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3738230
+UR  - https://doi.org/10.1109/tpwrs.2026.3738230
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - Comparative Analysis and Practical Implementations of Data-Driven Methods for Electromechanical Oscillation Identification in Power Systems
 JO  - IEEE Transactions on Power Systems
 AU  - Andrea Pomarico

@@ -1,165 +1,110 @@
 TY  - JOUR
-TI  - Optimal Service Restoration for Active Distribution Networks with Wind Power-Energy Storage Systems Considering Dynamic Formulation and Merging of Microgrids
+TI  - Optimal Operation of Data Center Microgrids Based on the Dynamic Surrogate Models of Server Power Consumption
 JO  - IEEE Transactions on Smart Grid
-AU  - Han Wang
-AU  - Lei Sun
-AU  - Zhenzhi Lin
-AU  - Fushuan Wen
-KW  - Strong Match
-KW  - 韧性与恢复
-KW  - 源网荷储协同
-KW  - service restoration
-KW  - energy storage
-KW  - microgrid
-KW  - microgrids
-PY  - 2026
-DO  - 10.1109/tsg.2026.3737453
-UR  - https://doi.org/10.1109/tsg.2026.3737453
-N1  - Auto-selected by Power Paper Digest; score=10.0
-ER  -
-
-TY  - JOUR
-TI  - Physics-Based Reinforcement Learning Framework for Energy Management of Airport Thermo-Electrical Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Pablo Verdugo-Rivadeneira
-AU  - Mehrdad Pirnia
-AU  - Claudio A. Canizares
-AU  - Gonzalo E. Constante-Flores
+AU  - Qian Chen
+AU  - Shenxi Zhang
+AU  - Keyan Liu
+AU  - Heng Zhang
+AU  - Haozhong Cheng
 KW  - Strong Match
 KW  - AI+电力优化
 KW  - 源网荷储协同
-KW  - reinforcement learning
+KW  - surrogate model
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3735470
-UR  - https://doi.org/10.1109/tsg.2026.3735470
-N1  - Auto-selected by Power Paper Digest; score=8.5
+DO  - 10.1109/tsg.2026.3738063
+UR  - https://doi.org/10.1109/tsg.2026.3738063
+N1  - Auto-selected by Power Paper Digest; score=8.2
 ER  -
 
 TY  - JOUR
-TI  - Scheduling of Isolated Microgrids Considering Temporal Decomposition of Frequency Response
+TI  - Learning-Augmented MPC with an ICNN-Based Value Function for Economic Dispatch of Active Distribution Networks
 JO  - IEEE Transactions on Smart Grid
-AU  - Yukun Chai
-AU  - Liangzhong Yao
-AU  - Yunxin Liu
-AU  - Siyang Liao
-AU  - Wanxing Sheng
-AU  - Keyan Liu
+AU  - Jialin Du
+AU  - Di Cao
+AU  - Weihao Hu
+AU  - Pengfei Zhao
+AU  - Zhenyuan Zhang
+AU  - Zhe Chen
 KW  - Strong Match
 KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
-KW  - microgrid
-KW  - microgrids
+KW  - economic dispatch
+KW  - dispatch
 PY  - 2026
-DO  - 10.1109/tsg.2026.3736481
-UR  - https://doi.org/10.1109/tsg.2026.3736481
-N1  - Auto-selected by Power Paper Digest; score=8.3
+DO  - 10.1109/tsg.2026.3737526
+UR  - https://doi.org/10.1109/tsg.2026.3737526
+N1  - Auto-selected by Power Paper Digest; score=7.3
 ER  -
 
 TY  - JOUR
-TI  - Coordinated Scheduling and Energy Storage Planning for Grid-AIDC Systems Considering Heterogeneous Tasks
+TI  - Physics-Informed Bayesian Autoencoder for Unsupervised Detection of Stealthy AC-FDIAs in Cyber-Physical Power Systems
 JO  - IEEE Transactions on Smart Grid
-AU  - Niancheng Zhou
-AU  - Hang Gao
-AU  - Yuan Chi
-AU  - Yiyao Zhou
-AU  - Luona Xu
-AU  - Yanhan Wang
-AU  - Jia Ye
-AU  - Qianggang Wang
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
-KW  - energy storage
-PY  - 2026
-DO  - 10.1109/tsg.2026.3736427
-UR  - https://doi.org/10.1109/tsg.2026.3736427
-N1  - Auto-selected by Power Paper Digest; score=7.0
-ER  -
-
-TY  - JOUR
-TI  - Aggregation Evolution of Distributed Energy Resources in a Self-Organizing Virtual Power Plant based on Cellular Automata
-JO  - IEEE Transactions on Smart Grid
-AU  - Shuai Feng
-AU  - Dongsheng Yang
-AU  - Yu Yao
-KW  - Promising
-KW  - 源网荷储协同
-KW  - virtual power plant
-KW  - distributed energy resources
-PY  - 2026
-DO  - 10.1109/tsg.2026.3736208
-UR  - https://doi.org/10.1109/tsg.2026.3736208
-N1  - Auto-selected by Power Paper Digest; score=6.8
-ER  -
-
-TY  - JOUR
-TI  - Forecasting Carbon Intensity for PV-Rich Power Systems via Covariate-Conditioned Learning Approach
-JO  - IEEE Transactions on Smart Grid
-AU  - Zixuan Zhu
-AU  - Ruoheng Wang
-AU  - Ziqing Zhu
-AU  - Wentao Zhang
-AU  - Siqi Bu
+AU  - Wei Tai
+AU  - Qi Wang
+AU  - Yuqin Mu
+AU  - Minghui Yan
+AU  - Yi Tang
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3736254
-UR  - https://doi.org/10.1109/tsg.2026.3736254
+DO  - 10.1109/tsg.2026.3738936
+UR  - https://doi.org/10.1109/tsg.2026.3738936
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Existence Conditions and Stability for the Equilibrium of DC Microgrids under Distributed Control Considering Converter Dynamics
+TI  - A BERT-PINN Deep Model for Probabilistic Load Forecasting of Hydrogen Powered Ships Power Systems
 JO  - IEEE Transactions on Smart Grid
-AU  - Xinxi Li
-AU  - Herbert Ho-Ching Iu
-AU  - Yunfeng Luo
+AU  - Xingdou Liu
+AU  - Liang Zou
+AU  - Zhiyun Han
+AU  - Jundao Jiang
+AU  - Yawei Wang
+AU  - Rui Wang
 KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3734666
-UR  - https://doi.org/10.1109/tsg.2026.3734666
+DO  - 10.1109/tsg.2026.3738878
+UR  - https://doi.org/10.1109/tsg.2026.3738878
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Adaptive Optimal Control of Large-Scale Electrical/Thermal Microgrids
+TI  - A Controlled Islanding Strategy Using Manifold-Based Riemannian Optimization for Power Balance in Renewable Power Systems
 JO  - IEEE Transactions on Smart Grid
-AU  - Dimitra G. Kyriakou
-AU  - Fotios D. Kanellos
-AU  - Nikos D. Hatziargyriou
+AU  - Bing Zhao
+AU  - Fanrui Chang
+AU  - Takeyoshi Kato
 KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3734901
-UR  - https://doi.org/10.1109/tsg.2026.3734901
+DO  - 10.1109/tsg.2026.3738897
+UR  - https://doi.org/10.1109/tsg.2026.3738897
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Augmented State-Feedback Control for Global Stability and Cyber Defense in Interconnected AC Microgrids
+TI  - A Hybrid Learn-to-Optimize Framework With Dynamic Labeling for Efficient Mixed-Integer Scheduling of Active Distribution Networks
 JO  - IEEE Transactions on Smart Grid
-AU  - Sen Tan
-AU  - Junjie Xiao
-AU  - Jian Sun
-AU  - Peilin Xie
-AU  - Zian Qin
-KW  - Promising
-KW  - 源网荷储协同
-KW  - microgrid
-KW  - microgrids
+AU  - Xinshu Ling
+AU  - Linwei Sang
+AU  - Tao Qian
+AU  - Chenhui Lin
+AU  - Zheng Xu
+AU  - Zaijun Wu
+AU  - Qinran Hu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
 PY  - 2026
-DO  - 10.1109/tsg.2026.3736107
-UR  - https://doi.org/10.1109/tsg.2026.3736107
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tsg.2026.3739246
+UR  - https://doi.org/10.1109/tsg.2026.3739246
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

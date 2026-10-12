@@ -1,4 +1,54 @@
 TY  - JOUR
+TI  - Game-Theoretic Reinforcement Learning based Topology-Agnostic Defense for Virtual Power Plants
+JO  - IEEE Transactions on Smart Grid
+AU  - Pooja Algikar
+AU  - Stefano Fenu
+AU  - Kumarsinh Jhala
+AU  - Siby Plathottam
+KW  - Promising
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - virtual power plant
+PY  - 2026
+DO  - 10.1109/tsg.2026.3741535
+UR  - https://doi.org/10.1109/tsg.2026.3741535
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Resilience Enhancement Planning of Hydrogen-Electricity Systems Against Coordinated Power Line Outages and Load Redistribution Attacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Ziyi Wen
+AU  - Gaoqi Liang
+AU  - Junhua Zhao
+AU  - Fushuan Wen
+AU  - Zhao Yang Dong
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3740898
+UR  - https://doi.org/10.1109/tsg.2026.3740898
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Foresight-enhanced Adaptive Safe Hierarchical Reinforcement Learning for Real-Time Voltage Regulation in Active Distribution Networks
+JO  - IEEE Transactions on Smart Grid
+AU  - Jun Geng
+AU  - Zhengshuo Li
+KW  - Background Read
+KW  - AI+电力优化
+KW  - reinforcement learning
+PY  - 2026
+DO  - 10.1109/tsg.2026.3740287
+UR  - https://doi.org/10.1109/tsg.2026.3740287
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - A Hybrid Learn-to-Optimize Framework With Dynamic Labeling for Efficient Mixed-Integer Scheduling of Active Distribution Networks
 JO  - IEEE Transactions on Smart Grid
 AU  - Xinshu Ling

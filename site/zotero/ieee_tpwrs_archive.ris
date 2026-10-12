@@ -1,4 +1,78 @@
 TY  - JOUR
+TI  - Transient Stability Analysis of AC/DC Power Systems with MMC-HVDC Based on Estimation of Domain of Attraction
+JO  - IEEE Transactions on Power Systems
+AU  - Kedi Zhang
+AU  - Jiemin Liao
+AU  - Yang Liu
+AU  - Q. H. Wu
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - transient stability
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3740037
+UR  - https://doi.org/10.1109/tpwrs.2026.3740037
+N1  - Auto-selected by Power Paper Digest; score=8.9
+ER  -
+
+TY  - JOUR
+TI  - Quantifying Grid-Forming Behavior: Bridging Device-Level Dynamics and System-Level Strength
+JO  - IEEE Transactions on Power Systems
+AU  - Kehao Zhuang
+AU  - Huanhai Xin
+AU  - Verena Häberle
+AU  - Liangxiao Luo
+AU  - Xiaoying Liu
+AU  - Xiuqiang He
+AU  - Linbin Huang
+AU  - Florian Dörfler
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3741483
+UR  - https://doi.org/10.1109/tpwrs.2026.3741483
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Nodal Frequency Security-Constrained Optimal Power System Virtual Inertia and Damping Dispatch
+JO  - IEEE Transactions on Power Systems
+AU  - Caoyang Cheng
+AU  - Bendong Tan
+AU  - Junbo Zhao
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - dispatch
+KW  - power system
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3740874
+UR  - https://doi.org/10.1109/tpwrs.2026.3740874
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Closed-Loop Predict-then-Optimize for Unit Commitment via Distributed Prediction-Optimization Coordination
+JO  - IEEE Transactions on Power Systems
+AU  - Yemin Wu
+AU  - Shuai Lu
+AU  - Wei Gu
+AU  - Bo Zeng
+AU  - Guangsheng Pan
+AU  - Yijun Xu
+AU  - Suhan Zhang
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3740835
+UR  - https://doi.org/10.1109/tpwrs.2026.3740835
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - Dynamic Line Ratings in AC Optimal Power Flow: Transient Temperature, Decomposition, and Large-Scale Evaluation
 JO  - IEEE Transactions on Power Systems
 AU  - Baptiste Rabecq

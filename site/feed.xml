@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 05 Oct 2026 13:58:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 14:14:11 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-10-05</title>
+      <title>电力系统论文周报 · 2026-10-12</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 13:58:39 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-10-05
-1. Multi-Modal Mixed Ambiguity Set Driven Conditional Distributionally Robust Optimization for Multi-Energy Microgrid Scheduling [IEEE Transactions on Sustainable Energy] - 10.0/10
-2. A Time-Layered Dimensionality Reduction Framework for Two-Stage Reactive Power Scheduling in Power Systems with High Renewable Penetration [IEEE Transactions on Sustainable Energy] - 8.3/10
-3. Optimal Operation of Data Center Microgrids Based on the Dynamic Surrogate Models of Server Power Consumption [IEEE Transactions on Smart Grid] - 8.2/10
-4. A New Index for Quantifying Stability Adaptation Effort in Power Electronics-Dominated Power Systems Based on Frequency-Domain Impedance Identification [arXiv] - 7.7/10
-5. Learning-Augmented MPC with an ICNN-Based Value Function for Economic Dispatch of Active Distribution Networks [IEEE Transactions on Smart Grid] - 7.3/10
-6. Learn Feasibility Once, Optimize All Objectives: Derivative-Free Diffusion Models for Chance-Constrained Programming [arXiv] - 7.2/10
-7. Physics-Informed Bayesian Autoencoder for Unsupervised Detection of Stealthy AC-FDIAs in Cyber-Physical Power Systems [IEEE Transactions on Smart Grid] - 6.5/10
-8. A BERT-PINN Deep Model for Probabilistic Load Forecasting of Hydrogen Powered Ships Power Systems [IEEE Transactions on Smart Grid] - 6.5/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 14:14:11 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-10-12
+1. Transient Stability Analysis of AC/DC Power Systems with MMC-HVDC Based on Estimation of Domain of Attraction [IEEE Transactions on Power Systems] - 8.9/10
+2. Resilience Enhancement Planning of Hydrogen-Electricity Systems Against Coordinated Power Line Outages and Load Redistribution Attacks [IEEE Transactions on Smart Grid] - 7.8/10
+3. Nodal Frequency Security-Constrained Optimal Power System Virtual Inertia and Damping Dispatch [IEEE Transactions on Power Systems] - 6.5/10
+4. Game-Theoretic Reinforcement Learning based Topology-Agnostic Defense for Virtual Power Plants [IEEE Transactions on Smart Grid] - 6.5/10
+5. Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning [arXiv] - 6.4/10
+6. Quantifying Grid-Forming Behavior: Bridging Device-Level Dynamics and System-Level Strength [IEEE Transactions on Power Systems] - 6.1/10
+7. Learning-Based Power Flow Estimation with Sparse PMU Deployment in Power Systems [arXiv] - 6.1/10
+8. Distributionally Robust Adaptive Iterative Covariance Steering for Small-Body Proximity Operations [arXiv] - 6.0/10</description>
     </item>
   </channel>
 </rss>

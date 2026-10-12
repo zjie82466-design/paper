@@ -1,110 +1,49 @@
 TY  - JOUR
-TI  - Optimal Operation of Data Center Microgrids Based on the Dynamic Surrogate Models of Server Power Consumption
+TI  - Resilience Enhancement Planning of Hydrogen-Electricity Systems Against Coordinated Power Line Outages and Load Redistribution Attacks
 JO  - IEEE Transactions on Smart Grid
-AU  - Qian Chen
-AU  - Shenxi Zhang
-AU  - Keyan Liu
-AU  - Heng Zhang
-AU  - Haozhong Cheng
+AU  - Ziyi Wen
+AU  - Gaoqi Liang
+AU  - Junhua Zhao
+AU  - Fushuan Wen
+AU  - Zhao Yang Dong
 KW  - Strong Match
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3740898
+UR  - https://doi.org/10.1109/tsg.2026.3740898
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Game-Theoretic Reinforcement Learning based Topology-Agnostic Defense for Virtual Power Plants
+JO  - IEEE Transactions on Smart Grid
+AU  - Pooja Algikar
+AU  - Stefano Fenu
+AU  - Kumarsinh Jhala
+AU  - Siby Plathottam
+KW  - Promising
 KW  - AI+电力优化
 KW  - 源网荷储协同
-KW  - surrogate model
-KW  - microgrid
-KW  - microgrids
+KW  - reinforcement learning
+KW  - virtual power plant
 PY  - 2026
-DO  - 10.1109/tsg.2026.3738063
-UR  - https://doi.org/10.1109/tsg.2026.3738063
-N1  - Auto-selected by Power Paper Digest; score=8.2
-ER  -
-
-TY  - JOUR
-TI  - Learning-Augmented MPC with an ICNN-Based Value Function for Economic Dispatch of Active Distribution Networks
-JO  - IEEE Transactions on Smart Grid
-AU  - Jialin Du
-AU  - Di Cao
-AU  - Weihao Hu
-AU  - Pengfei Zhao
-AU  - Zhenyuan Zhang
-AU  - Zhe Chen
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - economic dispatch
-KW  - dispatch
-PY  - 2026
-DO  - 10.1109/tsg.2026.3737526
-UR  - https://doi.org/10.1109/tsg.2026.3737526
-N1  - Auto-selected by Power Paper Digest; score=7.3
-ER  -
-
-TY  - JOUR
-TI  - Physics-Informed Bayesian Autoencoder for Unsupervised Detection of Stealthy AC-FDIAs in Cyber-Physical Power Systems
-JO  - IEEE Transactions on Smart Grid
-AU  - Wei Tai
-AU  - Qi Wang
-AU  - Yuqin Mu
-AU  - Minghui Yan
-AU  - Yi Tang
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tsg.2026.3738936
-UR  - https://doi.org/10.1109/tsg.2026.3738936
+DO  - 10.1109/tsg.2026.3741535
+UR  - https://doi.org/10.1109/tsg.2026.3741535
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - A BERT-PINN Deep Model for Probabilistic Load Forecasting of Hydrogen Powered Ships Power Systems
+TI  - Foresight-enhanced Adaptive Safe Hierarchical Reinforcement Learning for Real-Time Voltage Regulation in Active Distribution Networks
 JO  - IEEE Transactions on Smart Grid
-AU  - Xingdou Liu
-AU  - Liang Zou
-AU  - Zhiyun Han
-AU  - Jundao Jiang
-AU  - Yawei Wang
-AU  - Rui Wang
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tsg.2026.3738878
-UR  - https://doi.org/10.1109/tsg.2026.3738878
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - A Controlled Islanding Strategy Using Manifold-Based Riemannian Optimization for Power Balance in Renewable Power Systems
-JO  - IEEE Transactions on Smart Grid
-AU  - Bing Zhao
-AU  - Fanrui Chang
-AU  - Takeyoshi Kato
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tsg.2026.3738897
-UR  - https://doi.org/10.1109/tsg.2026.3738897
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - A Hybrid Learn-to-Optimize Framework With Dynamic Labeling for Efficient Mixed-Integer Scheduling of Active Distribution Networks
-JO  - IEEE Transactions on Smart Grid
-AU  - Xinshu Ling
-AU  - Linwei Sang
-AU  - Tao Qian
-AU  - Chenhui Lin
-AU  - Zheng Xu
-AU  - Zaijun Wu
-AU  - Qinran Hu
+AU  - Jun Geng
+AU  - Zhengshuo Li
 KW  - Background Read
-KW  - 电力系统运行与规划
-KW  - scheduling
+KW  - AI+电力优化
+KW  - reinforcement learning
 PY  - 2026
-DO  - 10.1109/tsg.2026.3739246
-UR  - https://doi.org/10.1109/tsg.2026.3739246
+DO  - 10.1109/tsg.2026.3740287
+UR  - https://doi.org/10.1109/tsg.2026.3740287
 N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

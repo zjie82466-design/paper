@@ -1,4 +1,19 @@
 TY  - JOUR
+TI  - Robust Secondary Frequency Regulation Strategy for Grid-Forming Wind Farm via Tube-Based MPC with Nonlinear Disturbance Observer
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Jini Zhuang
+AU  - Mingbo Liu
+AU  - Shunjiang Lin
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tste.2026.3744440
+UR  - https://doi.org/10.1109/tste.2026.3744440
+N1  - Auto-selected by Power Paper Digest; score=6.4
+ER  -
+
+TY  - JOUR
 TI  - A Time-Layered Dimensionality Reduction Framework for Two-Stage Reactive Power Scheduling in Power Systems with High Renewable Penetration
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Lin Xue

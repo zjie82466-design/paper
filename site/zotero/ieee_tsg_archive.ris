@@ -1,4 +1,77 @@
 TY  - JOUR
+TI  - Advanced Control of Grid-Forming Voltage Source Converters Using Dispatchable Virtual Oscillator and Model Predictive Control
+JO  - IEEE Transactions on Smart Grid
+AU  - Sima Azizi Aghdam
+AU  - Mohammed Agamy
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3743444
+UR  - https://doi.org/10.1109/tsg.2026.3743444
+N1  - Auto-selected by Power Paper Digest; score=7.6
+ER  -
+
+TY  - JOUR
+TI  - Dispatch Deviation Reduction-oriented Virtual Power Plant Aggregation
+JO  - IEEE Transactions on Smart Grid
+AU  - Qiyuan Li
+AU  - Wei Lin
+AU  - Zhifang Yang
+AU  - Yiqiang Jiang
+AU  - Yadong Xiang
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - virtual power plant
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3742828
+UR  - https://doi.org/10.1109/tsg.2026.3742828
+N1  - Auto-selected by Power Paper Digest; score=6.2
+ER  -
+
+TY  - JOUR
+TI  - Coordinated Optimal Charging Scheduling of Multiple Electric Aircraft Battery Swapping Stations Under Grid Security Constraints
+JO  - IEEE Transactions on Smart Grid
+AU  - Bozheng Li
+AU  - Xin Zhang
+AU  - Rong Zeng
+AU  - Jinning Zhang
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
+PY  - 2026
+DO  - 10.1109/tsg.2026.3742633
+UR  - https://doi.org/10.1109/tsg.2026.3742633
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Decision-Dependent Wasserstein Distributionally Robust Dispatch for Incentive-Based Coordination of Active Distribution Networks and Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Jialin Du
+AU  - Di Cao
+AU  - Weihao Hu
+AU  - Zhenyuan Zhang
+AU  - Zhe Chen
+KW  - Strong Match
+KW  - 鲁棒随机优化
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - distributionally robust
+KW  - dispatch
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3743138
+UR  - https://doi.org/10.1109/tsg.2026.3743138
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
 TI  - Game-Theoretic Reinforcement Learning based Topology-Agnostic Defense for Virtual Power Plants
 JO  - IEEE Transactions on Smart Grid
 AU  - Pooja Algikar

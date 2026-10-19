@@ -1,4 +1,24 @@
 TY  - JOUR
+TI  - Discrete-Mode-Aware Optimal Power Flow for AI Data Centers in Distribution Networks
+JO  - IEEE Transactions on Power Systems
+AU  - Yunpeng Jiang
+AU  - Chenhui Lin
+AU  - Kai Hou
+AU  - Tianyang Zhao
+AU  - Qian Wang
+AU  - Le Liu
+AU  - Wenchuan Wu
+AU  - Weiye Zheng
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - optimal power flow
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3744210
+UR  - https://doi.org/10.1109/tpwrs.2026.3744210
+N1  - Auto-selected by Power Paper Digest; score=5.9
+ER  -
+
+TY  - JOUR
 TI  - Transient Stability Analysis of AC/DC Power Systems with MMC-HVDC Based on Estimation of Domain of Attraction
 JO  - IEEE Transactions on Power Systems
 AU  - Kedi Zhang

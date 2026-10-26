@@ -1,4 +1,102 @@
 TY  - JOUR
+TI  - GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems
+JO  - IEEE Transactions on Smart Grid
+AU  - Guoteng Wang
+AU  - Chongyu Wang
+AU  - Mohammad Shahidehpour
+AU  - Qin Wang
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746277
+UR  - https://doi.org/10.1109/tsg.2026.3746277
+N1  - Auto-selected by Power Paper Digest; score=8.7
+ER  -
+
+TY  - JOUR
+TI  - Multi-Orbit Availability-Aware Coordinated Optimization of Space-Ground Computing-Electricity Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Yueyang Xu
+AU  - Zhenyang Xiong
+AU  - Libo Han
+AU  - Jun Xu
+AU  - Xiaoqian Li
+AU  - Qunhai Huo
+AU  - Anqi Liang
+AU  - Xijuan Yu
+AU  - Ran Shen
+AU  - Lixin Shi
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746322
+UR  - https://doi.org/10.1109/tsg.2026.3746322
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Outage-Aware Resilient Energy Trading in Interconnected Microgrids via Lyapunov Optimization Considering Battery Energy Storage System Degradation
+JO  - IEEE Transactions on Smart Grid
+AU  - Dillip Kumar Mishra
+AU  - Mohammad Hossein Abbasi
+AU  - Jiatong Wang
+AU  - Jiangfeng Zhang
+AU  - Li Li
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - energy storage
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745580
+UR  - https://doi.org/10.1109/tsg.2026.3745580
+N1  - Auto-selected by Power Paper Digest; score=8.4
+ER  -
+
+TY  - JOUR
+TI  - Resilient Data-Driven LFC With Event-Triggering for Power Systems Against DoS Attacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Lusong Ding
+AU  - Weiwei Sun
+AU  - Linfang Shao
+AU  - Xinyu Lv
+AU  - Jiahui Li
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745620
+UR  - https://doi.org/10.1109/tsg.2026.3745620
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Reduced-Order Observer-Based Load Frequency Control for Interconnected Power Systems Under Imperfect Communication
+JO  - IEEE Transactions on Smart Grid
+AU  - Guangdou Zhang
+AU  - Ershun Du
+AU  - Ning Zhang
+AU  - Jian Li
+AU  - Qi Huang
+AU  - Chongqing Kang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745120
+UR  - https://doi.org/10.1109/tsg.2026.3745120
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Advanced Control of Grid-Forming Voltage Source Converters Using Dispatchable Virtual Oscillator and Model Predictive Control
 JO  - IEEE Transactions on Smart Grid
 AU  - Sima Azizi Aghdam

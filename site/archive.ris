@@ -1,4 +1,231 @@
 TY  - JOUR
+TI  - GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems
+JO  - IEEE Transactions on Smart Grid
+AU  - Guoteng Wang
+AU  - Chongyu Wang
+AU  - Mohammad Shahidehpour
+AU  - Qin Wang
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746277
+UR  - https://doi.org/10.1109/tsg.2026.3746277
+N1  - Auto-selected by Power Paper Digest; score=8.7
+ER  -
+
+TY  - JOUR
+TI  - Multi-Orbit Availability-Aware Coordinated Optimization of Space-Ground Computing-Electricity Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Yueyang Xu
+AU  - Zhenyang Xiong
+AU  - Libo Han
+AU  - Jun Xu
+AU  - Xiaoqian Li
+AU  - Qunhai Huo
+AU  - Anqi Liang
+AU  - Xijuan Yu
+AU  - Ran Shen
+AU  - Lixin Shi
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746322
+UR  - https://doi.org/10.1109/tsg.2026.3746322
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Renewable and Load Capacity Set for Infeasibility Identification and Recovery in Security-Constrained Economic Dispatch under Uncertainties
+JO  - IEEE Transactions on Power Systems
+AU  - Keyi Chen
+AU  - Lei Yan
+AU  - Yan Meng
+AU  - Jiayu Han
+AU  - Zuyi Li
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3746616
+UR  - https://doi.org/10.1109/tpwrs.2026.3746616
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Outage-Aware Resilient Energy Trading in Interconnected Microgrids via Lyapunov Optimization Considering Battery Energy Storage System Degradation
+JO  - IEEE Transactions on Smart Grid
+AU  - Dillip Kumar Mishra
+AU  - Mohammad Hossein Abbasi
+AU  - Jiatong Wang
+AU  - Jiangfeng Zhang
+AU  - Li Li
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - energy storage
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745580
+UR  - https://doi.org/10.1109/tsg.2026.3745580
+N1  - Auto-selected by Power Paper Digest; score=8.4
+ER  -
+
+TY  - JOUR
+TI  - Trust-Region Benders for Scalable Multiperiod Expansion Planning for Transmission and Storage
+JO  - arXiv
+AU  - Kevin Wu
+AU  - Rabab Haider
+AU  - Pascal Van Hentenryck
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.32862v1
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Continuous-Time Wasserstein Distributionally Robust Control: Limits, Duality, and Stability
+JO  - arXiv
+AU  - Minjung Gim
+AU  - Hee Jun Yang
+AU  - Yeoneung Kim
+KW  - Background Read
+KW  - 鲁棒随机优化
+KW  - distributionally robust
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.32080v1
+N1  - Auto-selected by Power Paper Digest; score=5.4
+ER  -
+
+TY  - JOUR
+TI  - Strengthening AC optimal power flow relaxation through offline bound tightening and linear approximations
+JO  - arXiv
+AU  - Xiangxin An
+AU  - Constance Crozier
+AU  - Santanu S. Dey
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - power system operation
+KW  - optimal power flow
+KW  - power system
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.32006v1
+N1  - Auto-selected by Power Paper Digest; score=7.6
+ER  -
+
+TY  - JOUR
+TI  - Resilient Data-Driven LFC With Event-Triggering for Power Systems Against DoS Attacks
+JO  - IEEE Transactions on Smart Grid
+AU  - Lusong Ding
+AU  - Weiwei Sun
+AU  - Linfang Shao
+AU  - Xinyu Lv
+AU  - Jiahui Li
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745620
+UR  - https://doi.org/10.1109/tsg.2026.3745620
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Bi-Level Learning-Enabled Control Framework for Power Systems with High Inverter-Based Resource Penetration: Theory and Implementation
+JO  - IEEE Transactions on Power Systems
+AU  - Lakshmi Nair
+AU  - Hareesh Kumar Reddy M
+AU  - Vignesh V
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3745993
+UR  - https://doi.org/10.1109/tpwrs.2026.3745993
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Reduced-Order Observer-Based Load Frequency Control for Interconnected Power Systems Under Imperfect Communication
+JO  - IEEE Transactions on Smart Grid
+AU  - Guangdou Zhang
+AU  - Ershun Du
+AU  - Ning Zhang
+AU  - Jian Li
+AU  - Qi Huang
+AU  - Chongqing Kang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745120
+UR  - https://doi.org/10.1109/tsg.2026.3745120
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A Novel Resilient Load Frequency Control with Prescribed Performance for Constrained Multi-Area Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Jian-Ning Li
+AU  - Jun-Ze Li
+AU  - Zi-Heng Wen
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3745084
+UR  - https://doi.org/10.1109/tpwrs.2026.3745084
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Robust Transient Stability-Constrained Multi-Objective Optimal Power Flow under Uncertain Load Dynamics
+JO  - IEEE Transactions on Power Systems
+AU  - Dunjian Xie
+AU  - Yan Xu
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 构网与暂态稳定
+KW  - optimal power flow
+KW  - transient stability
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3744758
+UR  - https://doi.org/10.1109/tpwrs.2026.3744758
+N1  - Auto-selected by Power Paper Digest; score=7.3
+ER  -
+
+TY  - JOUR
+TI  - A New Neural Network Paradigm for Scalable and Generalizable Stability Analysis of Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Tong Han
+AU  - Yan Xu
+AU  - Rui Zhang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3744794
+UR  - https://doi.org/10.1109/tpwrs.2026.3744794
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
 TI  - Robust Secondary Frequency Regulation Strategy for Grid-Forming Wind Farm via Tube-Based MPC with Nonlinear Disturbance Observer
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Jini Zhuang

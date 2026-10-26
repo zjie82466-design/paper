@@ -1,72 +1,97 @@
 TY  - JOUR
-TI  - Decision-Dependent Wasserstein Distributionally Robust Dispatch for Incentive-Based Coordination of Active Distribution Networks and Microgrids
+TI  - GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems
 JO  - IEEE Transactions on Smart Grid
-AU  - Jialin Du
-AU  - Di Cao
-AU  - Weihao Hu
-AU  - Zhenyuan Zhang
-AU  - Zhe Chen
+AU  - Guoteng Wang
+AU  - Chongyu Wang
+AU  - Mohammad Shahidehpour
+AU  - Qin Wang
 KW  - Strong Match
-KW  - 鲁棒随机优化
-KW  - 电力系统运行与规划
 KW  - 源网荷储协同
-KW  - distributionally robust
-KW  - dispatch
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746277
+UR  - https://doi.org/10.1109/tsg.2026.3746277
+N1  - Auto-selected by Power Paper Digest; score=8.7
+ER  -
+
+TY  - JOUR
+TI  - Outage-Aware Resilient Energy Trading in Interconnected Microgrids via Lyapunov Optimization Considering Battery Energy Storage System Degradation
+JO  - IEEE Transactions on Smart Grid
+AU  - Dillip Kumar Mishra
+AU  - Mohammad Hossein Abbasi
+AU  - Jiatong Wang
+AU  - Jiangfeng Zhang
+AU  - Li Li
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - energy storage
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3743138
-UR  - https://doi.org/10.1109/tsg.2026.3743138
-N1  - Auto-selected by Power Paper Digest; score=10.0
+DO  - 10.1109/tsg.2026.3745580
+UR  - https://doi.org/10.1109/tsg.2026.3745580
+N1  - Auto-selected by Power Paper Digest; score=8.4
 ER  -
 
 TY  - JOUR
-TI  - Advanced Control of Grid-Forming Voltage Source Converters Using Dispatchable Virtual Oscillator and Model Predictive Control
+TI  - Multi-Orbit Availability-Aware Coordinated Optimization of Space-Ground Computing-Electricity Microgrids
 JO  - IEEE Transactions on Smart Grid
-AU  - Sima Azizi Aghdam
-AU  - Mohammed Agamy
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - 电力系统运行与规划
-KW  - grid-forming
-KW  - dispatch
-PY  - 2026
-DO  - 10.1109/tsg.2026.3743444
-UR  - https://doi.org/10.1109/tsg.2026.3743444
-N1  - Auto-selected by Power Paper Digest; score=7.6
-ER  -
-
-TY  - JOUR
-TI  - Dispatch Deviation Reduction-oriented Virtual Power Plant Aggregation
-JO  - IEEE Transactions on Smart Grid
-AU  - Qiyuan Li
-AU  - Wei Lin
-AU  - Zhifang Yang
-AU  - Yiqiang Jiang
-AU  - Yadong Xiang
+AU  - Yueyang Xu
+AU  - Zhenyang Xiong
+AU  - Libo Han
+AU  - Jun Xu
+AU  - Xiaoqian Li
+AU  - Qunhai Huo
+AU  - Anqi Liang
+AU  - Xijuan Yu
+AU  - Ran Shen
+AU  - Lixin Shi
 KW  - Promising
 KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - virtual power plant
-KW  - dispatch
+KW  - microgrid
+KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3742828
-UR  - https://doi.org/10.1109/tsg.2026.3742828
-N1  - Auto-selected by Power Paper Digest; score=6.2
+DO  - 10.1109/tsg.2026.3746322
+UR  - https://doi.org/10.1109/tsg.2026.3746322
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -
 
 TY  - JOUR
-TI  - Coordinated Optimal Charging Scheduling of Multiple Electric Aircraft Battery Swapping Stations Under Grid Security Constraints
+TI  - Resilient Data-Driven LFC With Event-Triggering for Power Systems Against DoS Attacks
 JO  - IEEE Transactions on Smart Grid
-AU  - Bozheng Li
-AU  - Xin Zhang
-AU  - Rong Zeng
-AU  - Jinning Zhang
-KW  - Background Read
+AU  - Lusong Ding
+AU  - Weiwei Sun
+AU  - Linfang Shao
+AU  - Xinyu Lv
+AU  - Jiahui Li
+KW  - Promising
 KW  - 电力系统运行与规划
-KW  - scheduling
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tsg.2026.3742633
-UR  - https://doi.org/10.1109/tsg.2026.3742633
-N1  - Auto-selected by Power Paper Digest; score=5.2
+DO  - 10.1109/tsg.2026.3745620
+UR  - https://doi.org/10.1109/tsg.2026.3745620
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Reduced-Order Observer-Based Load Frequency Control for Interconnected Power Systems Under Imperfect Communication
+JO  - IEEE Transactions on Smart Grid
+AU  - Guangdou Zhang
+AU  - Ershun Du
+AU  - Ning Zhang
+AU  - Jian Li
+AU  - Qi Huang
+AU  - Chongqing Kang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tsg.2026.3745120
+UR  - https://doi.org/10.1109/tsg.2026.3745120
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -

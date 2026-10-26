@@ -1,19 +1,81 @@
 TY  - JOUR
-TI  - Discrete-Mode-Aware Optimal Power Flow for AI Data Centers in Distribution Networks
+TI  - Robust Transient Stability-Constrained Multi-Objective Optimal Power Flow under Uncertain Load Dynamics
 JO  - IEEE Transactions on Power Systems
-AU  - Yunpeng Jiang
-AU  - Chenhui Lin
-AU  - Kai Hou
-AU  - Tianyang Zhao
-AU  - Qian Wang
-AU  - Le Liu
-AU  - Wenchuan Wu
-AU  - Weiye Zheng
+AU  - Dunjian Xie
+AU  - Yan Xu
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 构网与暂态稳定
+KW  - optimal power flow
+KW  - transient stability
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3744758
+UR  - https://doi.org/10.1109/tpwrs.2026.3744758
+N1  - Auto-selected by Power Paper Digest; score=7.3
+ER  -
+
+TY  - JOUR
+TI  - Renewable and Load Capacity Set for Infeasibility Identification and Recovery in Security-Constrained Economic Dispatch under Uncertainties
+JO  - IEEE Transactions on Power Systems
+AU  - Keyi Chen
+AU  - Lei Yan
+AU  - Yan Meng
+AU  - Jiayu Han
+AU  - Zuyi Li
 KW  - Promising
 KW  - 电力系统运行与规划
-KW  - optimal power flow
+KW  - economic dispatch
+KW  - dispatch
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3744210
-UR  - https://doi.org/10.1109/tpwrs.2026.3744210
-N1  - Auto-selected by Power Paper Digest; score=5.9
+DO  - 10.1109/tpwrs.2026.3746616
+UR  - https://doi.org/10.1109/tpwrs.2026.3746616
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Bi-Level Learning-Enabled Control Framework for Power Systems with High Inverter-Based Resource Penetration: Theory and Implementation
+JO  - IEEE Transactions on Power Systems
+AU  - Lakshmi Nair
+AU  - Hareesh Kumar Reddy M
+AU  - Vignesh V
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3745993
+UR  - https://doi.org/10.1109/tpwrs.2026.3745993
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A Novel Resilient Load Frequency Control with Prescribed Performance for Constrained Multi-Area Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Jian-Ning Li
+AU  - Jun-Ze Li
+AU  - Zi-Heng Wen
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3745084
+UR  - https://doi.org/10.1109/tpwrs.2026.3745084
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A New Neural Network Paradigm for Scalable and Generalizable Stability Analysis of Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Tong Han
+AU  - Yan Xu
+AU  - Rui Zhang
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3744794
+UR  - https://doi.org/10.1109/tpwrs.2026.3744794
+N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -

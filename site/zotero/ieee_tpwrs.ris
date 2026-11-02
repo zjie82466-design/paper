@@ -1,81 +1,87 @@
 TY  - JOUR
-TI  - Robust Transient Stability-Constrained Multi-Objective Optimal Power Flow under Uncertain Load Dynamics
+TI  - An Efficient GPU-accelerated Dual Halpern Algorithm for Large-scale Security Constrained Economic Dispatch of Renewable Power Systems
 JO  - IEEE Transactions on Power Systems
-AU  - Dunjian Xie
-AU  - Yan Xu
+AU  - Qi Wang
+AU  - Chenhui Lin
+AU  - Xu Yang
+AU  - Yuanxing Xia
+AU  - Zening Li
+AU  - Zhengguang Liu
+AU  - Wenchuan Wu
+AU  - Defeng Sun
 KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - 构网与暂态稳定
-KW  - optimal power flow
-KW  - transient stability
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3744758
-UR  - https://doi.org/10.1109/tpwrs.2026.3744758
-N1  - Auto-selected by Power Paper Digest; score=7.3
-ER  -
-
-TY  - JOUR
-TI  - Renewable and Load Capacity Set for Infeasibility Identification and Recovery in Security-Constrained Economic Dispatch under Uncertainties
-JO  - IEEE Transactions on Power Systems
-AU  - Keyi Chen
-AU  - Lei Yan
-AU  - Yan Meng
-AU  - Jiayu Han
-AU  - Zuyi Li
-KW  - Promising
 KW  - 电力系统运行与规划
 KW  - economic dispatch
 KW  - dispatch
+KW  - power system
+KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3746616
-UR  - https://doi.org/10.1109/tpwrs.2026.3746616
-N1  - Auto-selected by Power Paper Digest; score=6.9
+DO  - 10.1109/tpwrs.2026.3749158
+UR  - https://doi.org/10.1109/tpwrs.2026.3749158
+N1  - Auto-selected by Power Paper Digest; score=10.0
 ER  -
 
 TY  - JOUR
-TI  - Bi-Level Learning-Enabled Control Framework for Power Systems with High Inverter-Based Resource Penetration: Theory and Implementation
+TI  - Deep Learning-Accelerated Shapley Value for Fair Allocation in Power Systems: The Case of Carbon Emission Responsibility
 JO  - IEEE Transactions on Power Systems
-AU  - Lakshmi Nair
-AU  - Hareesh Kumar Reddy M
-AU  - Vignesh V
+AU  - Yuanhao Feng
+AU  - Tao Sun
+AU  - Yan Meng
+AU  - Xuxin Yang
+AU  - Donghan Feng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - power system
+KW  - power systems
+KW  - deep learning
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748050
+UR  - https://doi.org/10.1109/tpwrs.2026.3748050
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
+TI  - Delay, Noise, and False Data Aware Adaptive Estimation Framework for Enhanced Dynamic State Tracking in Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Manish Kumar
+AU  - Abhineet Prakash
+AU  - Ranjeet Kumar Tiwari
+AU  - Subhransu Ranjan Samantaray
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3745993
-UR  - https://doi.org/10.1109/tpwrs.2026.3745993
+DO  - 10.1109/tpwrs.2026.3748452
+UR  - https://doi.org/10.1109/tpwrs.2026.3748452
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - A Novel Resilient Load Frequency Control with Prescribed Performance for Constrained Multi-Area Power Systems
+TI  - 2026 Index IEEE Transactions on Power Systems
 JO  - IEEE Transactions on Power Systems
-AU  - Jian-Ning Li
-AU  - Jun-Ze Li
-AU  - Zi-Heng Wen
 KW  - Promising
 KW  - 电力系统运行与规划
 KW  - power system
 KW  - power systems
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3745084
-UR  - https://doi.org/10.1109/tpwrs.2026.3745084
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tpwrs.2026.3747672
+UR  - https://doi.org/10.1109/tpwrs.2026.3747672
+N1  - Auto-selected by Power Paper Digest; score=6.3
 ER  -
 
 TY  - JOUR
-TI  - A New Neural Network Paradigm for Scalable and Generalizable Stability Analysis of Power Systems
+TI  - Inertia Power Extraction from DC Link of IBRs with Inclusion in Unit Commitment
 JO  - IEEE Transactions on Power Systems
-AU  - Tong Han
-AU  - Yan Xu
-AU  - Rui Zhang
-KW  - Promising
+AU  - Jahangir Hossain
+AU  - Masoud Karimi-Ghartemani
+AU  - Yong Fu
+KW  - Background Read
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - unit commitment
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3744794
-UR  - https://doi.org/10.1109/tpwrs.2026.3744794
-N1  - Auto-selected by Power Paper Digest; score=6.5
+DO  - 10.1109/tpwrs.2026.3748709
+UR  - https://doi.org/10.1109/tpwrs.2026.3748709
+N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

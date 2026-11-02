@@ -1,4 +1,92 @@
 TY  - JOUR
+TI  - An Efficient GPU-accelerated Dual Halpern Algorithm for Large-scale Security Constrained Economic Dispatch of Renewable Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Qi Wang
+AU  - Chenhui Lin
+AU  - Xu Yang
+AU  - Yuanxing Xia
+AU  - Zening Li
+AU  - Zhengguang Liu
+AU  - Wenchuan Wu
+AU  - Defeng Sun
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3749158
+UR  - https://doi.org/10.1109/tpwrs.2026.3749158
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Delay, Noise, and False Data Aware Adaptive Estimation Framework for Enhanced Dynamic State Tracking in Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Manish Kumar
+AU  - Abhineet Prakash
+AU  - Ranjeet Kumar Tiwari
+AU  - Subhransu Ranjan Samantaray
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748452
+UR  - https://doi.org/10.1109/tpwrs.2026.3748452
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Inertia Power Extraction from DC Link of IBRs with Inclusion in Unit Commitment
+JO  - IEEE Transactions on Power Systems
+AU  - Jahangir Hossain
+AU  - Masoud Karimi-Ghartemani
+AU  - Yong Fu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748709
+UR  - https://doi.org/10.1109/tpwrs.2026.3748709
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Deep Learning-Accelerated Shapley Value for Fair Allocation in Power Systems: The Case of Carbon Emission Responsibility
+JO  - IEEE Transactions on Power Systems
+AU  - Yuanhao Feng
+AU  - Tao Sun
+AU  - Yan Meng
+AU  - Xuxin Yang
+AU  - Donghan Feng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - power system
+KW  - power systems
+KW  - deep learning
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748050
+UR  - https://doi.org/10.1109/tpwrs.2026.3748050
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
+TI  - 2026 Index IEEE Transactions on Power Systems
+JO  - IEEE Transactions on Power Systems
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3747672
+UR  - https://doi.org/10.1109/tpwrs.2026.3747672
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
 TI  - Renewable and Load Capacity Set for Infeasibility Identification and Recovery in Security-Constrained Economic Dispatch under Uncertainties
 JO  - IEEE Transactions on Power Systems
 AU  - Keyi Chen

@@ -1,4 +1,302 @@
 TY  - JOUR
+TI  - Multi-Agent Collaborative Deep Reinforcement Learning-Based Hierarchical Optimal Control of Islanded DC Microgrid
+JO  - IEEE Transactions on Smart Grid
+AU  - Weijie Shi
+AU  - Tao Zheng
+AU  - Chang Yang
+AU  - Jingdong Xu
+AU  - Josep M. Guerrero
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3749027
+UR  - https://doi.org/10.1109/tsg.2026.3749027
+N1  - Auto-selected by Power Paper Digest; score=7.5
+ER  -
+
+TY  - JOUR
+TI  - An Efficient GPU-accelerated Dual Halpern Algorithm for Large-scale Security Constrained Economic Dispatch of Renewable Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Qi Wang
+AU  - Chenhui Lin
+AU  - Xu Yang
+AU  - Yuanxing Xia
+AU  - Zening Li
+AU  - Zhengguang Liu
+AU  - Wenchuan Wu
+AU  - Defeng Sun
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - economic dispatch
+KW  - dispatch
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3749158
+UR  - https://doi.org/10.1109/tpwrs.2026.3749158
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Flexible Steelmaking Scheduling for Renewable Energy Integration Considering Electric Arc Furnace Heat Loss
+JO  - IEEE Transactions on Smart Grid
+AU  - Leilei Zhao
+AU  - Xiaoyuan Xu
+AU  - Yue Chen
+AU  - Yixun Xue
+AU  - Zheng Yan
+AU  - Mohammad Shahidehpour
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
+PY  - 2026
+DO  - 10.1109/tsg.2026.3748167
+UR  - https://doi.org/10.1109/tsg.2026.3748167
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Regret-Optimal Wasserstein-Robust Linear Regression
+JO  - arXiv
+AU  - Sloan Nietert
+AU  - Daniel Kuhn
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - robust optimization
+KW  - distributionally robust
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.42109v1
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Risk Assessment of Fair Multi-Period Dynamic Operating Envelopes under Uncertainty
+JO  - arXiv
+AU  - Pedro Salomão Quessongo
+AU  - Daniel Gebbran
+AU  - Wilhiam de Carvalho
+AU  - Clodomiro Unsihuay-Vila
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - optimal power flow
+KW  - distributed energy resources
+KW  - energy storage
+KW  - opf
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.42014v1
+N1  - Auto-selected by Power Paper Digest; score=9.0
+ER  -
+
+TY  - JOUR
+TI  - Chance-Constrained Inspection Viewpoint Sequencing for On-Orbit Servicing via Safe Reinforcement Learning
+JO  - arXiv
+AU  - Chloé Carer
+AU  - Adam Abdin
+KW  - Promising
+KW  - 鲁棒随机优化
+KW  - AI+电力优化
+KW  - chance-constrained
+KW  - reinforcement learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.41639v1
+N1  - Auto-selected by Power Paper Digest; score=6.1
+ER  -
+
+TY  - JOUR
+TI  - Probability-Layer Clustering for Bound-and-Budget Calibration in Multi-Bound Robust Bidding of Renewable-Based Virtual Power Plants
+JO  - arXiv
+AU  - Hadi Nemati
+AU  - Álvaro Ortega
+AU  - Enrique Lobato
+AU  - Luis Rouco
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - virtual power plant
+KW  - dispatch
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.41633v1
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Report on Stability Analysis of Islanded Power Systems with Grid-Forming Converters
+JO  - arXiv
+AU  - Anup Joshi
+AU  - Luis A. Garcia-Reyes
+AU  - Qingyuan Gong
+AU  - Xavier Guillaud
+AU  - Javier Renedo
+AU  - Dirk Van Hertem
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
+KW  - grid-forming
+KW  - power system
+KW  - power systems
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.41538v1
+N1  - Auto-selected by Power Paper Digest; score=8.8
+ER  -
+
+TY  - JOUR
+TI  - Frequency-Calibrated Decision-Focused Learning for BESS Dispatch Under Renewable Uncertainty
+JO  - arXiv
+AU  - Zihan Meng
+AU  - Chenxi Hu
+AU  - Xin Cui
+AU  - Francis Yunhe Hou
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - decision-focused learning
+KW  - energy storage
+KW  - dispatch
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2610.41238v1
+N1  - Auto-selected by Power Paper Digest; score=8.8
+ER  -
+
+TY  - JOUR
+TI  - One-minute frequency disturbances from unintended synchronization in cyber–physical power systems
+JO  - Nature Energy
+AU  - Carsten Hartmann
+AU  - Edoardo De Din
+AU  - Daniele Carta
+AU  - Florian Middelkoop
+AU  - Arndt Neubauer
+AU  - Johannes Kruse
+AU  - Ulrich Oberhofer
+AU  - Richard Jumar
+AU  - Benjamin Schäfer
+AU  - Thiemo Pesch
+AU  - Andrea Benigni
+AU  - Dirk Witthaut
+KW  - Strong Match
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1038/s41560-026-02144-0
+UR  - https://doi.org/10.1038/s41560-026-02144-0
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Delay, Noise, and False Data Aware Adaptive Estimation Framework for Enhanced Dynamic State Tracking in Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Manish Kumar
+AU  - Abhineet Prakash
+AU  - Ranjeet Kumar Tiwari
+AU  - Subhransu Ranjan Samantaray
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748452
+UR  - https://doi.org/10.1109/tpwrs.2026.3748452
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Inertia Power Extraction from DC Link of IBRs with Inclusion in Unit Commitment
+JO  - IEEE Transactions on Power Systems
+AU  - Jahangir Hossain
+AU  - Masoud Karimi-Ghartemani
+AU  - Yong Fu
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - unit commitment
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748709
+UR  - https://doi.org/10.1109/tpwrs.2026.3748709
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
+TI  - Deep Learning-Accelerated Shapley Value for Fair Allocation in Power Systems: The Case of Carbon Emission Responsibility
+JO  - IEEE Transactions on Power Systems
+AU  - Yuanhao Feng
+AU  - Tao Sun
+AU  - Yan Meng
+AU  - Xuxin Yang
+AU  - Donghan Feng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - AI+电力优化
+KW  - power system
+KW  - power systems
+KW  - deep learning
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3748050
+UR  - https://doi.org/10.1109/tpwrs.2026.3748050
+N1  - Auto-selected by Power Paper Digest; score=7.9
+ER  -
+
+TY  - JOUR
+TI  - 2026 Index IEEE Transactions on Power Systems
+JO  - IEEE Transactions on Power Systems
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3747672
+UR  - https://doi.org/10.1109/tpwrs.2026.3747672
+N1  - Auto-selected by Power Paper Digest; score=6.3
+ER  -
+
+TY  - JOUR
+TI  - Adaptive Grid-Forming Control of Sending-End Wind Power under Cross-Regional Frequency Support Mode
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Yishi Liu
+AU  - Yongning Chi
+AU  - Chao Liu
+AU  - Hongzhi Liu
+AU  - Jie Yan
+AU  - Jiabing Hu
+AU  - Yan Xu
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - grid-forming
+PY  - 2026
+DO  - 10.1109/tste.2026.3747362
+UR  - https://doi.org/10.1109/tste.2026.3747362
+N1  - Auto-selected by Power Paper Digest; score=6.0
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Computation of Operating Flexibility Margins for Distributed Energy Resources in Distribution Networks
+JO  - IEEE Transactions on Smart Grid
+AU  - Woo-Young Cho
+AU  - Seung-Gil Noh
+AU  - Jung-Sung Park
+AU  - Yun-Su Kim
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - distributed energy resources
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746998
+UR  - https://doi.org/10.1109/tsg.2026.3746998
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems
 JO  - IEEE Transactions on Smart Grid
 AU  - Guoteng Wang

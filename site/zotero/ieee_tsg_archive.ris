@@ -1,4 +1,57 @@
 TY  - JOUR
+TI  - Multi-Agent Collaborative Deep Reinforcement Learning-Based Hierarchical Optimal Control of Islanded DC Microgrid
+JO  - IEEE Transactions on Smart Grid
+AU  - Weijie Shi
+AU  - Tao Zheng
+AU  - Chang Yang
+AU  - Jingdong Xu
+AU  - Josep M. Guerrero
+KW  - Strong Match
+KW  - AI+电力优化
+KW  - 源网荷储协同
+KW  - reinforcement learning
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3749027
+UR  - https://doi.org/10.1109/tsg.2026.3749027
+N1  - Auto-selected by Power Paper Digest; score=7.5
+ER  -
+
+TY  - JOUR
+TI  - Flexible Steelmaking Scheduling for Renewable Energy Integration Considering Electric Arc Furnace Heat Loss
+JO  - IEEE Transactions on Smart Grid
+AU  - Leilei Zhao
+AU  - Xiaoyuan Xu
+AU  - Yue Chen
+AU  - Yixun Xue
+AU  - Zheng Yan
+AU  - Mohammad Shahidehpour
+KW  - Background Read
+KW  - 电力系统运行与规划
+KW  - scheduling
+PY  - 2026
+DO  - 10.1109/tsg.2026.3748167
+UR  - https://doi.org/10.1109/tsg.2026.3748167
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Computation of Operating Flexibility Margins for Distributed Energy Resources in Distribution Networks
+JO  - IEEE Transactions on Smart Grid
+AU  - Woo-Young Cho
+AU  - Seung-Gil Noh
+AU  - Jung-Sung Park
+AU  - Yun-Su Kim
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - distributed energy resources
+PY  - 2026
+DO  - 10.1109/tsg.2026.3746998
+UR  - https://doi.org/10.1109/tsg.2026.3746998
+N1  - Auto-selected by Power Paper Digest; score=5.2
+ER  -
+
+TY  - JOUR
 TI  - GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems
 JO  - IEEE Transactions on Smart Grid
 AU  - Guoteng Wang

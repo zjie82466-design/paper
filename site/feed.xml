@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 13:04:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 14:31:51 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-10-26</title>
+      <title>电力系统论文周报 · 2026-11-02</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 13:04:10 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-10-26
-1. GFM and GFL Battery Energy Storage Systems for Spatial Virtual Inertia Optimization in Renewable Energy Power Systems [IEEE Transactions on Smart Grid] - 8.7/10
-2. Outage-Aware Resilient Energy Trading in Interconnected Microgrids via Lyapunov Optimization Considering Battery Energy Storage System Degradation [IEEE Transactions on Smart Grid] - 8.4/10
-3. Strengthening AC optimal power flow relaxation through offline bound tightening and linear approximations [arXiv] - 7.6/10
-4. Robust Transient Stability-Constrained Multi-Objective Optimal Power Flow under Uncertain Load Dynamics [IEEE Transactions on Power Systems] - 7.3/10
-5. Multi-Orbit Availability-Aware Coordinated Optimization of Space-Ground Computing-Electricity Microgrids [IEEE Transactions on Smart Grid] - 6.9/10
-6. Renewable and Load Capacity Set for Infeasibility Identification and Recovery in Security-Constrained Economic Dispatch under Uncertainties [IEEE Transactions on Power Systems] - 6.9/10
-7. Resilient Data-Driven LFC With Event-Triggering for Power Systems Against DoS Attacks [IEEE Transactions on Smart Grid] - 6.5/10
-8. Bi-Level Learning-Enabled Control Framework for Power Systems with High Inverter-Based Resource Penetration: Theory and Implementation [IEEE Transactions on Power Systems] - 6.5/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 14:31:51 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-11-02
+1. An Efficient GPU-accelerated Dual Halpern Algorithm for Large-scale Security Constrained Economic Dispatch of Renewable Power Systems [IEEE Transactions on Power Systems] - 10.0/10
+2. Risk Assessment of Fair Multi-Period Dynamic Operating Envelopes under Uncertainty [arXiv] - 9.0/10
+3. Frequency-Calibrated Decision-Focused Learning for BESS Dispatch Under Renewable Uncertainty [arXiv] - 8.8/10
+4. Report on Stability Analysis of Islanded Power Systems with Grid-Forming Converters [arXiv] - 8.8/10
+5. Deep Learning-Accelerated Shapley Value for Fair Allocation in Power Systems: The Case of Carbon Emission Responsibility [IEEE Transactions on Power Systems] - 7.9/10
+6. One-minute frequency disturbances from unintended synchronization in cyber–physical power systems [Nature Energy] - 7.8/10
+7. Multi-Agent Collaborative Deep Reinforcement Learning-Based Hierarchical Optimal Control of Islanded DC Microgrid [IEEE Transactions on Smart Grid] - 7.5/10
+8. Probability-Layer Clustering for Bound-and-Budget Calibration in Multi-Bound Robust Bidding of Renewable-Based Virtual Power Plants [arXiv] - 6.9/10</description>
     </item>
   </channel>
 </rss>

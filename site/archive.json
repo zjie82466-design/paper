@@ -7,32 +7,32 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-11-02T14:31:51.922325+08:00",
-    "target_date": "2026-11-02",
-    "window_start": "2026-10-27",
+    "generated_at": "2026-11-09T14:57:12.438170+08:00",
+    "target_date": "2026-11-09",
+    "window_start": "2026-11-03",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 235,
-    "archive_count": 235,
+    "paper_count": 250,
+    "archive_count": 250,
     "source_counts": {
-      "ieee": 135,
-      "arxiv": 99,
+      "ieee": 146,
+      "arxiv": 103,
       "nature": 1
     },
     "journal_counts": {
-      "arXiv": 99,
-      "IEEE Transactions on Smart Grid": 75,
-      "IEEE Transactions on Power Systems": 40,
-      "IEEE Transactions on Sustainable Energy": 20,
+      "arXiv": 103,
+      "IEEE Transactions on Smart Grid": 83,
+      "IEEE Transactions on Power Systems": 42,
+      "IEEE Transactions on Sustainable Energy": 21,
       "Nature Energy": 1
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 139,
-      "源网荷储协同": 93,
+      "电力系统运行与规划": 144,
+      "源网荷储协同": 104,
       "AI+电力优化": 46,
       "鲁棒随机优化": 44,
-      "构网与暂态稳定": 31,
-      "韧性与恢复": 12
+      "构网与暂态稳定": 33,
+      "韧性与恢复": 16
     },
     "required_topics": [
       "power system operation",
@@ -65,7 +65,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 0,
-        "archive_count": 40
+        "archive_count": 42
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -77,7 +77,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 75
+        "archive_count": 83
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -89,7 +89,7 @@
         "archive_bibtex_path": "./zotero/ieee_tste_archive.bib",
         "archive_ris_path": "./zotero/ieee_tste_archive.ris",
         "selected_count": 0,
-        "archive_count": 20
+        "archive_count": 21
       }
     ],
     "source_notes": {
@@ -104,8 +104,686 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 135,
+      "count": 146,
       "papers": [
+        {
+          "id": "10.1109/tpwrs.2026.3751505",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator",
+          "authors": [
+            "Ángel Vaca",
+            "Joan Gutiérrez-Florensa",
+            "Federico Milano"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3751505",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3751505",
+          "published_at": "2026-11-06T20:08:14+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.88,
+          "llm_score": 6.88,
+          "final_score": 6.88,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-07T04:08:14+08:00",
+          "published_date_local": "2026-11-07",
+          "published_time_local": "04:08",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3751505",
+          "citation_key": "vaca2026instantaneous751505",
+          "bibtex_entry": "@article{vaca2026instantaneous751505,\n  title = {Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator},\n  author = {Ángel Vaca and Joan Gutiérrez-Florensa and Federico Milano},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3751505},\n  url = {https://doi.org/10.1109/tpwrs.2026.3751505},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator\nJO  - IEEE Transactions on Power Systems\nAU  - Ángel Vaca\nAU  - Joan Gutiérrez-Florensa\nAU  - Federico Milano\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3751505\nUR  - https://doi.org/10.1109/tpwrs.2026.3751505\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3750027",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach",
+          "authors": [
+            "Ruoxuan Leng",
+            "Yan Xu",
+            "Dongxu Yu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3750027",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3750027",
+          "published_at": "2026-11-06T20:08:11+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 5.58,
+          "llm_score": 5.58,
+          "final_score": 5.58,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：energy storage",
+          "ai_summary": "该论文题为《Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-07T04:08:11+08:00",
+          "published_date_local": "2026-11-07",
+          "published_time_local": "04:08",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3750027",
+          "citation_key": "leng2026battery750027",
+          "bibtex_entry": "@article{leng2026battery750027,\n  title = {Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach},\n  author = {Ruoxuan Leng and Yan Xu and Dongxu Yu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750027},\n  url = {https://doi.org/10.1109/tsg.2026.3750027},\n  keywords = {Background Read, 源网荷储协同, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Ruoxuan Leng\nAU  - Yan Xu\nAU  - Dongxu Yu\nKW  - Background Read\nKW  - 源网荷储协同\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750027\nUR  - https://doi.org/10.1109/tsg.2026.3750027\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3750331",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids",
+          "authors": [
+            "Manesh Kumar Ochani",
+            "Hengxu Zhang",
+            "Zongshuai Jin",
+            "Wei Li"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3750331",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3750331",
+          "published_at": "2026-11-05T20:12:22+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-06T04:12:22+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "04:12",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3750331",
+          "citation_key": "ochani2026delayresilient750331",
+          "bibtex_entry": "@article{ochani2026delayresilient750331,\n  title = {Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids},\n  author = {Manesh Kumar Ochani and Hengxu Zhang and Zongshuai Jin and Wei Li},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750331},\n  url = {https://doi.org/10.1109/tsg.2026.3750331},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Manesh Kumar Ochani\nAU  - Hengxu Zhang\nAU  - Zongshuai Jin\nAU  - Wei Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750331\nUR  - https://doi.org/10.1109/tsg.2026.3750331\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3750866",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling",
+          "authors": [
+            "Quan Sui",
+            "Mengqi Liu",
+            "Shiyu Dong",
+            "Jing Liang",
+            "Kaibo Shi"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3750866",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3750866",
+          "published_at": "2026-11-05T20:10:15+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-06T04:10:15+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "04:10",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3750866",
+          "citation_key": "sui2026attackaware750866",
+          "bibtex_entry": "@article{sui2026attackaware750866,\n  title = {Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling},\n  author = {Quan Sui and Mengqi Liu and Shiyu Dong and Jing Liang and Kaibo Shi},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750866},\n  url = {https://doi.org/10.1109/tsg.2026.3750866},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling\nJO  - IEEE Transactions on Smart Grid\nAU  - Quan Sui\nAU  - Mengqi Liu\nAU  - Shiyu Dong\nAU  - Jing Liang\nAU  - Kaibo Shi\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750866\nUR  - https://doi.org/10.1109/tsg.2026.3750866\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3750306",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather",
+          "authors": [
+            "Zhifeng Liu",
+            "Jing Lu",
+            "Xiaolong Jin",
+            "Hongjie Jia",
+            "Shuo Liang",
+            "Tian Luan"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3750306",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3750306",
+          "published_at": "2026-11-05T20:08:37+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "resilience enhancement",
+            "resilience",
+            "extreme weather",
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复",
+            "源网荷储协同"
+          ],
+          "rule_score": 10.0,
+          "llm_score": 10.0,
+          "final_score": 10.0,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：resilience enhancement、resilience、extreme weather、energy storage",
+          "ai_summary": "该论文题为《A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-06T04:08:37+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "04:08",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3750306",
+          "citation_key": "liu2026stabilityanchoring750306",
+          "bibtex_entry": "@article{liu2026stabilityanchoring750306,\n  title = {A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather},\n  author = {Zhifeng Liu and Jing Lu and Xiaolong Jin and Hongjie Jia and Shuo Liang and Tian Luan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750306},\n  url = {https://doi.org/10.1109/tsg.2026.3750306},\n  keywords = {Strong Match, 韧性与恢复, 源网荷储协同, resilience enhancement, resilience, extreme weather, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhifeng Liu\nAU  - Jing Lu\nAU  - Xiaolong Jin\nAU  - Hongjie Jia\nAU  - Shuo Liang\nAU  - Tian Luan\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience enhancement\nKW  - resilience\nKW  - extreme weather\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750306\nUR  - https://doi.org/10.1109/tsg.2026.3750306\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tste.2026.3751030",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage",
+          "authors": [
+            "Huang Zhou",
+            "Xiaomeng Ai",
+            "Shichang Cui",
+            "Liqian Gao",
+            "Jiakun Fang",
+            "Wei Yao",
+            "Jinyu Wen",
+            "Shijie Cheng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3751030",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3751030",
+          "published_at": "2026-11-05T20:07:57+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "scheduling",
+            "energy storage",
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "源网荷储协同"
+          ],
+          "rule_score": 9.71,
+          "llm_score": 9.71,
+          "final_score": 9.71,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：scheduling、energy storage、power system、power systems",
+          "ai_summary": "该论文题为《Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-06T04:07:57+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "04:07",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3751030",
+          "citation_key": "zhou2026weekday751030",
+          "bibtex_entry": "@article{zhou2026weekday751030,\n  title = {Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage},\n  author = {Huang Zhou and Xiaomeng Ai and Shichang Cui and Liqian Gao and Jiakun Fang and Wei Yao and Jinyu Wen and Shijie Cheng},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3751030},\n  url = {https://doi.org/10.1109/tste.2026.3751030},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=9.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Huang Zhou\nAU  - Xiaomeng Ai\nAU  - Shichang Cui\nAU  - Liqian Gao\nAU  - Jiakun Fang\nAU  - Wei Yao\nAU  - Jinyu Wen\nAU  - Shijie Cheng\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tste.2026.3751030\nUR  - https://doi.org/10.1109/tste.2026.3751030\nN1  - Auto-selected by Power Paper Digest; score=9.7\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3750261",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids",
+          "authors": [
+            "Mengxiang Liu",
+            "Fei Teng",
+            "Thomas Parisini"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3750261",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3750261",
+          "published_at": "2026-11-05T20:07:34+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "resilience enhancement",
+            "resilience",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复",
+            "源网荷储协同"
+          ],
+          "rule_score": 10.0,
+          "llm_score": 10.0,
+          "final_score": 10.0,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：resilience enhancement、resilience、microgrid、microgrids",
+          "ai_summary": "该论文题为《Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-06T04:07:34+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "04:07",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3750261",
+          "citation_key": "liu2026cyberphysical750261",
+          "bibtex_entry": "@article{liu2026cyberphysical750261,\n  title = {Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids},\n  author = {Mengxiang Liu and Fei Teng and Thomas Parisini},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750261},\n  url = {https://doi.org/10.1109/tsg.2026.3750261},\n  keywords = {Strong Match, 韧性与恢复, 源网荷储协同, resilience enhancement, resilience, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Mengxiang Liu\nAU  - Fei Teng\nAU  - Thomas Parisini\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience enhancement\nKW  - resilience\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750261\nUR  - https://doi.org/10.1109/tsg.2026.3750261\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3749976",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters",
+          "authors": [
+            "Qianxi Tang",
+            "Li Peng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3749976",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3749976",
+          "published_at": "2026-11-03T20:11:17+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "grid-forming"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定"
+          ],
+          "rule_score": 5.93,
+          "llm_score": 5.93,
+          "final_score": 5.93,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：grid-forming",
+          "ai_summary": "该论文题为《Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-04T04:11:17+08:00",
+          "published_date_local": "2026-11-04",
+          "published_time_local": "04:11",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3749976",
+          "citation_key": "tang2026voltage749976",
+          "bibtex_entry": "@article{tang2026voltage749976,\n  title = {Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters},\n  author = {Qianxi Tang and Li Peng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3749976},\n  url = {https://doi.org/10.1109/tpwrs.2026.3749976},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters\nJO  - IEEE Transactions on Power Systems\nAU  - Qianxi Tang\nAU  - Li Peng\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3749976\nUR  - https://doi.org/10.1109/tpwrs.2026.3749976\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3749619",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?",
+          "authors": [
+            "Zhongze Li",
+            "Xiaoyu Peng",
+            "Xi Ru",
+            "Zhaojian Wang",
+            "Jianxin Zhang",
+            "Yingshang Liu",
+            "Feng Liu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3749619",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3749619",
+          "published_at": "2026-11-02T20:21:51+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 9.21,
+          "llm_score": 9.21,
+          "final_score": 9.21,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、microgrid、microgrids",
+          "ai_summary": "该论文题为《When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-03T04:21:51+08:00",
+          "published_date_local": "2026-11-03",
+          "published_time_local": "04:21",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3749619",
+          "citation_key": "li2026when749619",
+          "bibtex_entry": "@article{li2026when749619,\n  title = {When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?},\n  author = {Zhongze Li and Xiaoyu Peng and Xi Ru and Zhaojian Wang and Jianxin Zhang and Yingshang Liu and Feng Liu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749619},\n  url = {https://doi.org/10.1109/tsg.2026.3749619},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=9.2}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhongze Li\nAU  - Xiaoyu Peng\nAU  - Xi Ru\nAU  - Zhaojian Wang\nAU  - Jianxin Zhang\nAU  - Yingshang Liu\nAU  - Feng Liu\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749619\nUR  - https://doi.org/10.1109/tsg.2026.3749619\nN1  - Auto-selected by Power Paper Digest; score=9.2\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3749670",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids",
+          "authors": [
+            "Linwei Sang",
+            "Yuhang Chen",
+            "Ning Guo",
+            "Chenhui Lin",
+            "Xiaobo Dou",
+            "Qinran Hu",
+            "Zaijun Wu"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3749670",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3749670",
+          "published_at": "2026-11-02T20:10:59+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同"
+          ],
+          "rule_score": 6.53,
+          "llm_score": 6.53,
+          "final_score": 6.53,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：microgrid、microgrids",
+          "ai_summary": "该论文题为《A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-03T04:10:59+08:00",
+          "published_date_local": "2026-11-03",
+          "published_time_local": "04:10",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3749670",
+          "citation_key": "sang2026convex749670",
+          "bibtex_entry": "@article{sang2026convex749670,\n  title = {A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids},\n  author = {Linwei Sang and Yuhang Chen and Ning Guo and Chenhui Lin and Xiaobo Dou and Qinran Hu and Zaijun Wu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749670},\n  url = {https://doi.org/10.1109/tsg.2026.3749670},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Linwei Sang\nAU  - Yuhang Chen\nAU  - Ning Guo\nAU  - Chenhui Lin\nAU  - Xiaobo Dou\nAU  - Qinran Hu\nAU  - Zaijun Wu\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749670\nUR  - https://doi.org/10.1109/tsg.2026.3749670\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3749584",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience",
+          "authors": [
+            "Chihhan Ko",
+            "Yikuan Ke",
+            "Yikai Tseng",
+            "Liquan Xiao"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3749584",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3749584",
+          "published_at": "2026-11-02T20:10:51+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "resilience",
+            "microgrid"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.11,
+          "llm_score": 7.11,
+          "final_score": 7.11,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：resilience、microgrid",
+          "ai_summary": "该论文题为《Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-03T04:10:51+08:00",
+          "published_date_local": "2026-11-03",
+          "published_time_local": "04:10",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3749584",
+          "citation_key": "ko2026design749584",
+          "bibtex_entry": "@article{ko2026design749584,\n  title = {Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience},\n  author = {Chihhan Ko and Yikuan Ke and Yikai Tseng and Liquan Xiao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749584},\n  url = {https://doi.org/10.1109/tsg.2026.3749584},\n  keywords = {Promising, 韧性与恢复, 源网荷储协同, resilience, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience\nJO  - IEEE Transactions on Smart Grid\nAU  - Chihhan Ko\nAU  - Yikuan Ke\nAU  - Yikai Tseng\nAU  - Liquan Xiao\nKW  - Promising\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749584\nUR  - https://doi.org/10.1109/tsg.2026.3749584\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tsg.2026.3749027",
           "source": "ieee",
@@ -8392,8 +9070,238 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 99,
+      "count": 103,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2611.09796v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Generalized H matrix stability for power systems",
+          "authors": [
+            "Elinor Ginzburg-Ganz",
+            "Yoash Levron",
+            "Juri Belikov",
+            "George Weiss"
+          ],
+          "abstract": "The small-signal stability of a power system model with arbitrary loads is investigated, with a focus on locally constant power loads in lossless networks. A central element of the proposed analysis is the matrix H, which represents the partial derivatives of generator powers with respect to their relative angles. The local stability of any equilibrium point is determined by the properties of H if the loads consume locally constant power. Specifically, an equilibrium point is asymptotically stable if H is positive definite and unstable if H is full-rank and not positive definite, while several quantitative relationships between the eigenvalues of H and the system Jacobian matrix are also established. The main contribution is that loads are allowed to be arbitrarily located within the transmission network, thereby generalizing the existing H matrix stability criterion which is valid only if loads are located at the same buses as the generators. The advantage of the proposed criterion is demonstrated through case studies involving systems with up to 2869 buses. Accurate stability assessments are maintained, where alternative methods, such as the NRPS model, are found to be overly conservative. Additionally, a computational acceleration by a factor of 340 relative to Jacobian-based methods is achieved.",
+          "url": "http://arxiv.org/abs/2611.09796v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.09796v1",
+          "doi": null,
+          "published_at": "2026-11-06T17:50:54+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "power system",
+            "power systems"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.43,
+          "llm_score": 6.43,
+          "final_score": 6.43,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：power system、power systems",
+          "ai_summary": "该论文题为《Generalized H matrix stability for power systems》，来自 arXiv。从摘要看，论文主要内容为：The small-signal stability of a power system model with arbitrary loads is investigated, with a focus on locally constant power loads in lossless networks. A central element of the proposed analysis is the matrix H, which represents the partial derivatives of generator powers with respect to their relative angles. The local stability of any equilibrium point is determined by the properties of H if the loads consume l...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-07T01:50:54+08:00",
+          "published_date_local": "2026-11-07",
+          "published_time_local": "01:50",
+          "doi_url": null,
+          "citation_key": "ginzburgganz2026generalized9796v1",
+          "bibtex_entry": "@article{ginzburgganz2026generalized9796v1,\n  title = {Generalized H matrix stability for power systems},\n  author = {Elinor Ginzburg-Ganz and Yoash Levron and Juri Belikov and George Weiss},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.09796v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Generalized H matrix stability for power systems\nJO  - arXiv\nAU  - Elinor Ginzburg-Ganz\nAU  - Yoash Levron\nAU  - Juri Belikov\nAU  - George Weiss\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.09796v1\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.09001v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation",
+          "authors": [
+            "Wei Wang",
+            "Himanshu Sharma",
+            "Thiagarajan Ramachandran"
+          ],
+          "abstract": "Interconnecting large data centers can be delayed by grid requirements on demand flexibility, ramping limits, and ride-through performance. This paper proposes an optimization-based framework to size a Battery Energy Storage System (BESS) that accelerates data center grid integration by providing BESS capacity required to meet selected flexibility and grid-support requirements. The model co-optimizes BESS power rating and energy capacity while allocating capability across three services: (i) demand response over a specified duration, (ii) mitigation of high-magnitude, high-frequency load fluctuations through reserved active power with zero net state-of-charge change, and (iii) voltage support via reactive power capability at the point of common coupling. Minute-level operational scheduling enforces state-of-charge feasibility and load ramp constraints, and incorporates a controllable queue of delay-insensitive computing tasks to enhance flexibility. A case study using a real data center load profile demonstrates the proposed method and quantifies the BESS power-energy requirements and operational trade-offs needed to satisfy the multi-service constraints, providing practical guidance for interconnection planning and deployment.",
+          "url": "http://arxiv.org/abs/2611.09001v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.09001v1",
+          "doi": null,
+          "published_at": "2026-11-06T05:18:36+00:00",
+          "categories": [
+            "eess.SY",
+            "math.OC"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "demand response",
+            "scheduling",
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.76,
+          "llm_score": 6.76,
+          "final_score": 6.76,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：demand response、scheduling、energy storage",
+          "ai_summary": "该论文题为《Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation》，来自 arXiv。从摘要看，论文主要内容为：Interconnecting large data centers can be delayed by grid requirements on demand flexibility, ramping limits, and ride-through performance. This paper proposes an optimization-based framework to size a Battery Energy Storage System (BESS) that accelerates data center grid integration by providing BESS capacity required to meet selected flexibility and grid-support requirements. The model co-optimizes BESS power ratin...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-06T13:18:36+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "13:18",
+          "doi_url": null,
+          "citation_key": "wang2026supporting9001v1",
+          "bibtex_entry": "@article{wang2026supporting9001v1,\n  title = {Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation},\n  author = {Wei Wang and Himanshu Sharma and Thiagarajan Ramachandran},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.09001v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, demand response, scheduling, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation\nJO  - arXiv\nAU  - Wei Wang\nAU  - Himanshu Sharma\nAU  - Thiagarajan Ramachandran\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - demand response\nKW  - scheduling\nKW  - energy storage\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.09001v1\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.08722v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective",
+          "authors": [
+            "Nelson Nelson",
+            "Nora Agah",
+            "Kasey M. Faust",
+            "Javad Mohammadi"
+          ],
+          "abstract": "The integration of vehicle-to-grid (V2G), in which electric vehicle (EV) owners can send electricity from their vehicles back to the grid, is an emerging solution to enhance grid resilience. However, V2G deployment in the United States lags behind many other countries. This can be attributed to a broad range of factors, and to investigate them, this study analyzes semi-structured interviews with stakeholders using inductive-deductive qualitative coding. Results from the interviews are coded across financial, technical, social, political, and organizational dimensions in order to understand the three main deployment factors of drivers, benefits, and barriers of V2G. Once coded, the relationships between these factors are used to construct a cognitive map to identify actions that will most effectively drive V2G deployment. The results indicate that grid resilience and decarbonization are seen as the main benefits of V2G. User willingness to participate, a lack of technological readiness and standardization, prohibitive costs, and unsupportive laws and policies are among the most frequently cited barriers. Connections in the cognitive map indicate that the most closely related drivers for mitigating these barriers are user compensation for battery degradation, community outreach, the creation of grid interconnection standards and protocols, and supportive grants and policy frameworks for V2G piloting and adoption.",
+          "url": "http://arxiv.org/abs/2611.08722v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.08722v1",
+          "doi": null,
+          "published_at": "2026-11-05T21:14:38+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid resilience",
+            "resilience"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复"
+          ],
+          "rule_score": 5.43,
+          "llm_score": 5.43,
+          "final_score": 5.43,
+          "relevance_label": "Background Read",
+          "score_reason": "命中关键词：grid resilience、resilience",
+          "ai_summary": "该论文题为《Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective》，来自 arXiv。从摘要看，论文主要内容为：The integration of vehicle-to-grid (V2G), in which electric vehicle (EV) owners can send electricity from their vehicles back to the grid, is an emerging solution to enhance grid resilience. However, V2G deployment in the United States lags behind many other countries. This can be attributed to a broad range of factors, and to investigate them, this study analyzes semi-structured interviews with stakeholders using in...",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-06T05:14:38+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "05:14",
+          "doi_url": null,
+          "citation_key": "nelson2026residential8722v1",
+          "bibtex_entry": "@article{nelson2026residential8722v1,\n  title = {Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective},\n  author = {Nelson Nelson and Nora Agah and Kasey M. Faust and Javad Mohammadi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.08722v1},\n  keywords = {Background Read, 韧性与恢复, grid resilience, resilience},\n  note = {Auto-selected by Power Paper Digest; score=5.4}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective\nJO  - arXiv\nAU  - Nelson Nelson\nAU  - Nora Agah\nAU  - Kasey M. Faust\nAU  - Javad Mohammadi\nKW  - Background Read\nKW  - 韧性与恢复\nKW  - grid resilience\nKW  - resilience\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.08722v1\nN1  - Auto-selected by Power Paper Digest; score=5.4\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.08470v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models",
+          "authors": [
+            "Matthew Van Ham",
+            "Yiping Liu",
+            "Xiaozhe Wang"
+          ],
+          "abstract": "The rapid growth of large-scale data centers (DCs) is increasing electricity demand, market volatility, and operating costs. Battery energy storage systems (BESSs) can mitigate these challenges by shifting electricity purchases from high-price to low-price periods. This paper proposes a real-time BESS dispatch framework using polynomial diffusion models (PDMs) to forecast both electricity prices and DC loads. Leveraging the closed-form conditional expectations of PDMs, the forecasts are integrated into a dynamic programming (DP) framework to minimize electricity procurement costs. Across the evaluated BESS configurations, the proposed approach achieves 2.63 times the cost savings of a rule-based (RB) strategy.",
+          "url": "http://arxiv.org/abs/2611.08470v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.08470v1",
+          "doi": null,
+          "published_at": "2026-11-05T18:55:37+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "energy storage",
+            "dispatch"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 5.79,
+          "llm_score": 5.79,
+          "final_score": 5.79,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：energy storage、dispatch",
+          "ai_summary": "该论文题为《Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models》，来自 arXiv。从摘要看，论文主要内容为：The rapid growth of large-scale data centers (DCs) is increasing electricity demand, market volatility, and operating costs. Battery energy storage systems (BESSs) can mitigate these challenges by shifting electricity purchases from high-price to low-price periods. This paper proposes a real-time BESS dispatch framework using polynomial diffusion models (PDMs) to forecast both electricity prices and DC loads. Leverag...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-06T02:55:37+08:00",
+          "published_date_local": "2026-11-06",
+          "published_time_local": "02:55",
+          "doi_url": null,
+          "citation_key": "ham2026joint8470v1",
+          "bibtex_entry": "@article{ham2026joint8470v1,\n  title = {Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models},\n  author = {Matthew Van Ham and Yiping Liu and Xiaozhe Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.08470v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models\nJO  - arXiv\nAU  - Matthew Van Ham\nAU  - Yiping Liu\nAU  - Xiaozhe Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.08470v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-09T14:57:12.438170+08:00",
+          "last_seen": "2026-11-09T14:57:12.438170+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-03",
+              "target_date": "2026-11-09",
+              "generated_at": "2026-11-09T14:57:12.438170+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2610.42109v1",
           "source": "arxiv",
@@ -14321,6 +15229,914 @@
     }
   },
   "papers": [
+    {
+      "id": "10.1109/tpwrs.2026.3751505",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator",
+      "authors": [
+        "Ángel Vaca",
+        "Joan Gutiérrez-Florensa",
+        "Federico Milano"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3751505",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3751505",
+      "published_at": "2026-11-06T20:08:14+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.88,
+      "llm_score": 6.88,
+      "final_score": 6.88,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-07T04:08:14+08:00",
+      "published_date_local": "2026-11-07",
+      "published_time_local": "04:08",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3751505",
+      "citation_key": "vaca2026instantaneous751505",
+      "bibtex_entry": "@article{vaca2026instantaneous751505,\n  title = {Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator},\n  author = {Ángel Vaca and Joan Gutiérrez-Florensa and Federico Milano},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3751505},\n  url = {https://doi.org/10.1109/tpwrs.2026.3751505},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator\nJO  - IEEE Transactions on Power Systems\nAU  - Ángel Vaca\nAU  - Joan Gutiérrez-Florensa\nAU  - Federico Milano\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3751505\nUR  - https://doi.org/10.1109/tpwrs.2026.3751505\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3750027",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach",
+      "authors": [
+        "Ruoxuan Leng",
+        "Yan Xu",
+        "Dongxu Yu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3750027",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3750027",
+      "published_at": "2026-11-06T20:08:11+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 5.58,
+      "llm_score": 5.58,
+      "final_score": 5.58,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：energy storage",
+      "ai_summary": "该论文题为《Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-07T04:08:11+08:00",
+      "published_date_local": "2026-11-07",
+      "published_time_local": "04:08",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3750027",
+      "citation_key": "leng2026battery750027",
+      "bibtex_entry": "@article{leng2026battery750027,\n  title = {Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach},\n  author = {Ruoxuan Leng and Yan Xu and Dongxu Yu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750027},\n  url = {https://doi.org/10.1109/tsg.2026.3750027},\n  keywords = {Background Read, 源网荷储协同, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=5.6}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach\nJO  - IEEE Transactions on Smart Grid\nAU  - Ruoxuan Leng\nAU  - Yan Xu\nAU  - Dongxu Yu\nKW  - Background Read\nKW  - 源网荷储协同\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750027\nUR  - https://doi.org/10.1109/tsg.2026.3750027\nN1  - Auto-selected by Power Paper Digest; score=5.6\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.09796v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Generalized H matrix stability for power systems",
+      "authors": [
+        "Elinor Ginzburg-Ganz",
+        "Yoash Levron",
+        "Juri Belikov",
+        "George Weiss"
+      ],
+      "abstract": "The small-signal stability of a power system model with arbitrary loads is investigated, with a focus on locally constant power loads in lossless networks. A central element of the proposed analysis is the matrix H, which represents the partial derivatives of generator powers with respect to their relative angles. The local stability of any equilibrium point is determined by the properties of H if the loads consume locally constant power. Specifically, an equilibrium point is asymptotically stable if H is positive definite and unstable if H is full-rank and not positive definite, while several quantitative relationships between the eigenvalues of H and the system Jacobian matrix are also established. The main contribution is that loads are allowed to be arbitrarily located within the transmission network, thereby generalizing the existing H matrix stability criterion which is valid only if loads are located at the same buses as the generators. The advantage of the proposed criterion is demonstrated through case studies involving systems with up to 2869 buses. Accurate stability assessments are maintained, where alternative methods, such as the NRPS model, are found to be overly conservative. Additionally, a computational acceleration by a factor of 340 relative to Jacobian-based methods is achieved.",
+      "url": "http://arxiv.org/abs/2611.09796v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09796v1",
+      "doi": null,
+      "published_at": "2026-11-06T17:50:54+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.43,
+      "llm_score": 6.43,
+      "final_score": 6.43,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：power system、power systems",
+      "ai_summary": "该论文题为《Generalized H matrix stability for power systems》，来自 arXiv。从摘要看，论文主要内容为：The small-signal stability of a power system model with arbitrary loads is investigated, with a focus on locally constant power loads in lossless networks. A central element of the proposed analysis is the matrix H, which represents the partial derivatives of generator powers with respect to their relative angles. The local stability of any equilibrium point is determined by the properties of H if the loads consume l...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-07T01:50:54+08:00",
+      "published_date_local": "2026-11-07",
+      "published_time_local": "01:50",
+      "doi_url": null,
+      "citation_key": "ginzburgganz2026generalized9796v1",
+      "bibtex_entry": "@article{ginzburgganz2026generalized9796v1,\n  title = {Generalized H matrix stability for power systems},\n  author = {Elinor Ginzburg-Ganz and Yoash Levron and Juri Belikov and George Weiss},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.09796v1},\n  keywords = {Promising, 电力系统运行与规划, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=6.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Generalized H matrix stability for power systems\nJO  - arXiv\nAU  - Elinor Ginzburg-Ganz\nAU  - Yoash Levron\nAU  - Juri Belikov\nAU  - George Weiss\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - power system\nKW  - power systems\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.09796v1\nN1  - Auto-selected by Power Paper Digest; score=6.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.09001v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation",
+      "authors": [
+        "Wei Wang",
+        "Himanshu Sharma",
+        "Thiagarajan Ramachandran"
+      ],
+      "abstract": "Interconnecting large data centers can be delayed by grid requirements on demand flexibility, ramping limits, and ride-through performance. This paper proposes an optimization-based framework to size a Battery Energy Storage System (BESS) that accelerates data center grid integration by providing BESS capacity required to meet selected flexibility and grid-support requirements. The model co-optimizes BESS power rating and energy capacity while allocating capability across three services: (i) demand response over a specified duration, (ii) mitigation of high-magnitude, high-frequency load fluctuations through reserved active power with zero net state-of-charge change, and (iii) voltage support via reactive power capability at the point of common coupling. Minute-level operational scheduling enforces state-of-charge feasibility and load ramp constraints, and incorporates a controllable queue of delay-insensitive computing tasks to enhance flexibility. A case study using a real data center load profile demonstrates the proposed method and quantifies the BESS power-energy requirements and operational trade-offs needed to satisfy the multi-service constraints, providing practical guidance for interconnection planning and deployment.",
+      "url": "http://arxiv.org/abs/2611.09001v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09001v1",
+      "doi": null,
+      "published_at": "2026-11-06T05:18:36+00:00",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "demand response",
+        "scheduling",
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.76,
+      "llm_score": 6.76,
+      "final_score": 6.76,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：demand response、scheduling、energy storage",
+      "ai_summary": "该论文题为《Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation》，来自 arXiv。从摘要看，论文主要内容为：Interconnecting large data centers can be delayed by grid requirements on demand flexibility, ramping limits, and ride-through performance. This paper proposes an optimization-based framework to size a Battery Energy Storage System (BESS) that accelerates data center grid integration by providing BESS capacity required to meet selected flexibility and grid-support requirements. The model co-optimizes BESS power ratin...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-06T13:18:36+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "13:18",
+      "doi_url": null,
+      "citation_key": "wang2026supporting9001v1",
+      "bibtex_entry": "@article{wang2026supporting9001v1,\n  title = {Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation},\n  author = {Wei Wang and Himanshu Sharma and Thiagarajan Ramachandran},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.09001v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, demand response, scheduling, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=6.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Supporting Data Center Grid Integration via Co-Optimized Battery Energy Storage Sizing and Capacity Allocation\nJO  - arXiv\nAU  - Wei Wang\nAU  - Himanshu Sharma\nAU  - Thiagarajan Ramachandran\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - demand response\nKW  - scheduling\nKW  - energy storage\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.09001v1\nN1  - Auto-selected by Power Paper Digest; score=6.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.08722v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective",
+      "authors": [
+        "Nelson Nelson",
+        "Nora Agah",
+        "Kasey M. Faust",
+        "Javad Mohammadi"
+      ],
+      "abstract": "The integration of vehicle-to-grid (V2G), in which electric vehicle (EV) owners can send electricity from their vehicles back to the grid, is an emerging solution to enhance grid resilience. However, V2G deployment in the United States lags behind many other countries. This can be attributed to a broad range of factors, and to investigate them, this study analyzes semi-structured interviews with stakeholders using inductive-deductive qualitative coding. Results from the interviews are coded across financial, technical, social, political, and organizational dimensions in order to understand the three main deployment factors of drivers, benefits, and barriers of V2G. Once coded, the relationships between these factors are used to construct a cognitive map to identify actions that will most effectively drive V2G deployment. The results indicate that grid resilience and decarbonization are seen as the main benefits of V2G. User willingness to participate, a lack of technological readiness and standardization, prohibitive costs, and unsupportive laws and policies are among the most frequently cited barriers. Connections in the cognitive map indicate that the most closely related drivers for mitigating these barriers are user compensation for battery degradation, community outreach, the creation of grid interconnection standards and protocols, and supportive grants and policy frameworks for V2G piloting and adoption.",
+      "url": "http://arxiv.org/abs/2611.08722v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08722v1",
+      "doi": null,
+      "published_at": "2026-11-05T21:14:38+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid resilience",
+        "resilience"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复"
+      ],
+      "rule_score": 5.43,
+      "llm_score": 5.43,
+      "final_score": 5.43,
+      "relevance_label": "Background Read",
+      "score_reason": "命中关键词：grid resilience、resilience",
+      "ai_summary": "该论文题为《Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective》，来自 arXiv。从摘要看，论文主要内容为：The integration of vehicle-to-grid (V2G), in which electric vehicle (EV) owners can send electricity from their vehicles back to the grid, is an emerging solution to enhance grid resilience. However, V2G deployment in the United States lags behind many other countries. This can be attributed to a broad range of factors, and to investigate them, this study analyzes semi-structured interviews with stakeholders using in...",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-06T05:14:38+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "05:14",
+      "doi_url": null,
+      "citation_key": "nelson2026residential8722v1",
+      "bibtex_entry": "@article{nelson2026residential8722v1,\n  title = {Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective},\n  author = {Nelson Nelson and Nora Agah and Kasey M. Faust and Javad Mohammadi},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.08722v1},\n  keywords = {Background Read, 韧性与恢复, grid resilience, resilience},\n  note = {Auto-selected by Power Paper Digest; score=5.4}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Residential Vehicle-to-Grid Deployment: A United States-Based Stakeholder Perspective\nJO  - arXiv\nAU  - Nelson Nelson\nAU  - Nora Agah\nAU  - Kasey M. Faust\nAU  - Javad Mohammadi\nKW  - Background Read\nKW  - 韧性与恢复\nKW  - grid resilience\nKW  - resilience\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.08722v1\nN1  - Auto-selected by Power Paper Digest; score=5.4\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3750331",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids",
+      "authors": [
+        "Manesh Kumar Ochani",
+        "Hengxu Zhang",
+        "Zongshuai Jin",
+        "Wei Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3750331",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3750331",
+      "published_at": "2026-11-05T20:12:22+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-06T04:12:22+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "04:12",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3750331",
+      "citation_key": "ochani2026delayresilient750331",
+      "bibtex_entry": "@article{ochani2026delayresilient750331,\n  title = {Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids},\n  author = {Manesh Kumar Ochani and Hengxu Zhang and Zongshuai Jin and Wei Li},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750331},\n  url = {https://doi.org/10.1109/tsg.2026.3750331},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Manesh Kumar Ochani\nAU  - Hengxu Zhang\nAU  - Zongshuai Jin\nAU  - Wei Li\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750331\nUR  - https://doi.org/10.1109/tsg.2026.3750331\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3750866",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling",
+      "authors": [
+        "Quan Sui",
+        "Mengqi Liu",
+        "Shiyu Dong",
+        "Jing Liang",
+        "Kaibo Shi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3750866",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3750866",
+      "published_at": "2026-11-05T20:10:15+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-06T04:10:15+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "04:10",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3750866",
+      "citation_key": "sui2026attackaware750866",
+      "bibtex_entry": "@article{sui2026attackaware750866,\n  title = {Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling},\n  author = {Quan Sui and Mengqi Liu and Shiyu Dong and Jing Liang and Kaibo Shi},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750866},\n  url = {https://doi.org/10.1109/tsg.2026.3750866},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling\nJO  - IEEE Transactions on Smart Grid\nAU  - Quan Sui\nAU  - Mengqi Liu\nAU  - Shiyu Dong\nAU  - Jing Liang\nAU  - Kaibo Shi\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750866\nUR  - https://doi.org/10.1109/tsg.2026.3750866\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3750306",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather",
+      "authors": [
+        "Zhifeng Liu",
+        "Jing Lu",
+        "Xiaolong Jin",
+        "Hongjie Jia",
+        "Shuo Liang",
+        "Tian Luan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3750306",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3750306",
+      "published_at": "2026-11-05T20:08:37+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "resilience enhancement",
+        "resilience",
+        "extreme weather",
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复",
+        "源网荷储协同"
+      ],
+      "rule_score": 10.0,
+      "llm_score": 10.0,
+      "final_score": 10.0,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：resilience enhancement、resilience、extreme weather、energy storage",
+      "ai_summary": "该论文题为《A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-06T04:08:37+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "04:08",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3750306",
+      "citation_key": "liu2026stabilityanchoring750306",
+      "bibtex_entry": "@article{liu2026stabilityanchoring750306,\n  title = {A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather},\n  author = {Zhifeng Liu and Jing Lu and Xiaolong Jin and Hongjie Jia and Shuo Liang and Tian Luan},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750306},\n  url = {https://doi.org/10.1109/tsg.2026.3750306},\n  keywords = {Strong Match, 韧性与恢复, 源网荷储协同, resilience enhancement, resilience, extreme weather, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhifeng Liu\nAU  - Jing Lu\nAU  - Xiaolong Jin\nAU  - Hongjie Jia\nAU  - Shuo Liang\nAU  - Tian Luan\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience enhancement\nKW  - resilience\nKW  - extreme weather\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750306\nUR  - https://doi.org/10.1109/tsg.2026.3750306\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tste.2026.3751030",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage",
+      "authors": [
+        "Huang Zhou",
+        "Xiaomeng Ai",
+        "Shichang Cui",
+        "Liqian Gao",
+        "Jiakun Fang",
+        "Wei Yao",
+        "Jinyu Wen",
+        "Shijie Cheng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3751030",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3751030",
+      "published_at": "2026-11-05T20:07:57+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "scheduling",
+        "energy storage",
+        "power system",
+        "power systems"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "源网荷储协同"
+      ],
+      "rule_score": 9.71,
+      "llm_score": 9.71,
+      "final_score": 9.71,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：scheduling、energy storage、power system、power systems",
+      "ai_summary": "该论文题为《Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-06T04:07:57+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "04:07",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3751030",
+      "citation_key": "zhou2026weekday751030",
+      "bibtex_entry": "@article{zhou2026weekday751030,\n  title = {Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage},\n  author = {Huang Zhou and Xiaomeng Ai and Shichang Cui and Liqian Gao and Jiakun Fang and Wei Yao and Jinyu Wen and Shijie Cheng},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3751030},\n  url = {https://doi.org/10.1109/tste.2026.3751030},\n  keywords = {Strong Match, 电力系统运行与规划, 源网荷储协同, scheduling, energy storage, power system, power systems},\n  note = {Auto-selected by Power Paper Digest; score=9.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Huang Zhou\nAU  - Xiaomeng Ai\nAU  - Shichang Cui\nAU  - Liqian Gao\nAU  - Jiakun Fang\nAU  - Wei Yao\nAU  - Jinyu Wen\nAU  - Shijie Cheng\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 源网荷储协同\nKW  - scheduling\nKW  - energy storage\nKW  - power system\nKW  - power systems\nPY  - 2026\nDO  - 10.1109/tste.2026.3751030\nUR  - https://doi.org/10.1109/tste.2026.3751030\nN1  - Auto-selected by Power Paper Digest; score=9.7\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3750261",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids",
+      "authors": [
+        "Mengxiang Liu",
+        "Fei Teng",
+        "Thomas Parisini"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3750261",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3750261",
+      "published_at": "2026-11-05T20:07:34+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "resilience enhancement",
+        "resilience",
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复",
+        "源网荷储协同"
+      ],
+      "rule_score": 10.0,
+      "llm_score": 10.0,
+      "final_score": 10.0,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：resilience enhancement、resilience、microgrid、microgrids",
+      "ai_summary": "该论文题为《Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-06T04:07:34+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "04:07",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3750261",
+      "citation_key": "liu2026cyberphysical750261",
+      "bibtex_entry": "@article{liu2026cyberphysical750261,\n  title = {Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids},\n  author = {Mengxiang Liu and Fei Teng and Thomas Parisini},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3750261},\n  url = {https://doi.org/10.1109/tsg.2026.3750261},\n  keywords = {Strong Match, 韧性与恢复, 源网荷储协同, resilience enhancement, resilience, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=10.0}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Mengxiang Liu\nAU  - Fei Teng\nAU  - Thomas Parisini\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience enhancement\nKW  - resilience\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3750261\nUR  - https://doi.org/10.1109/tsg.2026.3750261\nN1  - Auto-selected by Power Paper Digest; score=10.0\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.08470v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models",
+      "authors": [
+        "Matthew Van Ham",
+        "Yiping Liu",
+        "Xiaozhe Wang"
+      ],
+      "abstract": "The rapid growth of large-scale data centers (DCs) is increasing electricity demand, market volatility, and operating costs. Battery energy storage systems (BESSs) can mitigate these challenges by shifting electricity purchases from high-price to low-price periods. This paper proposes a real-time BESS dispatch framework using polynomial diffusion models (PDMs) to forecast both electricity prices and DC loads. Leveraging the closed-form conditional expectations of PDMs, the forecasts are integrated into a dynamic programming (DP) framework to minimize electricity procurement costs. Across the evaluated BESS configurations, the proposed approach achieves 2.63 times the cost savings of a rule-based (RB) strategy.",
+      "url": "http://arxiv.org/abs/2611.08470v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08470v1",
+      "doi": null,
+      "published_at": "2026-11-05T18:55:37+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "energy storage",
+        "dispatch"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 5.79,
+      "llm_score": 5.79,
+      "final_score": 5.79,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：energy storage、dispatch",
+      "ai_summary": "该论文题为《Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models》，来自 arXiv。从摘要看，论文主要内容为：The rapid growth of large-scale data centers (DCs) is increasing electricity demand, market volatility, and operating costs. Battery energy storage systems (BESSs) can mitigate these challenges by shifting electricity purchases from high-price to low-price periods. This paper proposes a real-time BESS dispatch framework using polynomial diffusion models (PDMs) to forecast both electricity prices and DC loads. Leverag...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-06T02:55:37+08:00",
+      "published_date_local": "2026-11-06",
+      "published_time_local": "02:55",
+      "doi_url": null,
+      "citation_key": "ham2026joint8470v1",
+      "bibtex_entry": "@article{ham2026joint8470v1,\n  title = {Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models},\n  author = {Matthew Van Ham and Yiping Liu and Xiaozhe Wang},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.08470v1},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, energy storage, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=5.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Joint Electricity Price and Load Forecasting for Data Center Battery Dispatch Using Polynomial Diffusion Models\nJO  - arXiv\nAU  - Matthew Van Ham\nAU  - Yiping Liu\nAU  - Xiaozhe Wang\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - energy storage\nKW  - dispatch\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.08470v1\nN1  - Auto-selected by Power Paper Digest; score=5.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3749976",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters",
+      "authors": [
+        "Qianxi Tang",
+        "Li Peng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3749976",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3749976",
+      "published_at": "2026-11-03T20:11:17+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "grid-forming"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定"
+      ],
+      "rule_score": 5.93,
+      "llm_score": 5.93,
+      "final_score": 5.93,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：grid-forming",
+      "ai_summary": "该论文题为《Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-04T04:11:17+08:00",
+      "published_date_local": "2026-11-04",
+      "published_time_local": "04:11",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3749976",
+      "citation_key": "tang2026voltage749976",
+      "bibtex_entry": "@article{tang2026voltage749976,\n  title = {Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters},\n  author = {Qianxi Tang and Li Peng},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3749976},\n  url = {https://doi.org/10.1109/tpwrs.2026.3749976},\n  keywords = {Promising, 构网与暂态稳定, grid-forming},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Voltage Synchronization and Proportional Current Sharing of Grid-Forming Inverters\nJO  - IEEE Transactions on Power Systems\nAU  - Qianxi Tang\nAU  - Li Peng\nKW  - Promising\nKW  - 构网与暂态稳定\nKW  - grid-forming\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3749976\nUR  - https://doi.org/10.1109/tpwrs.2026.3749976\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3749619",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?",
+      "authors": [
+        "Zhongze Li",
+        "Xiaoyu Peng",
+        "Xi Ru",
+        "Zhaojian Wang",
+        "Jianxin Zhang",
+        "Yingshang Liu",
+        "Feng Liu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3749619",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3749619",
+      "published_at": "2026-11-02T20:21:51+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "源网荷储协同"
+      ],
+      "rule_score": 9.21,
+      "llm_score": 9.21,
+      "final_score": 9.21,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、microgrid、microgrids",
+      "ai_summary": "该论文题为《When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-03T04:21:51+08:00",
+      "published_date_local": "2026-11-03",
+      "published_time_local": "04:21",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3749619",
+      "citation_key": "li2026when749619",
+      "bibtex_entry": "@article{li2026when749619,\n  title = {When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?},\n  author = {Zhongze Li and Xiaoyu Peng and Xi Ru and Zhaojian Wang and Jianxin Zhang and Yingshang Liu and Feng Liu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749619},\n  url = {https://doi.org/10.1109/tsg.2026.3749619},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=9.2}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?\nJO  - IEEE Transactions on Smart Grid\nAU  - Zhongze Li\nAU  - Xiaoyu Peng\nAU  - Xi Ru\nAU  - Zhaojian Wang\nAU  - Jianxin Zhang\nAU  - Yingshang Liu\nAU  - Feng Liu\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749619\nUR  - https://doi.org/10.1109/tsg.2026.3749619\nN1  - Auto-selected by Power Paper Digest; score=9.2\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3749670",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids",
+      "authors": [
+        "Linwei Sang",
+        "Yuhang Chen",
+        "Ning Guo",
+        "Chenhui Lin",
+        "Xiaobo Dou",
+        "Qinran Hu",
+        "Zaijun Wu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3749670",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3749670",
+      "published_at": "2026-11-02T20:10:59+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同"
+      ],
+      "rule_score": 6.53,
+      "llm_score": 6.53,
+      "final_score": 6.53,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：microgrid、microgrids",
+      "ai_summary": "该论文题为《A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-03T04:10:59+08:00",
+      "published_date_local": "2026-11-03",
+      "published_time_local": "04:10",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3749670",
+      "citation_key": "sang2026convex749670",
+      "bibtex_entry": "@article{sang2026convex749670,\n  title = {A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids},\n  author = {Linwei Sang and Yuhang Chen and Ning Guo and Chenhui Lin and Xiaobo Dou and Qinran Hu and Zaijun Wu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749670},\n  url = {https://doi.org/10.1109/tsg.2026.3749670},\n  keywords = {Promising, 源网荷储协同, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids\nJO  - IEEE Transactions on Smart Grid\nAU  - Linwei Sang\nAU  - Yuhang Chen\nAU  - Ning Guo\nAU  - Chenhui Lin\nAU  - Xiaobo Dou\nAU  - Qinran Hu\nAU  - Zaijun Wu\nKW  - Promising\nKW  - 源网荷储协同\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749670\nUR  - https://doi.org/10.1109/tsg.2026.3749670\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3749584",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience",
+      "authors": [
+        "Chihhan Ko",
+        "Yikuan Ke",
+        "Yikai Tseng",
+        "Liquan Xiao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3749584",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3749584",
+      "published_at": "2026-11-02T20:10:51+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "resilience",
+        "microgrid"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复",
+        "源网荷储协同"
+      ],
+      "rule_score": 7.11,
+      "llm_score": 7.11,
+      "final_score": 7.11,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：resilience、microgrid",
+      "ai_summary": "该论文题为《Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-03T04:10:51+08:00",
+      "published_date_local": "2026-11-03",
+      "published_time_local": "04:10",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3749584",
+      "citation_key": "ko2026design749584",
+      "bibtex_entry": "@article{ko2026design749584,\n  title = {Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience},\n  author = {Chihhan Ko and Yikuan Ke and Yikai Tseng and Liquan Xiao},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3749584},\n  url = {https://doi.org/10.1109/tsg.2026.3749584},\n  keywords = {Promising, 韧性与恢复, 源网荷储协同, resilience, microgrid},\n  note = {Auto-selected by Power Paper Digest; score=7.1}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience\nJO  - IEEE Transactions on Smart Grid\nAU  - Chihhan Ko\nAU  - Yikuan Ke\nAU  - Yikai Tseng\nAU  - Liquan Xiao\nKW  - Promising\nKW  - 韧性与恢复\nKW  - 源网荷储协同\nKW  - resilience\nKW  - microgrid\nPY  - 2026\nDO  - 10.1109/tsg.2026.3749584\nUR  - https://doi.org/10.1109/tsg.2026.3749584\nN1  - Auto-selected by Power Paper Digest; score=7.1\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-09T14:57:12.438170+08:00",
+      "last_seen": "2026-11-09T14:57:12.438170+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-03",
+          "target_date": "2026-11-09",
+          "generated_at": "2026-11-09T14:57:12.438170+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tsg.2026.3749027",
       "source": "ieee",

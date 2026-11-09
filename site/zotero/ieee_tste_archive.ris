@@ -1,4 +1,28 @@
 TY  - JOUR
+TI  - Week–Day Coordinated Robust Scheduling for Power Systems Integrated with Hydrogen Energy Storage
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Huang Zhou
+AU  - Xiaomeng Ai
+AU  - Shichang Cui
+AU  - Liqian Gao
+AU  - Jiakun Fang
+AU  - Wei Yao
+AU  - Jinyu Wen
+AU  - Shijie Cheng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 源网荷储协同
+KW  - scheduling
+KW  - energy storage
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tste.2026.3751030
+UR  - https://doi.org/10.1109/tste.2026.3751030
+N1  - Auto-selected by Power Paper Digest; score=9.7
+ER  -
+
+TY  - JOUR
 TI  - Adaptive Grid-Forming Control of Sending-End Wind Power under Cross-Regional Frequency Support Mode
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Yishi Liu

@@ -1,4 +1,155 @@
 TY  - JOUR
+TI  - Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach
+JO  - IEEE Transactions on Smart Grid
+AU  - Ruoxuan Leng
+AU  - Yan Xu
+AU  - Dongxu Yu
+KW  - Background Read
+KW  - 源网荷储协同
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tsg.2026.3750027
+UR  - https://doi.org/10.1109/tsg.2026.3750027
+N1  - Auto-selected by Power Paper Digest; score=5.6
+ER  -
+
+TY  - JOUR
+TI  - Delay-Resilient Load Frequency Control via Adaptive Multi-Stage ESO: Theoretical Foundations and Hierarchical ADRC Design for Hybrid Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Manesh Kumar Ochani
+AU  - Hengxu Zhang
+AU  - Zongshuai Jin
+AU  - Wei Li
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3750331
+UR  - https://doi.org/10.1109/tsg.2026.3750331
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Attack-Aware Distributed Secondary Control of DC Microgrids via Impulsive Sampling
+JO  - IEEE Transactions on Smart Grid
+AU  - Quan Sui
+AU  - Mengqi Liu
+AU  - Shiyu Dong
+AU  - Jing Liang
+AU  - Kaibo Shi
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3750866
+UR  - https://doi.org/10.1109/tsg.2026.3750866
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - A Stability-Anchoring Stationary and Rapid-Response Transportable Energy Storage-driven Resilience Enhancement Method under Extreme Weather
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhifeng Liu
+AU  - Jing Lu
+AU  - Xiaolong Jin
+AU  - Hongjie Jia
+AU  - Shuo Liang
+AU  - Tian Luan
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - 源网荷储协同
+KW  - resilience enhancement
+KW  - resilience
+KW  - extreme weather
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tsg.2026.3750306
+UR  - https://doi.org/10.1109/tsg.2026.3750306
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - Cyber-Physical Deception for Cyber Resilience Enhancement of Networked Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Mengxiang Liu
+AU  - Fei Teng
+AU  - Thomas Parisini
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - 源网荷储协同
+KW  - resilience enhancement
+KW  - resilience
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3750261
+UR  - https://doi.org/10.1109/tsg.2026.3750261
+N1  - Auto-selected by Power Paper Digest; score=10.0
+ER  -
+
+TY  - JOUR
+TI  - When Can Phasor-Domain Device Models Be Trusted for Electromechanical Stability Analysis of Grid-Forming Converter-Dominated Microgrids?
+JO  - IEEE Transactions on Smart Grid
+AU  - Zhongze Li
+AU  - Xiaoyu Peng
+AU  - Xi Ru
+AU  - Zhaojian Wang
+AU  - Jianxin Zhang
+AU  - Yingshang Liu
+AU  - Feng Liu
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3749619
+UR  - https://doi.org/10.1109/tsg.2026.3749619
+N1  - Auto-selected by Power Paper Digest; score=9.2
+ER  -
+
+TY  - JOUR
+TI  - A Convex Value-Function Learning Approach to Coordinating Model-based Distribution Networks with Model-free Microgrids
+JO  - IEEE Transactions on Smart Grid
+AU  - Linwei Sang
+AU  - Yuhang Chen
+AU  - Ning Guo
+AU  - Chenhui Lin
+AU  - Xiaobo Dou
+AU  - Qinran Hu
+AU  - Zaijun Wu
+KW  - Promising
+KW  - 源网荷储协同
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+DO  - 10.1109/tsg.2026.3749670
+UR  - https://doi.org/10.1109/tsg.2026.3749670
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Design and Implementation of a Comprehensive Autonomous Control Strategy for an Inverter-Based Dual-Mode Smart Microgrid with Power Resilience
+JO  - IEEE Transactions on Smart Grid
+AU  - Chihhan Ko
+AU  - Yikuan Ke
+AU  - Yikai Tseng
+AU  - Liquan Xiao
+KW  - Promising
+KW  - 韧性与恢复
+KW  - 源网荷储协同
+KW  - resilience
+KW  - microgrid
+PY  - 2026
+DO  - 10.1109/tsg.2026.3749584
+UR  - https://doi.org/10.1109/tsg.2026.3749584
+N1  - Auto-selected by Power Paper Digest; score=7.1
+ER  -
+
+TY  - JOUR
 TI  - Multi-Agent Collaborative Deep Reinforcement Learning-Based Hierarchical Optimal Control of Islanded DC Microgrid
 JO  - IEEE Transactions on Smart Grid
 AU  - Weijie Shi

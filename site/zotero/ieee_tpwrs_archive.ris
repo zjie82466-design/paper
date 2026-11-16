@@ -1,4 +1,41 @@
 TY  - JOUR
+TI  - Decentralized Stability-Constrained Optimal Power Flow for Inverter-Based Power Systems
+JO  - IEEE Transactions on Power Systems
+AU  - Shigeng Wang
+AU  - Sijia Geng
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - optimal power flow
+KW  - power system
+KW  - power systems
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3753843
+UR  - https://doi.org/10.1109/tpwrs.2026.3753843
+N1  - Auto-selected by Power Paper Digest; score=8.9
+ER  -
+
+TY  - JOUR
+TI  - Transient Stability Preventive Control Using Active Learning With Surrogate Model
+JO  - IEEE Transactions on Power Systems
+AU  - Yijiang Wu
+AU  - Xin Wang
+AU  - Liangyu Zhang
+AU  - Zhe Ye
+AU  - Quan Zhang
+AU  - Guangchao Geng
+AU  - Quanyuan Jiang
+KW  - Promising
+KW  - 构网与暂态稳定
+KW  - AI+电力优化
+KW  - transient stability
+KW  - surrogate model
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3751304
+UR  - https://doi.org/10.1109/tpwrs.2026.3751304
+N1  - Auto-selected by Power Paper Digest; score=6.7
+ER  -
+
+TY  - JOUR
 TI  - Instantaneous Frequency in Power Systems using the Teager-Kaiser Energy Operator
 JO  - IEEE Transactions on Power Systems
 AU  - Ángel Vaca

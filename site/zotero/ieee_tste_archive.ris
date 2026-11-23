@@ -1,4 +1,25 @@
 TY  - JOUR
+TI  - Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Haiyu Zhao
+AU  - Xuerui He
+AU  - Wei Yao
+AU  - Hongyu Zhou
+AU  - Wei Gan
+AU  - Jinyu Wen
+AU  - Shijie Cheng
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tste.2026.3755706
+UR  - https://doi.org/10.1109/tste.2026.3755706
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
 TI  - Computational Analysis of Voltage Stability Boundary in Power Systems Integrated with Multiple GFM Converters
 JO  - IEEE Transactions on Sustainable Energy
 AU  - Zhenyao Li

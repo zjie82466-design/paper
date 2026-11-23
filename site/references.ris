@@ -1,293 +1,158 @@
 TY  - JOUR
-TI  - Enhancing Transient Stability of VSG-Controlled Converters Under Grid Frequency Disturbances
-JO  - arXiv
-AU  - B. Li
-AU  - Y. Zhang
-AU  - X. Wang
-AU  - S. Yang
-AU  - Z. Hao
-AU  - F. Milano
+TI  - Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification
+JO  - IEEE Transactions on Power Systems
+AU  - Ziqi Zhang
+AU  - Xi Chen
+AU  - Bin Zhou
+AU  - Chaohai Zhang
+AU  - Huiyu Miao
 KW  - Strong Match
-KW  - 构网与暂态稳定
+KW  - 电力系统运行与规划
 KW  - 鲁棒随机优化
-KW  - virtual synchronous generator
-KW  - transient stability
-KW  - vsg
+KW  - optimal power flow
+KW  - distributionally robust
 KW  - uncertainty
 PY  - 2026
-UR  - http://arxiv.org/abs/2611.17975v1
-N1  - Auto-selected by Power Paper Digest; score=9.3
+DO  - 10.1109/tpwrs.2026.3754517
+UR  - https://doi.org/10.1109/tpwrs.2026.3754517
+N1  - Auto-selected by Power Paper Digest; score=9.5
 ER  -
 
 TY  - JOUR
-TI  - Decentralized Stability-Constrained Optimal Power Flow for Inverter-Based Power Systems
-JO  - IEEE Transactions on Power Systems
-AU  - Shigeng Wang
-AU  - Sijia Geng
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - optimal power flow
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tpwrs.2026.3753843
-UR  - https://doi.org/10.1109/tpwrs.2026.3753843
-N1  - Auto-selected by Power Paper Digest; score=8.9
-ER  -
-
-TY  - JOUR
-TI  - Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller
+TI  - $\mathcal{H}_\infty$ Grid-Forming Control in DC Microgrids
 JO  - arXiv
-AU  - Arash Omidi
-AU  - Tanmay Mishra
-AU  - Mads R. Almassalkhi
+AU  - Jovan Krajacic
+AU  - Ognjen Stanojev
+AU  - Mario Schweizer
+AU  - Gabriela Hug
 KW  - Strong Match
-KW  - AI+电力优化
+KW  - 构网与暂态稳定
 KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - reinforcement learning
-KW  - energy storage
-KW  - power system
-KW  - power systems
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.17612v1
-N1  - Auto-selected by Power Paper Digest; score=8.6
-ER  -
-
-TY  - JOUR
-TI  - Flexible Consistency Scheduling Strategy for BTB-DC Electric Springs in DC Microgrids
-JO  - IEEE Transactions on Smart Grid
-AU  - Li Liu
-AU  - Mingsheng Shan
-AU  - Yazheng Feng
-AU  - Jianhua Gong
-AU  - Xinzhang Wu
-AU  - Shenwang Li
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
+KW  - grid-forming
 KW  - microgrid
 KW  - microgrids
 PY  - 2026
-DO  - 10.1109/tsg.2026.3753477
-UR  - https://doi.org/10.1109/tsg.2026.3753477
-N1  - Auto-selected by Power Paper Digest; score=8.3
+UR  - http://arxiv.org/abs/2611.26827v1
+N1  - Auto-selected by Power Paper Digest; score=8.8
 ER  -
 
 TY  - JOUR
-TI  - Impact of Grid-Forming Inverter Placement and Penetration on Local and Aggregate Frequency
-JO  - arXiv
-AU  - Fatma Alfailkawi
-AU  - Marena Trujillo
-AU  - Bri-Mathias Hodge
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - 电力系统运行与规划
-KW  - grid-forming
-KW  - power system
-KW  - power systems
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.18534v1
-N1  - Auto-selected by Power Paper Digest; score=7.8
-ER  -
-
-TY  - JOUR
-TI  - Grid-Forming AI Data Centers: Coordinated Grid Support Control from IT Loads and Energy Storage
-JO  - arXiv
-AU  - Xuechun Zhang
-AU  - Zhiyi Zhao
-AU  - Fei Teng
-AU  - Zhen Wang
-KW  - Strong Match
-KW  - 构网与暂态稳定
-KW  - 源网荷储协同
-KW  - grid-forming
-KW  - energy storage
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.18428v1
-N1  - Auto-selected by Power Paper Digest; score=7.8
-ER  -
-
-TY  - JOUR
-TI  - Frequency-Security-Aware Real-Time Economic Dispatch with Data Center UPS Flexibility for Inertia and Primary Frequency Response Services
-JO  - arXiv
-AU  - Shengyi Wang
-AU  - Liang Du
-KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - economic dispatch
-KW  - dispatch
-KW  - power system
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.17691v1
-N1  - Auto-selected by Power Paper Digest; score=7.5
-ER  -
-
-TY  - JOUR
-TI  - Linear Modeling of Hybrid Shipboard Power Systems under Pulsed Power Load Operation
-JO  - arXiv
-AU  - Daniele Roncagliolo
-AU  - Pietro Cepollini
-AU  - Fabio D'Agostino
-AU  - Marco Gallo
-AU  - Federico Silvestro
-KW  - Promising
-KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - energy storage
-KW  - power system
-KW  - power systems
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.18255v1
-N1  - Auto-selected by Power Paper Digest; score=7.2
-ER  -
-
-TY  - JOUR
-TI  - From Forecasts to Feasible Decisions: Network-Constrained Demand Response with Projection-Integrated Decision-Focused Learning
+TI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks
 JO  - IEEE Transactions on Smart Grid
-AU  - Guibin Chen
-AU  - Yuzhang Lin
-KW  - Promising
-KW  - AI+电力优化
-KW  - 源网荷储协同
-KW  - decision-focused learning
-KW  - demand response
+AU  - Farid Kochakkashani
+AU  - Payman Dehghanian
+AU  - Saeed Kashani
+AU  - Yousef Darestani
+AU  - Mohannad Alhazmi
+AU  - David Celeita
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
 PY  - 2026
-DO  - 10.1109/tsg.2026.3753675
-UR  - https://doi.org/10.1109/tsg.2026.3753675
-N1  - Auto-selected by Power Paper Digest; score=7.2
+DO  - 10.1109/tsg.2026.3754914
+UR  - https://doi.org/10.1109/tsg.2026.3754914
+N1  - Auto-selected by Power Paper Digest; score=7.8
 ER  -
 
 TY  - JOUR
-TI  - Transient Stability Preventive Control Using Active Learning With Surrogate Model
-JO  - IEEE Transactions on Power Systems
-AU  - Yijiang Wu
-AU  - Xin Wang
-AU  - Liangyu Zhang
-AU  - Zhe Ye
-AU  - Quan Zhang
-AU  - Guangchao Geng
-AU  - Quanyuan Jiang
-KW  - Promising
+TI  - Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Haiyu Zhao
+AU  - Xuerui He
+AU  - Wei Yao
+AU  - Hongyu Zhou
+AU  - Wei Gan
+AU  - Jinyu Wen
+AU  - Shijie Cheng
+KW  - Strong Match
 KW  - 构网与暂态稳定
-KW  - AI+电力优化
-KW  - transient stability
-KW  - surrogate model
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - energy storage
 PY  - 2026
-DO  - 10.1109/tpwrs.2026.3751304
-UR  - https://doi.org/10.1109/tpwrs.2026.3751304
+DO  - 10.1109/tste.2026.3755706
+UR  - https://doi.org/10.1109/tste.2026.3755706
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees
+JO  - IEEE Transactions on Smart Grid
+AU  - Jie Zhu
+AU  - Yinliang Xu
+AU  - Hongbin Sun
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - distributed energy resources
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3755951
+UR  - https://doi.org/10.1109/tsg.2026.3755951
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity
+JO  - arXiv
+AU  - Mohamad Chehade
+AU  - Hao Zhu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - optimal power flow
+KW  - opf
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.27013v1
 N1  - Auto-selected by Power Paper Digest; score=6.7
 ER  -
 
 TY  - JOUR
-TI  - Encoding Frequency Dynamics into Economic Operation of IBR-Penetrated Power Systems: Quantification, Integration, and Validation
-JO  - IEEE Transactions on Smart Grid
-AU  - Junjie Yin
-AU  - Buxin She
-AU  - Jinning Wang
-AU  - Fangxing Li
+TI  - Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers
+JO  - arXiv
+AU  - Yuanshuo Zhang
+AU  - Ying Zhang
+AU  - Ziying Wang
+AU  - Fanping Sui
 KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - AI+电力优化
+KW  - 鲁棒随机优化
+KW  - reinforcement learning
+KW  - uncertainty
+KW  - deep learning
 PY  - 2026
-DO  - 10.1109/tsg.2026.3752129
-UR  - https://doi.org/10.1109/tsg.2026.3752129
+UR  - http://arxiv.org/abs/2611.26527v1
 N1  - Auto-selected by Power Paper Digest; score=6.5
 ER  -
 
 TY  - JOUR
-TI  - Computational Analysis of Voltage Stability Boundary in Power Systems Integrated with Multiple GFM Converters
-JO  - IEEE Transactions on Sustainable Energy
-AU  - Zhenyao Li
-AU  - Yifan Yao
-AU  - Deqiang Gan
-KW  - Promising
-KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
-PY  - 2026
-DO  - 10.1109/tste.2026.3752464
-UR  - https://doi.org/10.1109/tste.2026.3752464
-N1  - Auto-selected by Power Paper Digest; score=6.4
-ER  -
-
-TY  - JOUR
-TI  - PTMTD: A Topology-Aware Temporal-Graph Attention Network for Joint Cyber-Attack Detection and Relay-Level Localization in Power System Protection Networks
+TI  - Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids
 JO  - arXiv
-AU  - Shahin Razazni
-AU  - Mohammad Ali Alirezapouri
+AU  - Yuanshuo Zhang
+AU  - Ying Zhang
+AU  - Fei Ding
+AU  - Jiahao Chen
 KW  - Promising
-KW  - 电力系统运行与规划
 KW  - 源网荷储协同
-KW  - power system
-KW  - microgrid
-KW  - microgrids
+KW  - 鲁棒随机优化
+KW  - distributed energy resources
+KW  - uncertainty
 PY  - 2026
-UR  - http://arxiv.org/abs/2611.18184v1
-N1  - Auto-selected by Power Paper Digest; score=6.3
+UR  - http://arxiv.org/abs/2611.27866v1
+N1  - Auto-selected by Power Paper Digest; score=5.9
 ER  -
 
 TY  - JOUR
-TI  - Graph Neural Network Prediction of Frequency Nadir and RoCoF Under Topology Variations
+TI  - AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming
 JO  - arXiv
-AU  - Linhan Fang
-AU  - Fan Jiang
-AU  - Xingpeng Li
+AU  - Felipe Méndez
+AU  - Charles Thraves
 KW  - Promising
 KW  - AI+电力优化
-KW  - 电力系统运行与规划
-KW  - graph neural network
-KW  - dispatch
+KW  - 鲁棒随机优化
+KW  - reinforcement learning
+KW  - uncertainty
 PY  - 2026
-UR  - http://arxiv.org/abs/2611.17757v1
-N1  - Auto-selected by Power Paper Digest; score=5.8
-ER  -
-
-TY  - JOUR
-TI  - Beyond Scalar Inertia: Frequency-Response-Based Assessment of Finite-Duration Inertial Support in Grid-Forming Converters
-JO  - arXiv
-AU  - Ziqi Zhou
-AU  - Mahdieh S. Sadabadi
-AU  - Sante Pugliese
-AU  - Xiaoqiang Li
-AU  - Xiaojie Wu
-AU  - Marco Liserre
-KW  - Promising
-KW  - 构网与暂态稳定
-KW  - grid-forming
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.18092v1
+UR  - http://arxiv.org/abs/2611.26909v1
 N1  - Auto-selected by Power Paper Digest; score=5.7
-ER  -
-
-TY  - JOUR
-TI  - Optimal Scheduling of Smart Meter Measurement Reporting Intervals for Distribution System Monitoring and State Estimation
-JO  - IEEE Transactions on Smart Grid
-AU  - Wentao Zhang
-AU  - Yuzhang Lin
-KW  - Background Read
-KW  - 电力系统运行与规划
-KW  - scheduling
-PY  - 2026
-DO  - 10.1109/tsg.2026.3753578
-UR  - https://doi.org/10.1109/tsg.2026.3753578
-N1  - Auto-selected by Power Paper Digest; score=5.4
-ER  -
-
-TY  - JOUR
-TI  - The Train Unit Shunting Problem with Service Scheduling and Workforce Assignment: classical and quantum optimization approaches
-JO  - arXiv
-AU  - Alessia Ciacco
-AU  - Francesca Guerriero
-AU  - Eneko Osaba
-KW  - Background Read
-KW  - 源网荷储协同
-KW  - 电力系统运行与规划
-KW  - coordinated planning
-KW  - scheduling
-PY  - 2026
-UR  - http://arxiv.org/abs/2611.17987v1
-N1  - Auto-selected by Power Paper Digest; score=5.2
 ER  -

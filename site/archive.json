@@ -7,32 +7,32 @@
     "archive_url": "https://zjie82466-design.github.io/paper/archive.json",
     "archive_bibtex_url": "https://zjie82466-design.github.io/paper/archive.bib",
     "archive_ris_url": "https://zjie82466-design.github.io/paper/archive.ris",
-    "generated_at": "2026-11-16T14:56:07.775301+08:00",
-    "target_date": "2026-11-16",
-    "window_start": "2026-11-10",
+    "generated_at": "2026-11-23T15:56:42.286533+08:00",
+    "target_date": "2026-11-23",
+    "window_start": "2026-11-17",
     "lookback_days": 7,
     "timezone": "Asia/Shanghai",
-    "paper_count": 267,
-    "archive_count": 267,
+    "paper_count": 276,
+    "archive_count": 276,
     "source_counts": {
-      "ieee": 153,
-      "arxiv": 113,
+      "ieee": 157,
+      "arxiv": 118,
       "nature": 1
     },
     "journal_counts": {
-      "arXiv": 113,
-      "IEEE Transactions on Smart Grid": 87,
-      "IEEE Transactions on Power Systems": 44,
-      "IEEE Transactions on Sustainable Energy": 22,
+      "arXiv": 118,
+      "IEEE Transactions on Smart Grid": 89,
+      "IEEE Transactions on Power Systems": 45,
+      "IEEE Transactions on Sustainable Energy": 23,
       "Nature Energy": 1
     },
     "keyword_group_counts": {
-      "电力系统运行与规划": 156,
-      "源网荷储协同": 111,
-      "AI+电力优化": 50,
-      "鲁棒随机优化": 45,
-      "构网与暂态稳定": 38,
-      "韧性与恢复": 16
+      "电力系统运行与规划": 159,
+      "源网荷储协同": 115,
+      "AI+电力优化": 52,
+      "鲁棒随机优化": 49,
+      "构网与暂态稳定": 40,
+      "韧性与恢复": 17
     },
     "required_topics": [
       "power system operation",
@@ -65,7 +65,7 @@
         "archive_bibtex_path": "./zotero/ieee_tpwrs_archive.bib",
         "archive_ris_path": "./zotero/ieee_tpwrs_archive.ris",
         "selected_count": 0,
-        "archive_count": 44
+        "archive_count": 45
       },
       {
         "journal": "IEEE Transactions on Smart Grid",
@@ -77,7 +77,7 @@
         "archive_bibtex_path": "./zotero/ieee_tsg_archive.bib",
         "archive_ris_path": "./zotero/ieee_tsg_archive.ris",
         "selected_count": 0,
-        "archive_count": 87
+        "archive_count": 89
       },
       {
         "journal": "IEEE Transactions on Sustainable Energy",
@@ -89,7 +89,7 @@
         "archive_bibtex_path": "./zotero/ieee_tste_archive.bib",
         "archive_ris_path": "./zotero/ieee_tste_archive.ris",
         "selected_count": 0,
-        "archive_count": 22
+        "archive_count": 23
       }
     ],
     "source_notes": {
@@ -104,8 +104,257 @@
     "ieee": {
       "title": "IEEE 三刊重点榜",
       "description": "聚焦 TPWRS、TSG、TSTE 中与运行、规划、调度、韧性和优化相关的新论文。",
-      "count": 153,
+      "count": 157,
       "papers": [
+        {
+          "id": "10.1109/tsg.2026.3755951",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees",
+          "authors": [
+            "Jie Zhu",
+            "Yinliang Xu",
+            "Hongbin Sun"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3755951",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3755951",
+          "published_at": "2026-11-19T20:16:18+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "distributed energy resources",
+            "dispatch"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.91,
+          "llm_score": 6.91,
+          "final_score": 6.91,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：distributed energy resources、dispatch",
+          "ai_summary": "该论文题为《Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-20T04:16:18+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "04:16",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3755951",
+          "citation_key": "zhu2026realtime755951",
+          "bibtex_entry": "@article{zhu2026realtime755951,\n  title = {Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees},\n  author = {Jie Zhu and Yinliang Xu and Hongbin Sun},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3755951},\n  url = {https://doi.org/10.1109/tsg.2026.3755951},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, distributed energy resources, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees\nJO  - IEEE Transactions on Smart Grid\nAU  - Jie Zhu\nAU  - Yinliang Xu\nAU  - Hongbin Sun\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - distributed energy resources\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tsg.2026.3755951\nUR  - https://doi.org/10.1109/tsg.2026.3755951\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tste.2026.3755706",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Sustainable Energy",
+          "title": "Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method",
+          "authors": [
+            "Haiyu Zhao",
+            "Xuerui He",
+            "Wei Yao",
+            "Hongyu Zhou",
+            "Wei Gan",
+            "Jinyu Wen",
+            "Shijie Cheng"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tste.2026.3755706",
+          "pdf_url": null,
+          "doi": "10.1109/tste.2026.3755706",
+          "published_at": "2026-11-19T20:11:10+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.25,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Sustainable Energy",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+            "zotero_collection": "IEEE Transactions on Sustainable Energy"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "energy storage"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 7.81,
+          "llm_score": 7.81,
+          "final_score": 7.81,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、energy storage",
+          "ai_summary": "该论文题为《Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-20T04:11:10+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "04:11",
+          "doi_url": "https://doi.org/10.1109/tste.2026.3755706",
+          "citation_key": "zhao2026optimal755706",
+          "bibtex_entry": "@article{zhao2026optimal755706,\n  title = {Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method},\n  author = {Haiyu Zhao and Xuerui He and Wei Yao and Hongyu Zhou and Wei Gan and Jinyu Wen and Shijie Cheng},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3755706},\n  url = {https://doi.org/10.1109/tste.2026.3755706},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Haiyu Zhao\nAU  - Xuerui He\nAU  - Wei Yao\nAU  - Hongyu Zhou\nAU  - Wei Gan\nAU  - Jinyu Wen\nAU  - Shijie Cheng\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tste.2026.3755706\nUR  - https://doi.org/10.1109/tste.2026.3755706\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+          "zotero_collection": "IEEE Transactions on Sustainable Energy",
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tpwrs.2026.3754517",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Power Systems",
+          "title": "Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification",
+          "authors": [
+            "Ziqi Zhang",
+            "Xi Chen",
+            "Bin Zhou",
+            "Chaohai Zhang",
+            "Huiyu Miao"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tpwrs.2026.3754517",
+          "pdf_url": null,
+          "doi": "10.1109/tpwrs.2026.3754517",
+          "published_at": "2026-11-18T20:13:37+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Power Systems",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+            "zotero_collection": "IEEE Transactions on Power Systems"
+          },
+          "matched_keywords": [
+            "optimal power flow",
+            "distributionally robust",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 9.51,
+          "llm_score": 9.51,
+          "final_score": 9.51,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：optimal power flow、distributionally robust、uncertainty",
+          "ai_summary": "该论文题为《Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-19T04:13:37+08:00",
+          "published_date_local": "2026-11-19",
+          "published_time_local": "04:13",
+          "doi_url": "https://doi.org/10.1109/tpwrs.2026.3754517",
+          "citation_key": "zhang2026balancing754517",
+          "bibtex_entry": "@article{zhang2026balancing754517,\n  title = {Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification},\n  author = {Ziqi Zhang and Xi Chen and Bin Zhou and Chaohai Zhang and Huiyu Miao},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3754517},\n  url = {https://doi.org/10.1109/tpwrs.2026.3754517},\n  keywords = {Strong Match, 电力系统运行与规划, 鲁棒随机优化, optimal power flow, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification\nJO  - IEEE Transactions on Power Systems\nAU  - Ziqi Zhang\nAU  - Xi Chen\nAU  - Bin Zhou\nAU  - Chaohai Zhang\nAU  - Huiyu Miao\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 鲁棒随机优化\nKW  - optimal power flow\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3754517\nUR  - https://doi.org/10.1109/tpwrs.2026.3754517\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+          "zotero_collection": "IEEE Transactions on Power Systems",
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "10.1109/tsg.2026.3754914",
+          "source": "ieee",
+          "section": "ieee",
+          "journal": "IEEE Transactions on Smart Grid",
+          "title": "Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks",
+          "authors": [
+            "Farid Kochakkashani",
+            "Payman Dehghanian",
+            "Saeed Kashani",
+            "Yousef Darestani",
+            "Mohannad Alhazmi",
+            "David Celeita"
+          ],
+          "abstract": "",
+          "url": "https://doi.org/10.1109/tsg.2026.3754914",
+          "pdf_url": null,
+          "doi": "10.1109/tsg.2026.3754914",
+          "published_at": "2026-11-17T20:10:17+00:00",
+          "categories": [],
+          "metadata": {
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "journal_weight": 1.35,
+            "crossref_type": "journal-article",
+            "configured_journal": "IEEE Transactions on Smart Grid",
+            "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+            "zotero_collection": "IEEE Transactions on Smart Grid"
+          },
+          "matched_keywords": [
+            "resilience enhancement",
+            "resilience"
+          ],
+          "matched_keyword_groups": [
+            "韧性与恢复"
+          ],
+          "rule_score": 7.83,
+          "llm_score": 7.83,
+          "final_score": 7.83,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：resilience enhancement、resilience",
+          "ai_summary": "该论文题为《Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+          "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+          "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+          "published_at_local": "2026-11-18T04:10:17+08:00",
+          "published_date_local": "2026-11-18",
+          "published_time_local": "04:10",
+          "doi_url": "https://doi.org/10.1109/tsg.2026.3754914",
+          "citation_key": "kochakkashani2026lifecycle754914",
+          "bibtex_entry": "@article{kochakkashani2026lifecycle754914,\n  title = {Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks},\n  author = {Farid Kochakkashani and Payman Dehghanian and Saeed Kashani and Yousef Darestani and Mohannad Alhazmi and David Celeita},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3754914},\n  url = {https://doi.org/10.1109/tsg.2026.3754914},\n  keywords = {Strong Match, 韧性与恢复, resilience enhancement, resilience},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks\nJO  - IEEE Transactions on Smart Grid\nAU  - Farid Kochakkashani\nAU  - Payman Dehghanian\nAU  - Saeed Kashani\nAU  - Yousef Darestani\nAU  - Mohannad Alhazmi\nAU  - David Celeita\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - resilience enhancement\nKW  - resilience\nPY  - 2026\nDO  - 10.1109/tsg.2026.3754914\nUR  - https://doi.org/10.1109/tsg.2026.3754914\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+          "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+          "zotero_collection": "IEEE Transactions on Smart Grid",
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
         {
           "id": "10.1109/tpwrs.2026.3753843",
           "source": "ieee",
@@ -9492,8 +9741,297 @@
     "arxiv": {
       "title": "arXiv 预印本榜",
       "description": "跟踪 eess.SY、math.OC 等分类中适合提前关注的方法论文。",
-      "count": 113,
+      "count": 118,
       "papers": [
+        {
+          "id": "http://arxiv.org/abs/2611.27866v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids",
+          "authors": [
+            "Yuanshuo Zhang",
+            "Ying Zhang",
+            "Fei Ding",
+            "Jiahao Chen"
+          ],
+          "abstract": "One key challenge in distribution system state es- timation is unknown input statistics from the growing inte- gration of distributed energy resources (DERs), which may largely deviate from Gaussian uncertainty. Existing model-based estimators often rely on the assumption that all inputs follow known Gaussian distributions, while data-driven methods suffer from overfitting and failure in out-of-distribution scenarios. This paper proposes a Bayesian bias learning (BBL)-enabled probabilistic voltage estimation method in distribution systems with unknown DER generation statistics. The proposed learning- enabled method consists of two stages: probabilistic uncertainty inference and computationally efficient voltage estimation. First, a physics-constrained probabilistic density inference network is developed to learn Gaussian mixture representations of DER generation from historical data. Then, the resulting probabilistic representations, treated as pseudo-measurements, are integrated into a BBL-enabled voltage estimator via a decomposition- and-parallelization mechanism. Furthermore, utilizing a linear analytical solution, the proposed BBL-enabled voltage estimator efficiently captures linearization-induced biases and attains ac- curate probabilistic estimation. By integrating learning-enabled probabilistic uncertainty modeling into the parallel estimation structure, the proposed method achieves uncertainty-aware scal- able voltage estimation. Case studies on two unbalanced IEEE distribution networks show that the proposed estimator achieves significantly higher accuracy and computational efficiency under unknown uncertainty, outperforming recent data-driven and model-based methods.",
+          "url": "http://arxiv.org/abs/2611.27866v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.27866v1",
+          "doi": null,
+          "published_at": "2026-11-20T17:14:02+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "distributed energy resources",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "源网荷储协同",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 5.93,
+          "llm_score": 5.93,
+          "final_score": 5.93,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：distributed energy resources、uncertainty",
+          "ai_summary": "该论文题为《Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids》，来自 arXiv。从摘要看，论文主要内容为：One key challenge in distribution system state es- timation is unknown input statistics from the growing inte- gration of distributed energy resources (DERs), which may largely deviate from Gaussian uncertainty. Existing model-based estimators often rely on the assumption that all inputs follow known Gaussian distributions, while data-driven methods suffer from overfitting and failure in out-of-distribution scenarios...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-21T01:14:02+08:00",
+          "published_date_local": "2026-11-21",
+          "published_time_local": "01:14",
+          "doi_url": null,
+          "citation_key": "zhang2026bayesian7866v1",
+          "bibtex_entry": "@article{zhang2026bayesian7866v1,\n  title = {Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids},\n  author = {Yuanshuo Zhang and Ying Zhang and Fei Ding and Jiahao Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.27866v1},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, distributed energy resources, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids\nJO  - arXiv\nAU  - Yuanshuo Zhang\nAU  - Ying Zhang\nAU  - Fei Ding\nAU  - Jiahao Chen\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - distributed energy resources\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.27866v1\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.27013v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity",
+          "authors": [
+            "Mohamad Chehade",
+            "Hao Zhu"
+          ],
+          "abstract": "Learning for optimal power flow (OPF) has recently been advocated to accelerate OPF solutions by using a pre-trained neural network (NN) to predict directly from given inputs such as the load demand. However, existing learning-for-OPF methods largely fall short of ensuring the optimality and feasibility of their predictions. They also struggle to adapt at inference time to unseen topology scenarios, such as those caused by line or generator outages. This work puts forth Loop-OPF, a solver-informed NN that builds its layers from the iterations of the primal-dual hybrid gradient (PDHG) method. Under standard convexity and regularity conditions on DC-OPF, the resultant fixed-point output of Loop-OPF is thus optimal and feasible. To speed up PDHG across diverse OPF scenarios, Loop-OPF learns certain PDHG parameters in a self-supervised manner, without any OPF solution labels. We adopt the deep equilibrium (DEQ) framework for training so that the memory cost does not grow with the number of layers. As the grid topology enters every layer as an input, the same trained Loop-OPF directly adapts to unseen contingencies without retraining. Numerical tests on the IEEE 300-bus and PEGASE 1354-, 2869-, and 9241-bus networks have demonstrated the accuracy and topology adaptivity of the proposed Loop-OPF over competing learning-for-OPF methods.",
+          "url": "http://arxiv.org/abs/2611.27013v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.27013v1",
+          "doi": null,
+          "published_at": "2026-11-20T02:42:59+00:00",
+          "categories": [
+            "eess.SY",
+            "cs.LG"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "optimal power flow",
+            "opf"
+          ],
+          "matched_keyword_groups": [
+            "电力系统运行与规划"
+          ],
+          "rule_score": 6.68,
+          "llm_score": 6.68,
+          "final_score": 6.68,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：optimal power flow、opf",
+          "ai_summary": "该论文题为《Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity》，来自 arXiv。从摘要看，论文主要内容为：Learning for optimal power flow (OPF) has recently been advocated to accelerate OPF solutions by using a pre-trained neural network (NN) to predict directly from given inputs such as the load demand. However, existing learning-for-OPF methods largely fall short of ensuring the optimality and feasibility of their predictions. They also struggle to adapt at inference time to unseen topology scenarios, such as those cau...",
+          "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-20T10:42:59+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "10:42",
+          "doi_url": null,
+          "citation_key": "chehade2026loopopf7013v1",
+          "bibtex_entry": "@article{chehade2026loopopf7013v1,\n  title = {Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity},\n  author = {Mohamad Chehade and Hao Zhu},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.27013v1},\n  keywords = {Promising, 电力系统运行与规划, optimal power flow, opf},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity\nJO  - arXiv\nAU  - Mohamad Chehade\nAU  - Hao Zhu\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - optimal power flow\nKW  - opf\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.27013v1\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.26909v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming",
+          "authors": [
+            "Felipe Méndez",
+            "Charles Thraves"
+          ],
+          "abstract": "Pit-stop strategy in Formula 1 is a sequential decision problem under uncertainty, in which strategists decide at each lap whether to pit and which tire compound to fit. We develop a data-driven simulator, calibrated with historical race data, that captures tire degradation, drivers' recent performance, overtaking, yellow flag events, and rivals' pit-stop decisions. We train agents with five Deep Reinforcement Learning (DRL) algorithms and compare them with a Quadratic Mixed-Integer Programming (QMIP) formulation that is optimal in deterministic single-driver settings. Without uncertainty or competition, all DRL methods except TRPO achieve near-optimal performance. With a full grid of competitors and stochastic race events, the ranking of DRL methods depends on the evaluation setting: Proximal Policy Optimization (PPO) and its recurrent variant are the only methods that improve on the QMIP both in fully simulated races and when the actual 2024 races are replayed. Averaged over eight circuits, PPO improves on the QMIP by 0.33 and 0.49 positions in the two settings and Recurrent PPO by less, and in the replay PPO finishes 0.66 positions ahead of the drivers' actual strategies simulated in the same races. The QMIP performs similarly to the other methods, even though it cannot anticipate yellow flag events. Finally, we use the trained PPO policy as a look-ahead decision-support tool that shows the strategist the distribution of race outcomes under each candidate pit-stop action. Applied retrospectively to eight 2024 races, the look-ahead identifies the laps where the actual decision, the recommendation, or a third action was preferable.",
+          "url": "http://arxiv.org/abs/2611.26909v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.26909v1",
+          "doi": null,
+          "published_at": "2026-11-19T23:48:21+00:00",
+          "categories": [
+            "math.OC",
+            "cs.AI"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "uncertainty"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 5.72,
+          "llm_score": 5.72,
+          "final_score": 5.72,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、uncertainty",
+          "ai_summary": "该论文题为《AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming》，来自 arXiv。从摘要看，论文主要内容为：Pit-stop strategy in Formula 1 is a sequential decision problem under uncertainty, in which strategists decide at each lap whether to pit and which tire compound to fit. We develop a data-driven simulator, calibrated with historical race data, that captures tire degradation, drivers' recent performance, overtaking, yellow flag events, and rivals' pit-stop decisions. We train agents with five Deep Reinforcement Learni...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-20T07:48:21+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "07:48",
+          "doi_url": null,
+          "citation_key": "mndez2026aiassisted6909v1",
+          "bibtex_entry": "@article{mndez2026aiassisted6909v1,\n  title = {AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming},\n  author = {Felipe Méndez and Charles Thraves},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26909v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming\nJO  - arXiv\nAU  - Felipe Méndez\nAU  - Charles Thraves\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26909v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.26827v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "$\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids",
+          "authors": [
+            "Jovan Krajacic",
+            "Ognjen Stanojev",
+            "Mario Schweizer",
+            "Gabriela Hug"
+          ],
+          "abstract": "The growing share of DC-based generation, storage and loads has increased interest in DC microgrids. As a result, DC-bus voltage regulation and stability have become active research topics, with considerable effort directed at improving the transient performance of conventional droop control. Although numerous variants of droop algorithms have been proposed, many rely on increasingly complex control structures with multiple tuning parameters and measurements, thereby increasing the commissioning burden. Moreover, stable interaction with the surrounding microgrid is not guaranteed by design. To address these issues, this paper develops a passivity-constrained $\\mathcal{H}_\\infty$ synthesis method for the DC-bus voltage controller. The proposed $\\mathcal{H}_\\infty$ controller emulates the desired grid-forming behavior of the converter by minimizing the $\\mathcal{H}_\\infty$ error norm between device-level performance indices and their desired values, while additionally enforcing passivity during the optimization. The novel $\\mathcal{H}_\\infty$ control scheme is benchmarked in the frequency domain against representative droop-based and virtual-DC-machine algorithms from the literature, while experiments on a four-converter DC microgrid corroborate the frequency-domain analysis and validate the practical applicability of the algorithm.",
+          "url": "http://arxiv.org/abs/2611.26827v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.26827v1",
+          "doi": null,
+          "published_at": "2026-11-19T21:21:48+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "grid-forming",
+            "microgrid",
+            "microgrids"
+          ],
+          "matched_keyword_groups": [
+            "构网与暂态稳定",
+            "源网荷储协同"
+          ],
+          "rule_score": 8.76,
+          "llm_score": 8.76,
+          "final_score": 8.76,
+          "relevance_label": "Strong Match",
+          "score_reason": "命中关键词：grid-forming、microgrid、microgrids",
+          "ai_summary": "该论文题为《$\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids》，来自 arXiv。从摘要看，论文主要内容为：The growing share of DC-based generation, storage and loads has increased interest in DC microgrids. As a result, DC-bus voltage regulation and stability have become active research topics, with considerable effort directed at improving the transient performance of conventional droop control. Although numerous variants of droop algorithms have been proposed, many rely on increasingly complex control structures with m...",
+          "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-20T05:21:48+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "05:21",
+          "doi_url": null,
+          "citation_key": "krajacic2026mathcalhinfty6827v1",
+          "bibtex_entry": "@article{krajacic2026mathcalhinfty6827v1,\n  title = {$\\\\mathcal\\{H\\}_\\\\infty$ Grid-Forming Control in DC Microgrids},\n  author = {Jovan Krajacic and Ognjen Stanojev and Mario Schweizer and Gabriela Hug},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26827v1},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=8.8}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - $\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids\nJO  - arXiv\nAU  - Jovan Krajacic\nAU  - Ognjen Stanojev\nAU  - Mario Schweizer\nAU  - Gabriela Hug\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26827v1\nN1  - Auto-selected by Power Paper Digest; score=8.8\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2611.26527v1",
+          "source": "arxiv",
+          "section": "arxiv",
+          "journal": "arXiv",
+          "title": "Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers",
+          "authors": [
+            "Yuanshuo Zhang",
+            "Ying Zhang",
+            "Ziying Wang",
+            "Fanping Sui"
+          ],
+          "abstract": "AI data centers (AIDCs) introduce bursty and regime-dependent load patterns, posing significant challenges for reliable energy management and predictive grid control. To address these challenges, this letter proposes a thermal-guided ensemble reinforcement learning framework for probabilistic AIDC load forecasting. A soft actor-critic (SAC) agent with a simplex-preserving policy adaptively weights LSTM, TCN, and Transformer predictors at every time step based on their realized errors. A thermal-guided neural correction estimates the ensemble residual, while a sensitivity-projection regularizer enforces the non-negative sensitivity of power to GPU utilization and temperature. The corrected ensemble output is further processed by a Bayesian probabilistic layer to produce predictive distributions and quantify forecasting uncertainty. Case studies on 1-second MIT Supercloud telemetry show that the proposed method reduces the normalized mean absolute error to about 1% across all computing regimes, compared with 4-11% for deep learning-based and ensemble learning benchmarks, and converges faster with narrower prediction intervals than a DRL ensemble without thermal guidance.",
+          "url": "http://arxiv.org/abs/2611.26527v1",
+          "pdf_url": "https://arxiv.org/pdf/2611.26527v1",
+          "doi": null,
+          "published_at": "2026-11-19T18:09:46+00:00",
+          "categories": [
+            "eess.SY"
+          ],
+          "metadata": {
+            "query": "cat:eess.SY OR cat:math.OC"
+          },
+          "matched_keywords": [
+            "reinforcement learning",
+            "uncertainty",
+            "deep learning"
+          ],
+          "matched_keyword_groups": [
+            "AI+电力优化",
+            "鲁棒随机优化"
+          ],
+          "rule_score": 6.52,
+          "llm_score": 6.52,
+          "final_score": 6.52,
+          "relevance_label": "Promising",
+          "score_reason": "命中关键词：reinforcement learning、uncertainty、deep learning",
+          "ai_summary": "该论文题为《Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers》，来自 arXiv。从摘要看，论文主要内容为：AI data centers (AIDCs) introduce bursty and regime-dependent load patterns, posing significant challenges for reliable energy management and predictive grid control. To address these challenges, this letter proposes a thermal-guided ensemble reinforcement learning framework for probabilistic AIDC load forecasting. A soft actor-critic (SAC) agent with a simplex-preserving policy adaptively weights LSTM, TCN, and Tran...",
+          "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+          "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+          "published_at_local": "2026-11-20T02:09:46+08:00",
+          "published_date_local": "2026-11-20",
+          "published_time_local": "02:09",
+          "doi_url": null,
+          "citation_key": "zhang2026thermalguided6527v1",
+          "bibtex_entry": "@article{zhang2026thermalguided6527v1,\n  title = {Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers},\n  author = {Yuanshuo Zhang and Ying Zhang and Ziying Wang and Fanping Sui},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26527v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty, deep learning},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+          "ris_entry": "TY  - JOUR\nTI  - Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers\nJO  - arXiv\nAU  - Yuanshuo Zhang\nAU  - Ying Zhang\nAU  - Ziying Wang\nAU  - Fanping Sui\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nKW  - deep learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26527v1\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+          "xplore_url": null,
+          "zotero_collection": null,
+          "first_seen": "2026-11-23T15:56:42.286533+08:00",
+          "last_seen": "2026-11-23T15:56:42.286533+08:00",
+          "seen_windows": [
+            {
+              "window_start": "2026-11-17",
+              "target_date": "2026-11-23",
+              "generated_at": "2026-11-23T15:56:42.286533+08:00"
+            }
+          ]
+        },
         {
           "id": "http://arxiv.org/abs/2611.18534v1",
           "source": "arxiv",
@@ -16237,6 +16775,544 @@
     }
   },
   "papers": [
+    {
+      "id": "http://arxiv.org/abs/2611.27866v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids",
+      "authors": [
+        "Yuanshuo Zhang",
+        "Ying Zhang",
+        "Fei Ding",
+        "Jiahao Chen"
+      ],
+      "abstract": "One key challenge in distribution system state es- timation is unknown input statistics from the growing inte- gration of distributed energy resources (DERs), which may largely deviate from Gaussian uncertainty. Existing model-based estimators often rely on the assumption that all inputs follow known Gaussian distributions, while data-driven methods suffer from overfitting and failure in out-of-distribution scenarios. This paper proposes a Bayesian bias learning (BBL)-enabled probabilistic voltage estimation method in distribution systems with unknown DER generation statistics. The proposed learning- enabled method consists of two stages: probabilistic uncertainty inference and computationally efficient voltage estimation. First, a physics-constrained probabilistic density inference network is developed to learn Gaussian mixture representations of DER generation from historical data. Then, the resulting probabilistic representations, treated as pseudo-measurements, are integrated into a BBL-enabled voltage estimator via a decomposition- and-parallelization mechanism. Furthermore, utilizing a linear analytical solution, the proposed BBL-enabled voltage estimator efficiently captures linearization-induced biases and attains ac- curate probabilistic estimation. By integrating learning-enabled probabilistic uncertainty modeling into the parallel estimation structure, the proposed method achieves uncertainty-aware scal- able voltage estimation. Case studies on two unbalanced IEEE distribution networks show that the proposed estimator achieves significantly higher accuracy and computational efficiency under unknown uncertainty, outperforming recent data-driven and model-based methods.",
+      "url": "http://arxiv.org/abs/2611.27866v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27866v1",
+      "doi": null,
+      "published_at": "2026-11-20T17:14:02+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "distributed energy resources",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 5.93,
+      "llm_score": 5.93,
+      "final_score": 5.93,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：distributed energy resources、uncertainty",
+      "ai_summary": "该论文题为《Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids》，来自 arXiv。从摘要看，论文主要内容为：One key challenge in distribution system state es- timation is unknown input statistics from the growing inte- gration of distributed energy resources (DERs), which may largely deviate from Gaussian uncertainty. Existing model-based estimators often rely on the assumption that all inputs follow known Gaussian distributions, while data-driven methods suffer from overfitting and failure in out-of-distribution scenarios...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-21T01:14:02+08:00",
+      "published_date_local": "2026-11-21",
+      "published_time_local": "01:14",
+      "doi_url": null,
+      "citation_key": "zhang2026bayesian7866v1",
+      "bibtex_entry": "@article{zhang2026bayesian7866v1,\n  title = {Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids},\n  author = {Yuanshuo Zhang and Ying Zhang and Fei Ding and Jiahao Chen},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.27866v1},\n  keywords = {Promising, 源网荷储协同, 鲁棒随机优化, distributed energy resources, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids\nJO  - arXiv\nAU  - Yuanshuo Zhang\nAU  - Ying Zhang\nAU  - Fei Ding\nAU  - Jiahao Chen\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 鲁棒随机优化\nKW  - distributed energy resources\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.27866v1\nN1  - Auto-selected by Power Paper Digest; score=5.9\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.27013v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity",
+      "authors": [
+        "Mohamad Chehade",
+        "Hao Zhu"
+      ],
+      "abstract": "Learning for optimal power flow (OPF) has recently been advocated to accelerate OPF solutions by using a pre-trained neural network (NN) to predict directly from given inputs such as the load demand. However, existing learning-for-OPF methods largely fall short of ensuring the optimality and feasibility of their predictions. They also struggle to adapt at inference time to unseen topology scenarios, such as those caused by line or generator outages. This work puts forth Loop-OPF, a solver-informed NN that builds its layers from the iterations of the primal-dual hybrid gradient (PDHG) method. Under standard convexity and regularity conditions on DC-OPF, the resultant fixed-point output of Loop-OPF is thus optimal and feasible. To speed up PDHG across diverse OPF scenarios, Loop-OPF learns certain PDHG parameters in a self-supervised manner, without any OPF solution labels. We adopt the deep equilibrium (DEQ) framework for training so that the memory cost does not grow with the number of layers. As the grid topology enters every layer as an input, the same trained Loop-OPF directly adapts to unseen contingencies without retraining. Numerical tests on the IEEE 300-bus and PEGASE 1354-, 2869-, and 9241-bus networks have demonstrated the accuracy and topology adaptivity of the proposed Loop-OPF over competing learning-for-OPF methods.",
+      "url": "http://arxiv.org/abs/2611.27013v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27013v1",
+      "doi": null,
+      "published_at": "2026-11-20T02:42:59+00:00",
+      "categories": [
+        "eess.SY",
+        "cs.LG"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "optimal power flow",
+        "opf"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.68,
+      "llm_score": 6.68,
+      "final_score": 6.68,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：optimal power flow、opf",
+      "ai_summary": "该论文题为《Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity》，来自 arXiv。从摘要看，论文主要内容为：Learning for optimal power flow (OPF) has recently been advocated to accelerate OPF solutions by using a pre-trained neural network (NN) to predict directly from given inputs such as the load demand. However, existing learning-for-OPF methods largely fall short of ensuring the optimality and feasibility of their predictions. They also struggle to adapt at inference time to unseen topology scenarios, such as those cau...",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-20T10:42:59+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "10:42",
+      "doi_url": null,
+      "citation_key": "chehade2026loopopf7013v1",
+      "bibtex_entry": "@article{chehade2026loopopf7013v1,\n  title = {Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity},\n  author = {Mohamad Chehade and Hao Zhu},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.27013v1},\n  keywords = {Promising, 电力系统运行与规划, optimal power flow, opf},\n  note = {Auto-selected by Power Paper Digest; score=6.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity\nJO  - arXiv\nAU  - Mohamad Chehade\nAU  - Hao Zhu\nKW  - Promising\nKW  - 电力系统运行与规划\nKW  - optimal power flow\nKW  - opf\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.27013v1\nN1  - Auto-selected by Power Paper Digest; score=6.7\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.26909v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming",
+      "authors": [
+        "Felipe Méndez",
+        "Charles Thraves"
+      ],
+      "abstract": "Pit-stop strategy in Formula 1 is a sequential decision problem under uncertainty, in which strategists decide at each lap whether to pit and which tire compound to fit. We develop a data-driven simulator, calibrated with historical race data, that captures tire degradation, drivers' recent performance, overtaking, yellow flag events, and rivals' pit-stop decisions. We train agents with five Deep Reinforcement Learning (DRL) algorithms and compare them with a Quadratic Mixed-Integer Programming (QMIP) formulation that is optimal in deterministic single-driver settings. Without uncertainty or competition, all DRL methods except TRPO achieve near-optimal performance. With a full grid of competitors and stochastic race events, the ranking of DRL methods depends on the evaluation setting: Proximal Policy Optimization (PPO) and its recurrent variant are the only methods that improve on the QMIP both in fully simulated races and when the actual 2024 races are replayed. Averaged over eight circuits, PPO improves on the QMIP by 0.33 and 0.49 positions in the two settings and Recurrent PPO by less, and in the replay PPO finishes 0.66 positions ahead of the drivers' actual strategies simulated in the same races. The QMIP performs similarly to the other methods, even though it cannot anticipate yellow flag events. Finally, we use the trained PPO policy as a look-ahead decision-support tool that shows the strategist the distribution of race outcomes under each candidate pit-stop action. Applied retrospectively to eight 2024 races, the look-ahead identifies the laps where the actual decision, the recommendation, or a third action was preferable.",
+      "url": "http://arxiv.org/abs/2611.26909v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26909v1",
+      "doi": null,
+      "published_at": "2026-11-19T23:48:21+00:00",
+      "categories": [
+        "math.OC",
+        "cs.AI"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 5.72,
+      "llm_score": 5.72,
+      "final_score": 5.72,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、uncertainty",
+      "ai_summary": "该论文题为《AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming》，来自 arXiv。从摘要看，论文主要内容为：Pit-stop strategy in Formula 1 is a sequential decision problem under uncertainty, in which strategists decide at each lap whether to pit and which tire compound to fit. We develop a data-driven simulator, calibrated with historical race data, that captures tire degradation, drivers' recent performance, overtaking, yellow flag events, and rivals' pit-stop decisions. We train agents with five Deep Reinforcement Learni...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-20T07:48:21+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "07:48",
+      "doi_url": null,
+      "citation_key": "mndez2026aiassisted6909v1",
+      "bibtex_entry": "@article{mndez2026aiassisted6909v1,\n  title = {AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming},\n  author = {Felipe Méndez and Charles Thraves},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26909v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=5.7}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming\nJO  - arXiv\nAU  - Felipe Méndez\nAU  - Charles Thraves\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26909v1\nN1  - Auto-selected by Power Paper Digest; score=5.7\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.26827v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "$\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids",
+      "authors": [
+        "Jovan Krajacic",
+        "Ognjen Stanojev",
+        "Mario Schweizer",
+        "Gabriela Hug"
+      ],
+      "abstract": "The growing share of DC-based generation, storage and loads has increased interest in DC microgrids. As a result, DC-bus voltage regulation and stability have become active research topics, with considerable effort directed at improving the transient performance of conventional droop control. Although numerous variants of droop algorithms have been proposed, many rely on increasingly complex control structures with multiple tuning parameters and measurements, thereby increasing the commissioning burden. Moreover, stable interaction with the surrounding microgrid is not guaranteed by design. To address these issues, this paper develops a passivity-constrained $\\mathcal{H}_\\infty$ synthesis method for the DC-bus voltage controller. The proposed $\\mathcal{H}_\\infty$ controller emulates the desired grid-forming behavior of the converter by minimizing the $\\mathcal{H}_\\infty$ error norm between device-level performance indices and their desired values, while additionally enforcing passivity during the optimization. The novel $\\mathcal{H}_\\infty$ control scheme is benchmarked in the frequency domain against representative droop-based and virtual-DC-machine algorithms from the literature, while experiments on a four-converter DC microgrid corroborate the frequency-domain analysis and validate the practical applicability of the algorithm.",
+      "url": "http://arxiv.org/abs/2611.26827v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26827v1",
+      "doi": null,
+      "published_at": "2026-11-19T21:21:48+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "microgrid",
+        "microgrids"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "源网荷储协同"
+      ],
+      "rule_score": 8.76,
+      "llm_score": 8.76,
+      "final_score": 8.76,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、microgrid、microgrids",
+      "ai_summary": "该论文题为《$\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids》，来自 arXiv。从摘要看，论文主要内容为：The growing share of DC-based generation, storage and loads has increased interest in DC microgrids. As a result, DC-bus voltage regulation and stability have become active research topics, with considerable effort directed at improving the transient performance of conventional droop control. Although numerous variants of droop algorithms have been proposed, many rely on increasingly complex control structures with m...",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-20T05:21:48+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "05:21",
+      "doi_url": null,
+      "citation_key": "krajacic2026mathcalhinfty6827v1",
+      "bibtex_entry": "@article{krajacic2026mathcalhinfty6827v1,\n  title = {$\\\\mathcal\\{H\\}_\\\\infty$ Grid-Forming Control in DC Microgrids},\n  author = {Jovan Krajacic and Ognjen Stanojev and Mario Schweizer and Gabriela Hug},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26827v1},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, microgrid, microgrids},\n  note = {Auto-selected by Power Paper Digest; score=8.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - $\\mathcal{H}_\\infty$ Grid-Forming Control in DC Microgrids\nJO  - arXiv\nAU  - Jovan Krajacic\nAU  - Ognjen Stanojev\nAU  - Mario Schweizer\nAU  - Gabriela Hug\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - microgrid\nKW  - microgrids\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26827v1\nN1  - Auto-selected by Power Paper Digest; score=8.8\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3755951",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees",
+      "authors": [
+        "Jie Zhu",
+        "Yinliang Xu",
+        "Hongbin Sun"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3755951",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3755951",
+      "published_at": "2026-11-19T20:16:18+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "distributed energy resources",
+        "dispatch"
+      ],
+      "matched_keyword_groups": [
+        "源网荷储协同",
+        "电力系统运行与规划"
+      ],
+      "rule_score": 6.91,
+      "llm_score": 6.91,
+      "final_score": 6.91,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：distributed energy resources、dispatch",
+      "ai_summary": "该论文题为《Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-20T04:16:18+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "04:16",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3755951",
+      "citation_key": "zhu2026realtime755951",
+      "bibtex_entry": "@article{zhu2026realtime755951,\n  title = {Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees},\n  author = {Jie Zhu and Yinliang Xu and Hongbin Sun},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3755951},\n  url = {https://doi.org/10.1109/tsg.2026.3755951},\n  keywords = {Promising, 源网荷储协同, 电力系统运行与规划, distributed energy resources, dispatch},\n  note = {Auto-selected by Power Paper Digest; score=6.9}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees\nJO  - IEEE Transactions on Smart Grid\nAU  - Jie Zhu\nAU  - Yinliang Xu\nAU  - Hongbin Sun\nKW  - Promising\nKW  - 源网荷储协同\nKW  - 电力系统运行与规划\nKW  - distributed energy resources\nKW  - dispatch\nPY  - 2026\nDO  - 10.1109/tsg.2026.3755951\nUR  - https://doi.org/10.1109/tsg.2026.3755951\nN1  - Auto-selected by Power Paper Digest; score=6.9\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tste.2026.3755706",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Sustainable Energy",
+      "title": "Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method",
+      "authors": [
+        "Haiyu Zhao",
+        "Xuerui He",
+        "Wei Yao",
+        "Hongyu Zhou",
+        "Wei Gan",
+        "Jinyu Wen",
+        "Shijie Cheng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tste.2026.3755706",
+      "pdf_url": null,
+      "doi": "10.1109/tste.2026.3755706",
+      "published_at": "2026-11-19T20:11:10+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.25,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Sustainable Energy",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+        "zotero_collection": "IEEE Transactions on Sustainable Energy"
+      },
+      "matched_keywords": [
+        "grid-forming",
+        "energy storage"
+      ],
+      "matched_keyword_groups": [
+        "构网与暂态稳定",
+        "源网荷储协同"
+      ],
+      "rule_score": 7.81,
+      "llm_score": 7.81,
+      "final_score": 7.81,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：grid-forming、energy storage",
+      "ai_summary": "该论文题为《Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method》，来自 IEEE Transactions on Sustainable Energy。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可能与你的构网型变流器暂态稳定和故障穿越研究直接相关。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-20T04:11:10+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "04:11",
+      "doi_url": "https://doi.org/10.1109/tste.2026.3755706",
+      "citation_key": "zhao2026optimal755706",
+      "bibtex_entry": "@article{zhao2026optimal755706,\n  title = {Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method},\n  author = {Haiyu Zhao and Xuerui He and Wei Yao and Hongyu Zhou and Wei Gan and Jinyu Wen and Shijie Cheng},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2026},\n  doi = {10.1109/tste.2026.3755706},\n  url = {https://doi.org/10.1109/tste.2026.3755706},\n  keywords = {Strong Match, 构网与暂态稳定, 源网荷储协同, grid-forming, energy storage},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method\nJO  - IEEE Transactions on Sustainable Energy\nAU  - Haiyu Zhao\nAU  - Xuerui He\nAU  - Wei Yao\nAU  - Hongyu Zhou\nAU  - Wei Gan\nAU  - Jinyu Wen\nAU  - Shijie Cheng\nKW  - Strong Match\nKW  - 构网与暂态稳定\nKW  - 源网荷储协同\nKW  - grid-forming\nKW  - energy storage\nPY  - 2026\nDO  - 10.1109/tste.2026.3755706\nUR  - https://doi.org/10.1109/tste.2026.3755706\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5433168",
+      "zotero_collection": "IEEE Transactions on Sustainable Energy",
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.26527v1",
+      "source": "arxiv",
+      "section": "arxiv",
+      "journal": "arXiv",
+      "title": "Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers",
+      "authors": [
+        "Yuanshuo Zhang",
+        "Ying Zhang",
+        "Ziying Wang",
+        "Fanping Sui"
+      ],
+      "abstract": "AI data centers (AIDCs) introduce bursty and regime-dependent load patterns, posing significant challenges for reliable energy management and predictive grid control. To address these challenges, this letter proposes a thermal-guided ensemble reinforcement learning framework for probabilistic AIDC load forecasting. A soft actor-critic (SAC) agent with a simplex-preserving policy adaptively weights LSTM, TCN, and Transformer predictors at every time step based on their realized errors. A thermal-guided neural correction estimates the ensemble residual, while a sensitivity-projection regularizer enforces the non-negative sensitivity of power to GPU utilization and temperature. The corrected ensemble output is further processed by a Bayesian probabilistic layer to produce predictive distributions and quantify forecasting uncertainty. Case studies on 1-second MIT Supercloud telemetry show that the proposed method reduces the normalized mean absolute error to about 1% across all computing regimes, compared with 4-11% for deep learning-based and ensemble learning benchmarks, and converges faster with narrower prediction intervals than a DRL ensemble without thermal guidance.",
+      "url": "http://arxiv.org/abs/2611.26527v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26527v1",
+      "doi": null,
+      "published_at": "2026-11-19T18:09:46+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "metadata": {
+        "query": "cat:eess.SY OR cat:math.OC"
+      },
+      "matched_keywords": [
+        "reinforcement learning",
+        "uncertainty",
+        "deep learning"
+      ],
+      "matched_keyword_groups": [
+        "AI+电力优化",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 6.52,
+      "llm_score": 6.52,
+      "final_score": 6.52,
+      "relevance_label": "Promising",
+      "score_reason": "命中关键词：reinforcement learning、uncertainty、deep learning",
+      "ai_summary": "该论文题为《Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers》，来自 arXiv。从摘要看，论文主要内容为：AI data centers (AIDCs) introduce bursty and regime-dependent load patterns, posing significant challenges for reliable energy management and predictive grid control. To address these challenges, this letter proposes a thermal-guided ensemble reinforcement learning framework for probabilistic AIDC load forecasting. A soft actor-critic (SAC) agent with a simplex-preserving policy adaptively weights LSTM, TCN, and Tran...",
+      "application_value": "建议先快速浏览摘要和图表，再决定是否精读。",
+      "limitations": "自动摘要只能用于初筛，模型细节、数据集和实验边界仍需在原文中核对。",
+      "published_at_local": "2026-11-20T02:09:46+08:00",
+      "published_date_local": "2026-11-20",
+      "published_time_local": "02:09",
+      "doi_url": null,
+      "citation_key": "zhang2026thermalguided6527v1",
+      "bibtex_entry": "@article{zhang2026thermalguided6527v1,\n  title = {Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers},\n  author = {Yuanshuo Zhang and Ying Zhang and Ziying Wang and Fanping Sui},\n  journal = {arXiv},\n  year = {2026},\n  url = {http://arxiv.org/abs/2611.26527v1},\n  keywords = {Promising, AI+电力优化, 鲁棒随机优化, reinforcement learning, uncertainty, deep learning},\n  note = {Auto-selected by Power Paper Digest; score=6.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers\nJO  - arXiv\nAU  - Yuanshuo Zhang\nAU  - Ying Zhang\nAU  - Ziying Wang\nAU  - Fanping Sui\nKW  - Promising\nKW  - AI+电力优化\nKW  - 鲁棒随机优化\nKW  - reinforcement learning\nKW  - uncertainty\nKW  - deep learning\nPY  - 2026\nUR  - http://arxiv.org/abs/2611.26527v1\nN1  - Auto-selected by Power Paper Digest; score=6.5\nER  -",
+      "xplore_url": null,
+      "zotero_collection": null,
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tpwrs.2026.3754517",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Power Systems",
+      "title": "Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification",
+      "authors": [
+        "Ziqi Zhang",
+        "Xi Chen",
+        "Bin Zhou",
+        "Chaohai Zhang",
+        "Huiyu Miao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tpwrs.2026.3754517",
+      "pdf_url": null,
+      "doi": "10.1109/tpwrs.2026.3754517",
+      "published_at": "2026-11-18T20:13:37+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Power Systems",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+        "zotero_collection": "IEEE Transactions on Power Systems"
+      },
+      "matched_keywords": [
+        "optimal power flow",
+        "distributionally robust",
+        "uncertainty"
+      ],
+      "matched_keyword_groups": [
+        "电力系统运行与规划",
+        "鲁棒随机优化"
+      ],
+      "rule_score": 9.51,
+      "llm_score": 9.51,
+      "final_score": 9.51,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：optimal power flow、distributionally robust、uncertainty",
+      "ai_summary": "该论文题为《Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification》，来自 IEEE Transactions on Power Systems。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文适合作为电力系统运行、规划或调度优化方向的重点跟踪对象。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-19T04:13:37+08:00",
+      "published_date_local": "2026-11-19",
+      "published_time_local": "04:13",
+      "doi_url": "https://doi.org/10.1109/tpwrs.2026.3754517",
+      "citation_key": "zhang2026balancing754517",
+      "bibtex_entry": "@article{zhang2026balancing754517,\n  title = {Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification},\n  author = {Ziqi Zhang and Xi Chen and Bin Zhou and Chaohai Zhang and Huiyu Miao},\n  journal = {IEEE Transactions on Power Systems},\n  year = {2026},\n  doi = {10.1109/tpwrs.2026.3754517},\n  url = {https://doi.org/10.1109/tpwrs.2026.3754517},\n  keywords = {Strong Match, 电力系统运行与规划, 鲁棒随机优化, optimal power flow, distributionally robust, uncertainty},\n  note = {Auto-selected by Power Paper Digest; score=9.5}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification\nJO  - IEEE Transactions on Power Systems\nAU  - Ziqi Zhang\nAU  - Xi Chen\nAU  - Bin Zhou\nAU  - Chaohai Zhang\nAU  - Huiyu Miao\nKW  - Strong Match\nKW  - 电力系统运行与规划\nKW  - 鲁棒随机优化\nKW  - optimal power flow\nKW  - distributionally robust\nKW  - uncertainty\nPY  - 2026\nDO  - 10.1109/tpwrs.2026.3754517\nUR  - https://doi.org/10.1109/tpwrs.2026.3754517\nN1  - Auto-selected by Power Paper Digest; score=9.5\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4374138",
+      "zotero_collection": "IEEE Transactions on Power Systems",
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
+    {
+      "id": "10.1109/tsg.2026.3754914",
+      "source": "ieee",
+      "section": "ieee",
+      "journal": "IEEE Transactions on Smart Grid",
+      "title": "Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks",
+      "authors": [
+        "Farid Kochakkashani",
+        "Payman Dehghanian",
+        "Saeed Kashani",
+        "Yousef Darestani",
+        "Mohannad Alhazmi",
+        "David Celeita"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/tsg.2026.3754914",
+      "pdf_url": null,
+      "doi": "10.1109/tsg.2026.3754914",
+      "published_at": "2026-11-17T20:10:17+00:00",
+      "categories": [],
+      "metadata": {
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "journal_weight": 1.35,
+        "crossref_type": "journal-article",
+        "configured_journal": "IEEE Transactions on Smart Grid",
+        "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+        "zotero_collection": "IEEE Transactions on Smart Grid"
+      },
+      "matched_keywords": [
+        "resilience enhancement",
+        "resilience"
+      ],
+      "matched_keyword_groups": [
+        "韧性与恢复"
+      ],
+      "rule_score": 7.83,
+      "llm_score": 7.83,
+      "final_score": 7.83,
+      "relevance_label": "Strong Match",
+      "score_reason": "命中关键词：resilience enhancement、resilience",
+      "ai_summary": "该论文题为《Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks》，来自 IEEE Transactions on Smart Grid。当前公开元数据未提供摘要，本条目先依据题名、期刊来源和关键词命中结果入选，建议进入原文页面核对方法、模型和实验结论。",
+      "application_value": "这篇论文可用于跟踪电网韧性评估、恢复和极端事件应对方向。",
+      "limitations": "当前缺少摘要，自动总结可靠性有限，需要下载或打开原文确认。",
+      "published_at_local": "2026-11-18T04:10:17+08:00",
+      "published_date_local": "2026-11-18",
+      "published_time_local": "04:10",
+      "doi_url": "https://doi.org/10.1109/tsg.2026.3754914",
+      "citation_key": "kochakkashani2026lifecycle754914",
+      "bibtex_entry": "@article{kochakkashani2026lifecycle754914,\n  title = {Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks},\n  author = {Farid Kochakkashani and Payman Dehghanian and Saeed Kashani and Yousef Darestani and Mohannad Alhazmi and David Celeita},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2026},\n  doi = {10.1109/tsg.2026.3754914},\n  url = {https://doi.org/10.1109/tsg.2026.3754914},\n  keywords = {Strong Match, 韧性与恢复, resilience enhancement, resilience},\n  note = {Auto-selected by Power Paper Digest; score=7.8}\n}",
+      "ris_entry": "TY  - JOUR\nTI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks\nJO  - IEEE Transactions on Smart Grid\nAU  - Farid Kochakkashani\nAU  - Payman Dehghanian\nAU  - Saeed Kashani\nAU  - Yousef Darestani\nAU  - Mohannad Alhazmi\nAU  - David Celeita\nKW  - Strong Match\nKW  - 韧性与恢复\nKW  - resilience enhancement\nKW  - resilience\nPY  - 2026\nDO  - 10.1109/tsg.2026.3754914\nUR  - https://doi.org/10.1109/tsg.2026.3754914\nN1  - Auto-selected by Power Paper Digest; score=7.8\nER  -",
+      "xplore_url": "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5446437",
+      "zotero_collection": "IEEE Transactions on Smart Grid",
+      "first_seen": "2026-11-23T15:56:42.286533+08:00",
+      "last_seen": "2026-11-23T15:56:42.286533+08:00",
+      "seen_windows": [
+        {
+          "window_start": "2026-11-17",
+          "target_date": "2026-11-23",
+          "generated_at": "2026-11-23T15:56:42.286533+08:00"
+        }
+      ]
+    },
     {
       "id": "10.1109/tpwrs.2026.3753843",
       "source": "ieee",

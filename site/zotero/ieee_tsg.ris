@@ -1,67 +1,35 @@
 TY  - JOUR
-TI  - Flexible Consistency Scheduling Strategy for BTB-DC Electric Springs in DC Microgrids
+TI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks
 JO  - IEEE Transactions on Smart Grid
-AU  - Li Liu
-AU  - Mingsheng Shan
-AU  - Yazheng Feng
-AU  - Jianhua Gong
-AU  - Xinzhang Wu
-AU  - Shenwang Li
+AU  - Farid Kochakkashani
+AU  - Payman Dehghanian
+AU  - Saeed Kashani
+AU  - Yousef Darestani
+AU  - Mohannad Alhazmi
+AU  - David Celeita
 KW  - Strong Match
-KW  - 电力系统运行与规划
-KW  - 源网荷储协同
-KW  - scheduling
-KW  - microgrid
-KW  - microgrids
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
 PY  - 2026
-DO  - 10.1109/tsg.2026.3753477
-UR  - https://doi.org/10.1109/tsg.2026.3753477
-N1  - Auto-selected by Power Paper Digest; score=8.3
+DO  - 10.1109/tsg.2026.3754914
+UR  - https://doi.org/10.1109/tsg.2026.3754914
+N1  - Auto-selected by Power Paper Digest; score=7.8
 ER  -
 
 TY  - JOUR
-TI  - From Forecasts to Feasible Decisions: Network-Constrained Demand Response with Projection-Integrated Decision-Focused Learning
+TI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees
 JO  - IEEE Transactions on Smart Grid
-AU  - Guibin Chen
-AU  - Yuzhang Lin
+AU  - Jie Zhu
+AU  - Yinliang Xu
+AU  - Hongbin Sun
 KW  - Promising
-KW  - AI+电力优化
 KW  - 源网荷储协同
-KW  - decision-focused learning
-KW  - demand response
-PY  - 2026
-DO  - 10.1109/tsg.2026.3753675
-UR  - https://doi.org/10.1109/tsg.2026.3753675
-N1  - Auto-selected by Power Paper Digest; score=7.2
-ER  -
-
-TY  - JOUR
-TI  - Encoding Frequency Dynamics into Economic Operation of IBR-Penetrated Power Systems: Quantification, Integration, and Validation
-JO  - IEEE Transactions on Smart Grid
-AU  - Junjie Yin
-AU  - Buxin She
-AU  - Jinning Wang
-AU  - Fangxing Li
-KW  - Promising
 KW  - 电力系统运行与规划
-KW  - power system
-KW  - power systems
+KW  - distributed energy resources
+KW  - dispatch
 PY  - 2026
-DO  - 10.1109/tsg.2026.3752129
-UR  - https://doi.org/10.1109/tsg.2026.3752129
-N1  - Auto-selected by Power Paper Digest; score=6.5
-ER  -
-
-TY  - JOUR
-TI  - Optimal Scheduling of Smart Meter Measurement Reporting Intervals for Distribution System Monitoring and State Estimation
-JO  - IEEE Transactions on Smart Grid
-AU  - Wentao Zhang
-AU  - Yuzhang Lin
-KW  - Background Read
-KW  - 电力系统运行与规划
-KW  - scheduling
-PY  - 2026
-DO  - 10.1109/tsg.2026.3753578
-UR  - https://doi.org/10.1109/tsg.2026.3753578
-N1  - Auto-selected by Power Paper Digest; score=5.4
+DO  - 10.1109/tsg.2026.3755951
+UR  - https://doi.org/10.1109/tsg.2026.3755951
+N1  - Auto-selected by Power Paper Digest; score=6.9
 ER  -

@@ -1,4 +1,40 @@
 TY  - JOUR
+TI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees
+JO  - IEEE Transactions on Smart Grid
+AU  - Jie Zhu
+AU  - Yinliang Xu
+AU  - Hongbin Sun
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - distributed energy resources
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3755951
+UR  - https://doi.org/10.1109/tsg.2026.3755951
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks
+JO  - IEEE Transactions on Smart Grid
+AU  - Farid Kochakkashani
+AU  - Payman Dehghanian
+AU  - Saeed Kashani
+AU  - Yousef Darestani
+AU  - Mohannad Alhazmi
+AU  - David Celeita
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3754914
+UR  - https://doi.org/10.1109/tsg.2026.3754914
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
 TI  - Optimal Scheduling of Smart Meter Measurement Reporting Intervals for Distribution System Monitoring and State Estimation
 JO  - IEEE Transactions on Smart Grid
 AU  - Wentao Zhang

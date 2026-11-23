@@ -1,4 +1,24 @@
 TY  - JOUR
+TI  - Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification
+JO  - IEEE Transactions on Power Systems
+AU  - Ziqi Zhang
+AU  - Xi Chen
+AU  - Bin Zhou
+AU  - Chaohai Zhang
+AU  - Huiyu Miao
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - optimal power flow
+KW  - distributionally robust
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3754517
+UR  - https://doi.org/10.1109/tpwrs.2026.3754517
+N1  - Auto-selected by Power Paper Digest; score=9.5
+ER  -
+
+TY  - JOUR
 TI  - Decentralized Stability-Constrained Optimal Power Flow for Inverter-Based Power Systems
 JO  - IEEE Transactions on Power Systems
 AU  - Shigeng Wang

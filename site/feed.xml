@@ -5,21 +5,21 @@
     <link>https://zjie82466-design.github.io/paper/</link>
     <description>每周自动精选电力系统运行规划、优化调度、韧性和构网稳定相关论文。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:56:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:56:42 +0800</lastBuildDate>
     <item>
-      <title>电力系统论文周报 · 2026-11-16</title>
+      <title>电力系统论文周报 · 2026-11-23</title>
       <link>https://zjie82466-design.github.io/paper/</link>
-      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-11-16</guid>
-      <pubDate>Mon, 16 Nov 2026 14:56:07 +0800</pubDate>
-      <description>电力系统论文周报 · 2026-11-16
-1. Enhancing Transient Stability of VSG-Controlled Converters Under Grid Frequency Disturbances [arXiv] - 9.3/10
-2. Decentralized Stability-Constrained Optimal Power Flow for Inverter-Based Power Systems [IEEE Transactions on Power Systems] - 8.9/10
-3. Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller [arXiv] - 8.6/10
-4. Flexible Consistency Scheduling Strategy for BTB-DC Electric Springs in DC Microgrids [IEEE Transactions on Smart Grid] - 8.3/10
-5. Impact of Grid-Forming Inverter Placement and Penetration on Local and Aggregate Frequency [arXiv] - 7.8/10
-6. Grid-Forming AI Data Centers: Coordinated Grid Support Control from IT Loads and Energy Storage [arXiv] - 7.8/10
-7. Frequency-Security-Aware Real-Time Economic Dispatch with Data Center UPS Flexibility for Inertia and Primary Frequency Response Services [arXiv] - 7.5/10
-8. Linear Modeling of Hybrid Shipboard Power Systems under Pulsed Power Load Operation [arXiv] - 7.2/10</description>
+      <guid isPermaLink="false">https://zjie82466-design.github.io/paper/#digest-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 15:56:42 +0800</pubDate>
+      <description>电力系统论文周报 · 2026-11-23
+1. Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification [IEEE Transactions on Power Systems] - 9.5/10
+2. $\mathcal{H}_\infty$ Grid-Forming Control in DC Microgrids [arXiv] - 8.8/10
+3. Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks [IEEE Transactions on Smart Grid] - 7.8/10
+4. Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method [IEEE Transactions on Sustainable Energy] - 7.8/10
+5. Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees [IEEE Transactions on Smart Grid] - 6.9/10
+6. Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity [arXiv] - 6.7/10
+7. Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers [arXiv] - 6.5/10
+8. Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids [arXiv] - 5.9/10</description>
     </item>
   </channel>
 </rss>

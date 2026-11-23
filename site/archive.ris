@@ -1,4 +1,163 @@
 TY  - JOUR
+TI  - Bayesian Bias Learning-Enabled Probabilistic Voltage Estimation with Unknown Uncertainty Modeling of DERs in Distribution Grids
+JO  - arXiv
+AU  - Yuanshuo Zhang
+AU  - Ying Zhang
+AU  - Fei Ding
+AU  - Jiahao Chen
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 鲁棒随机优化
+KW  - distributed energy resources
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.27866v1
+N1  - Auto-selected by Power Paper Digest; score=5.9
+ER  -
+
+TY  - JOUR
+TI  - Loop-OPF: Solver-Informed Learning for Optimal Power Flow with Inference-Time Topology Adaptivity
+JO  - arXiv
+AU  - Mohamad Chehade
+AU  - Hao Zhu
+KW  - Promising
+KW  - 电力系统运行与规划
+KW  - optimal power flow
+KW  - opf
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.27013v1
+N1  - Auto-selected by Power Paper Digest; score=6.7
+ER  -
+
+TY  - JOUR
+TI  - AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming
+JO  - arXiv
+AU  - Felipe Méndez
+AU  - Charles Thraves
+KW  - Promising
+KW  - AI+电力优化
+KW  - 鲁棒随机优化
+KW  - reinforcement learning
+KW  - uncertainty
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.26909v1
+N1  - Auto-selected by Power Paper Digest; score=5.7
+ER  -
+
+TY  - JOUR
+TI  - $\mathcal{H}_\infty$ Grid-Forming Control in DC Microgrids
+JO  - arXiv
+AU  - Jovan Krajacic
+AU  - Ognjen Stanojev
+AU  - Mario Schweizer
+AU  - Gabriela Hug
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - microgrid
+KW  - microgrids
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.26827v1
+N1  - Auto-selected by Power Paper Digest; score=8.8
+ER  -
+
+TY  - JOUR
+TI  - Real-Time Neural Distributed Energy Resources Dispatch with Feasibility Guarantees
+JO  - IEEE Transactions on Smart Grid
+AU  - Jie Zhu
+AU  - Yinliang Xu
+AU  - Hongbin Sun
+KW  - Promising
+KW  - 源网荷储协同
+KW  - 电力系统运行与规划
+KW  - distributed energy resources
+KW  - dispatch
+PY  - 2026
+DO  - 10.1109/tsg.2026.3755951
+UR  - https://doi.org/10.1109/tsg.2026.3755951
+N1  - Auto-selected by Power Paper Digest; score=6.9
+ER  -
+
+TY  - JOUR
+TI  - Optimal Allocation Method of Grid-Forming Energy Storage for Grid-Following Wind Farms Using Sequence Immittance Method
+JO  - IEEE Transactions on Sustainable Energy
+AU  - Haiyu Zhao
+AU  - Xuerui He
+AU  - Wei Yao
+AU  - Hongyu Zhou
+AU  - Wei Gan
+AU  - Jinyu Wen
+AU  - Shijie Cheng
+KW  - Strong Match
+KW  - 构网与暂态稳定
+KW  - 源网荷储协同
+KW  - grid-forming
+KW  - energy storage
+PY  - 2026
+DO  - 10.1109/tste.2026.3755706
+UR  - https://doi.org/10.1109/tste.2026.3755706
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
+TI  - Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers
+JO  - arXiv
+AU  - Yuanshuo Zhang
+AU  - Ying Zhang
+AU  - Ziying Wang
+AU  - Fanping Sui
+KW  - Promising
+KW  - AI+电力优化
+KW  - 鲁棒随机优化
+KW  - reinforcement learning
+KW  - uncertainty
+KW  - deep learning
+PY  - 2026
+UR  - http://arxiv.org/abs/2611.26527v1
+N1  - Auto-selected by Power Paper Digest; score=6.5
+ER  -
+
+TY  - JOUR
+TI  - Balancing In-Distribution Performance and Distribution-Shift Robustness in Distributionally Robust Optimal Power Flow through Deep Ensemble-Based Uncertainty Quantification
+JO  - IEEE Transactions on Power Systems
+AU  - Ziqi Zhang
+AU  - Xi Chen
+AU  - Bin Zhou
+AU  - Chaohai Zhang
+AU  - Huiyu Miao
+KW  - Strong Match
+KW  - 电力系统运行与规划
+KW  - 鲁棒随机优化
+KW  - optimal power flow
+KW  - distributionally robust
+KW  - uncertainty
+PY  - 2026
+DO  - 10.1109/tpwrs.2026.3754517
+UR  - https://doi.org/10.1109/tpwrs.2026.3754517
+N1  - Auto-selected by Power Paper Digest; score=9.5
+ER  -
+
+TY  - JOUR
+TI  - Life-Cycle Resilience Enhancement of Power Distribution Grids against Wildfire Risks
+JO  - IEEE Transactions on Smart Grid
+AU  - Farid Kochakkashani
+AU  - Payman Dehghanian
+AU  - Saeed Kashani
+AU  - Yousef Darestani
+AU  - Mohannad Alhazmi
+AU  - David Celeita
+KW  - Strong Match
+KW  - 韧性与恢复
+KW  - resilience enhancement
+KW  - resilience
+PY  - 2026
+DO  - 10.1109/tsg.2026.3754914
+UR  - https://doi.org/10.1109/tsg.2026.3754914
+N1  - Auto-selected by Power Paper Digest; score=7.8
+ER  -
+
+TY  - JOUR
 TI  - Decentralized Stability-Constrained Optimal Power Flow for Inverter-Based Power Systems
 JO  - IEEE Transactions on Power Systems
 AU  - Shigeng Wang
